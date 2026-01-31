@@ -1,0 +1,54 @@
+[project]
+name = "icl-voice-assistant"
+version = "0.1.0"
+description = "Local AI voice assistant for the Innovation & Creativity Lab at Gettysburg College"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "ICL Team" }
+]
+keywords = ["voice-assistant", "local-llm", "rag", "kiosk"]
+
+dependencies = [
+    # Core AI/ML
+    "faster-whisper>=1.1.0",       # Speech-to-text (CTranslate2 optimized Whisper)
+    "ollama>=0.4.0",               # Ollama Python client for LLM
+    "piper-tts>=1.2.0",            # Local text-to-speech
+    
+    # RAG Pipeline
+    "chromadb>=0.5.0",             # Vector database for knowledge retrieval
+    "sentence-transformers>=3.0.0", # Embedding model (all-MiniLM-L6-v2)
+    "langchain>=0.3.0",            # RAG orchestration
+    "langchain-community>=0.3.0",  # Document loaders
+    
+    # Audio
+    "pyaudio>=0.2.14",             # Microphone capture
+    "sounddevice>=0.5.0",          # Audio playback
+    "numpy>=1.26.0",               # Audio buffer handling
+    
+    # UI
+    "PySide6>=6.7.0",              # Qt6 kiosk interface
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[project.scripts]
+icl-assistant = "src.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
