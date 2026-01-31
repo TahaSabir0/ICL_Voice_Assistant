@@ -79,20 +79,20 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| VOICE-01 | — | Pending |
-| VOICE-02 | — | Pending |
-| VOICE-03 | — | Pending |
-| KB-01 | — | Pending |
-| KB-02 | — | Pending |
-| KB-03 | — | Pending |
-| UI-01 | — | Pending |
-| UI-02 | — | Pending |
-| KBM-01 | — | Pending |
+| VOICE-01 | Phase 1: Voice Pipeline | Pending |
+| VOICE-02 | Phase 1: Voice Pipeline | Pending |
+| VOICE-03 | Phase 1: Voice Pipeline | Pending |
+| KB-01 | Phase 2: Knowledge Base & RAG | Pending |
+| KB-02 | Phase 2: Knowledge Base & RAG | Pending |
+| KB-03 | Phase 2: Knowledge Base & RAG | Pending |
+| KBM-01 | Phase 2: Knowledge Base & RAG | Pending |
+| UI-01 | Phase 3: Kiosk UI & Integration | Pending |
+| UI-02 | Phase 3: Kiosk UI & Integration | Pending |
 
 **Coverage:**
 - v1 requirements: 9 total
-- Mapped to phases: 0
-- Unmapped: 9
+- Mapped to phases: 9
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-01-30*
