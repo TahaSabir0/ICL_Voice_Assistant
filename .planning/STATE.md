@@ -10,29 +10,32 @@ See: .planning/PROJECT.md (updated 2026-01-30)
 ## Current Position
 
 Phase: 2 of 3 (Knowledge Base & RAG)
-Plan: 1 of 3 in current phase ✅ COMPLETE
-Status: Knowledge base extracted from ICL website and organized
-Last activity: 2026-02-01 — Web crawling + PDF extraction + KB generation
+Plan: 2 of 3 in current phase ✅ COMPLETE
+Status: Document ingestion pipeline complete - ChromaDB populated
+Last activity: 2026-02-01 — RAG pipeline (chunking + embeddings + ChromaDB)
 
-Progress: [████████░░] 44%
+Progress: [█████████░] 56%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
+- Total plans completed: 5
 - Average duration: ~30 minutes
-- Total execution time: ~90 minutes
+- Total execution time: ~150 minutes
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1     | 3/3   | ~90m  | ~30m     |
+| 2     | 2/3   | ~60m  | ~30m     |
 
 **Recent Trend:**
 - Plan 01-01: Environment setup ✅
 - Plan 01-02: Audio/STT/TTS implementation ✅
 - Plan 01-03: Full pipeline integration ✅
+- Plan 02-01: Knowledge base generation ✅
+- Plan 02-02: Document ingestion pipeline ✅
 - Trend: On track
 
 *Updated after each plan completion*
@@ -44,7 +47,7 @@ Progress: [████████░░] 44%
 ✅ End-to-end latency under 8 seconds (measured: LLM ~4.6s + TTS ~0.1s = ~5s)
 ✅ All models run on local GPU/CPU without errors
 
-**42 tests passing**
+**53 tests passing** (42 Phase 1 + 11 RAG)
 
 ## Benchmark Results
 
@@ -106,12 +109,13 @@ Progress: [████████░░] 44%
 | LLM | 7 |
 | Pipeline | 8 |
 | Components | 7 |
-| **Total** | **42** |
+| **RAG** | **11** |
+| **Total** | **53** |
 
 ### Pending for Phase 2
 
 - ✅ Create ICL tool knowledge base (markdown) — DONE
-- Build document ingestion pipeline (ChromaDB)
+- ✅ Build document ingestion pipeline (ChromaDB) — DONE
 - Integrate RAG retrieval into LLM pipeline
 
 ### Phase 2 Plan 02-01 Completed
@@ -129,6 +133,21 @@ Progress: [████████░░] 44%
 - Equipment files: 20
 - Total content: ~140,000 characters
 
+### Phase 2 Plan 02-02 Completed
+
+**RAG Pipeline:**
+- `src/rag/chunker.py` — Markdown chunker with semantic splitting
+- `src/rag/embeddings.py` — Sentence-transformers embedding service
+- `src/rag/vectorstore.py` — ChromaDB vector store wrapper
+- `src/rag/ingest.py` — Ingestion pipeline
+- `src/rag/retriever.py` — High-level retrieval interface
+- `scripts/test_retrieval.py` — Interactive retrieval testing
+
+**Vector Store Stats:**
+- Documents ingested: 139 chunks
+- Embedding model: all-MiniLM-L6-v2 (384 dimensions)
+- Retrieval verified with sample ICL queries
+
 ### Blockers/Concerns
 
 - Piper TTS would provide higher quality voices but requires espeak-ng
@@ -139,7 +158,7 @@ Progress: [████████░░] 44%
 ## Session Continuity
 
 Last session: 2026-02-01
-Stopped at: Phase 2, Plan 02-01 complete — Knowledge base generated
+Stopped at: Phase 2, Plan 02-02 complete — RAG pipeline working
 Resume file: None
-Next step: Phase 2, Plan 02-02 — Document ingestion pipeline (ChromaDB)
+Next step: Phase 2, Plan 02-03 — Integrate RAG into LLM pipeline
 
