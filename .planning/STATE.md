@@ -9,26 +9,26 @@ See: .planning/PROJECT.md (updated 2026-01-30)
 
 ## Current Position
 
-Phase: 2 of 3 (Knowledge Base & RAG)
-Plan: 2 of 3 in current phase ✅ COMPLETE
-Status: Document ingestion pipeline complete - ChromaDB populated
-Last activity: 2026-02-01 — RAG pipeline (chunking + embeddings + ChromaDB)
+Phase: 2 of 3 (Knowledge Base & RAG) ✅ COMPLETE
+Plan: 3 of 3 in current phase ✅ COMPLETE
+Status: RAG fully integrated into voice pipeline
+Last activity: 2026-02-01 — RAG integration complete
 
-Progress: [█████████░] 56%
+Progress: [█████████░] 67%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 5
+- Total plans completed: 6
 - Average duration: ~30 minutes
-- Total execution time: ~150 minutes
+- Total execution time: ~180 minutes
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1     | 3/3   | ~90m  | ~30m     |
-| 2     | 2/3   | ~60m  | ~30m     |
+| 2     | 3/3   | ~90m  | ~30m     |
 
 **Recent Trend:**
 - Plan 01-01: Environment setup ✅
@@ -36,6 +36,7 @@ Progress: [█████████░] 56%
 - Plan 01-03: Full pipeline integration ✅
 - Plan 02-01: Knowledge base generation ✅
 - Plan 02-02: Document ingestion pipeline ✅
+- Plan 02-03: RAG-LLM integration ✅
 - Trend: On track
 
 *Updated after each plan completion*
@@ -116,7 +117,7 @@ Progress: [█████████░] 56%
 
 - ✅ Create ICL tool knowledge base (markdown) — DONE
 - ✅ Build document ingestion pipeline (ChromaDB) — DONE
-- Integrate RAG retrieval into LLM pipeline
+- ✅ Integrate RAG retrieval into LLM pipeline — DONE
 
 ### Phase 2 Plan 02-01 Completed
 
@@ -148,6 +149,21 @@ Progress: [█████████░] 56%
 - Embedding model: all-MiniLM-L6-v2 (384 dimensions)
 - Retrieval verified with sample ICL queries
 
+### Phase 2 Plan 02-03 Completed
+
+**RAG-LLM Integration:**
+- Updated `src/pipeline.py` with RAG retrieval step
+- Added `RETRIEVING` state to pipeline
+- Integrated `src/llm/prompts.py` RAG prompts
+- Created `scripts/test_rag_text.py` for testing
+
+**Performance (with RAG):**
+| Step | Time |
+|------|------|
+| RAG retrieval | ~1.0s |
+| LLM generation | ~3.5s |
+| **Total processing** | **~4.5s** |
+
 ### Blockers/Concerns
 
 - Piper TTS would provide higher quality voices but requires espeak-ng
@@ -158,7 +174,7 @@ Progress: [█████████░] 56%
 ## Session Continuity
 
 Last session: 2026-02-01
-Stopped at: Phase 2, Plan 02-02 complete — RAG pipeline working
+Stopped at: Phase 2 ✅ COMPLETE — RAG fully integrated
 Resume file: None
-Next step: Phase 2, Plan 02-03 — Integrate RAG into LLM pipeline
+Next step: Phase 3, Plan 03-01 — Kiosk UI design
 

@@ -1,7 +1,7 @@
 """
 Voice Pipeline - Main orchestration for the ICL Voice Assistant.
 
-Wires together: Audio Capture → STT → LLM → TTS → Audio Playback
+Wires together: Audio Capture → STT → RAG (optional) → LLM → TTS → Audio Playback
 """
 
 import time
@@ -14,6 +14,7 @@ from src.audio import AudioCapture, AudioPlayback, AudioConfig
 from src.stt import SpeechToText, STTConfig
 from src.tts import TextToSpeech, TTSConfig, TTSBackend
 from src.llm import LLMClient, LLMConfig
+from src.llm.prompts import get_system_prompt, RAG_SYSTEM_PROMPT, NO_CONTEXT_PROMPT
 
 
 class PipelineState(Enum):
@@ -21,6 +22,7 @@ class PipelineState(Enum):
     IDLE = "idle"
     LISTENING = "listening"
     TRANSCRIBING = "transcribing"
+    RETRIEVING = "retrieving"  # NEW: RAG retrieval state
     THINKING = "thinking"
     SPEAKING = "speaking"
     ERROR = "error"
@@ -46,6 +48,11 @@ class PipelineConfig:
     silence_threshold: float = 0.01
     silence_duration: float = 1.5
     max_recording_duration: float = 15.0
+    
+    # RAG settings
+    use_rag: bool = True  # Enable RAG retrieval
+    rag_n_results: int = 3  # Number of context chunks to retrieve
+    rag_relevance_threshold: float = 0.3  # Minimum relevance score
 
 
 @dataclass
@@ -53,30 +60,35 @@ class PipelineMetrics:
     """Timing metrics for a single pipeline run."""
     recording_duration: float = 0.0
     stt_time: float = 0.0
+    retrieval_time: float = 0.0  # NEW: RAG retrieval time
     llm_time: float = 0.0
     tts_time: float = 0.0
     playback_duration: float = 0.0
+    context_found: bool = False  # Whether RAG found relevant context
     
     @property
     def total_processing_time(self) -> float:
         """Total time from end of recording to start of playback."""
-        return self.stt_time + self.llm_time + self.tts_time
+        return self.stt_time + self.retrieval_time + self.llm_time + self.tts_time
     
     @property
     def end_to_end_time(self) -> float:
         """Total time from start of recording to end of playback."""
-        return self.recording_duration + self.stt_time + self.llm_time + self.tts_time + self.playback_duration
+        return self.recording_duration + self.stt_time + self.retrieval_time + self.llm_time + self.tts_time + self.playback_duration
     
     def to_dict(self) -> Dict[str, float]:
         return {
             "recording": self.recording_duration,
             "stt": self.stt_time,
+            "retrieval": self.retrieval_time,
             "llm": self.llm_time,
             "tts": self.tts_time,
             "playback": self.playback_duration,
             "processing": self.total_processing_time,
             "end_to_end": self.end_to_end_time,
+            "context_found": self.context_found,
         }
+
 
 
 @dataclass
@@ -94,7 +106,7 @@ class VoicePipeline:
     """
     Main voice pipeline for the ICL Voice Assistant.
     
-    Orchestrates: Audio → STT → LLM → TTS → Playback
+    Orchestrates: Audio → STT → RAG → LLM → TTS → Playback
     
     Usage:
         pipeline = VoicePipeline()
@@ -116,6 +128,7 @@ class VoicePipeline:
         self._stt: Optional[SpeechToText] = None
         self._llm: Optional[LLMClient] = None
         self._tts: Optional[TextToSpeech] = None
+        self._retriever = None  # RAG retriever (lazy loaded)
         
         # State
         self._state = PipelineState.IDLE
@@ -220,6 +233,19 @@ class VoicePipeline:
             if not self._tts.load_voice():
                 raise RuntimeError("Failed to load TTS voice")
             
+            # Initialize RAG retriever (optional)
+            if self.config.use_rag:
+                report("Loading RAG retriever...")
+                try:
+                    from src.rag import Retriever
+                    self._retriever = Retriever(
+                        relevance_threshold=self.config.rag_relevance_threshold
+                    )
+                    report(f"  RAG loaded: {self._retriever.store.count()} documents")
+                except Exception as e:
+                    report(f"  RAG not available: {e} (continuing without RAG)")
+                    self._retriever = None
+            
             self._is_initialized = True
             report("Pipeline initialized successfully!")
             return True
@@ -282,12 +308,39 @@ class VoicePipeline:
                 self._set_state(PipelineState.IDLE)
                 return None
             
-            # 3. Generate response
+            # 3. RAG Retrieval (if enabled)
+            context = ""
+            if self._retriever:
+                self._set_state(PipelineState.RETRIEVING)
+                print("🔍 Searching knowledge base...")
+                
+                retrieval_start = time.time()
+                context = self._retriever.get_context(
+                    user_text, 
+                    n_results=self.config.rag_n_results
+                )
+                metrics.retrieval_time = time.time() - retrieval_start
+                metrics.context_found = bool(context)
+                
+                if context:
+                    print(f"   Found {len(context)} chars of context")
+                else:
+                    print("   No relevant context found")
+                print(f"   Retrieval took {metrics.retrieval_time:.2f}s")
+            
+            # 4. Generate response
             self._set_state(PipelineState.THINKING)
             print("🤔 Thinking...")
             
             llm_start = time.time()
-            response = self._llm.generate(user_text)
+            
+            # Use RAG-aware prompt if context is available
+            if context:
+                system_prompt = RAG_SYSTEM_PROMPT.format(context=context)
+            else:
+                system_prompt = NO_CONTEXT_PROMPT if self._retriever else None
+            
+            response = self._llm.generate(user_text, system_prompt=system_prompt)
             metrics.llm_time = time.time() - llm_start
             
             assistant_text = response.text.strip()
@@ -297,7 +350,7 @@ class VoicePipeline:
             if self._on_response:
                 self._on_response(assistant_text)
             
-            # 4. Synthesize speech
+            # 5. Synthesize speech
             self._set_state(PipelineState.SPEAKING)
             print("🔊 Speaking...")
             
@@ -307,7 +360,7 @@ class VoicePipeline:
             
             print(f"   TTS took {metrics.tts_time:.2f}s")
             
-            # 5. Play audio
+            # 6. Play audio
             playback_start = time.time()
             self._audio_playback.play(
                 tts_result.audio,
@@ -330,7 +383,10 @@ class VoicePipeline:
             # Report metrics
             print(f"\n⏱️  Metrics:")
             print(f"   Processing time: {metrics.total_processing_time:.2f}s")
-            print(f"   (STT: {metrics.stt_time:.2f}s, LLM: {metrics.llm_time:.2f}s, TTS: {metrics.tts_time:.2f}s)")
+            if metrics.retrieval_time > 0:
+                print(f"   (STT: {metrics.stt_time:.2f}s, RAG: {metrics.retrieval_time:.2f}s, LLM: {metrics.llm_time:.2f}s, TTS: {metrics.tts_time:.2f}s)")
+            else:
+                print(f"   (STT: {metrics.stt_time:.2f}s, LLM: {metrics.llm_time:.2f}s, TTS: {metrics.tts_time:.2f}s)")
             
             self._set_state(PipelineState.IDLE)
             return turn
@@ -366,12 +422,39 @@ class VoicePipeline:
             if self._on_transcription:
                 self._on_transcription(user_text)
             
+            # RAG Retrieval (if enabled)
+            context = ""
+            if self._retriever:
+                self._set_state(PipelineState.RETRIEVING)
+                print("🔍 Searching knowledge base...")
+                
+                retrieval_start = time.time()
+                context = self._retriever.get_context(
+                    user_text, 
+                    n_results=self.config.rag_n_results
+                )
+                metrics.retrieval_time = time.time() - retrieval_start
+                metrics.context_found = bool(context)
+                
+                if context:
+                    print(f"   Found {len(context)} chars of context")
+                else:
+                    print("   No relevant context found")
+                print(f"   Retrieval took {metrics.retrieval_time:.2f}s")
+            
             # Generate response
             self._set_state(PipelineState.THINKING)
             print("🤔 Thinking...")
             
             llm_start = time.time()
-            response = self._llm.generate(user_text)
+            
+            # Use RAG-aware prompt if context is available
+            if context:
+                system_prompt = RAG_SYSTEM_PROMPT.format(context=context)
+            else:
+                system_prompt = NO_CONTEXT_PROMPT if self._retriever else None
+            
+            response = self._llm.generate(user_text, system_prompt=system_prompt)
             metrics.llm_time = time.time() - llm_start
             
             assistant_text = response.text.strip()
