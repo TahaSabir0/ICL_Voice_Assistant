@@ -1,0 +1,79 @@
+# Laser-cutter-materials
+
+Source: Laser-cutter-materials.pdf
+Category: laser_cutting
+Pages: 1
+========================================
+
+--- Page 1 ---
+Laser Materials Guide
+
+Cutting Materials:
+Material
+Notes
+*Wood/ Plywood/ Composites
+Cuts well. Can take several passes to cut all the way
+through
+*MDF /Engineered Woods
+
+Paper / Cardstock
+
+*Cardboard
+Cuts well, may catch fire so keep an eye on it
+Cork
+
+*Acrylic/Lucite/Plexiglass
+Cuts well leaving a polished edge
+Mylar
+Cuts well if thin, could warp, bubble, or curl
+Cloth/ Felt/ Hemp/ Cotton
+All cut well
+*Leather/ Suede
+Thin Leather can be cut (only use real leather)
+*Depron Foam
+Used often for hobby, architectural models, toys etc. cuts
+well
+*Foam Core Board
+Cuts well, foam core may shrink
+* can also be etched
+
+Etching Materials:
+Material
+Notes
+Flat Glass
+Etched great, leaves a sandblasted look finish
+Curved Glass
+Can be etched with use of the rotary device
+Ceramic Tile
+
+Anodized Aluminum
+Vaporizes anodization away
+Painted/ Coated Metals
+Vaporizes paint away
+Stone/ Marble/
+Granite/Soapstone/ Onyx
+Leaves a white textured look when etched
+
+Avoid these Materials:
+Material
+Notes
+PVC (Poly Vinyl Chloride)
+Vinyl/Pleather
+Artificial Leather
+Emits chlorine gas when cut that can ruin the optics and
+cause the metal parts of the machine to corrode.
+ABS
+Melts, leaves behind gooey residue and catches fire.
+HDPE/ Milk Bottle Plastic
+Melts, leaves behind gooey residue and catches fire.
+Polystyrene Foam
+Catches fire very quickly, melts, and burns rapidly
+Polypropylene Foam
+Catches fire very quickly, melts, and burns rapidly
+Epoxy
+Laser will not cut, it burns and creates lots of smoke
+Fiberglass
+Mix of glass and epoxy, laser will not cut
+Anything with Sticky Glue
+Backing
+Glue can vaporize and coat the lens causing it to crack

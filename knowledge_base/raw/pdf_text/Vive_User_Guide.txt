@@ -1,0 +1,2028 @@
+# Vive_User_Guide
+
+Source: Vive_User_Guide.pdf
+Category: virtual_reality
+Pages: 76
+========================================
+
+--- Page 1 ---
+User guide
+
+--- Page 2 ---
+Contents
+System requirements
+What are the system requirements?
+5
+How can I check if my PC meets the minimum system requirements for VIVE?
+6
+Can I still use VIVE if my PC doesn't meet the system requirements?
+6
+What's inside the box?
+6
+Headset and link box
+Headset
+7
+Link box
+18
+Deluxe Audio Strap
+21
+Product care and repair
+36
+Common solutions
+42
+Base stations
+About the VIVE base stations
+47
+Installing the base stations
+48
+Tips for setting up the base stations
+50
+Using the mounting kit
+51
+Updating base station firmware via cable connection
+52
+Updating base station firmware via Bluetooth
+52
+What does the status light on the base stations mean?
+53
+What should I do if any of the base stations is not detected?
+53
+Can I use the older version of the base stations together with SteamVR Base Station 2.0?
+53
+Which VIVE hardware is compatible with my base stations?
+54
+Do I need to use the sync cable?
+54
+Are the base stations covered by warranty if accidentally damaged?
+55
+When VIVE is in use, my TV remote isn't working. What can I do?
+55
+Controllers
+About the VIVE controllers
+56
+Charging the controllers
+57
+Turning the controllers on or off
+57
+Pairing the controllers with the headset
+57
+Attaching the lanyards to the controllers
+58
+Updating controller firmware
+58
+What does the status light on the controllers mean?
+59
+What should I do if any of the controllers is not tracked?
+59
+How do I know which of the controllers is not being tracked?
+59
+What can I do if the controller's trackpad is oversensitive?
+60
+What should I do if my controller won't turn on?
+60
+The controller automatically turns off. What should I do?
+60
+My controller won't turn on after I accidentally unplugged it during firmware update. What should I do?
+61
+Play area
+What is the play area?
+62
+Planning your play area
+62
+2
+Contents
+
+--- Page 3 ---
+Choosing the play area
+63
+Setting up VIVE for the first time
+64
+Setting up a standing-only play area
+64
+Setting up a room-scale play area
+65
+Resetting the play area
+65
+Verifying your setup
+66
+After setting up, how do I turn the VIVE system on?
+66
+What is the recommended space for the play area?
+67
+Can I include space occupied by furniture for the play area?
+67
+Will VR apps for seated/standing-only experiences work with room-scale setup?
+67
+How do I resolve download errors during VIVE Setup installation?
+67
+I can't complete the room setup. What should I do?
+67
+Settings
+System Dashboard settings
+68
+Phone notifications
+70
+SteamVR
+72
+Trademarks and copyrights
+Index
+3
+Contents
+
+--- Page 4 ---
+About this guide
+We use the following symbols to indicate useful and important information:
+This is a note. It provides detailed information for setup, common questions, and what to do in
+specific situations.
+This is a tip. It will give you an alternative way to do a particular step or procedure that you may
+find helpful.
+This indicates important information that you need in order to accomplish a certain task or to
+get a feature to work properly.
+This is a warning. Take note to avoid potential problems or prevent damage to your hardware.
+Information contained in this guide may have changed. For the most up-to-date information,
+including the latest version of this guide, go to VIVE Support.
+Before using the product, carefully review VIVE safety information and follow all product safety
+and operating instructions on https://www.vive.com/legal/.
+4
+About this guide
+
+--- Page 5 ---
+System requirements
+What are the system requirements?
+To use VIVE™, your computer must meet the following system requirements.
+To find out if your computer is ready for VR, download and run the Vive Quick Compatibility
+Check.
+Component
+Recommended system
+requirements
+Minimum system requirements
+Processor
+Intel® Core™ i5-4590/AMD FX™ 8350
+equivalent or better
+Intel Core i5-4590/AMD FX 8350
+equivalent or better
+GPU
+NVIDIA® GeForce® GTX 1060, AMD
+Radeon™ RX 480 equivalent or better
+NVIDIA GeForce GTX 970, AMD
+Radeon R9 290 equivalent or better
+Memory
+4 GB RAM or more
+4 GB RAM or more
+Video output
+HDMI 1.4, DisplayPort™ 1.2 or newer
+HDMI 1.4, DisplayPort 1.2 or newer
+USB port
+1x USB 2.0 or newer
+1x USB 2.0 or newer
+Operating
+system
+Windows® 7 SP1, Windows 8.1 or
+later, Windows 10
+Windows 7 SP1, Windows 8.1 or
+later, Windows 10
+5
+System requirements
+
+--- Page 6 ---
+How can I check if my PC meets the minimum system
+requirements for VIVE?
+To find out if your computer is ready for VR, download and run the Vive Quick Compatibility
+Check.
+Can I still use VIVE if my PC doesn't meet the system
+requirements?
+In order for you to enjoy the VIVE experience, it is recommended that you at least have a PC that
+meets the minimum system requirements. For details, see What are the system requirements?
+on page 5.
+What's inside the box?
+Your VIVE comes with the following items, which you'll use to experience immersive VR
+environments:
+Main component
+Accessories
+VIVE headset
+§ 3-in-1 cable (attached)
+§ Audio cable (attached)
+§ Earbuds
+§ Face cushion (attached)
+§ Cleaning cloth
+Link box
+§ Power adapter
+§ HDMI cable
+§ USB cable
+VIVE controllers (2)
+§ Power adapters (2)
+§ Lanyards (2 attached)
+§ Micro-USB cables (2)
+Base stations (2)
+§ Power adapters (2)
+§ Mounting kit (2 mounts, 4 screws, and 4 wall anchors)
+You can also find documentation in the box, such as the Safety and regulatory guide and
+warranty card.
+6
+System requirements
+
+--- Page 7 ---
+Headset and link box
+Headset
+About the VIVE headset
+The headset is your window to the VR environment.
+The headset has sensors that are tracked by the base stations.
+The sensors on the headset are sensitive. Do not cover or scratch the sensor lenses, including
+the proximity sensor.
+Front and side
+1
+Camera lens
+2
+Tracking sensor
+3
+Headset button
+4
+Status light
+5
+Lens distance knob
+7
+Headset and link box
+
+--- Page 8 ---
+Back
+1
+Standard strap
+2
+Audio cable
+3
+3-in-1 cable
+4
+IPD (interpupillary distance) knob
+5
+Face cushion
+6
+Lenses
+7
+Proximity sensor
+Bottom
+1
+Microphone
+2
+Nose rest
+3
+Lens distance knobs
+8
+Headset and link box
+
+--- Page 9 ---
+Putting the headset on
+Before putting the headset on, make sure that you've peeled off the protective film from the
+lenses.
+1.
+Pull the headset down over your eyes.
+2.
+Slide the standard strap around the back of your head, and adjust them so that the
+headset fits snugly and comfortably.
+3.
+Make sure that the cables pass through the sleeve at the back of the headset, and are
+positioned straight down your back.
+Adjusting the IPD on the headset
+Interpupillary distance (IPD) is the distance between the centers of your eyes.
+If you don't know your IPD, see How can I find my IPD? on page 10. Use this measurement as a
+guide to adjust the distance between the lenses of the headset so that you'll have a better viewing
+experience.
+To increase the distance between the lenses, rotate the IPD knob clockwise. To decrease, rotate
+the IPD knob counterclockwise.
+As you adjust the IPD, you'll see a prompt indicating the current distance between the centers of
+the lenses.
+9
+Headset and link box
+
+--- Page 10 ---
+Why is accurate IPD important?
+Accurate IPD settings help get a clear image and reduce eye strain.
+The headset lenses focus images toward their optical center. This is sometimes called the "sweet
+spot" in the VR industry. By adjusting the IPD knob, you can tune the sweet spot for the most
+comfortable view. Misaligned IPD and improperly adjusted headsets are common causes of
+blurry images, dizziness, and eye strain.
+How can I find my IPD?
+There are several ways to estimate your IPD.
+The most accurate way to determine your IPD is to consult a professional optometrist or eye
+doctor. You can also estimate your IPD by doing any of the following:
+§
+Use a ruler and a mirror. See below for detailed instructions.
+§
+Through experimentation. See below for detailed instructions.
+§
+Using third-party apps or websites.
+Third-party apps or websites may collect personal data. HTC cannot guarantee accuracy of
+third-party apps or websites in measuring IPD.
+Estimating your IPD in a mirror
+You can estimate your IPD with a ruler and mirror.
+This method requires a millimeter ruler.
+1.
+Stand directly in front of a mirror, and then hold the ruler up to your eyes. Make sure that
+the ruler is level. If you're using a flexible ruler, make sure not to bend it.
+2.
+Align the zero mark with the center of your pupil. You may need to close your other eye to
+get a clear measure.
+30 40 50
+0
+10 20
+60
+10
+Headset and link box
+
+--- Page 11 ---
+3.
+Check the millimeter mark on the other eye. You may need to close the first eye to get a
+clear measure.
+30 40 50
+0
+10 20
+60
+4.
+Make a note of your IPD measurement. You may want to recheck several times to make
+sure your reading is accurate.
+You can also ask a friend to help you measure instead of using a mirror. Make sure you're
+looking straight ahead while they measure.
+Estimating your IPD through experimentation
+You can estimate IPD by trying different settings. This method is very convenient, but might be
+less accurate.
+1.
+While wearing the VR headset, focus on text or lines at the center of view. If no text is
+present, open a screen in VR with text.
+2.
+Adjust the IPD knob until the text is clear. Note the number for future use.
+3.
+If the image in one eye is clearer than the other, adjust the headset position. Repeat until
+images are clear for both eyes.
+11
+Headset and link box
+
+--- Page 12 ---
+Can I wear my prescription glasses while using VIVE?
+Most glasses fit inside the headset. If you wear large prescription glasses, adjust the lens
+distance to increase the space in the headset.
+Make sure that no part of your glasses scratch the headset lenses.
+Adjusting the lens distance on the headset
+If you wear large prescription glasses or have long eyelashes, you may need to increase the lens
+distance further from your face. Only increase this distance as necessary, as the closer the lenses
+are to your eyes, the better your field of view will be while wearing the headset.
+Make sure that no part of your glasses scratch the headset lenses.
+1.
+Pull out each lens distance knob to unlock it.
+2.
+Rotate both lens distance knobs to adjust the lens further or closer to your face.
+3.
+After you're done adjusting, push each knob to lock it back in.
+12
+Headset and link box
+
+--- Page 13 ---
+Connecting a USB device to the headset
+Plug in a USB cable to the headset for using a compatible third-party device with VIVE. VIVE-
+optimized USB cable is sold separately by HTC.
+1.
+Push open the compartment cover to access the connector slots on the headset.
+2.
+Plug in the USB cable to its corresponding slot.
+3.
+Connect the third-party device to the USB cable end.
+4.
+Replace the compartment cover.
+13
+Headset and link box
+
+--- Page 14 ---
+Unplugging the 3-in-1 cable and audio cable from the headset
+1.
+Push open the compartment cover to access the connector slots on the headset.
+2.
+Carefully pull the tab until the HDMI cable is unplugged, and then unplug the power cable
+and USB cable as well as the audio cable.
+14
+Headset and link box
+
+--- Page 15 ---
+Replacing the face cushion
+You can remove and reattach the face cushion for cleaning. For more information, see Cleaning
+the face cushion on page 37.
+1.
+To remove the face cushion, peel off starting from both ends of the face cushion until it
+detaches from the headset.
+2.
+To reattach the face cushion, insert the tab on the face cushion into the slot on the
+headset, and then align the velcro strips.
+15
+Headset and link box
+
+--- Page 16 ---
+Replacing the nose rest
+1.
+To remove the nose rest, peel off the flaps of the nose rest until it detaches from the
+headset.
+2.
+To replace the nose rest, press its tabs into the corresponding slots on the headset. Make
+sure that the nose rest is fastened in place and its flaps are behind the face cushion.
+16
+Headset and link box
+
+--- Page 17 ---
+Replacing the headset buckle
+§
+To detach the buckle, rotate the buckle downward. You'll hear a click when the buckle is
+released.
+§
+To reattach the buckle, with the standard strap hanging down, align the buckle to the
+connector and then rotate it upward. You'll hear a click when the buckle locks in place.
+Updating the headset firmware
+1.
+From your computer, open the SteamVR app.
+2.
+If you see the
+ icon, mouse over it to check if the firmware is out of date.
+3.
+Click Update Device. The firmware update will start automatically.
+Do not unplug any cables from the headset, link box, or your computer any time before the
+firmware update is complete. Doing so could result in a firmware error.
+4.
+When the update is complete, click Done.
+17
+Headset and link box
+
+--- Page 18 ---
+What does the status light on the headset mean?
+The status light shows:
+§
+Green when the headset is in normal mode
+§
+Dim green when the headset is on standby
+§
+Red when an error is encountered (with cables, display, or the like)
+Link box
+About the link box
+Use the link box to connect the headset to your computer.
+1 3-in-1 cable
+2 Power port
+3 USB port
+4 Mini DisplayPort™
+Note: Cable is not provided. Use if your computer doesn't have a spare HDMI port or doesn't
+support HDMI.
+5 HDMI port
+Connecting the headset to your computer
+1.
+Connect the power adapter cable on its corresponding port on the link box, and then plug
+the opposite end into an electrical outlet to turn the link box on.
+2.
+Insert the HDMI cable on the HDMI port on the link box, and then insert the opposite end
+on the HDMI port on your computer's graphic card.
+18
+Headset and link box
+
+--- Page 19 ---
+3.
+Insert the USB cable on the USB port on the link box, and then insert the opposite end on
+your computer's USB port.
+4.
+Connect the 3-in-1 headset (HDMI, USB, and power) cables on the side with matching
+orange trims on the link box.
+19
+Headset and link box
+
+--- Page 20 ---
+When should I use the Mini DisplayPort on the link box?
+If your computer doesn't have a spare HDMI port or doesn't support HDMI, you can use a Mini
+DisplayPort™ cable to connect your Vive to your PC.
+Mini DisplayPort cable is not provided and must be purchased separately.
+Connect the Mini DisplayPort cable end to the link box, and then plug the opposite end to the
+DisplayPort on your computer's graphics card.
+DisplayPort
+Mini DisplayPort
+Restarting the link box
+If you need to restart the link box, follow these steps.
+1.
+Close all Steam apps on your computer, including the SteamVR app.
+2.
+Unplug the power and USB cables from the PC side (without the orange trims) of the link
+box.
+3.
+Wait for a few seconds, and then plug the power and USB cables back in. On your
+computer, you might see a notification that drivers are being installed. Wait for the
+installation to finish.
+4.
+To verify that VIVE hardware are detected, restart SteamVR on your computer.
+20
+Headset and link box
+
+--- Page 21 ---
+Deluxe Audio Strap
+About Vive Deluxe Audio Strap
+Use Vive Deluxe Audio Strap to enjoy your VIVE VR system with quality sound from integrated
+earphones. It also offers better fit and more comfort when you’re wearing the headset.
+VIVE Deluxe Audio Strap is bundled with the VIVE Business Edition. The accessory may be
+purchased separately from www.vive.com/product/.
+1
+Audio cable connector
+2
+Velcro band
+3
+Outer shell
+4
+Adjustment dial
+5
+Cushion
+6
+Velcro cable tie
+7
+Earphone
+8
+Earphone height adjustment
+21
+Headset and link box
+
+--- Page 22 ---
+Attaching Vive Deluxe Audio Strap to the headset
+VIVE Deluxe Audio Strap is bundled with the VIVE Business Edition. The accessory may be
+purchased separately from www.vive.com/product/.
+Make sure that you’ve removed the compartment cover as well as unplugged the 3-in-1 cable
+and audio cable from the headset. For details, see Unplugging the 3-in-1 cable and audio
+cable from the headset on page 14.
+1.
+Detach the standard strap and buckle by rotating the buckle downward. You'll hear a click
+when the buckle is released.
+2.
+Press the buckles of Vive Deluxe Audio Strap to the connectors on the headset using the
+palms of your hands until you hear a click to fix them in place.
+22
+Headset and link box
+
+--- Page 23 ---
+3.
+Insert the 3-in-1 cable and the strap’s audio cable into the compartment cover’s cable hole
+(not into the hole on the VIVE logo). Connect the cables to its corresponding slots in the
+headset’s compartment.
+4.
+To replace the compartment cover, align the ridge on the cover with the tabs on the
+compartment, and then push the cover until it snaps in place.
+23
+Headset and link box
+
+--- Page 24 ---
+5.
+Fix the 3-in-1 cable in place on the clip on the right side of the strap.
+24
+Headset and link box
+
+--- Page 25 ---
+6.
+Attach the sticky back of the velcro cable tie (comes with the box) underneath the cushion
+(right side). Loop the cable tie around the 3-in-1 cable, and then fasten it in place.
+7.
+Insert the strap’s velcro band to the compartment cover’s band lock, and then secure it in
+place.
+25
+Headset and link box
+
+--- Page 26 ---
+To remove the Vive Deluxe Audio Strap, pull out each of the strap’s buckles to detach the strap
+from the headset.
+26
+Headset and link box
+
+--- Page 27 ---
+Wearing the headset with the Vive Deluxe Audio Strap
+VIVE Deluxe Audio Strap is bundled with the VIVE Business Edition. The accessory may be
+purchased separately from www.vive.com/product/.
+To prevent damaging the strap, never force the adjustment dial as it should rotate easily
+unless the limit is reached.
+1.
+Before wearing the headset, loosen the strap by rotating the adjustment dial counter-
+clockwise.
+2.
+Put the headset on, and then rotate the adjustment dial clockwise until it's comfortably
+snug fit.
+27
+Headset and link box
+
+--- Page 28 ---
+3.
+Pull each earphone up or down to adjust its height.
+4.
+Twist the earphones to a comfortable position over your ear, and then press down the
+earphones until you hear a click to fix them in place.
+Do not use force when removing the headset to prevent damaging the strap. To remove the
+headset, loosen the strap by rotating the adjustment dial counter-clockwise and then carefully
+pull out the headset.
+28
+Headset and link box
+
+--- Page 29 ---
+Removing the earphones from the strap
+You can remove the earphones that came with Vive Deluxe Audio Strap if you want to replace or
+repair them.
+VIVE Deluxe Audio Strap is bundled with the VIVE Business Edition. The accessory may be
+purchased separately from www.vive.com/product/.
+1.
+Pull out each of the strap’s buckles to detach the strap from the headset.
+2.
+Peel off the cushion until it detaches from Vive Deluxe Audio Strap.
+29
+Headset and link box
+
+--- Page 30 ---
+3.
+Remove the middle screw that fastens each earphone.
+Remember to keep the screws in a safe place. For replacement, you’ll find a packet of extra
+screws that comes with the box.
+Screwdriver
+type: cross-
+shaped
+PH00x40
+Screw name: Phillips Pan Head Screw
+4.
+Carefully pull out the wires connecting the earphones from the strap.
+30
+Headset and link box
+
+--- Page 31 ---
+Replacing the earphones on the strap
+VIVE Deluxe Audio Strap is bundled with the VIVE Business Edition. The accessory may be
+purchased separately from www.vive.com/product/.
+1.
+Attach the earphones and screw them in place to fasten them on Vive Deluxe Audio Strap.
+Screwdriver
+type: cross-
+shaped
+PH00x40
+Screw name: Phillips Pan Head Screw
+2.
+Fix the earphone wire in place on the clip on the left side of the strap.
+31
+Headset and link box
+
+--- Page 32 ---
+3.
+Press the plastic holders into their corresponding slots, and then fix the earphone wire in
+place on both ends of the strap.
+32
+Headset and link box
+
+--- Page 33 ---
+4.
+Align and insert the earphone wire along the clips on the base of the strap.
+5.
+Reattach the cushion. Insert the tabs on the cushion into the slots on the base of the strap.
+33
+Headset and link box
+
+--- Page 34 ---
+Replacing the Vive Deluxe Audio Strap cushion
+You should remove the Vive Deluxe Audio Strap cushion to clean it. For more information, see
+Cleaning the Vive Deluxe Audio Strap cushion on page 35.
+§
+To remove the cushion, peel off the cushion until it detaches from Vive Deluxe Audio Strap.
+§
+To replace the cushion, insert the tabs on the cushion into the slots on the base of Vive
+Deluxe Audio Strap.
+34
+Headset and link box
+
+--- Page 35 ---
+Cleaning the Vive Deluxe Audio Strap cushion
+1.
+Before cleaning the cushion, remove it first from Vive Deluxe Audio Strap. For details, see
+Replacing the Vive Deluxe Audio Strap cushion on page 34.
+2.
+When cleaning the cushion, remember to:
+§
+Dampen a clean smooth cloth with cold water and gently wipe the area you want to
+clean.
+§
+Air dry at room temperature. Don’t tumble dry, iron, or expose it to direct sunlight.
+§
+Don’t scrub, wring, or bleach.
+§
+Don’t dip or soak in water.
+If there's moisture on the cushion, only do the following:
+§ Air dry at room temperature. Don’t tumble dry, iron, or expose it to direct sunlight.
+§ Don’t scrub, wring, or bleach.
+35
+Headset and link box
+
+--- Page 36 ---
+Product care and repair
+Caring for your VIVE
+Follow these tips to properly care for your VIVE.
+§
+Keep the headset lenses away from sharp objects, including cable tips. This will prevent
+the headset lenses from being scratched.
+§
+When not in use, store the headset with the lenses pointed away from direct sunlight.
+Failure to do so may damage the headset display.
+§
+When storing the headset, it is recommended to cover the lenses with the protective film
+or paper cover to help prevent accidental scratches.
+36
+Headset and link box
+
+--- Page 37 ---
+Cleaning the face cushion
+1.
+Before cleaning the face cushion, remove it first from the headset. For details, see
+Replacing the face cushion on page 15.
+2.
+When cleaning the face cushion, remember to:
+§
+Dampen a clean smooth cloth with cold water and gently wipe the area you want to
+clean.
+§
+Air dry at room temperature. Don't tumble dry, iron, or expose it to direct sunlight.
+§
+Don't scrub, wring, or bleach.
+§
+Don’t dip or soak in water.
+Cleaning the headset lenses
+1.
+Use the cleaning cloth provided in the box to wipe the lenses.
+2.
+Wipe in a circular motion from the center to the outer edges of the lenses.
+While cleaning the lenses, do not scratch the lenses nor disassemble other parts of the
+headset.
+37
+Headset and link box
+
+--- Page 38 ---
+How do I prepare the headset if I'm returning it for repair?
+Before sending in the headset for repair, remove the following accessories and store them for
+safekeeping:
+1
+Face cushion
+2
+Compartment cover
+3
+Standard strap with buckles
+4
+3-in-1 cable
+5
+Audio cable
+Follow these steps to properly detach the accessories from the headset:
+§
+Remove the compartment cover and unplug the 3-in-1 cable and audio cable from the
+headset.
+Push open the compartment cover to access the connector slots.
+38
+Headset and link box
+
+--- Page 39 ---
+Carefully pull the tab until the HDMI cable is unplugged, and then unplug the power cable
+and USB cable as well as the audio cable.
+§
+Remove the face cushion. Peel off starting from both ends of the face cushion until it
+detaches from the headset.
+§
+Remove the standard strap and its buckle from the headset. To detach the buckle, rotate
+the buckle clockwise. You'll hear a click when the buckle is released.
+39
+Headset and link box
+
+--- Page 40 ---
+After removing the accessories, the headset you'll send for return should look like the following:
+40
+Headset and link box
+
+--- Page 41 ---
+How do I reassemble the headset after repair?
+After receiving your repaired headset, properly attach the accessories before using your headset
+again.
+§
+Reconnect the 3-in-1 cable and audio cable, and then replace the compartment cover.
+To replace the compartment cover, align the ridge on the cover with the tabs on the
+compartment, and then push the cover until it snaps in place.
+Make sure that the cables pass through the sleeve at the back of the headset.
+§
+Reattach the face cushion. Insert the tab on the face cushion into the slot on the headset,
+and then align the hook and loop strips.
+§
+Reattach the standard strap and its buckles. With the strap hanging down, align the buckle
+to the connector and then rotate it counterclockwise. You'll hear a click when the buckle
+locks in place.
+41
+Headset and link box
+
+--- Page 42 ---
+Common solutions
+What can I do to troubleshoot the headset?
+Try these troubleshooting suggestions.
+Option
+Description
+Check the
+headset’s LED
+status
+§ If the LED is not lit, try connecting the link box to a different power outlet.
+§ If the LED is dim green, the headset is on standby mode. Activate it by
+moving the headset or starting a VR app.
+§ If the LED is red, check if you're encountering a cable connection or driver
+error.
+For more information, you may refer to this
+ SteamVR Troubleshooting
+article.
+Restart the
+headset
+1. From your computer, open the SteamVR app.
+2. Right-click
+, and then click Restart headset.
+3. Wait for the headset to finish restarting.
+Check the cable
+connections
+§ Make sure that your cable connections are securely attached on both
+ends.
+§ Check that the correct cables are connected to the corresponding side of
+the link box (orange cables should connect to the side with orange trims).
+§ Connect all video output cables to the same graphics card. Do not
+connect video output cables to ports on the motherboard.
+§ If available, try a different type of video output (for example, switching
+HDMI with DisplayPort) from the graphics card to the link box.
+§ Try connecting to a different USB port. If you're using USB 3.0, switch to a
+USB 2.0 port to see if it corrects the issue.
+Restart the link
+box
+For details, see Restarting the link box on page 20.
+For more information, you may refer to this
+ SteamVR Troubleshooting
+article.
+42
+Headset and link box
+
+--- Page 43 ---
+What can I do when the status light on the headset indicates an error?
+If you see that the status light is red, try these methods to resolve the issue:
+§
+Disconnect and reconnect the headset 3-in-1 cable on the link box.
+§
+Check that the cables between the link box and your computer are properly connected.
+Disconnect and reconnect the cables as needed.
+§
+Unplug and replug the power adapter into an electrical outlet to restart the link box.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+What should I do if the headset is not tracked?
+Try the following methods to troubleshoot the issue:
+§
+Make sure that the headset is placed inside the play area.
+§
+If power on the headset was disconnected and reconnected, you need to also restart the
+SteamVR app.
+§
+Try to disconnect and reconnect the HDMI cable to the HDMI port on your computer's
+graphic card.
+§
+Restart the SteamVR app. If you still get an error, reboot your computer and reopen the
+SteamVR app.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+My headset display is blurry. What should I do?
+Try these troubleshooting suggestions:
+§
+Make sure that you've removed the protective film on the headset lenses.
+§
+Check that the lenses are clean. Use the cleaning cloth provided in the box to wipe the
+lenses.
+§
+Make sure that you're wearing the headset properly.
+The headset's bottom edge should rest on your cheekbones, while the standard strap
+should cup the back of your head. You should feel comfortable bending down without the
+headset slipping off.
+If the headset is too low on your face, your display will appear blurry.
+§
+Make sure your IPD is set correctly. For a guide, see How can I find my IPD? on page 10.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+What can I do to resolve the "headset not found" error?
+Do the following steps to troubleshoot the issue:
+1.
+Close all Steam apps on your computer, including the SteamVR app.
+2.
+Unplug the link box cables (HDMI and USB) from your computer, as well as its power cable
+from an electric outlet.
+43
+Headset and link box
+
+--- Page 44 ---
+3.
+Wait for a few seconds, and then plug the cables back in. On your computer, you might see
+a notification that drivers are being installed. Wait for the installation to finish.
+4.
+Restart the SteamVR app.
+If you still get a similar error, repeat the steps again. You can also check if you're encountering a
+USB-related issue. For more details, see My headset can't be detected due to a USB port issue.
+What should I do? on page 44.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+My headset can't be detected due to a USB port issue. What should I do?
+Do the following steps to troubleshoot the issue:
+§
+Plug the USB cable into a different USB port to confirm if the error is due to a USB port-
+related issue.
+Option
+Description
+If you have a USB
+2.0 port...
+Plug the USB cable into the USB 2.0 port.
+If you don't have a
+USB 2.0 port...
+1. Plug the USB cable into a generic USB 3.0 port.
+2. Open the SteamVR app, and then tap
+  Create system
+report.
+3. Make sure that VIVE devices connect via a USB xHCI port rather
+than to a port from a specific manufacturer, which might have a
+compatibility issue with VIVE.
+If the error is not resolved, your issue may not be due to USB port compatibility. For more
+troubleshooting suggestions, see What can I do to resolve the "headset not found" error?
+on page 43.
+§
+Manually update the USB driver on your computer. You can also download and install
+official driver updates from the website of your motherboard or USB port manufacturer.
+If updating your USB driver doesn't solve the error, purchase and use another PCI-Express
+USB card (with Intel chipset). Based on our tests, this USB card work well with VIVE:
+Inateck® 2-Port USB3.0 PCI-Express Card (Serial: KTU3FR-2O2I)
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+After upgrading to Windows 10, VIVE shows as the computer's main monitor. What
+should I do?
+Try the following steps to troubleshoot the issue:
+1.
+Disconnect the headset 3-in-1 cable on the link box.
+2.
+Restart your computer.
+3.
+Reconnect the headset 3-in-1 cable on the link box.
+44
+Headset and link box
+
+--- Page 45 ---
+I'm experiencing skipped frames. What could I do?
+If you've installed software in your computer that automatically adjusts the display (such as for
+night mode), it may be causing the conflict.
+To resolve the issue, disable the software that may cause the conflict (such as f.lux or Prismatik)
+when using VIVE.
+I'm seeing drifting motion or floating objects in VR. What could I do?
+Try these troubleshooting suggestions.
+§
+Make sure that there are no reflective surfaces (such as mirrors) within your play area.
+§
+If there are Bluetooth® devices in the room, turn them off so that they don't interfere with
+hardware pairing.
+§
+Check if you're having CPU performance issues. On the SteamVR app, click
+  Display
+Performance Graph.
+If you see spikes in the graph, it means that the issue is with the CPU.
+What should I do if I don't hear a sound while using the audio cable?
+Make sure that the headset is on normal mode and not on standby, and that the SteamVR app is
+running on your computer.
+If it doesn't solve your problem, do the following:
+Option
+Description
+Make sure that
+SteamVR is sending
+audio to VIVE
+1. From your computer, open the SteamVR app.
+2. Click
+, and then select Settings  Audio.
+3. On the Set playback device to drop-down list, choose HTC-VIVE or
+select Speakers (USB-Audio Device).
+45
+Headset and link box
+
+--- Page 46 ---
+Option
+Description
+Make sure that
+Windows is sending
+audio to VIVE
+1. On your computer, right-click the Volume icon on the task tray.
+2. Click Playback devices, and then select HTC-VIVE.
+3. Right click HTC-VIVE, and then select Set as default device.
+You may also need to right-click on any detected audio device, and
+select Show disabled devices and Show disconnected devices.
+Check the volume of
+HTC-VIVE audio
+device and current
+program
+On your computer, right-click the Volume icon on the task tray. Do the
+following:
+§ Find the volume slider for HTC-VIVE, and then set it to 50%.
+§ Click Mixer. Find the current program, and then set the volume to
+50%.
+Is there a way to also hear from the computer what's in VR?
+You can duplicate the audio from VIVE to your computer. You can use another pair of
+headphones or speakers.
+1.
+From your computer, open the SteamVR app.
+2.
+Click
+, and then select Settings  Audio.
+3.
+Click the Audio mirroring On/Off switch to turn it on.
+4.
+In the drop-down list, choose the device where you want the audio from VIVE duplicated.
+46
+Headset and link box
+
+--- Page 47 ---
+Base stations
+About the VIVE base stations
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+§ The base stations beam signals to the headset and controllers. Do not cover the front panel
+with any material.
+§ When the base stations are turned on, they may affect some nearby infrared sensors, such as
+those used by an IR TV remote control.
+1
+Status light
+2
+Front panel
+3
+Channel indicator (recessed)
+4
+Power port
+5
+Channel button
+6
+Sync cable port (optional)
+7
+Micro-USB port (for firmware updates)
+§ Do not attempt to pry open the base stations as doing so could injure you or damage the
+product.
+§ If the front panel is cracked or damaged, stop using the base stations.
+47
+Base stations
+
+--- Page 48 ---
+Installing the base stations
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+Before installing the base stations, decide first whether you want to set up a room-scale or
+seated/standing-only play area. See Planning your play area on page 62.
+During unboxing, remove the thin film that covers the front panel of the base stations.
+1.
+Mount the base stations diagonally at opposite corners of your space.
+For details on how to use the mounting kit, see Using the mounting kit on page 51.
+You can also use tripods, light stands, or cargo poles when mounting the base stations, or
+even place it on stable book cases. Just avoid using unstable mounting solutions or
+surfaces that are prone to vibration.
+2.
+Adjust the base stations so that the front panels are facing toward the center of the play
+area.
+3.
+Attach the power cables to the base stations, and then plug them each into a power outlet
+to turn them on. The status lights should be green.
+4.
+Connect the base stations and set the channels.
+For details on how to order the sync cable, contact customer care.
+Without the sync
+cable
+Press the Channel buttons at the back of the base stations so
+that one base station is set to channel “b”, while the other is set
+to channel “c”.
+With the sync cable
+(optional for added
+reliability)
+Press the Channel buttons at the back of the base stations so
+that one base station is set to channel “A”, while the other is set
+to channel “b”.
+48
+Base stations
+
+--- Page 49 ---
+Once turned on, do not move or adjust the angles of the base stations as it could disrupt the
+tracking process. Otherwise, you will need to set up the play area again.
+49
+Base stations
+
+--- Page 50 ---
+Tips for setting up the base stations
+The hardware may be purchased separately from the Accessories tab on
+www.vive.com/product/.
+You may set up the base stations in a way that's suitable for your place. For best results,
+you may follow these recommendations:
+§
+Mount the base stations diagonally and above head height, ideally more than 2 m (6
+ft 6 in).
+§
+Secure the base stations in a location where they can't be easily jostled or moved.
+§
+Each base station has a 120-degree field of view, so it's ideal to adjust its angle
+between 30 and 45 degrees to fully cover your play area.
+§
+For optimal tracking, make sure that the maximum distance between the two base
+stations is 5 m (16 ft 4 in).
+§
+Avoid setting up in an area with bright light, which may negatively affect the
+performance of the base stations.
+50
+Base stations
+
+--- Page 51 ---
+Using the mounting kit
+For best results, install the base stations using a mounting kit. If you previously bought first-
+generation VIVE hardware, the mounting kit is provided as an in-box item. Otherwise, you can
+separately purchase a similar mounting kit from a third-party supplier.
+You will need a screwdriver or drill to install the mounts. Ask a professional for help when
+using power tools.
+1.
+Mark where you want to install each of the mounts on your wall, and then screw the
+mounts in.
+When mounting on concrete or drywall, first drill ¼ inch holes and insert anchors before
+screwing mounts in.
+2.
+Rotate the base station to screw it onto the threaded ball joint. Do not screw the base
+station all the way in, only enough to be stable and oriented correctly.
+3.
+Tighten the wingnut to the base station to secure it in place.
+1
+2
+3
+4.
+To adjust the angle of the base station, loosen the clamping ring while carefully holding
+the base station to prevent it from falling.
+5.
+Tilt the base station toward the play area.
+Make sure it has an unobstructed view of the other base station. Each base station has a
+120-degree field of view. They should be angled down between 30 and 45 degrees.
+To fix the angle of the base station, tighten the clamping ring back in.
+6.
+Attach the power cable to each base station.
+4
+6
+5
+51
+Base stations
+
+--- Page 52 ---
+Updating base station firmware via cable connection
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+1.
+From your computer, open the SteamVR app.
+2.
+If you see the
+ icon, mouse over it to check if the firmware is out of date. If so, click
+Update Device.
+3.
+Unplug the base stations from their power adapters, and then carefully unmount them.
+4.
+Using a micro-USB cable, connect the base stations to one of your computer’s USB ports
+one at time.
+5.
+While pressing the Channel button at the back of the base station, plug in the base
+station’s power adapter.
+Once the base station is detected by the SteamVR app, the firmware update will start
+automatically.
+Do not unplug the micro-USB cable or power cable before the firmware update is complete.
+Doing so could result in a firmware error.
+6.
+When the update is complete, click Done.
+Updating base station firmware via Bluetooth
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+1.
+From your computer, open the SteamVR app.
+2.
+Click
+  Devices  Bluetooth Settings  Enable Bluetooth .
+If the Bluetooth driver for the link box needs to be updated, click Update Bluetooth Driver.
+After installing the Bluetooth driver, restart the computer and relaunch the SteamVR app.
+3.
+Do one of the following:
+§
+Click
+  Devices  Update Device, and then select the base stations.
+§
+If you see the
+ icon, mouse over it to check if the firmware is out of date. If so, click
+Update Device.
+4.
+Follow the onscreen instructions to complete the process.
+Do not unplug the power cable before the firmware update is complete. Doing so may result in
+a firmware error.
+52
+Base stations
+
+--- Page 53 ---
+What does the status light on the base stations mean?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+The status light shows:
+§
+Green when the base station is in normal mode
+§
+Blue when the base station is waiting to stabilize. If it remains in this state, check if it is
+mounted securely or on a surface that's not prone to vibration.
+§
+Dim green when the base station is on standby
+§
+Purple when the base stations are trying to sync
+§
+Blinking purple when syncing is blocked. If you're connecting the base stations wirelessly,
+you may need to use the sync cable. See Do I need to use the sync cable? on page 54.
+What should I do if any of the base stations is not
+detected?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+Try the following methods to troubleshoot the issue:
+§
+Turn the base station off and on again.
+§
+Make sure that you've installed your base stations correctly. For details, see Installing the
+base stations on page 48.
+§
+If the base stations have trouble wirelessly syncing with each other, there might be an
+obstruction in your play area. Check if using the sync cable would solve your issue. For
+details, see Do I need to use the sync cable? on page 54.
+§
+Restart the SteamVR app. If you still get an error, reboot your computer and reopen the
+SteamVR app.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+Can I use the older version of the base stations together
+with SteamVR Base Station 2.0?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+53
+Base stations
+
+--- Page 54 ---
+No, they are not compatible. SteamVR Base Station 2.0 has a different method of syncing. Use
+only the same versions of the base stations in your play area so that your setup will work
+correctly.
+Which VIVE hardware is compatible with my base
+stations?
+Use only the same version of base stations together. Different base station versions are not
+interchangeable.
+Check the table below to see which VIVE hardware you can use with your base stations:
+Base station version
+Compatible VIVE hardware
+1.0
+§ VIVE headset
+§ VIVE Pro headset
+§ VIVE Pro Eye headset
+§ VIVE controllers
+§ VIVE controllers (2018)
+§ VIVE Tracker (2018)
+§ VIVE Cosmos with VIVE Cosmos External Tracking Faceplate
+2.0
+§ VIVE Pro headset
+§ VIVE Pro Eye headset
+§ VIVE controllers (2018)
+§ VIVE Tracker (2018)
+§ VIVE Cosmos with VIVE Cosmos External Tracking Faceplate
+Do I need to use the sync cable?
+In general, you don't need to connect your base stations to each other with the sync cable.
+However, if you have a hanging object from the ceiling that is above the play area or if your base
+stations need to be positioned low such that your head or hands block the bases from seeing one
+another, this may affect the syncing of the base stations. You'll need to attach the sync cable.
+For details on how to order the sync cable, contact customer care.
+1.
+Attach the sync cable to both base stations and make sure to route the cable outside of
+your play area.
+2.
+Press the Channel buttons on the back of the base stations so that one base station is set
+to channel "A" and the other is set to channel "b".
+54
+Base stations
+
+--- Page 55 ---
+Are the base stations covered by warranty if accidentally
+damaged?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+Please follow the recommended setup instructions for the base stations carefully, since product
+warranty does not cover accidental damage.
+Stop using the base stations if they are damaged, especially if its front panels are cracked.
+When VIVE is in use, my TV remote isn't working. What
+can I do?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+The base stations may affect some nearby infrared sensors, such as those used by an IR TV
+remote control.
+1.
+Re-adjust the angle of the base stations so that they are not directly facing your TV.
+2.
+Verify that your remote control is working without interference from VIVE.
+3.
+Set up the play area again.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+55
+Base stations
+
+--- Page 56 ---
+Controllers
+About the VIVE controllers
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+Use the controllers to interact with objects in the VR world.
+The controllers have sensors that are tracked by the base stations.
+The sensors on the controllers are sensitive. Do not cover or scratch the sensor lenses.
+1
+Menu button
+2
+Trackpad
+3
+System button
+4
+Status light
+5
+Micro-USB port
+6
+Tracking sensor
+56
+Controllers
+
+--- Page 57 ---
+7
+Trigger
+8
+Grip button
+Charging the controllers
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+You can check the battery level of the controllers when no apps are running, or when the System
+Dashboard is up. When the battery is low, the indicator will show a single red dot
+.
+You can also check the SteamVR app. If you see
+, this means the controller battery is low.
+Charge each controller using the provided power adapters and USB cables.
+When the controller is plugged in and fully charged, its status light shows green if the controller
+is on or white if the controller is off.
+Turning the controllers on or off
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+§
+To turn the controller on, press the System button until you hear a beeping sound.
+§
+To turn the controller off, press and hold the System button until you hear a beeping
+sound.
+When you quit the SteamVR app, the controllers will automatically turn off. The controllers
+will also automatically turn off after being idle for a period of time.
+Pairing the controllers with the headset
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+§
+Once the controllers are turned on for the first time, they will automatically pair with the
+headset.
+The status light shows as blinking blue while the pairing is in progress. The status light
+turns solid green when the controllers are paired with the headset.
+§
+To manually pair the controllers, launch the SteamVR app, tap
+, and then select
+Devices  Pair Controller. Follow the on-screen instructions to complete the process.
+57
+Controllers
+
+--- Page 58 ---
+Attaching the lanyards to the controllers
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+Using the lanyards may help prevent the controllers from accidentally being dropped; however,
+please do not fling or violently throw the controller because the lanyard may break.
+1.
+While holding the controller, insert the lanyard’s thread from the top to the bottom hole.
+2.
+Loop the lanyard through the thread, and then tug the lanyard to fasten it in place.
+3.
+Place the lanyard on your wrist, and then adjust the lock to tighten the lanyard comfortably
+around your wrist.
+Updating controller firmware
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+1.
+From your computer, open the SteamVR app.
+2.
+If you see the
+ icon, mouse over it to check if the firmware is out of date. If so, click
+Update Device.
+3.
+Using a micro-USB cable, connect the controllers to one of your computer's USB ports
+one at time.
+Once the controller is detected by the SteamVR app, the firmware update will start
+automatically.
+Do not unplug the micro-USB cable any time before the firmware update is complete. Doing
+so could result in a firmware error.
+4.
+When the update is complete, click Done.
+58
+Controllers
+
+--- Page 59 ---
+What does the status light on the controllers mean?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+The status light shows:
+§
+Green when the controller is in normal mode
+§
+Blinking red when battery is low
+§
+Blinking blue when the controller is pairing with the headset
+§
+Blue when the controller is connecting with the headset
+§
+Orange when charging
+What should I do if any of the controllers is not tracked?
+Try the following methods to troubleshoot the issue:
+§
+Make sure that the controller is placed inside the play area.
+§
+Turn the controller off and on again to reactivate the tracking.
+§
+Restart the SteamVR app. If you still get an error, reboot your computer and reopen the
+SteamVR app.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+How do I know which of the controllers is not being
+tracked?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+If one of your controllers is not being tracked and you want to find out which one, follow these
+steps.
+1.
+On your computer, open the SteamVR app.
+2.
+Hover your cursor on the icon of the controller that's not tracked.
+3.
+Click Identify controller.
+The status light on the controller rapidly flashes white.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+59
+Controllers
+
+--- Page 60 ---
+What can I do if the controller's trackpad is
+oversensitive?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+Check if there's a firmware update available for the controllers. After which, re-calibrate the
+controller by doing these steps:
+1.
+From your computer, open the SteamVR app.
+2.
+Right-click
+, and then click Calibrate Controller.
+3.
+Follow the onscreen prompts to complete the calibration process.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+What should I do if my controller won't turn on?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+Try these troubleshooting suggestions:
+§
+Press and hold the System button for at least 5 seconds and see if the controller turns on.
+§
+Charge the controller using the other cable and adapter, and plug the adapter to a
+different power outlet.
+§
+On the SteamVR dashboard, check if the controllers are detected. If controllers are
+detected but the LED light is off, it may indicate an issue with the LED.
+§
+Check if you have a firmware update that failed. To recover from this error, see My
+controller won't turn on after I accidentally unplugged it during firmware update. What
+should I do? on page 61.
+The controller automatically turns off. What should I do?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+Do the following steps to troubleshoot the issue:
+1.
+Make sure that the controller is charged.
+2.
+Check that the status light on the controller shows as green, which means that it is paired
+with the headset.
+60
+Controllers
+
+--- Page 61 ---
+3.
+Plug the USB cable from the link box into another USB 3.0 port on the computer.
+4.
+Manually update the USB driver on your computer. You can also download and install
+official driver updates from the website of your motherboard or USB port manufacturer.
+My controller won't turn on after I accidentally
+unplugged it during firmware update. What should I do?
+The hardware may be purchased separately from the Accessories tab on www.vive.com/
+product/.
+Do the following steps to recover your controller from bootloader mode.
+1.
+Using a micro-USB cable, connect the controller to one of your computer's USB ports.
+2.
+From your computer, open the SteamVR app.
+3.
+Once the controller is detected by the SteamVR app, follow the onscreen prompts to
+complete the firmware update.
+61
+Controllers
+
+--- Page 62 ---
+Play area
+What is the play area?
+The play area sets the virtual boundaries of VIVE. Your interaction with VR objects happens within
+the play area.
+VIVE is designed for room-scale setup, but you can also use it for standing and seated
+experiences.
+Planning your play area
+Before choosing your setup, make sure that you have enough space.
+Room-scale setup needs a minimum play area of 2 m x 1.5 m (6 ft 6 in x 5 ft). Examples of room-
+scale setup:
+62
+Play area
+
+--- Page 63 ---
+Seated and standing experiences do not have space requirements. Examples of seated/standing
+setup:
+Choosing the play area
+Find a space that you will designate as the play area. For best results, do the following:
+§
+Move furniture and other obstacles (like pets) out of the play area.
+§
+Place your computer next to your play area. The headset cable extends around 5 m (16 ft 4
+in) from your computer.
+§
+Make sure that there are power outlets close to where you mount the base stations. Use
+12V extension cords as needed.
+§
+Do not leave your headset in direct sunlight, as it may damage your headset display.
+63
+Play area
+
+--- Page 64 ---
+Setting up VIVE for the first time
+Before you can use VIVE, you’ll need to complete the setup process, which includes installing
+VIVE and SteamVR software, setting up the hardware, and defining your play area.
+To start the setup process, download the setup file on your computer from:
+www.vive.com/setup/
+Run the setup file and follow the prompts to complete the process.
+Once you've completed the room setup, you need to run it again if you moved or adjusted the
+angles of the base stations or if you transfer your VIVE VR system to a different room.
+Setting up a standing-only play area
+Choose this option if you only want to experience VR in a seated or standing position.
+1.
+From your computer, open the SteamVR app.
+2.
+Click
+, and then select Room Setup  Standing only.
+3.
+Review the prompts and follow the on-screen instructions to complete the process.
+64
+Play area
+
+--- Page 65 ---
+Setting up a room-scale play area
+Choose to set up a room-scale play area to enjoy moving around and fully engage with the VR
+experience.
+1.
+From your computer, open the SteamVR app.
+2.
+Click
+, and then select Room Setup  Room-scale.
+3.
+Review the prompts and follow the on-screen instructions to complete the process.
+When tracing the boundaries of the play area, make sure that the floor is cleared. Do not trace
+across space occupied by things (such as a table or a chair) since this may cause you to trip
+into the object while in VR.
+Resetting the play area
+1.
+From your computer, open the SteamVR app.
+2.
+Click
+, and then select Room Setup.
+3.
+Choose the type of play area you want and then follow the prompts to complete the
+process.
+65
+Play area
+
+--- Page 66 ---
+Verifying your setup
+Once you've completed the VIVE setup process, you can now put on the headset and hold the
+controllers to start exploring VR.
+While you're in the play area, the headset and the controllers should remain at least 0.5 m (1 ft 7
+in) and no further than 5 m (16 ft 4 in) away from a base station. This will ensure that the devices
+are properly tracked within the base station’s 120-degree field of view.
+For health and safety warnings, please refer to the Safety and regulatory guide, which is
+periodically updated for accuracy and completeness. For the latest version, check
+www.vive.com/.
+After setting up, how do I turn the VIVE system on?
+1.
+From your computer, open the SteamVR app.
+2.
+Make sure your base stations are powered.
+3.
+Make sure that your headset is connected to the computer via the link box. For details, see
+Connecting the headset to your computer on page 18.
+4.
+Turn the controllers on. For details, see Turning the controllers on or off on page 57.
+5.
+Check that VIVE hardware is tracked. The status icons on the SteamVR app and the status
+lights on the hardware should all be green.
+6.
+Put the headset on. For details, see Putting the headset on on page 9.
+7.
+Grab your controllers.
+To bring up the System Dashboard, press the System button on either controller.
+66
+Play area
+
+--- Page 67 ---
+What is the recommended space for the play area?
+Movement within a diagonal area of up to 5 m (16 ft 4 in) is supported. For example, a 3.5 m x 3.5
+m (around 11 ft 5 in x 11 ft 5 in) space. For room-scale setup, a minimum play area of 2 m x 1.5 m
+(6 ft 6 in x 5 ft) is required. There's no minimum for seated and standing experiences.
+Can I include space occupied by furniture for the
+play area?
+It is not recommended to do so. When setting the boundaries of the play area, make sure that the
+floor is cleared. Do not trace across space occupied by things (such as a table or a chair) since
+this may cause you to trip into the object while in VR.
+Will VR apps for seated/standing-only experiences work
+with room-scale setup?
+Even if you have a room-scale setup, you can still use VR apps that are designed for seated or
+standing-only experiences. Just make sure that your headset and controllers are tracked within
+the play area.
+How do I resolve download errors during VIVE Setup
+installation?
+Download errors are usually caused by incorrect network settings. For example, due to wrong
+DNS, the download server address is unresolved by the host. Some network destinations may be
+inaccessible, even as connection to other websites seems normal. Please make sure that your
+network settings are correct, or ask your network administrator for support.
+I can't complete the room setup. What should I do?
+Check if you're using special characters (such as à or é) in your local Windows user name, which
+could cause the problem.
+As a workaround, you can add a new Windows account using basic Latin alphabet for your user
+name. After logging in with the new user name, reinstall VIVE Setup and complete the process.
+67
+Play area
+
+--- Page 68 ---
+Settings
+System Dashboard settings
+System Dashboard
+The System Dashboard serves as your central point of entry in VR.
+While in the dashboard, some of the things you can do are:
+§
+Launch or close a VR app
+§
+Control sound volume and mic access
+§
+Change settings, such as style of the collision bounds in Chaperone or the in-headset
+background
+§
+Turn the VIVE system off
+To bring up the dashboard, press the System button on either controller.
+Changing the Chaperone settings
+The Chaperone shows a grid whenever you're close to the bounds of your play area. You can
+change how the grid looks.
+1.
+From the System Dashboard, select
+.
+2.
+Select Play Area.
+3.
+In Chaperone style, choose the collision bound style you want.
+68
+Settings
+
+--- Page 69 ---
+4.
+Click colored box to the right of Chaperone Color to set the color and transparency of the
+bounds.
+5.
+To show a constant visual reference of your floor bounds while in VR, select the Always
+show floor bounds On/Off switch to turn it on.
+You can also change the Chaperone settings in the SteamVR app.
+Changing the default background display
+When you turn on the VIVE system, the first thing you'll see is a default background display. It's
+the same background that shows when you exit SteamVR Home.
+1.
+From the System Dashboard, select
+.
+2.
+Select Play Area.
+3.
+Click the image to the right of Background.
+4.
+Select the image you want to use as the background.
+For some images, you have the option to turn on Use Dome Projection to make it appear like
+you're in a planetarium.
+5.
+Click the box to the right of Play Area Floor Color to add color to the floor of your play area.
+You can also change the background in the SteamVR app.
+69
+Settings
+
+--- Page 70 ---
+Phone notifications
+Downloading and installing the VIVE phone app
+Before downloading the VIVE app, please make sure that your phone meets the minimum
+system requirements indicated on the VIVE app's download page.
+1.
+On your phone, open the Play Store or App Store apps.
+2.
+Search for Vive.
+3.
+Download and install the VIVE app.
+Pairing your phone with VIVE
+Pair your phone with the VIVE system to start receiving notifications while you're on VR.
+1.
+On your computer's VIVEPORT app, click
+, and then select Set up a Phone.
+2.
+On your phone, open the VIVE app.
+The first time that you open the VIVE app, review the prompts and tap Allow.
+3.
+On both your computer and phone, click Get started. Make sure that Bluetooth is turned
+on and that your phone is discoverable.
+4.
+From the list of discovered devices on your computer, select your phone, and then click
+Next.
+5.
+When prompted, accept the pairing request or enter the pairing code on your phone.
+6.
+Once pairing is complete, click OK and Done on your computer and phone respectively.
+Choosing which notifications to receive on VR
+Manage which notifications you get while using VIVE.
+1.
+On your phone, open the VIVE app.
+2.
+Do one of the following:
+§
+Android™ users: Tap
+  Settings.
+§
+iOS users: Switch to the Settings tab.
+3.
+Choose which types of notifications you'd like to receive.
+70
+Settings
+
+--- Page 71 ---
+Receiving notifications while in VR
+Don't worry about missing important notifications. While you're in any VR app, you'll see a
+notification when you have an incoming call, message, or upcoming calendar event.
+To receive notifications while in VR, you need to pair your phone with VIVE first. To find out
+how, see Pairing your phone with VIVE on page 70.
+To receive or open the notification, press the System button.
+If you choose to ignore the incoming notification, you can always check it later on the VIVE tab.
+For details, see Checking your notifications on page 71.
+Checking your notifications
+Conveniently review notifications from your phone without leaving VR.
+To receive notifications while in VR, you need to pair your phone with VIVE first. To find out
+how, see Pairing your phone with VIVE on page 70.
+From the VIVE tab's Notifications panel, you can:
+§
+View a missed call or text message
+§
+View an upcoming calendar event
+§
+Call back a contact
+§
+Reply with a text message (Android users only)
+Editing or adding message replies (Android users)
+If you're using an Android phone, customize the messages that you can quickly send to your
+contacts.
+1.
+On your phone, open the VIVE app.
+2.
+Tap
+  Settings.
+3.
+Tap Quick replies.
+4.
+Select a predefined message to edit or tap
+ to add a custom message.
+71
+Settings
+
+--- Page 72 ---
+Unpairing your phone with VIVE
+You can only use one phone at a time with your VIVE. Unpair your current phone first if you need
+to use another phone with VIVE.
+1.
+On your phone, open the VIVE app.
+2.
+Do one of the following:
+§
+Android users: Tap
+  Settings, and then tap Unpair.
+§
+iOS users: Switch to the Settings tab, and then tap Forget this device.
+You can also unpair your phone through your computer's VIVEPORT app. Click
+, and then
+click Unpair under Phone.
+What types of phone notifications can I receive on VIVE?
+While in VR, you may receive phone calls, text messages, and calendar reminders. To do so, you
+need to install the VIVE app on your phone and complete the pairing process with the VIVE
+system. You can choose which notifications you want to get on your phone's VIVE app settings.
+Can I receive notifications from more than one phone on VIVE?
+Currently, only one phone is supported if you want to receive notifications while in VR. If you want
+to use another phone with your VIVE, unpair the previous phone first.
+What features of the VIVE phone app are not supported in the iOS version?
+Currently, editing or adding personalized replies for calls or messages are not supported in the
+app's iOS version.
+SteamVR
+Activating the front-facing camera
+You need to enable the settings for the front-facing camera before you can use it in VR, such as
+for showing your actual room.
+1.
+From your computer, open the SteamVR app.
+2.
+Click
+, and then select Settings  Camera.
+3.
+Click Enable Camera.
+4.
+Close and reopen the SteamVR app.
+5.
+Click
+, and then select Settings  Camera.
+6.
+Select Allow Camera in Dashboard.
+72
+Settings
+
+--- Page 73 ---
+Checking for firmware updates
+Firmware updates include improved features and bug fixes.
+1.
+From your computer, do one of the following:
+§
+On the SteamVR status window, mouse over on any of the hardware icons to check if
+the firmware is out of date, and then select to update the firmware.
+§
+On the SteamVR app, click
+, and then click Devices  Update Device.
+2.
+Follow the prompts on the screen.
+If the update is for the controllers or base stations, you'll be asked to connect them to your
+computer using a micro-USB cable.
+While firmware updates are in progress, do not unplug the micro-USB or power cables that
+connect your hardware to your computer. Doing so could result in a firmware error.
+How can I capture screenshots in VR?
+While in VR, press the System button and the trigger at the same time. You'll see a notification
+when the screenshot is saved.
+You can access screenshots directly from the Steam client by clicking View  Screenshots.
+To find screenshots from apps downloaded in VIVEPORT, navigate to the Steam installation
+folder. The default location on 64-bit versions of Windows is:
+C:\Program files (x86)\Steam\userdata\[Steam user number]\760\remote
+\0\screenshots
+If you have chosen a custom installation folder, navigate to it and find the following subfolder:
+...\Steam\userdata\[Steam user number]\760\remote\0\screenshots
+Screenshots from other apps can be found in their respective folder:
+...\Steam\userdata\[Steam user number]\760\remote\[app folder]
+\screenshots
+What can I do if I'm having issues with the SteamVR app?
+The problem could be due to missing or corrupt files in the SteamVR app. Make sure that your
+installation is intact.
+1.
+From your computer, close the SteamVR app.
+2.
+Open the Steam app, and then go to the Library tab.
+3.
+On the left panel, click the drop-down menu and select Tools.
+4.
+Right-click SteamVR, and then and select Properties.
+5.
+In the Local Files tab, click Verify integrity of tool files.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+73
+Settings
+
+--- Page 74 ---
+How do I resolve SteamVR Error 208?
+If you encounter the SteamVR Error 208 (Monitor not Found) issue, check if the
+troubleshooting details on What can I do to troubleshoot the headset? on page 42 can resolve
+the problem.
+If you're using Windows 8 or later, the issue might be caused by enhancements in power
+management settings. Do these steps as a workaround:
+1.
+On your computer, go to Control Panel  System and Security  System.
+2.
+Click Device Manager, and then click to expand the list under Universal Serial Bus
+controllers.
+3.
+Right-click Generic USB Hub (there may be more than one with the same label), and then
+select Properties.
+4.
+Click the Power Management tab, and then de-select Allow the computer to turn off
+this device to save power.
+5.
+Unplug and re-plug the power cable on the link box.
+6.
+Restart the SteamVR app.
+For more information, you may refer to the
+ SteamVR Troubleshooting page.
+How can I opt-in to SteamVR Beta?
+1.
+From your computer, open the Steam app.
+2.
+On the left panel, click the drop-down menu and select Tools.
+3.
+Right-click SteamVR, and then and select Properties.
+4.
+Go to the Betas tab.
+5.
+In the Select the beta you would like to opt into drop-down list, select beta - SteamVR
+Beta Update.
+If you want to opt out in the future, select NONE – Opt out of all beta programs.
+6.
+Close the window, and then wait for SteamVR to finish updating.
+74
+Settings
+
+--- Page 75 ---
+Trademarks and copyrights
+©2020 HTC Corporation. All Rights Reserved.
+VIVE, the VIVE logo, VIVEPORT, the VIVEPORT logo, HTC, the HTC logo, and all other HTC
+product and service names are trademarks and/or registered trademarks of HTC Corporation
+and its affiliates in the U.S. and other countries.
+Steam, the Steam logo and SteamVR are trademarks and/or registered trademarks of Valve
+Corporation in the U.S. and/or other countries.
+All other trademarks and service marks mentioned herein, including company names, product
+names, service names and logos, are the property of their respective owners and their use herein
+does not indicate an affiliation with, association with, or endorsement of or by HTC Corporation.
+Not all marks listed necessarily appear in this User Guide.
+Screen images contained herein are simulated. HTC shall not be liable for technical or editorial
+errors or omissions contained herein, nor for incidental or consequential damages resulting from
+furnishing this material. The information is provided “as is” without warranty of any kind and is
+subject to change without notice. HTC also reserves the right to revise the content of this
+document at any time without prior notice.
+No part of this document may be reproduced or transmitted in any form or by any means,
+electronic or mechanical, including photocopying, recording or storing in a retrieval system, or
+translated into any language in any form without prior written permission of HTC.
+75
+Trademarks and copyrights
+
+--- Page 76 ---
+Index
+B
+Base stations
+- about  47
+- installing  48
+- mounting with the kit  51
+- setup tips  50
+C
+Chaperone  68
+Controllers
+- about  56
+- attaching lanyards  58
+- charging  57
+- pairing with the headset  57
+- turning on or off  57
+F
+Firmware updates  73
+H
+Headset
+- about  7
+- adjusting the lens distance  12
+- connecting a USB device  13
+- product care  36
+- putting on  9
+- replacing the face cushion  15
+- replacing the nose rest  16
+- unplugging the cables  14
+L
+Link box
+- about  18
+- connecting the headset  18
+P
+Phone notifications
+- checking  71
+- choosing  70
+- editing replies  71
+- receiving  71
+Play area
+- about  62
+- choosing  63
+- room-scale  65
+- setting up  62
+- standing/seated experience  64
+- verifying the setup  66
+R
+Room-scale
+- setting up  65
+S
+Settings
+- Chaperone  68
+- front-facing camera  72
+- in-headset display image  69
+Standing/seated experience
+- setting up  64
+System Dashboard  68
+V
+Vive Deluxe Audio Strap  21
+Vive phone app
+- downloading  70
+- pairing  70
+- unpairing  72
+Vive system
+- turning on  66
+76
+Index

@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-01-30)
 
 **Core value:** Students can ask about any ICL tool or piece of equipment and get accurate, useful guidance instantly.
-**Current focus:** Phase 1 Complete! Ready for Phase 2: Knowledge Base & RAG
+**Current focus:** Phase 2 in progress - Knowledge Base & RAG
 
 ## Current Position
 
-Phase: 1 of 3 (Voice Pipeline) ✅ COMPLETE
-Plan: 3 of 3 in current phase
-Status: Phase 1 complete, all success criteria met
-Last activity: 2026-01-31 — Full pipeline integrated and tested
+Phase: 2 of 3 (Knowledge Base & RAG)
+Plan: 1 of 3 in current phase ✅ COMPLETE
+Status: Knowledge base extracted from ICL website and organized
+Last activity: 2026-02-01 — Web crawling + PDF extraction + KB generation
 
-Progress: [██████░░░░] 33%
+Progress: [████████░░] 44%
 
 ## Performance Metrics
 
@@ -110,19 +110,36 @@ Progress: [██████░░░░] 33%
 
 ### Pending for Phase 2
 
-- Create ICL tool knowledge base (markdown)
+- ✅ Create ICL tool knowledge base (markdown) — DONE
 - Build document ingestion pipeline (ChromaDB)
 - Integrate RAG retrieval into LLM pipeline
+
+### Phase 2 Plan 02-01 Completed
+
+**Web Extraction Pipeline:**
+- `scripts/crawl_icl.py` — Crawls ICL website, downloads PDFs
+- `scripts/extract_pdfs.py` — Extracts text from PDF manuals
+- `scripts/generate_knowledge_base.py` — Generates structured markdown
+- `scripts/update_knowledge_base.py` — Master update script
+
+**Knowledge Base Stats:**
+- Pages crawled: 10
+- PDFs downloaded: 32
+- Categories: 6 (3D Printing, Laser Cutting, CNC, Sewing, VR, Vinyl)
+- Equipment files: 20
+- Total content: ~140,000 characters
 
 ### Blockers/Concerns
 
 - Piper TTS would provide higher quality voices but requires espeak-ng
 - pyttsx3 works but has robotic voice quality
 - For production, recommend installing espeak-ng
+- Some PDFs are image-only (no text extraction possible)
 
 ## Session Continuity
 
-Last session: 2026-01-31
-Stopped at: Phase 1 complete — full voice pipeline working
+Last session: 2026-02-01
+Stopped at: Phase 2, Plan 02-01 complete — Knowledge base generated
 Resume file: None
-Next step: Phase 2, Plan 02-01 — Create knowledge base structure
+Next step: Phase 2, Plan 02-02 — Document ingestion pipeline (ChromaDB)
+

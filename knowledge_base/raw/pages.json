@@ -1,0 +1,247 @@
+[
+  {
+    "url": "https://icl.sites.gettysburg.edu/",
+    "title": "",
+    "content": "##### The ICL is an open environment where Gettysburg College students, faculty, and staff can create, connect, and explore. The lab offers a continually expanding collection of equipment, tools, and materials to help everyone bring their ideas to life. Come visit us in our brand new location on the first floor of Plank Gym and see what you can make today!",
+    "pdf_links": []
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/tools/",
+    "title": "",
+    "content": "### 3DPRINTING\n\n### LASER CUTTING\n\n### CNC MACHINING\n\n### SUBLIMATION PRINTING\n\n### SEWING + EMBROIDERY\n\n### VIRTUAL REALITY\n\n### VINYL CUTTING\n\n### 3DPRINTING\n\n### 3DPRINTING",
+    "pdf_links": []
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/tools/3d-printing/",
+    "title": "",
+    "content": "A computer aided manufacturing process that builds three-dimensional models out of custom materials, typically plastics.\n\n#### Equipment in the ICL:\n\n##### Ender 3 V3 KE\n\nBuild Volume:8.66″ x 8.66″ x 9.4″\n\n##### Ender CR M4\n\nBuild Volume:17.7″ x 17.7″ x 18.5″\n\n##### ELEGOO Saturn 4 Ultra\n\nBuild Volume:8.6″ x 4.8″ x 8.7″\n\n##### Creality LD-002R\n\nPrint Size:4.7″ x 2.6″ x 6.3″\n\n#### Software:\n\n##### Design:\n\n##### Slicing:\n\n#### Project Examples:",
+    "pdf_links": [
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/3D-Printing-Hardware-Guide-1.pdf",
+        "name": "Hardware guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/3D-Printing-Software-Guide.pdf",
+        "name": "Software guide"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Ender-3-v3-ke-user-guide.pdf",
+        "name": "User Manual"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/SOP-3D-Printer.pdf",
+        "name": "sop"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2023/03/SDS-PLA.ABS_.PETG_.pdf",
+        "name": "msds"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/3D-Printing-Hardware-Guide-1.pdf",
+        "name": "Hardware guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/3D-Printing-Software-Guide.pdf",
+        "name": "Software guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/crm4_creality_user-manual.pdf",
+        "name": "User Manual"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/SOP-3D-Printer.pdf",
+        "name": "sop"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2023/03/SDS-PLA.ABS_.PETG_-1.pdf",
+        "name": "msds"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/saturn_4_ultra.pdf",
+        "name": "user manual"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/SOP-3D-Printer.pdf",
+        "name": "sop"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2023/03/Resin-MSDS-2.pdf",
+        "name": "msds"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/LD-002R.pdf",
+        "name": "user manual"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/SOP-3D-Printer.pdf",
+        "name": "sop"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2023/03/Resin-MSDS-2.pdf",
+        "name": "msds"
+      }
+    ]
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/tools/laser-cutting/",
+    "title": "",
+    "content": "Manufacturing process in which material is vaporized by using a laser beam resulting in high quality, dimensionally accurate cuts and engravings.\n\n#### Equipment in the ICL:\n\n##### Omtech 60w Laser\n\nWork Area:16″ x 24″\n\n##### Omtech 130w Laser\n\nWork Area:35″ x 55″\n\n#### Software:\n\n#### Project Examples:",
+    "pdf_links": [
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Laser-Cutter-Hardware-Guide.pdf",
+        "name": "Hardware guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Laser-Cutter-Software-Guide.pdf",
+        "name": "software guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/60w-Laser-Settings.pdf",
+        "name": "60w Laser Settings"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Laser-Cutting-Materials-Guide.pdf",
+        "name": "materials guide"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2023/04/MF1624-55.pdf",
+        "name": "user manual"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Laser-Cutter-Hardware-Guide.pdf",
+        "name": "Hardware guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Laser-Cutter-Software-Guide.pdf",
+        "name": "software guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/130w-Laser-Settings.pdf",
+        "name": "130w Laser settings"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/Laser-cutter-materials.pdf",
+        "name": "material guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/130w-laser-user-manual.pdf",
+        "name": "user manual"
+      }
+    ]
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/tools/cnc-machining/",
+    "title": "",
+    "content": "Computer Numerical Control (CNC) is a Subtractive manufacturing process which uses a computer controlled router to remove layers of material from a stock piece.\n\n#### Equipment in the ICL:\n\n##### X-Carve\n\nCutting Area: 750 x 750 x 65mm 29.5″x29.5″x2.5″\n\n##### Carvey\n\nCutting Area: 295 x 200 x 65mm 11.6″x8″x2.5″\n\n#### Software:\n\n#### Project Examples:",
+    "pdf_links": []
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/tools/sewing-machines/",
+    "title": "",
+    "content": "Machine with a mechanically driven needle for sewing or stitching fabric.\n\n#### Equipment in the ICL:\n\n##### Janome MC 550e Embroidery Machine\n\n##### Janome MC 9850 Embroidery Machine\n\n##### Janome HD-3000 Sewing Machine\n\n##### Janome 792PGSerger",
+    "pdf_links": [
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Embroidery-Hardware-Guide.pdf",
+        "name": "Hardware Guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Embroidery-Software-Guide.pdf",
+        "name": "software Guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Janome-mc550e-User-Manual.pdf",
+        "name": "User manual"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Embroidery-Hardware-Guide.pdf",
+        "name": "Hardware Guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Embroidery-Software-Guide.pdf",
+        "name": "software Guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Janome-MC-9850-User-Manual-1.pdf",
+        "name": "User manual"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Janome-HD-3000-User-Manual.pdf",
+        "name": "User manual"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Janome-792pg-Serger-Manual.pdf",
+        "name": "User manual"
+      }
+    ]
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/tools/virtual-reality/",
+    "title": "",
+    "content": "VR headsets generate realistic images, sounds and other sensations that simulate the user’s physical presence in virtual environments.\n\n#### Equipment in the ICL:\n\n##### Oculus Quest\n\n##### HTC Vive\n\n##### Oculus Go",
+    "pdf_links": [
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/quest.pdf",
+        "name": "user manual"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/Vive_User_Guide.pdf",
+        "name": "User Manual"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/go.pdf",
+        "name": "User Manual"
+      }
+    ]
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/tools/vinyl-cutting/",
+    "title": "",
+    "content": "Process through which a computer-controlled machine is used to cut out vector based designs from sheets of thin vinyl.\n\n#### Equipment in the ICL:\n\n##### 53″ Vevor\n\nCutting Area:49.6″ x 300″\n\n##### 28″ USCutter TITAN 3\n\nCutting Area:24″ x 300″\n\n##### Digital Heat Press\n\nBed Size: 15″ x 15″\n\n##### Auto Heat Press\n\nBed Size: 15″ x 15″\n\n##### Curved Heat Press\n\n#### Software:\n\n#### Project Examples:",
+    "pdf_links": [
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Vinyl-Cutting-Hardware-Guide.pdf",
+        "name": "hardware guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Vinyl-Cutting-Software-Guide.pdf",
+        "name": "software guide"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/SOP-Vinyl.pdf",
+        "name": "sop"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Vinyl-Cutting-Hardware-Guide.pdf",
+        "name": "hardware guide"
+      },
+      {
+        "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Vinyl-Cutting-Software-Guide.pdf",
+        "name": "software guide"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/Titan_Documentation_6_27_2016.pdf",
+        "name": "User Manual"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/SOP-Vinyl.pdf",
+        "name": "sop"
+      },
+      {
+        "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/A1DogecheeL.pdf",
+        "name": "User Manual"
+      }
+    ]
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/hours/",
+    "title": "",
+    "content": "## Upcoming Events:",
+    "pdf_links": []
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/contact/",
+    "title": "",
+    "content": "For more information about the ICL send us a message!",
+    "pdf_links": []
+  }
+]

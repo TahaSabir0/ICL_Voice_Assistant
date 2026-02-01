@@ -1,0 +1,5872 @@
+# Resin-MSDS-2
+
+Source: Resin-MSDS-2.pdf
+Category: 3d_printing
+Pages: 82
+========================================
+
+--- Page 1 ---
+ 1 of 6
+
+Safety Data Sheet
+3D SLA Resin
+ENG Tough
+1.Chemical Product And Company Identification
+Product Name
+3DSR – ENG Tough
+Application
+3D printing with UV-Visible light 3D-printer for high precision printing, especially for snap-fit
+objects or assembly applications which need some flexibility.
+Supplier
+Kudo3D Inc.
+Address
+Rm. B8, 1F., No.1, Lixing 1st Rd., East Dist., Hsinchu City 300, Taiwan(R.O.C.)
+Telephone
++886 35799963
+Website
+www.3d-sla-resin.com
+Email
+contact@3d-sla-resin.com
+Emergency Phone Numbers
+119(for Taiwan)
+
+2.Hazards Identification
+GHS Classification
+Serious eye damage/ irritation                 Category 2
+Skin corrosion/ irritation
+Category 2
+Sensitization, skin
+Category 1B
+Specific target organ toxicity – single exposure
+Category 3
+Hazardous to the aquatic environment, chronic
+hazard
+Category 3
+
+--- Page 2 ---
+ 2 of 6
+
+GHS Label Elements
+
+Signal Word
+Warning
+Hazards Statements
+H315 - Causes skin irritation
+H317 – May cause an allergic skin reaction
+H319 - Causes serious eye irritation
+H335 - May cause respiratory irritation
+H412 - Harmful to aquatic life with long lasting effects
+Prevention Precautionary Statements
+P235 + 410 - Keep cool. Protect from sunlight.
+P264 - Wash face, hands and any exposed skin thoroughly after handling.
+P271 - Use only outdoors or in a well-ventilated area.
+P272 - Contaminated work clothing should not be allowed out of the workplace.
+P273 - Avoid release to the environment.
+P280 - Wear protective gloves/protective clothing/eye protection/face protection.
+Response Precautionary Statements
+P302 + P352 - IF ON SKIN: Wash with plenty of soap and water.
+P305 + P351 + P338 - IF IN EYES: Rinse cautiously with water for several minutes. Remove
+contact lenses, if present and easy to do. Continue rinsing.
+P332 + P313 - If skin irritation occurs: Get medical advice/attention.
+P333 + P313 - If skin irritation or rash occurs: Get medical advice/attention.
+P337 + P313 - If eye irritation persists: Get medical advice/attention.
+P362 - Take off contaminated clothing and wash before reuse.
+P363 - Wash contaminated clothing before reuse.
+P501 - Dispose of contents/container to an approved waste disposal plant.
+
+3.Composition/ Information on Ingredients
+Mixture
+Component
+CAS No.
+%Weight
+Photoinitiator
+Proprietary
+1-5%
+Pigment
+Proprietary
+1-5%
+Acrylate Monomer
+Proprietary
+20-60%
+Acrylate Oligomer
+Proprietary
+30-78%
+
+--- Page 3 ---
+ 3 of 6
+
+4.First-aid Measures
+Inhalation
+Remove victim to fresh air immediately. Give oxygen or artificial respiration if needed. Seek
+emergency medical attention.
+Skin Contact
+Remove contaminated clothing and wash with soap and clean water for 15 minutes at least. Seek
+medical attention.
+Eye Contact
+Flush eyes with plenty of clean water for 30 minutes at least and retract eyelids often. Obtain
+emergency medical attention.
+Ingestion
+Do Not induce vomiting. Obtain emergency medical attention.
+
+5.Fire-Fighting Measures
+Extinguishing Media
+Dry chemical, CO2, foam, water spray/ fog
+Fire and Explosion Hazards
+High temperature, inhibitor depletion, accidental impurities, exposure to radiation or oxidizers may
+cause polymerization accompanied by heat and pressure generation inducing rupture/ explosion of
+containers.
+Special Protective Equipment and Precautions for Fire-fighters
+Fire fight from safe distance/ protected location with full protective clothing and self-contained
+breathing apparatus. Water spray/ fog can be used for cooling.
+
+6.Accidental Release Measures
+Personal Precautions, Protective Equipment and Emergency Procedures
+Wear suitable protective clothing. Extinguish all ignition sources, keep unnecessary people away,
+ventilate area, and absorb spilled material with inert absorbent.
+Environmental Precautions
+Do not release into drain, soil, surface water, groundwater.
+Waste Disposal Methods
+Contain spills in an appropriate container for disposal with applicable regulations.
+
+7.Handling and Storage
+Precautions for Safe Handling
+While handling this product, wear suitable protective gloves, protective clothing, eye protection and
+face protection equipment for safety and avoid contact with eyes, skin or hair. Handle this product in
+
+--- Page 4 ---
+ 4 of 6
+
+a well-vented area for preventing from inhalation. Keep away from heat source such as a heating
+oven. Wash hands and exposed skin thoroughly after operation each time.
+Conditions for safe storage
+Avoid from light, strong oxidizers, strong acids and bases, radical initiators, heat, sparks, open
+flame, or any sources of ignition. Must be stored in a cool(15-35oC/59-95oF) and dry place with
+closed opaque containers. Do not blanket or mix with oxygen-free gas to prevent ineffectiveness of
+polymerization inhibitors. Keep this product out of reach of kids and pets.
+
+8.Exposure Controls/ Personal Protection
+Respiratory Protection
+NIOSH/ MSHA approved respiratory equipment is recommended.
+Eye Protection
+Tight-fitting chemical safety goggles and face shield should be equipped to avoid from any
+splashing and vapor. Do not wear contact lenses for safety.
+Skin Protection
+Wear protective gloves(neoprene or nitrile), apron, boots, long pants, head and face protection,
+prevent from any contact of skin. Equipment should be cleaned thoroughly after operation each time.
+Engineering Controls
+Ventilation system or outdoors for fresh air supply.
+Other Hygienic Practices
+Emergency eyewash and safety shower facility are well-prepared. Wash hands and shower
+thoroughly after handling. Do not eat, drink, smoke, or any behavior unrelated to operation in
+working area.
+
+9.Physical and Chemical Properties
+Appearance
+Dark green viscous liquid
+Odor
+Low acrylic ester odor
+pH
+-
+Melting Point
+-
+Boiling Point
+-
+Flash Point
+>94oC (>201oF) Estimated
+Autoignition
+-
+Lower Explosion limit
+-
+Upper Explosion limit
+-
+Vapor Pressure(mmHg)
+Negligible
+Vapor Density(air = 1)
+-
+Specific Gravity(H2O=1 at 25oC)
+1.05
+Solubility in Water
+Negligible
+
+--- Page 5 ---
+ 5 of 6
+
+10.Stability and Reactivity
+Chemical Stability
+Stable under appropriate storage and use as indicated.
+Possibility of Hazardous Reactions
+Hazardous polymerization may occur while contact light, heat, radical initiators, inert gas or over
+shelf life.
+Conditions to Avoid
+Light, heat, peroxides, oxidizing agents, radical initiators, metal ions, metal oxides, strong acids and
+bases, inert gas, oxygen scavengers, any ignition sources, and moisture.
+
+11.Toxicological information
+Routes of Exposure
+Inhalation, Skin Contact, Eye Contact, Ingestion
+Inhalation
+Inhalation vapor of this product may cause irritation of chest and nasal passages, inducing coughing,
+sneezing, and nausea.
+Skin Contact
+Contact skin may cause irritation, skin sensitivity, and blisters, long-term exposure may cause
+allergic reactions, redness and dermatitis .
+Eye Contact
+May cause eyes irritation, pain, and redness, long-term or repeated exposure may cause
+conjunctivitis.
+Ingestion
+May cause gastrointestinal discomfort, and nausea.
+
+12.Ecological information
+Ecotoxicity
+Harmful to aquatic life. Dispose in accordance
+with applicable regulations.
+Persistence and Degradability
+-
+Bioaccumulative Potential
+-
+Mobility in Soil
+-
+Other Adverse Effect
+-
+
+13.Disposal Consideration
+Do not release to drains, soil, surface waters and groundwater. Dispose this product and container in
+accordance with national, state, and local regulations.
+
+--- Page 6 ---
+ 6 of 6
+
+14.Transport Information
+UN Number
+-
+UN Transportation Name
+-
+Transport Hazard Class
+-
+Packing Group
+-
+Environmental Hazards
+-
+Special Transportation Method and Attention
+-
+
+15.Regulatory Information
+Applicable Regulations (Taiwan)
+1.Occupational Safety and Health Act
+2.Regulation of Labelling and Hazard Communication of Hazardous Chemicals
+3.Methods and Facilities Standards for the Storage, Clearance and Disposal of Industrial Waste
+4.Regulations Governing Road Traffic Safety
+5.Toxic Chemical Substances Control Act
+
+16.Other Information
+Reference
+1.Globally Harmonized System of Classification and Labeling of
+Chemicals (GHS Purple Book)
+2.Recommendations on the Transport of Dangerous Goods (UN Orange
+Book)
+3.Chinese Toxic Chemicals Database, Environmental Protection
+Administration
+4.GHS Harmful Substances Database, Council of Labor Affairs
+Provided By
+Kudo3D Inc
+Address : Rm. B8, 1F., No.1, Lixing 1st Rd., East Dist., Hsinchu City
+300, Taiwan(R.O.C.)
+Telephone : +886 35799963
+Provided Person
+Title : Engineer，Name : Benson Lin
+Created Date
+2017.8.31
+Note
+The ”-” symbol means there’s no current available data or information.
+
+The SDS is prepared from information we receive and measure, data and information
+herein listed is used only for this product, and is not applicable for combination with
+any other material or any other use which isn’t mentioned. We make no warranty,
+expressed, or implied regarding the correctness of the information and aren’t
+responsible for any damage, lost, or injury of its use. User is responsible for
+judgement the safety of conditions/ places/ methods of this product in specific use.
+
+--- Page 7 ---
+
+SDS Report
+No.: CANEC1917010301
+Date: 30 Aug 2019
+Page 1 of 1
+SHENZHENSHI ZHINENGPAI TECHNOLOGY CO., LTD
+RM A205 WEIDONGLONG BUSINESS BUILDING, MEILONG AVENUE, LONGHUA DISTRICT, SHENZHEN
+SGS Job No.
+
+Sample Name
+
+End Uses
+
+Composition/Ingredient of sample
+(as per client submission)
+: See section 3 Composition/information on ingredients on the SDS report
+Job Receiving Date
+: 28 Aug 2019
+SDS Preparation Period
+: 28 Aug 2019-30 Aug 2019
+Service Requested
+: Safety Data Sheet (SDS) for the sample with submitted composition.
+Summary
+: As per request, the contents and formats of the SDS are prepared in
+accordance with European Commission Regulation (EC) No 1907/2006,
+Regulation (EC) No 1272/2008 and Regulation (EU) No 2015/830, and is
+provided per attached.
+Remark:
+1.The SDS is prepared based on the information provided by client.
+2.N-(Dimethylcarbamoyl)glycine (CAS No. 1060817-29-9) is not classified
+in this SDS, as no information was found in company and literature data,
+and client cannot provide SDS(s) for classification.
+Signed for and on behalf of
+SGS-CSTC Standards Technical Services Co., Ltd. Guangzhou Branch
+
+Zm guan
+Approved Signatory
+
+: CP19-047596
+: Elegoo Standard Photopolymer Resin
+: 3D Printing material
+
+--- Page 8 ---
+
+Page 1/8
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+49.4.3
+SECTION 1: Identification of the substance/mixture and of the company/undertaking
+SECTION 2: Hazards identification
+· 2.1 Classification of the substance or mixture
+· Classification according to Regulation (EC) No 1272/2008
+GHS09 environment
+Aquatic Chronic 2 H411 Toxic to aquatic life with long lasting effects.
+GHS07
+Skin Irrit. 2
+H315 Causes skin irritation.
+Eye Irrit. 2
+H319 Causes serious eye irritation.
+Skin Sens. 1
+H317 May cause an allergic skin reaction.
+· Information concerning particular hazards for human and environment:
+The product has to be labelled due to the calculation procedure of Regulation (EC) No.1272/2008.
+· Classification system:
+The classification is according to the latest edition of EU Regulation (EC) No. 1272/2008, and extended by
+company and literature data.
+· 2.2 Label elements
+· Labelling according to Regulation (EC) No. 1272/2008
+The product is classified and labelled according to the CLP regulation.
+· Hazard pictograms
+GHS07
+GHS09
+· Signal word Warning
+· Hazard-determining components of labelling:
+Epoxy resins
+(Contd. on page 2)
+ EU
+· 1.1 Product identifier
+· Trade name: Elegoo Standard Photopolymer Resin
+· 1.2 Relevant identified uses of the substance or mixture and uses advised against
+· Application of the substance / the mixture: 3D Printing material
+· 1.3 Details of the supplier of the safety data sheet
+· Manufacturer / Supplier: SHENZHENSHI ZHINENGPAI TECHNOLOGY CO., LTD
+· Full address:
+RM A205 WEIDONGLONG BUSINESS BUILDING, MEILONG AVENUE, LONGHUA DISTRICT,
+SHENZHEN
+· Phone number: +86-18927469351
+· Email: kevin@elegoo.com
+· Only Representative / other EU contact point: Not available
+· Further information obtainable from: SHENZHENSHI ZHINENGPAI TECHNOLOGY CO., LTD
+· 1.4 Emergency telephone number:
+GERMANY
+Poison Center Berlin - Institute of Toxicology
+Tel: +49 030 192 40
+· 1.5 Reference Number: CP19-047596, CANEC1917010301
+
+--- Page 9 ---
+Page 2/8
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+(Contd. of page 1)
+49.4.3
+hexamethylene diacrylate
+· Hazard statements
+H315 Causes skin irritation.
+H319 Causes serious eye irritation.
+H317 May cause an allergic skin reaction.
+H411 Toxic to aquatic life with long lasting effects.
+· Precautionary statements
+P101
+If medical advice is needed, have product container or label at hand.
+P102
+Keep out of reach of children.
+P103
+Read label before use.
+P261
+Avoid breathing dust/fume/gas/mist/vapours/spray.
+P273
+Avoid release to the environment.
+P280
+Wear protective gloves / eye protection / face protection.
+P305+P351+P338 IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if
+present and easy to do. Continue rinsing.
+P333+P313
+If skin irritation or rash occurs: Get medical advice/attention.
+P501
+Dispose of contents/container in accordance with local/regional/national/international
+regulations.
+· 2.3 Other hazards:
+· Results of PBT and vPvB assessment
+· PBT: Not applicable.
+· vPvB: Not applicable.
+SECTION 3: Composition/information on ingredients
+· 3.2 Mixtures
+· Description:
+Mixture of the substances listed below with nonhazardous additions.
+For the wording of the listed hazard statements refer to section 16.
+· Composition:
+CAS: 61788-97-4
+Epoxy resins
+ Aquatic Chronic 2, H411;
+ Skin Irrit. 2, H315; Eye Irrit. 2,
+H319; Skin Sens. 1, H317
+50.0%
+CAS: 13048-33-4
+EINECS: 235-921-9
+Index number: 607-109-00-8
+hexamethylene diacrylate
+ Skin Irrit. 2, H315; Eye Irrit. 2, H319; Skin Sens. 1, H317
+40.0%
+CAS: 1060817-29-9
+N-(Dimethylcarbamoyl)glycine
+5.0%
+CAS: 947-19-3
+EINECS: 213-426-9
+hydroxycyclohexyl phenyl ketone
+5.0%
+SECTION 4: First aid measures
+· 4.1 Description of first aid measures
+· General description: Immediately remove any clothing soiled by the product.
+· After inhalation:
+Supply fresh air and to be sure call for a doctor.
+In case of unconsciousness place patient stably in side position for transportation.
+· After skin contact: Immediately wash with water and soap and rinse thoroughly.
+· After eye contact:
+Rinse opened eye for several minutes under running water. If symptoms persist, consult a doctor.
+· After swallowing: If symptoms persist consult doctor.
+· 4.2 Most important symptoms and effects, both acute and delayed:
+No further relevant information available.
+(Contd. on page 3)
+ EU
+Trade name: Elegoo Standard Photopolymer Resin
+
+--- Page 10 ---
+Page 3/8
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+(Contd. of page 2)
+49.4.3
+· 4.3 Indication of any immediate medical attention and special treatment needed:
+No further relevant information available.
+SECTION 5: Firefighting measures
+· 5.1 Extinguishing media
+· Suitable extinguishing agents: Use fire extinguishing methods suitable to surrounding conditions.
+· 5.2 Special hazards arising from the substance or mixture: No further relevant information available.
+· 5.3 Advice for firefighters
+· Protective equipment: No special measures required.
+SECTION 6: Accidental release measures
+· 6.1 Personal precautions, protective equipment and emergency procedures: Not required.
+· 6.2 Environmental precautions:
+Do not allow product to reach sewage system or any water sourse.
+Inform respective authorities in case of seepage into water course or sewage system.
+Do not allow to enter sewers/ surface or ground water.
+· 6.3 Methods and material for containment and cleaning up:
+Absorb with liquid-binding material (sand, diatomite, acid binders, universal binders, sawdust).
+Dispose contaminated material as waste according to section 13.
+Ensure adequate ventilation.
+· 6.4 Reference to other sections:
+See Section 7 for information on safe handling.
+See Section 8 for information on personal protection equipment.
+See Section 13 for disposal information.
+SECTION 7: Handling and storage
+· 7.1 Precautions for safe handling:
+Ensure good ventilation/exhaustion at the workplace.
+Prevent formation of aerosols.
+For the general occupational hygienic measures refer to Section 8.
+· Information about fire - and explosion protection: No special measures required.
+· 7.2 Conditions for safe storage, including any incompatibilities
+· Requirements to be met by storerooms and receptacles: No special requirements.
+· Information about storage in one common storage facility: Not required.
+· Further information about storage conditions: Keep container tightly sealed.
+· 7.3 Specific end use(s): No further relevant information available.
+SECTION 8: Exposure controls/personal protection
+· 8.1 Control parameters
+· Ingredients with limit values that require monitoring at the workplace:
+13048-33-4 hexamethylene diacrylate (40.0%)
+MAK (Germany) als Dampf und Aerosol;vgl.Abschn.IV
+· Regulatory information MAK (Germany): MAK- und BAT-Liste
+· DNELs: Not available
+· PNECs: Not available
+(Contd. on page 4)
+ EU
+Trade name: Elegoo Standard Photopolymer Resin
+
+--- Page 11 ---
+Page 4/8
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+(Contd. of page 3)
+49.4.3
+· Additional information: The lists valid during the making were used as basis.
+· 8.2 Exposure controls
+Based on the composition shown in Section 3, the following measures are suggested for occupational safety
+measure.
+· Appropriate engineering controls:
+Keep away from foodstuffs, beverages and feed.
+Immediately remove all soiled and contaminated clothing
+Wash hands before breaks and at the end of work.
+Avoid contact with the eyes and skin.
+See Section 7 for information about design of technical facilities.
+· Personal protective equipment
+· Respiratory protection:
+In case of brief exposure or low pollution use respiratory filter device. In case of intensive or longer exposure
+use self-contained respiratory protective device.
+· Protection of hands:
+Protective gloves
+The glove material has to be impermeable and resistant to the product/ the substance/ the preparation.
+Due to missing tests no recommendation to the glove material can be given for the product/ the preparation/
+the chemical mixture.
+Selection of the glove material on consideration of the penetration times, rates of diffusion and the
+degradation.
+· Material of gloves
+The selection of the suitable gloves does not only depend on the material, but also on further marks of quality
+and varies from manufacturer to manufacturer. As the product is a preparation of several substances, the
+resistance of the glove material can not be calculated in advance and has therefore to be checked prior to the
+application.
+· Penetration time of glove material:
+The exact break through time has to be found out by the manufacturer of the protective gloves and has to be
+observed.
+· Eye protection:
+Tightly sealed goggles
+· Environmental exposure controls:
+Control measures must be made in accordance with Community environmental protection legislation.
+SECTION 9: Physical and chemical properties
+· 9.1 Information on basic physical and chemical properties
+· Appearance
+Form:
+Colour:
+· Odour:
+· Odour threshold:
+· pH-value:
+Not available
+· Change in condition
+Melting point/Freezing point:
+Not available
+Initial boiling point and boiling range: Not available
+(Contd. on page 5)
+ EU
+Trade name: Elegoo Standard Photopolymer Resin
+Liquid
+White
+Ester-like
+Not available
+
+--- Page 12 ---
+Page 5/8
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+(Contd. of page 4)
+49.4.3
+· Flash point:
+Not available
+· Flammability (solid, gas):
+Not available
+· Auto-ignition temperature:
+Not available
+· Decomposition temperature:
+Not available
+· Self-igniting:
+Product is not selfigniting.
+· Explosive properties:
+Product does not present an explosion hazard.
+· Explosion limits
+Lower:
+Not available
+Upper:
+Not available
+· Oxidising properties:
+Not available
+· Vapour pressure:
+Not available
+· Density:
+Not available
+· Relative density:
+Not available
+· Vapour density:
+Not available
+· Evaporation rate:
+Not available
+· Solubility in / Miscibility with
+water:
+Not available
+· Partition coefficient: n-octanol/water:
+Not available
+· Viscosity
+Dynamic:
+Not available
+Kinematic:
+Not available
+· 9.2 Other information
+No further relevant information available.
+SECTION 10: Stability and reactivity
+· 10.1 Reactivity: Data not available
+· 10.2 Chemical stability: Data not available
+· 10.3 Possibility of hazardous reactions: No dangerous reactions known.
+· 10.4 Conditions to avoid: No further relevant information available.
+· 10.5 Incompatible materials: No further relevant information available.
+· 10.6 Hazardous decomposition products: No dangerous decomposition products known.
+SECTION 11: Toxicological information
+· 11.1 Information on toxicological effects
+· Acute toxicity Based on available data, the classification criteria are not met.
+· LD/LC50 values relevant for classification:
+13048-33-4 hexamethylene diacrylate
+Oral
+LD50 >5,000 mg/kg (rat)
+Dermal LD50 >3,000 mg/kg (rab)
+· Skin corrosion/irritation:
+Causes skin irritation.
+· Serious eye damage/irritation:
+Causes serious eye irritation.
+· Respiratory or skin sensitization:
+May cause an allergic skin reaction.
+(Contd. on page 6)
+ EU
+Trade name: Elegoo Standard Photopolymer Resin
+
+--- Page 13 ---
+Page 6/8
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+(Contd. of page 5)
+49.4.3
+· Germ cell mutagenicity Based on available data, the classification criteria are not met.
+· Carcinogenicity Based on available data, the classification criteria are not met.
+· Reproductive toxicity Based on available data, the classification criteria are not met.
+· STOT-single exposure Based on available data, the classification criteria are not met.
+· STOT-repeated exposure Based on available data, the classification criteria are not met.
+· Aspiration hazard Based on available data, the classification criteria are not met.
+SECTION 12: Ecological information
+· 12.1 Toxicity
+· Aquatic toxicity: No further relevant information available.
+· 12.2 Persistence and degradability: No further relevant information available.
+· 12.3 Bioaccumulative potential: No further relevant information available.
+· 12.4 Mobility in soil: No further relevant information available.
+· 12.5 Results of PBT and vPvB assessment
+· PBT: Not applicable.
+· vPvB: Not applicable.
+· 12.6 Other adverse effects No further relevant information available.
+· 12.7 Additional ecological information:
+· General notes:
+Water hazard class 2 (German Regulation) (Self-assessment): hazardous for water
+Do not allow product to reach ground water, water course or sewage system.
+Danger to drinking water if even small quantities leak into the ground.
+Also poisonous for fish and plankton in water bodies.
+Toxic for aquatic organisms
+SECTION 13: Disposal considerations
+· 13.1 Waste treatment methods
+· Recommendation:
+Must not be disposed together with household garbage. Do not allow product to reach sewage system.
+· Uncleaned packaging
+· Recommendation: Disposal must be made according to official regulations.
+SECTION 14: Transport information
+· 14.1 UN-Number
+· ADR/RID/ADN, IMDG, IATA
+UN3082
+· 14.2 UN proper shipping name
+· ADR/RID/ADN, IATA
+ENVIRONMENTALLY HAZARDOUS SUBSTANCE,
+LIQUID, N.O.S. (Epoxy resins)
+· IMDG
+ENVIRONMENTALLY HAZARDOUS SUBSTANCE,
+LIQUID, N.O.S. (Epoxy resins), MARINE POLLUTANT
+(Contd. on page 7)
+ EU
+Trade name: Elegoo Standard PhotopolymerResin
+
+--- Page 14 ---
+Page 7/8
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+(Contd. of page 6)
+49.4.3
+· 14.3 Transport hazard class(es)
+· ADR/RID/ADN, IMDG, IATA
+· Class
+9 Miscellaneous dangerous substances and articles.
+· Label
+9
+· 14.4 Packing group
+· ADR/RID/ADN, IMDG, IATA
+III
+· 14.5 Environmental hazards
+· Marine pollutant:
+Symbol (fish and tree)
+· Special marking (ADR/RID/ADN):
+Symbol (fish and tree)
+· Special marking (IATA):
+Symbol (fish and tree)
+· 14.6 Special precautions for user:
+Warning: Miscellaneous dangerous substances and
+articles.
+· Danger code (Kemler):
+90
+· EMS Number:
+F-A,S-F
+· Stowage Category
+A
+· 14.7 Transport in bulk according to Annex II of
+Marpol and the IBC Code
+Not applicable
+· 14.8 Transport/Additional information:
+· ADR/RID/ADN
+· Limited quantities (LQ):
+5L
+· Excepted quantities (EQ)
+Code: E1
+Maximum net quantity per inner packaging: 30 ml
+Maximum net quantity per outer packaging: 1000 ml
+· Transport category:
+3
+· Tunnel restriction code:
+-
+· IMDG
+· Limited quantities (LQ)
+5L
+· Excepted quantities (EQ)
+Code: E1
+Maximum net quantity per inner packaging: 30 ml
+Maximum net quantity per outer packaging: 1000 ml
+· UN "Model Regulation":
+UN 3082 ENVIRONMENTALLY HAZARDOUS
+SUBSTANCE, LIQUID, N.O.S. (EPOXY RESINS), 9, III
+SECTION 15: Regulatory information
+· 15.1 Safety, health and environmental regulations/legislation specific for the substance or mixture
+· MAK(German Maximum Workplace Concentration)
+None of the ingredients is listed.
+· Directive 2012/18/EU
+· Named dangerous substances - ANNEX I None of the ingredients is listed.
+· Seveso category E2  Hazardous to the Aquatic Environment
+· Qualifying quantity (tonnes) for the application of lower-tier requirements 200 t
+· Qualifying quantity (tonnes) for the application of upper-tier requirements 500 t
+· National regulations:
+· Waterhazard class: Water hazard class 2 (Self-assessment): hazardous for water.
+(Contd. on page 8)
+ EU
+Trade name: Elegoo Standard Photopolymer Resin
+
+--- Page 15 ---
+Page 8/8
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+(Contd. of page 7)
+49.4.3
+· Other regulations, limitations and prohibitive regulations
+· SVHC Candidate List of REACH Regulation Annex XIV Authorisation (16/7/2019)
+None of the ingredients is listed
+· REACH Regulation Annex XVII Restriction (20/06/2019)
+See Section 16 for information about restriction of use.
+None of the ingredients is listed
+· REACH Regulation Annex XIV Authorisation List (13/6/2017)
+None of the ingredients is listed
+· 15.2 Chemical safety assessment: A Chemical Safety Assessment has not been carried out.
+SECTION 16: Other information
+· Relevant hazard statements
+H315 Causes skin irritation.
+H317 May cause an allergic skin reaction.
+H319 Causes serious eye irritation.
+H411 Toxic to aquatic life with long lasting effects.
+· Classification according to Regulation (EC) No. 1272/2008
+Skin corrosion/irritation
+Serious eye damage/eye irritation
+Skin sensitisation
+Hazardous to the aquatic environment - long-term
+(chronic) aquatic hazard
+The classification of the mixture is generally based on
+the calculation method using substance data
+according to Regulation (EC) No. 1272/2008.
+· ***************************************************************************************
+The contents and format of this SDS are in accordance with Regulation (EC) No 1907/2006, 1272/2008 and
+Regulation (EU) No 2015/830.
+DISCLAIMER OF LIABILITY
+The information in this SDS was obtained from sources which we believe are reliable. However, the
+information is provided without any warranty, express or implied, regarding its correctness. The conditions
+or methods of handling, storage, use or disposal of the product are beyond our control and may be beyond
+our knowledge. For this and other reason, we do not assume responsibility and expressly disclaim liability for
+loss, damage or expense arising out of or in any way connected with the handling, storage, use or disposal of
+the product. This SDS was prepared and is to be used only for this product. If the product is used as a
+component in another product, this SDS information may not be applicable.
+· Abbreviations and acronyms:
+ADR: Accord européen sur le transport des marchandises dangereuses par Route (European Agreement concerning the International
+Carriage of Dangerous Goods by Road)
+IMDG: International Maritime Code for Dangerous Goods
+IATA: International Air Transport Association
+GHS: Globally Harmonised System of Classification and Labelling of Chemicals
+EINECS: European Inventory of Existing Commercial Chemical Substances
+ELINCS: European List of Notified Chemical Substances
+CAS: Chemical Abstracts Service (division of the American Chemical Society)
+DNEL: Derived No-Effect Level (REACH)
+PNEC: Predicted No-Effect Concentration (REACH)
+LC50: Lethal concentration, 50 percent
+LD50: Lethal dose, 50 percent
+PBT: Persistent, Bioaccumulative and Toxic
+vPvB: very Persistent and very Bioaccumulative
+Skin Irrit. 2: Skin corrosion/irritation – Category 2
+Eye Irrit. 2: Serious eye damage/eye irritation – Category 2
+Skin Sens. 1: Skin sensitisation – Category 1
+Aquatic Chronic 2: Hazardous to the aquatic environment - long-term aquatic hazard – Category 2
+· ***********************************************************************************
+End of document
+ EU
+Trade name: Elegoo Standard Photopolymer Resin
+
+--- Page 16 ---
+
+SDS Report
+No.: CANEC1917012701
+Date: 30 Aug 2019
+Page 1 of 1
+SHENZHENSHI ZHINENGPAI TECHNOLOGY CO., LTD
+RM A205 WEIDONGLONG BUSINESS BUILDING, MEILONG AVENUE, LONGHUA DISTRICT, SHENZHEN
+SGS Job No.
+: CP19-047601
+Sample Name
+: Elegoo Water washable Resin
+End Uses
+: 3D Printing material
+Composition/Ingredient of sample
+(as per client submission)
+: See section 3 Composition/information on ingredients on the SDS report
+Job Receiving Date
+: 28 Aug 2019
+SDS Preparation Period
+: 28 Aug 2019-30 Aug 2019
+Service Requested
+: Safety Data Sheet (SDS) for the sample with submitted composition.
+Summary
+: As per request, the contents and formats of the SDS are prepared in
+accordance with European Commission Regulation (EC) No 1907/2006,
+Regulation (EC) No 1272/2008 and Regulation (EU) No 2015/830, and is
+provided per attached.
+Remark:
+The SDS is prepared based on the information provided by client.
+Signed for and on behalf of
+SGS-CSTC Standards Technical Services Co., Ltd. Guangzhou Branch
+
+Zm guan
+Approved Signatory
+
+--- Page 17 ---
+
+Page 1/9
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+49.4.3
+SECTION 1: Identification of the substance/mixture and of the company/undertaking
+· 1.1 Product identifier
+· Trade name: Elegoo Water washable Resin
+· 1.2 Relevant identified uses of the substance or mixture and uses advised against
+· Application of the substance / the mixture: 3D Printing material
+· 1.3 Details of the supplier of the safety data sheet
+· Manufacturer / Supplier: SHENZHENSHI ZHINENGPAI TECHNOLOGY CO., LTD
+· Full address:
+RM A205 WEIDONGLONG BUSINESS BUILDING, MEILONG AVENUE, LONGHUA DISTRICT,
+SHENZHEN
+· Phone number: +86- 18927469351
+· Email: kevin@elegoo.com
+· Only Representative / other EU contact point: Not available
+· Further information obtainable from: SHENZHENSHI ZHINENGPAI TECHNOLOGY CO., LTD
+· 1.4 Emergency telephone number:
+GERMANY
+Poison Center Berlin - Institute of Toxicology
+Tel: +49 030 192 40
+· 1.5 Reference Number: CP19-047601, CANEC1917012701
+SECTION 2: Hazards identification
+· 2.1 Classification of the substance or mixture
+· Classification according to Regulation (EC) No 1272/2008
+GHS09 environment
+Aquatic Chronic 2 H411 Toxic to aquatic life with long lasting effects.
+GHS07
+Skin Irrit. 2
+H315 Causes skin irritation.
+Eye Irrit. 2
+H319 Causes serious eye irritation.
+Skin Sens. 1
+H317 May cause an allergic skin reaction.
+· Information concerning particular hazards for human and environment:
+The product has to be labelled due to the calculation procedure of Regulation (EC) No.1272/2008.
+· Classification system:
+The classification is according to the latest edition of EU Regulation (EC) No. 1272/2008, and extended by
+company and literature data.
+· 2.2 Label elements
+· Labelling according to Regulation (EC) No. 1272/2008
+The product is classified and labelled according to the CLP regulation.
+· Hazard pictograms
+GHS07
+GHS09
+· Signal word Warning
+· Hazard-determining components of labelling:
+Epoxy resins
+(Contd. on page 2)
+ EU
+
+--- Page 18 ---
+Page 2/9
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+Trade name: Elegoo Water washable Resin
+(Contd. of page 1)
+49.4.3
+hexamethylene diacrylate
+· Hazard statements
+H315 Causes skin irritation.
+H319 Causes serious eye irritation.
+H317 May cause an allergic skin reaction.
+H411 Toxic to aquatic life with long lasting effects.
+· Precautionary statements
+P101
+If medical advice is needed, have product container or label at hand.
+P102
+Keep out of reach of children.
+P103
+Read label before use.
+P261
+Avoid breathing dust/fume/gas/mist/vapours/spray.
+P273
+Avoid release to the environment.
+P280
+Wear protective gloves / eye protection / face protection.
+P305+P351+P338 IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if
+present and easy to do. Continue rinsing.
+P333+P313
+If skin irritation or rash occurs: Get medical advice/attention.
+P501
+Dispose of contents/container in accordance with local/regional/national/international
+regulations.
+· 2.3 Other hazards:
+· Results of PBT and vPvB assessment
+· PBT: Not applicable.
+· vPvB: Not applicable.
+SECTION 3: Composition/information on ingredients
+· 3.2 Mixtures
+· Description:
+Mixture of the substances listed below with nonhazardous additions.
+For the wording of the listed hazard statements refer to section 16.
+· Composition:
+CAS: 61788-97-4
+Epoxy resins
+ Aquatic Chronic 2, H411;
+ Skin Irrit. 2, H315; Eye Irrit. 2,
+H319; Skin Sens. 1, H317
+50.0%
+CAS: 13048-33-4
+EINECS: 235-921-9
+Index number: 607-109-00-8
+hexamethylene diacrylate
+ Skin Irrit. 2, H315; Eye Irrit. 2, H319; Skin Sens. 1, H317
+40.0%
+CAS: 1333-86-4
+EINECS: 215-609-9
+carbon black
+substance with a Community workplace exposure limit
+5.0%
+CAS: 947-19-3
+EINECS: 213-426-9
+hydroxycyclohexyl phenyl ketone
+5.0%
+SECTION 4: First aid measures
+· 4.1 Description of first aid measures
+· General description: Immediately remove any clothing soiled by the product.
+· After inhalation:
+Supply fresh air and to be sure call for a doctor.
+In case of unconsciousness place patient stably in side position for transportation.
+· After skin contact: Immediately wash with water and soap and rinse thoroughly.
+· After eye contact:
+Rinse opened eye for several minutes under running water. If symptoms persist, consult a doctor.
+· After swallowing: If symptoms persist consult doctor.
+· 4.2 Most important symptoms and effects, both acute and delayed:
+No further relevant information available.
+(Contd. on page 3)
+ EU
+
+--- Page 19 ---
+Page 3/9
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+Trade name: Elegoo Water washable Resin
+(Contd. of page 2)
+49.4.3
+· 4.3 Indication of any immediate medical attention and special treatment needed:
+No further relevant information available.
+SECTION 5: Firefighting measures
+· 5.1 Extinguishing media
+· Suitable extinguishing agents: Use fire extinguishing methods suitable to surrounding conditions.
+· 5.2 Special hazards arising from the substance or mixture: No further relevant information available.
+· 5.3 Advice for firefighters
+· Protective equipment: No special measures required.
+SECTION 6: Accidental release measures
+· 6.1 Personal precautions, protective equipment and emergency procedures: Not required.
+· 6.2 Environmental precautions:
+Do not allow product to reach sewage system or any water sourse.
+Inform respective authorities in case of seepage into water course or sewage system.
+Do not allow to enter sewers/ surface or ground water.
+· 6.3 Methods and material for containment and cleaning up:
+Absorb with liquid-binding material (sand, diatomite, acid binders, universal binders, sawdust).
+Dispose contaminated material as waste according to section 13.
+Ensure adequate ventilation.
+· 6.4 Reference to other sections:
+See Section 7 for information on safe handling.
+See Section 8 for information on personal protection equipment.
+See Section 13 for disposal information.
+SECTION 7: Handling and storage
+· 7.1 Precautions for safe handling:
+Ensure good ventilation/exhaustion at the workplace.
+Prevent formation of aerosols.
+For the general occupational hygienic measures refer to Section 8.
+· Information about fire - and explosion protection: No special measures required.
+· 7.2 Conditions for safe storage, including any incompatibilities
+· Requirements to be met by storerooms and receptacles: No special requirements.
+· Information about storage in one common storage facility: Not required.
+· Further information about storage conditions: Keep container tightly sealed.
+· 7.3 Specific end use(s): No further relevant information available.
+SECTION 8: Exposure controls/personal protection
+· 8.1 Control parameters
+· Ingredients with limit values that require monitoring at the workplace:
+13048-33-4 hexamethylene diacrylate (40.0%)
+MAK (Germany)
+als Dampf und Aerosol;vgl.Abschn.IV
+1333-86-4 carbon black (5.0%)
+WEL (Great Britain) Short-term value: 7 mg/m³
+Long-term value: 3.5 mg/m³
+(Contd. on page 4)
+ EU
+
+--- Page 20 ---
+Page 4/9
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+Trade name: Elegoo Water washable Resin
+(Contd. of page 3)
+49.4.3
+VME (France)
+Long-term value: 3.5 mg/m³
+· Regulatory information
+MAK (Germany): MAK- und BAT-Liste
+WEL (Great Britain): EH40/2018
+VME (France): ED 984, 10.2016
+· DNELs: Not available
+· PNECs: Not available
+· Additional information: The lists valid during the making were used as basis.
+· 8.2 Exposure controls
+Based on the composition shown in Section 3, the following measures are suggested for occupational safety
+measure.
+· Appropriate engineering controls:
+Keep away from foodstuffs, beverages and feed.
+Immediately remove all soiled and contaminated clothing
+Wash hands before breaks and at the end of work.
+Avoid contact with the eyes and skin.
+See Section 7 for information about design of technical facilities.
+· Personal protective equipment
+· Respiratory protection:
+In case of brief exposure or low pollution use respiratory filter device. In case of intensive or longer exposure
+use self-contained respiratory protective device.
+· Protection of hands:
+Protective gloves
+The glove material has to be impermeable and resistant to the product/ the substance/ the preparation.
+Due to missing tests no recommendation to the glove material can be given for the product/ the preparation/
+the chemical mixture.
+Selection of the glove material on consideration of the penetration times, rates of diffusion and the
+degradation.
+· Material of gloves
+The selection of the suitable gloves does not only depend on the material, but also on further marks of quality
+and varies from manufacturer to manufacturer. As the product is a preparation of several substances, the
+resistance of the glove material can not be calculated in advance and has therefore to be checked prior to the
+application.
+· Penetration time of glove material:
+The exact break through time has to be found out by the manufacturer of the protective gloves and has to be
+observed.
+· Eye protection:
+Tightly sealed goggles
+· Environmental exposure controls:
+Control measures must be made in accordance with Community environmental protection legislation.
+SECTION 9: Physical and chemical properties
+· 9.1 Information on basic physical and chemical properties
+· Appearance
+Form:
+Liquid
+Colour:
+Grey
+· Odour:
+Ester-like
+(Contd. on page 5)
+ EU
+
+--- Page 21 ---
+Page 5/9
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+Trade name: Elegoo Water washable Resin
+(Contd. of page 4)
+49.4.3
+· Odour threshold:
+Not available
+· pH-value:
+Not available
+· Change in condition
+Melting point/Freezing point:
+Not available
+Initial boiling point and boiling range: Not available
+· Flash point:
+Not available
+· Flammability (solid, gas):
+Not available
+· Auto-ignition temperature:
+Not available
+· Decomposition temperature:
+Not available
+· Self-igniting:
+Product is not selfigniting.
+· Explosive properties:
+Product does not present an explosion hazard.
+· Explosion limits
+Lower:
+Not available
+Upper:
+Not available
+· Oxidising properties:
+Not available
+· Vapour pressure:
+Not available
+· Density:
+Not available
+· Relative density:
+Not available
+· Vapour density:
+Not available
+· Evaporation rate:
+Not available
+· Solubility in / Miscibility with
+water:
+Not available
+· Partition coefficient: n-octanol/water:
+Not available
+· Viscosity
+Dynamic:
+Not available
+Kinematic:
+Not available
+· 9.2 Other information
+No further relevant information available.
+SECTION 10: Stability and reactivity
+· 10.1 Reactivity: Data not available
+· 10.2 Chemical stability: Data not available
+· 10.3 Possibility of hazardous reactions: No dangerous reactions known.
+· 10.4 Conditions to avoid: No further relevant information available.
+· 10.5 Incompatible materials: No further relevant information available.
+· 10.6 Hazardous decomposition products: No dangerous decomposition products known.
+SECTION 11: Toxicological information
+· 11.1 Information on toxicological effects
+· Acute toxicity Based on available data, the classification criteria are not met.
+· LD/LC50 values relevant for classification:
+1333-86-4 carbon black
+Oral
+LD50 10,000 mg/kg (rat)
+(Contd. on page 6)
+ EU
+
+--- Page 22 ---
+Page 6/9
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+Trade name: Elegoo Water washable Resin
+(Contd. of page 5)
+49.4.3
+13048-33-4 hexamethylene diacrylate
+Oral
+LD50 >5,000 mg/kg (rat)
+Dermal LD50 >3,000 mg/kg (rab)
+· Skin corrosion/irritation:
+Causes skin irritation.
+· Serious eye damage/irritation:
+Causes serious eye irritation.
+· Respiratory or skin sensitization:
+May cause an allergic skin reaction.
+· Germ cell mutagenicity Based on available data, the classification criteria are not met.
+· Carcinogenicity Based on available data, the classification criteria are not met.
+· Reproductive toxicity Based on available data, the classification criteria are not met.
+· STOT-single exposure Based on available data, the classification criteria are not met.
+· STOT-repeated exposure Based on available data, the classification criteria are not met.
+· Aspiration hazard Based on available data, the classification criteria are not met.
+SECTION 12: Ecological information
+· 12.1 Toxicity
+· Aquatic toxicity: No further relevant information available.
+· 12.2 Persistence and degradability: No further relevant information available.
+· 12.3 Bioaccumulative potential: No further relevant information available.
+· 12.4 Mobility in soil: No further relevant information available.
+· 12.5 Results of PBT and vPvB assessment
+· PBT: Not applicable.
+· vPvB: Not applicable.
+· 12.6 Other adverse effects No further relevant information available.
+· 12.7 Additional ecological information:
+· General notes:
+Water hazard class 2 (German Regulation) (Self-assessment): hazardous for water
+Do not allow product to reach ground water, water course or sewage system.
+Danger to drinking water if even small quantities leak into the ground.
+Also poisonous for fish and plankton in water bodies.
+Toxic for aquatic organisms
+SECTION 13: Disposal considerations
+· 13.1 Waste treatment methods
+· Recommendation:
+Must not be disposed together with household garbage. Do not allow product to reach sewage system.
+· Uncleaned packaging
+· Recommendation: Disposal must be made according to official regulations.
+SECTION 14: Transport information
+· 14.1 UN-Number
+· ADR/RID/ADN, IMDG, IATA
+UN3082
+(Contd. on page 7)
+ EU
+
+--- Page 23 ---
+Page 7/9
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+Trade name: Elegoo Water washable Resin
+(Contd. of page 6)
+49.4.3
+· 14.2 UN proper shipping name
+· ADR/RID/ADN, IATA
+ENVIRONMENTALLY HAZARDOUS SUBSTANCE,
+LIQUID, N.O.S. (Epoxy resins)
+· IMDG
+ENVIRONMENTALLY HAZARDOUS SUBSTANCE,
+LIQUID, N.O.S. (Epoxy resins), MARINE POLLUTANT
+· 14.3 Transport hazard class(es)
+· ADR/RID/ADN, IMDG, IATA
+· Class
+9 Miscellaneous dangerous substances and articles.
+· Label
+9
+· 14.4 Packing group
+· ADR/RID/ADN, IMDG, IATA
+III
+· 14.5 Environmental hazards
+· Marine pollutant:
+Symbol (fish and tree)
+· Special marking (ADR/RID/ADN):
+Symbol (fish and tree)
+· Special marking (IATA):
+Symbol (fish and tree)
+· 14.6 Special precautions for user:
+Warning: Miscellaneous dangerous substances and
+articles.
+· Danger code (Kemler):
+90
+· EMS Number:
+F-A,S-F
+· Stowage Category
+A
+· 14.7 Transport in bulk according to Annex II of
+Marpol and the IBC Code
+Not applicable
+· 14.8 Transport/Additional information:
+· ADR/RID/ADN
+· Limited quantities (LQ):
+5L
+· Excepted quantities (EQ)
+Code: E1
+Maximum net quantity per inner packaging: 30 ml
+Maximum net quantity per outer packaging: 1000 ml
+· Transport category:
+3
+· Tunnel restriction code:
+-
+· IMDG
+· Limited quantities (LQ)
+5L
+· Excepted quantities (EQ)
+Code: E1
+Maximum net quantity per inner packaging: 30 ml
+Maximum net quantity per outer packaging: 1000 ml
+· UN "Model Regulation":
+UN 3082 ENVIRONMENTALLY HAZARDOUS
+SUBSTANCE, LIQUID, N.O.S. (EPOXY RESINS), 9, III
+SECTION 15: Regulatory information
+· 15.1 Safety, health and environmental regulations/legislation specific for the substance or mixture
+· MAK(German Maximum Workplace Concentration)
+1333-86-4 carbon black
+3B
+· Directive 2012/18/EU
+· Named dangerous substances - ANNEX I None of the ingredients is listed.
+(Contd. on page 8)
+ EU
+
+--- Page 24 ---
+Page 8/9
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+Trade name: Elegoo Water washable Resin
+(Contd. of page 7)
+49.4.3
+· Seveso category E2  Hazardous to the Aquatic Environment
+· Qualifying quantity (tonnes) for the application of lower-tier requirements 200 t
+· Qualifying quantity (tonnes) for the application of upper-tier requirements 500 t
+· National regulations:
+· Waterhazard class: Water hazard class 2 (Self-assessment): hazardous for water.
+· Other regulations, limitations and prohibitive regulations
+· SVHC Candidate List of REACH Regulation Annex XIV Authorisation (16/7/2019)
+None of the ingredients is listed
+· REACH Regulation Annex XVII Restriction (20/06/2019)
+See Section 16 for information about restriction of use.
+None of the ingredients is listed
+· REACH Regulation Annex XIV Authorisation List (13/6/2017)
+None of the ingredients is listed
+· 15.2 Chemical safety assessment: A Chemical Safety Assessment has not been carried out.
+SECTION 16: Other information
+· Relevant hazard statements
+H315 Causes skin irritation.
+H317 May cause an allergic skin reaction.
+H319 Causes serious eye irritation.
+H411 Toxic to aquatic life with long lasting effects.
+· Classification according to Regulation (EC) No. 1272/2008
+Skin corrosion/irritation
+Serious eye damage/eye irritation
+Skin sensitisation
+Hazardous to the aquatic environment - long-term
+(chronic) aquatic hazard
+The classification of the mixture is generally based on
+the calculation method using substance data
+according to Regulation (EC) No. 1272/2008.
+· ***************************************************************************************
+The contents and format of this SDS are in accordance with Regulation (EC) No 1907/2006, 1272/2008 and
+Regulation (EU) No 2015/830.
+DISCLAIMER OF LIABILITY
+The information in this SDS was obtained from sources which we believe are reliable. However, the
+information is provided without any warranty, express or implied, regarding its correctness. The conditions
+or methods of handling, storage, use or disposal of the product are beyond our control and may be beyond
+our knowledge. For this and other reason, we do not assume responsibility and expressly disclaim liability for
+loss, damage or expense arising out of or in any way connected with the handling, storage, use or disposal of
+the product. This SDS was prepared and is to be used only for this product. If the product is used as a
+component in another product, this SDS information may not be applicable.
+· Abbreviations and acronyms:
+ADR: Accord européen sur le transport des marchandises dangereuses par Route (European Agreement concerning the International
+Carriage of Dangerous Goods by Road)
+IMDG: International Maritime Code for Dangerous Goods
+IATA: International Air Transport Association
+GHS: Globally Harmonised System of Classification and Labelling of Chemicals
+EINECS: European Inventory of Existing Commercial Chemical Substances
+ELINCS: European List of Notified Chemical Substances
+CAS: Chemical Abstracts Service (division of the American Chemical Society)
+DNEL: Derived No-Effect Level (REACH)
+PNEC: Predicted No-Effect Concentration (REACH)
+LC50: Lethal concentration, 50 percent
+LD50: Lethal dose, 50 percent
+PBT: Persistent, Bioaccumulative and Toxic
+vPvB: very Persistent and very Bioaccumulative
+Skin Irrit. 2: Skin corrosion/irritation – Category 2
+(Contd. on page 9)
+ EU
+
+--- Page 25 ---
+Page 9/9
+Safety data sheet
+Regulation (EC) No. 1907/2006 and 1272/2008
+Printing date 30.08.2019
+Revision: 30.08.2019
+Version number 1
+Trade name: Elegoo Water washable Resin
+(Contd. of page 8)
+49.4.3
+Eye Irrit. 2: Serious eye damage/eye irritation – Category 2
+Skin Sens. 1: Skin sensitisation – Category 1
+Aquatic Chronic 2: Hazardous to the aquatic environment - long-term aquatic hazard – Category 2
+· ***********************************************************************************
+End of document
+ EU
+
+--- Page 26 ---
+
+SAFETY DATA SHEET
+Page : 1 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+SECTION 1: Identification of the substance/mixture and of the company/undertaking
+
+1.1.
+Product identifier
+Product form
+: Mixture
+Trade name
+: ANYCUBIC
+3D Printing ECO UV Resin
+
+1.2.
+Relevant identified uses of the substance or mixture and uses advised against
+1.2.1.
+Relevant identified uses
+Intended for general public
+Main use category
+: Consumer use
+Use of the substance/mixture
+: 3D printer filaments
+
+1.2.2.
+Uses advised against
+No additional information available
+
+1.3.
+Details of the supplier of the safety data sheet
+Shenzhen Anycubic Technology Co., Ltd
+Room 101-501, Building No. 11, Yinhai Industrial Park, Yinhe Community, Yuanshan Street
+518000 Longgang District, Shenzhen, Guangdong - China
+T 15002066159
+xiexiaona@anycubic.com
+
+1.4.
+Emergency telephone number
+Emergency number
+: 15112413757
+Only available during office hours.
+
+Country
+Official advisory body
+Address
+Emergency number
+Ireland
+National Poisons Information Centre
+Beaumont Hospital
+PO Box 1297
+Beaumont Road
+9 Dublin
++353 1 809 2566
+(Healthcare
+professionals-24/7)
++353 1 809 2166 (public,
+8am - 10pm, 7/7)
+United Kingdom
+National Poisons Information Service
+(Newcastle Centre)
+Regional Drugs and Therapeutics Centre, Wolfson Unit
+Claremont Place
+Newcastle-upon-Tyne
+NE1 4LP Newcastle
+0844 892 0111 (UK only,
+24/7, healthcare
+professionals only)
+SECTION 2: Hazards identification
+
+2.1.
+Classification of the substance or mixture
+Classification according to Regulation (EC) No. 1272/2008 [CLP]Mixtures/Substances: SDS EU > 2015: According to
+Regulation (EU) 2015/830, 2020/878 (REACH Annex II)
+Skin Irrit. 2
+H315
+Eye Irrit. 2
+H319
+Skin Sens. 1
+H317
+STOT SE 3
+H335
+Aquatic Acute 1
+H400
+Aquatic Chronic 1 H410
+
+Full text of H-statements: see section 16
+
+ANYCUBIC
+
+--- Page 27 ---
+
+SAFETY DATA SHEET
+Page : 2 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+2.2.
+Label elements
+Labelling according to Regulation (EC) No. 1272/2008 [CLP] Extra labelling to displayExtra classification(s) to display
+Hazard pictograms (CLP)
+:
+
+GHS07
+
+GHS09
+
+Signal word
+: Warning
+Hazardous ingredients
+: isooctyl acrylate; 2-[[2,2-bis[[(1-oxoallyl)oxy]methyl]butoxy]methyl]-2-ethyl-1,3-
+propanediyl diacrylate
+Hazard statements (CLP)
+: H315 - Causes skin irritation.
+H317 - May cause an allergic skin reaction.
+H319 - Causes serious eye irritation.
+H335 - May cause respiratory irritation.
+H410 - Very toxic to aquatic life with long lasting effects.
+Precautionary statements (CLP)
+: P101 - If medical advice is needed, have product container or label at hand.
+P102 - Keep out of reach of children.
+P261 - Avoid breathing vapours.
+P264 - Wash hands thoroughly after handling.
+P271 - Use only outdoors or in a well-ventilated area.
+P273 - Avoid release to the environment.
+P280 - Wear protective gloves, protective clothing, eye protection, face
+protection.
+P302+P352 - IF ON SKIN: Wash with plenty of water.
+P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes.
+Remove contact lenses, if present and easy to do. Continue rinsing.
+P391 - Collect spillage.
+P501 - Dispose of contents and container to an approved waste disposal plant.
+
+2.3.
+Other hazards
+Other hazards
+: Results of PBT and vPvB assessment : Not applicable.
+
+The mixture does not contain substance(s) included in the list established in accordance with Article 59(1) of REACH for
+having endocrine disrupting properties, or is not identified as having endocrine disrupting properties in accordance with
+the criteria set out in Commission Delegated Regulation (EU) 2017/2100 or Commission Regulation (EU) 2018/605
+
+SECTION 3: Composition/information on ingredients
+
+3.1.
+Substances
+Not applicable
+
+3.2.
+Mixtures
+
+Substance name
+Product identifier
+%
+Classification according
+to Regulation (EC) No.
+1272/2008 [CLP]
+Fatty acids, soya, epoxidized, Bu esters
+(CAS-No.) 71302-80-2
+45
+Not classified
+ANYCUBIC
+
+--- Page 28 ---
+
+SAFETY DATA SHEET
+Page : 3 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+isooctyl acrylate
+(CAS-No.) 29590-42-9
+(EC-No.) 249-707-8
+(EC Index) 607-244-00-2
+30
+Skin Irrit. 2, H315
+Eye Irrit. 2, H319
+STOT SE 3, H335
+Aquatic Acute 1, H400
+Aquatic Chronic 1, H410
+2-[[2,2-bis[[(1-oxoallyl)oxy]methyl]butoxy]methyl]-2-ethyl-
+1,3-propanediyl diacrylate
+(CAS-No.) 94108-97-1
+(EC-No.) 302-434-9
+15
+Skin Irrit. 2, H315
+Eye Irrit. 2, H319
+Skin Sens. 1, H317
+2-hydroxy-1-(4-(4-(2-hydroxy-2-
+methylpropionyl)benzyl)phenyl)-2-methylpropan-1-one
+(CAS-No.) 474510-57-1
+(EC-No.) 444-860-9
+(EC Index) 606-140-00-4
+5
+STOT RE 2, H373
+Aquatic Acute 1, H400
+Aquatic Chronic 1, H410
+Polychloro copper phthalocyanine
+(CAS-No.) 1328-53-6
+(EC-No.) 215-524-7
+(EC Index) -
+5
+Not classified
+
+Specific concentration limits:
+Substance name
+Product identifier
+Specific concentration limits
+isooctyl acrylate
+(CAS-No.) 29590-42-9
+(EC-No.) 249-707-8
+(EC Index) 607-244-00-2
+( 10 ≤C < 100) STOT SE 3, H335
+
+Full text of H- and EUH-statements: see section 16
+
+SECTION 4: First aid measures
+
+4.1.
+Description of first aid measures
+Additional advice
+: First aider: Pay attention to self-protection!. Concerning personal protective
+equipment to use, see section 8. Never give anything by mouth to an
+unconscious person. In case of doubt or persistent symptoms, consult always a
+physician. Show this safety data sheet to the doctor in attendance.
+Inhalation
+: Remove casualty to fresh air and keep warm and at rest. Give oxygen or
+artificial respiration if necessary. In case of doubt or persistent symptoms,
+consult always a physician.
+Skin contact
+: Remove contaminated clothing and shoes. Gently wash with plenty of soap
+and water. In case of doubt or persistent symptoms, consult always a
+physician.
+Eyes contact
+: Rinse immediately carefully and thoroughly with eye-bath or water. Remove
+contact lenses, if present and easy to do. Continue rinsing. In case of doubt or
+persistent symptoms, consult always a physician.
+Ingestion
+: Rinse mouth thoroughly with water. Get medical advice/attention.
+
+4.2.
+Most important symptoms and effects, both acute and delayed
+Inhalation
+: May cause respiratory irritation. The following symptoms may occur:
+Headache. Nausea. Irritation.
+Skin contact
+: May cause an allergic skin reaction. Causes skin irritation. The following
+symptoms may occur: Redness, pain.
+Eyes contact
+: Causes serious eye irritation. The following symptoms may occur: Redness,
+pain.
+Ingestion
+: May cause gastrointestinal irritation, nausea, vomiting and diarrhoea.
+
+4.3.
+Indication of any immediate medical attention and special treatment needed
+Treat symptomatically.
+SECTION 5: Firefighting measures
+
+5.1.
+Extinguishing media
+Suitable extinguishing media
+: carbon dioxide (CO2), powder, alcohol-resistant foam, water spray.
+Unsuitable extinguishing media
+: Strong water jet.
+ANYCUBIC
+
+--- Page 29 ---
+
+SAFETY DATA SHEET
+Page : 4 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+5.2.
+Special hazards arising from the substance or mixture
+Specific hazards
+: Not flammable. Heating will cause a rise in pressure with a risk of bursting.
+Hazardous decomposition products in
+case of fire
+: Carbon oxides (CO, CO2).
+
+5.3.
+Advice for firefighters
+Firefighting instructions
+: Evacuate area. Use water spray or fog for cooling exposed containers. Contain
+the extinguishing fluids by bunding. Prevent fire fighting water from entering
+the environment.
+Protection during firefighting
+: Do not attempt to take action without suitable protective equipment. Self-
+contained breathing apparatus.
+Other information
+: Do not allow run-off from fire-fighting to enter drains or water courses.
+Dispose of waste in accordance with environmental legislation.
+SECTION 6: Accidental release measures
+
+6.1.
+Personal precautions, protective equipment and emergency procedures
+6.1.1.
+For non-emergency personnel
+For non-emergency personnel
+: Evacuate unnecessary personnel. Keep upwind. Provide adequate ventilation.
+Do not breathe vapours. Avoid contact with skin, eyes and clothing. Wear
+recommended personal protective equipment. Concerning personal protective
+equipment to use, see section 8. Keep away from heat, hot surfaces, sparks,
+open flames and other ignition sources. No smoking.
+6.1.2.
+For emergency responders
+For emergency responders
+: Ensure procedures and training for emergency decontamination and disposal
+are in place. Concerning personal protective equipment to use, see section 8.
+
+6.2.
+Environmental precautions
+Do not allow to enter into surface water or drains. Notify authorities if product enters sewers or public waters.
+
+6.3.
+Methods and material for containment and cleaning up
+Methods for cleaning up
+: Stop leak if safe to do so. Dam up the liquid spill. Small quantities of liquid
+spill: take up in non-combustible absorbent material and shovel into container
+for disposal. Recover large spills by pumping (use an explosion proof or hand
+pump). Place in a suitable container for disposal in accordance with the waste
+regulations (see Section 13). This material and its container must be disposed
+of in a safe way, and as per local legislation.
+
+6.4.
+Reference to other sections
+Concerning personal protective equipment to use, see section 8. Concerning disposal elimination after cleaning, see
+section 13.
+SECTION 7: Handling and storage
+
+7.1.
+Precautions for safe handling
+Precautions for safe handling
+: Provide adequate ventilation. Do not breathe vapours. Avoid contact with skin,
+eyes and clothing. Use personal protective equipment as required. Concerning
+personal protective equipment to use, see section 8. Take any precaution to
+avoid mixing with Incompatible materials, Refer to Section 10 on Incompatible
+Materials. Ensure proper process control to avoid excess waste discharge
+(temperature, concentration, pH, time). Avoid release to the environment.
+Contaminated work clothing must not be allowed out of the workplace. Keep
+away from heat, hot surfaces, sparks, open flames and other ignition sources.
+No smoking.
+ANYCUBIC
+
+--- Page 30 ---
+
+SAFETY DATA SHEET
+Page : 5 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+Hygiene measures
+: Keep good industrial hygiene. Wash hands and other exposed areas with mild
+soap and water before eating, drinking or smoking and when leaving work. Do
+not eat, drink or smoke when using this product. Keep away from food, drink
+and animal feedingstuffs. Remove contaminated clothes. Separate working
+clothes from town clothes. Launder separately. Wash contaminated clothing
+before reuse.
+
+7.2.
+Conditions for safe storage, including any incompatibilities
+Technical measures
+: Keep out of the reach of children.
+Storage conditions
+: Store in a dry, cool and well-ventilated place. Do not store near or with any of
+the incompatible materials listed in section 10. Bund storage facilities to
+prevent soil and water pollution in the event of spillage.
+Heat and ignition sources
+: Keep away from heat, hot surfaces, sparks, open flames and other ignition
+sources. No smoking. Protect from sunlight.
+Special rules on packaging
+: Containers which are opened should be properly resealed and kept upright to
+prevent leakage. Keep container tight closed.
+Packaging materials
+: Keep only in the original container.
+
+7.3.
+Specific end use(s)
+3D printer filaments.
+SECTION 8: Exposure controls/personal protection
+
+8.1.
+Control parameters
+
+Additional information
+: Recommended monitoring procedures :. Personal air monitoring. Room air
+monitoring
+8.2.
+Exposure controls
+Engineering measure(s)
+: Organisational measures to prevent /limit releases, dispersion and exposure.
+See Section 7 for information on safe handling. Use only outdoors or in a well-
+ventilated area.
+Personal protective equipment
+: The type of protective equipment must be selected according to the
+concentration and amount of the dangerous substance at the specific
+workplace.
+Hand protection
+: Wear chemically resistant gloves (tested to EN374) . Suitable material: Not
+determined. Thickness : Not determined. Breakthrough time : Not determined.
+The quality of the protective gloves resistant to chemicals must be chosen as a
+function of the specific working place concentration and quantity of hazardous
+substances.
+Eye protection
+: Use suitable eye protection (EN166): goggles
+Body protection
+: Wear suitable protective clothing
+Respiratory protection
+: In case of insufficient ventilation, wear suitable respiratory equipment. Half-
+face mask (DIN EN 140). full face mask (DIN EN 136). Filter type: (ABEK)
+(EN14387). The filter class must be suitable for the maximum contaminant
+concentration (gas/vapour/aerosol/particulates) that may arise when handling
+the product. If the concentration is exceeded, self-contained breathing
+apparatus must be used. (EN 137)
+Thermal hazard protection
+: Not required for normal conditions of use. Use dedicated equipment.
+Environmental exposure controls
+: Avoid release to the environment. Comply with applicable Community
+environmental protection legislation.
+ANYCUBIC
+
+--- Page 31 ---
+
+SAFETY DATA SHEET
+Page : 6 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+SECTION 9: Physical and chemical properties
+
+9.1.
+Information on basic physical and chemical properties
+Physical state
+: Liquid
+Appearance
+: Liquid.
+Colour
+: pink.
+Odour
+: slight.
+Odour threshold
+: No data available
+pH
+: No data available
+Relative evaporation rate (butylacetate=1)
+: No data available
+Melting / freezing point
+: No data available
+
+Freezing point
+: No data available
+
+Initial boiling point and boiling range
+: No data available
+
+Flash point
+: No data available
+
+Auto-ignition temperature
+: Not self-igniting
+
+Decomposition temperature
+: No data available
+
+Flammability (solid, gas)
+: Not applicable,liquid
+
+Vapour pressure
+: No data available
+
+Vapour density
+: No data available
+
+Relative density
+: No data available
+
+Solubility
+: No data available.
+
+Partition coefficient n-octanol/water
+: No data available
+
+Kinematic viscosity
+: No data available
+
+Dynamic viscosity
+: No data available
+
+Explosive properties
+: Not applicable. The study does not need to be conducted because there are
+no chemical groups associated with explosive properties present in the
+molecule.
+
+Oxidising properties
+: Not applicable. The classification procedure needs not to be applied because
+there are no chemical groups present in the molecule which are associated
+with oxidising properties.
+
+Explosive limits
+: No data available
+
+Particle size
+: Not applicable
+Particle size distribution
+: Not applicable
+Particle shape
+: Not applicable
+Particle aspect ratio
+: Not applicable
+Particle aggregation state
+: Not applicable
+Particle agglomeration state
+: Not applicable
+Particle specific surface area
+: Not applicable
+Particle dustiness
+: Not applicable
+
+9.2.
+Other information
+9.2.1. Information with regard to physical hazard classes
+No additional information available
+ANYCUBIC
+
+--- Page 32 ---
+
+SAFETY DATA SHEET
+Page : 7 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+9.2.2. Other safety characteristics
+No additional information available
+SECTION 10: Stability and reactivity
+
+10.1.
+Reactivity
+None under normal conditions. Reference to other sections: 10.4 & 10.5.
+
+10.2.
+Chemical stability
+Stable under normal conditions.
+
+10.3.
+Possibility of hazardous reactions
+No dangerous reactions known under normal conditions of use.
+
+10.4.
+Conditions to avoid
+Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking. Protect from sunlight.
+See Section 7 for information on safe handling.
+
+10.5.
+Incompatible materials
+Strong oxidizing agents. See Section 7 for information on safe handling.
+
+10.6.
+Hazardous decomposition products
+Reference to other sections 5.2.
+
+SECTION 11: Toxicological information
+
+11.1.
+Information on hazard classes as defined in Regulation (EC) No 1272/2008
+Acute toxicity
+: Not classified (Based on available data, the classification criteria are not met)
+
+isooctyl acrylate (29590-42-9)
+LD50/oral/rat
+> 5 g/kg
+LD50/dermal/rabbit
+> 2000 mg/kg
+
+2-hydroxy-1-(4-(4-(2-hydroxy-2-methylpropionyl)benzyl)phenyl)-2-methylpropan-1-one (474510-57-1)
+LD50/dermal/rat
+> 2000 mg/kg
+
+Polychloro copper phthalocyanine (1328-53-6)
+LD50/oral/rat
+> 5000 mg/kg
+
+Skin corrosion/irritation
+: Causes skin irritation.
+pH: No data available
+Serious eye damage/irritation
+: Causes serious eye irritation.
+pH: No data available
+Respiratory or skin sensitisation
+: May cause an allergic skin reaction.
+Germ cell mutagenicity
+: Not classified (Based on available data, the classification criteria are not met)
+Carcinogenicity
+: Not classified (Based on available data, the classification criteria are not met)
+
+Reproductive toxicity
+: Not classified (Based on available data, the classification criteria are not met)
+STOT-single exposure
+: May cause respiratory irritation.
+
+STOT-repeated exposure
+: Not classified (Based on available data, the classification criteria are not met)
+
+Aspiration hazard
+: Not classified (Based on available data, the classification criteria are not met)
+
+ANYCUBIC
+3D Printing ECO UV Resin
+Kinematic viscosity
+No data available
+
+ANYCUBIC
+
+--- Page 33 ---
+
+SAFETY DATA SHEET
+Page : 8 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+Other information
+: Symptoms related to the physical, chemical and toxicological characteristics.
+For further information see section 4.
+11.2. Information on other hazards
+11.2.1. Endocrine disrupting properties
+Adverse health effects caused by
+endocrine disrupting properties
+: Not applicable
+11.2.2 Other information
+Other information
+: Symptoms related to the physical, chemical and toxicological
+characteristics,For further information see section 4
+
+SECTION 12: Ecological information
+
+12.1. Toxicity
+Environmental properties
+: Very toxic to aquatic life. Very toxic to aquatic life with long lasting effects.
+Hazardous to the aquatic environment,
+short-term (acute)
+: Very toxic to aquatic life.
+Hazardous to the aquatic environment,
+long-term (chronic)
+: Very toxic to aquatic life with long lasting effects.
+
+isooctyl acrylate (29590-42-9)
+LC50 - Fish [1]
+0,67 mg/l (Exposure time: 96 h - Species: Pimephales promelas)
+EC50 - Crustacea [1]
+0,4 mg/l (Exposure time: 48 h - Species: Daphnia magna)
+
+2-hydroxy-1-(4-(4-(2-hydroxy-2-methylpropionyl)benzyl)phenyl)-2-methylpropan-1-one (474510-57-1)
+LC50 - Fish [1]
+3,5 mg/l (Exposure time: 96 h - Species: Danio rerio [static])
+
+Polychloro copper phthalocyanine (1328-53-6)
+LC50 - Fish [1]
+752,4 mg/l (Exposure time: 96 h - Species: Lepomis macrochirus [static])
+
+12.2. Persistence and degradability
+ANYCUBIC
+3D Printing ECO UV Resin
+Persistence and degradability
+No additional information available.
+
+12.3. Bioaccumulative potential
+ANYCUBIC
+3D Printing ECO UV Resin
+Partition coefficient n-octanol/water
+No data available
+Bioaccumulative potential
+No additional information available.
+
+isooctyl acrylate (29590-42-9)
+BCF - Fish [1]
+(no bioaccumulation expected)
+
+ANYCUBIC
+
+--- Page 34 ---
+
+SAFETY DATA SHEET
+Page : 9 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+Polychloro copper phthalocyanine (1328-53-6)
+BCF - Fish [1]
+0,51 – 74
+
+12.4. Mobility in soil
+ANYCUBIC
+3D Printing ECO UV Resin
+Mobility in soil
+No data available
+
+12.5. Results of PBT and vPvB assessment
+ANYCUBIC
+3D Printing ECO UV Resin
+Results of PBT assessment
+Not applicable
+
+12.6. Endocrine disrupting properties
+Adverse effects on the environment
+caused by endocrine disrupting properties
+: Not applicable
+
+12.7. Other adverse effects
+Other adverse effects
+: No data available
+
+SECTION 13: Disposal considerations
+
+13.1.
+Waste treatment methods
+Product/Packaging disposal
+recommendations
+: Avoid release to the environment. Dispose of empty containers and wastes
+safely. See Section 7 for information on safe handling. Refer to
+manufacturer/supplier for information on recovery/recycling. Recycling is
+preferred to disposal or incineration. If recycling is not possible, eliminate in
+accordance with local valid waste disposal regulations. Handle contaminated
+packages in the same way as the substance itself. Dispose of contaminated
+materials in accordance with current regulations. Do not pierce or burn, even
+after use. Never use pressure to empty container.
+European waste catalogue
+(2001/573/EC, 75/442/EEC, 91/689/EEC)
+: This material and its container must be disposed of as hazardous waste
+Waste codes should be assigned by the user, preferably in discussion with the
+waste disposal authorities
+SECTION 14: Transport information
+
+In accordance with ADR / RID / IMDG / IATA / ADN
+ADR
+IMDG
+IATA
+ADN
+RID
+14.1.
+UN number
+3082
+3082
+3082
+3082
+3082
+14.2.
+UN proper shipping name
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one)
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one)
+Environmentally
+hazardous substance,
+liquid, n.o.s. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one)
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one)
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one)
+ANYCUBIC
+
+--- Page 35 ---
+
+SAFETY DATA SHEET
+Page : 10 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+ADR
+IMDG
+IATA
+ADN
+RID
+Transport document description
+UN 3082
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one),
+9, III, (-)
+
+UN 3082
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one),
+9, III, MARINE
+POLLUTANT
+
+UN 3082
+Environmentally
+hazardous substance,
+liquid, n.o.s. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one),
+9, III
+
+UN 3082
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one),
+9, III
+
+UN 3082
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (isooctyl
+acrylate ; 2-hydroxy-1-
+(4-(4-(2-hydroxy-2-
+methylpropionyl)benz
+yl)phenyl)-2-
+methylpropan-1-one),
+9, III
+
+14.3.
+Transport hazard class(es)
+9
+9
+9
+9
+9
+
+14.4.
+Packing group
+III
+III
+III
+III
+III
+14.5.
+Environmental hazards
+Dangerous for the
+environment : Yes
+Dangerous for the
+environment : Yes
+Marine pollutant : Yes
+Dangerous for the
+environment : Yes
+Dangerous for the
+environment : Yes
+Dangerous for the
+environment : Yes
+No supplementary information available
+
+14.6.
+Special precautions for user
+Special precautions for user
+: No data available
+- Overland transport
+Classification code (ADR)
+:
+M6
+Special provisions
+:
+274, 335, 375, 601
+Limited quantities (ADR)
+:
+5l
+Excepted quantities (ADR)
+:
+E1
+Packing instructions (ADR)
+:
+P001, IBC03, LP01, R001
+Special packing provisions (ADR)
+:
+PP1
+Mixed packing provisions (ADR)
+:
+MP19
+Portable tank and bulk container
+instructions (ADR)
+:
+T4
+Portable tank and bulk container
+special provisions (ADR)
+:
+TP1, TP29
+Tank code (ADR)
+:
+LGBV
+Vehicle for tank carriage
+:
+AT
+Transport category (ADR)
+:
+3
+Special provisions for carriage -
+Packages (ADR)
+:
+V12
+ANYCUBIC
+
+--- Page 36 ---
+
+SAFETY DATA SHEET
+Page : 11 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+Special provisions for carriage -
+Loading, unloading and handling
+(ADR)
+:
+CV13
+Hazard identification number (Kemler
+No.)
+:
+90
+Orange plates
+:
+
+Tunnel restriction code
+:
+-
+EAC code
+:
+•3Z
+- Transport by sea
+Special provisions (IMDG)
+: 274, 335, 969
+Limited quantities (IMDG)
+: 5 L
+Excepted quantities (IMDG)
+: E1
+Packing instructions (IMDG)
+: LP01, P001
+Special packing provisions (IMDG)
+: PP1
+IBC packing instructions (IMDG)
+: IBC03
+Tank instructions (IMDG)
+: T4
+Tank special provisions (IMDG)
+: TP1, TP29
+EmS-No. (Fire)
+: F-A
+EmS-No. (Spillage)
+: S-F
+Stowage category (IMDG)
+: A
+- Air transport
+PCA Excepted quantities (IATA)
+: E1
+PCA Limited quantities (IATA)
+: Y964
+PCA limited quantity max net quantity
+(IATA)
+: 30kgG
+PCA packing instructions (IATA)
+: 964
+PCA max net quantity (IATA)
+: 450L
+CAO packing instructions (IATA)
+: 964
+CAO max net quantity (IATA)
+: 450L
+Special provisions (IATA)
+: A97, A158, A197, A215
+ERG code (IATA)
+: 9L
+- Inland waterway transport
+Classification code (ADN)
+: M6
+Special provisions (ADN)
+: 274, 335, 375, 601
+Limited quantities (ADN)
+: 5 L
+Excepted quantities (ADN)
+: E1
+Equipment required (ADN)
+: PP
+Number of blue cones/lights (ADN)
+: 0
+- Rail transport
+Classification code (RID)
+: M6
+Special provisions (RID)
+: 274, 335, 375, 601
+Limited quantities (RID)
+: 5L
+ANYCUBIC
+
+--- Page 37 ---
+
+SAFETY DATA SHEET
+Page : 12 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+Excepted quantities (RID)
+: E1
+Packing instructions (RID)
+: P001, IBC03, LP01, R001
+Special packing provisions (RID)
+: PP1
+Mixed packing provisions (RID)
+: MP19
+Portable tank and bulk container
+instructions (RID)
+: T4
+Portable tank and bulk container special
+provisions (RID)
+: TP1, TP29
+Tank codes for RID tanks (RID)
+: LGBV
+Transport category (RID)
+: 3
+Special provisions for carriage –
+Packages (RID)
+: W12
+Special provisions for carriage -
+Loading, unloading and handling (RID)
+: CW13, CW31
+Colis express (express parcels) (RID)
+: CE8
+Hazard identification number (RID)
+: 90
+
+14.7.
+Maritime transport in bulk according to IMO instruments
+Code: IBC
+: No data available.
+
+SECTION 15: Regulatory information
+
+15.1.
+Safety, health and environmental regulations/legislation specific for the substance or mixture
+15.1.1. EU-Regulations
+The following restrictions are applicable according to Annex XVII of the REACH Regulation (EC) No 1907/2006:
+3(b) Substances or mixtures fulfilling the criteria for any of the following hazard
+classes or categories set out in Annex I to Regulation (EC) No 1272/2008: Hazard
+classes 3.1 to 3.6, 3.7 adverse effects on sexual function and fertility or on
+development, 3.8 effects other than narcotic effects, 3.9 and 3.10
+ANYCUBIC
+3D Printing ECO UV Resin
+3(c) Substances or mixtures fulfilling the criteria for any of the following hazard classes
+or categories set out in Annex I to Regulation (EC) No 1272/2008: Hazard class 4.1
+ANYCUBIC
+3D Printing ECO UV Resin
+
+Contains no substance on the REACH candidate list
+
+Contains no REACH Annex XIV substances
+
+15.1.2. National regulations
+
+France
+No ICPE
+Installations classées
+Désignation de la rubrique
+Code Régime Rayon
+4510.text
+Dangereux pour l'environnement aquatique de catégorie aiguë 1 ou chronique
+1.
+
+4510.1
+La quantité totale susceptible d'être présente dans l'installation étant :
+1. Supérieure ou égale à 100 t
+Quantité seuil bas au sens de l'article R. 511-10 : 100 t.
+Quantité seuil haut au sens de l'article R. 511-10 : 200 t.
+A
+1
+4510.2
+La quantité totale susceptible d'être présente dans l'installation étant :
+2. Supérieure ou égale à 20 t mais inférieure à 100 t
+Quantité seuil bas au sens de l'article R. 511-10 : 100 t.
+Quantité seuil haut au sens de l'article R. 511-10 : 200 t.
+DC
+
+Germany
+ANYCUBIC
+
+--- Page 38 ---
+
+SAFETY DATA SHEET
+Page : 13 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+Regulatory reference
+: WGK 3, Highly hazardous to water (Classification according to AwSV, Annex 1)
+German storage class (LGK)
+: LGK 12 - Non-combustible liquids
+Hazardous Incident Ordinance (12.
+BImSchV)
+
+: Listed in the 12. BlmSchV (Annex I) under: 1.3.1
+Quantity threshold for operational area under § 1 para. 1
+-
+Sentence 1: 100000 kg
+-
+Sentence 2: 200000 kg
+
+Netherlands
+Waterbezwaarlijkheid
+: A (1) - zeer vergiftig voor in water levende orga-nismen kan in aquatische
+milieu op lange termijnschadelijke effecten veroorzaken
+SZW-lijst van kankerverwekkende
+stoffen
+: None of the components are listed
+SZW-lijst van mutagene stoffen
+: None of the components are listed
+NIET-limitatieve lijst van voor de
+voortplanting giftige stoffen –
+Borstvoeding
+: None of the components are listed
+NIET-limitatieve lijst van voor de
+voortplanting giftige stoffen –
+Vruchtbaarheid
+: None of the components are listed
+NIET-limitatieve lijst van voor de
+voortplanting giftige stoffen –
+Ontwikkeling
+: None of the components are listed
+
+Denmark
+Recommendations Danish Regulation
+: Young people below the age of 18 years are not allowed to use the product
+Pregnant/breastfeeding women working with the product must not be in direct
+contact with the product
+
+15.2.
+Chemical safety assessment
+
+Not applicable
+
+SECTION 16: Other information
+
+Abbreviations and acronyms:
+
+ABM = Algemene beoordelingsmethodiek
+
+ADN = Accord Européen relatif au Transport International des Marchandises Dangereuses par voie de Navigation du
+Rhin
+ADR = Accord européen relatif au transport international des marchandises Dangereuses par Route
+CLP = Classification, Labelling and Packaging Regulation according to 1272/2008/EC
+IATA = International Air Transport Association
+IMDG = International Maritime Dangerous Goods Code
+LEL = Lower Explosive Limit/Lower Explosion Limit
+UEL = Upper Explosion Limit/Upper Explosive Limit
+REACH = Registration, Evaluation, Authorisation and Restriction of Chemicals
+
+BTT = Breakthrough time (maximum wearing time)
+
+DMEL = Derived Minimal Effect level
+
+DNEL = Derived No Effect Level
+
+EC50 = Median Effective Concentration
+
+EL50 = Median effective level
+
+ErC50 = EC50 in terms of reduction of growth rate
+
+ErL50 = EL50 in terms of reduction of growth rate
+ANYCUBIC
+
+--- Page 39 ---
+
+SAFETY DATA SHEET
+Page : 14 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+EWC =  European waste catalogue
+
+LC50 =  Median lethal concentration
+
+LD50 = Median lethal dose
+
+LL50 = Median lethal level
+
+NA =  Not applicable
+
+NOEC = No observed effect concentration
+
+NOEL: no-observed-effect level
+
+NOELR = No observed effect loading rate
+
+NOAEC = No observed adverse effect concentration
+
+NOAEL = No observed adverse effect level
+
+N.O.S. = Not Otherwise Specified
+
+OEL = Occupational Exposure Limits - Short Term Exposure Limits (STELs)
+
+PNEC = Predicted No Effect Concentration
+
+Quantitative structure-activity relationship (QSAR)
+
+STOT = Specific Target Organ Toxicity
+
+TWA = time weighted average
+
+VOC = Volatile organic compounds
+
+WGK = Wassergefährdungsklasse (Water Hazard Class under German Federal Water Management Act)
+
+Sources of key data used to compile the
+datasheet
+: ECHA (European Chemicals Agency). LOLI. Supplier information.
+Training advice
+: Training staff on good practice. Manipulations are to be done only by qualified
+and authorised persons.
+Other information
+: Classification - Assessment method: CLP Calculation method (Article 9).
+
+ Full text of H- and EUH-statements:
+Aquatic Acute 1
+Hazardous to the aquatic environment — Acute Hazard, Category 1
+Aquatic Chronic 1
+Hazardous to the aquatic environment — Chronic Hazard, Category 1
+Eye Irrit. 2
+Serious eye damage/eye irritation, Category 2
+Skin Irrit. 2
+Skin corrosion/irritation, Category 2
+Skin Sens. 1
+Skin sensitisation, Category 1
+STOT RE 2
+Specific target organ toxicity — Repeated exposure, Category 2
+STOT SE 3
+Specific target organ toxicity — Single exposure, Category 3, Respiratory tract irritation
+H315
+Causes skin irritation.
+H317
+May cause an allergic skin reaction.
+H319
+Causes serious eye irritation.
+H335
+May cause respiratory irritation.
+H373
+May cause damage to organs through prolonged or repeated exposure.
+H400
+Very toxic to aquatic life.
+H410
+Very toxic to aquatic life with long lasting effects.
+
+according to Regulation (EC) No. 1907/2006 (REACH) with its amendment Regulation (EU) 2020/878
+Classification according to Regulation (EC) No. 1272/2008 [CLP]
+Labelling according to Regulation (EC) No. 1272/2008 [CLP]
+
+DISCLAIMER OF LIABILITY  The information in this SDS was obtained from sources which we believe are reliable.
+However, the information is provided without any warranty, express or implied, regarding its correctness.  The conditions
+or methods of handling, storage, use or disposal of the product are beyond our control and may be beyond our
+ANYCUBIC
+
+--- Page 40 ---
+
+SAFETY DATA SHEET
+Page : 15 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing ECO UV Resin
+Supersedes :
+
+knowledge.  For this and other reasons, we do not assume responsibility and expressly disclaim liability for loss, damage
+or expense arising out of or in any way connected with the handling, storage, use or disposal of the product.  This SDS
+was prepared and is to be used only for this product.  If the product is used as a component in another product, this SDS
+information may not be applicable.
+
+ANYCUBIC
+
+--- Page 41 ---
+
+SAFETY DATA SHEET
+Page : 1 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+SECTION 1: Identification of the substance/mixture and of the company/undertaking
+
+1.1.
+Product identifier
+Product form
+: Mixture
+Trade name
+: ANYCUBIC
+3D Printing UV Sensitive Resin
+
+1.2.
+Relevant identified uses of the substance or mixture and uses advised against
+1.2.1.
+Relevant identified uses
+Intended for general public
+Main use category
+: Consumer use
+Use of the substance/mixture
+: 3D printer filaments
+
+1.2.2.
+Uses advised against
+No additional information available
+
+1.3.
+Details of the supplier of the safety data sheet
+Shenzhen Anycubic Technology Co., Ltd
+Room 101-501, Building No. 11, Yinhai Industrial Park, Yinhe Community, Yuanshan Street
+518000 Longgang District, Shenzhen, Guangdong - China
+T 15002066159
+xiexiaona@anycubic.com
+
+1.4.
+Emergency telephone number
+Emergency number
+: 15112413757
+Only available during office hours.
+
+Country
+Official advisory body
+Address
+Emergency number
+Ireland
+National Poisons Information Centre
+Beaumont Hospital
+PO Box 1297
+Beaumont Road
+9 Dublin
++353 1 809 2566
+(Healthcare
+professionals-24/7)
++353 1 809 2166 (public,
+8am - 10pm, 7/7)
+United Kingdom
+National Poisons Information Service
+(Newcastle Centre)
+Regional Drugs and Therapeutics Centre, Wolfson Unit
+Claremont Place
+Newcastle-upon-Tyne
+NE1 4LP Newcastle
+0844 892 0111 (UK only,
+24/7, healthcare
+professionals only)
+SECTION 2: Hazards identification
+
+2.1.
+Classification of the substance or mixture
+Classification according to Regulation (EC) No. 1272/2008 [CLP]Mixtures/Substances: SDS EU > 2015: According to
+Regulation (EU) 2015/830, 2020/878 (REACH Annex II)
+Skin Irrit. 2
+H315
+Eye Irrit. 2
+H319
+Skin Sens. 1
+H317
+STOT SE 3
+H335
+Aquatic Chronic 2 H411
+
+Full text of H-statements: see section 16
+
+ANYCUBIC
+
+--- Page 42 ---
+
+SAFETY DATA SHEET
+Page : 2 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+2.2.
+Label elements
+Labelling according to Regulation (EC) No. 1272/2008 [CLP] Extra labelling to displayExtra classification(s) to display
+Hazard pictograms (CLP)
+:
+
+GHS07
+
+GHS09
+
+Signal word
+: Warning
+Hazardous ingredients
+: Epoxy resins; (1-methyl-1,2-ethanediyl)bis[oxy(methyl-2,1-ethanediyl)]
+diacrylate
+Hazard statements (CLP)
+: H315 - Causes skin irritation.
+H317 - May cause an allergic skin reaction.
+H319 - Causes serious eye irritation.
+H335 - May cause respiratory irritation.
+H411 - Toxic to aquatic life with long lasting effects.
+Precautionary statements (CLP)
+: P101 - If medical advice is needed, have product container or label at hand.
+P102 - Keep out of reach of children.
+P261 - Avoid breathing vapours.
+P264 - Wash hands thoroughly after handling.
+P271 - Use only outdoors or in a well-ventilated area.
+P273 - Avoid release to the environment.
+P280 - Wear protective gloves, protective clothing, eye protection, face
+protection.
+P302+P352 - IF ON SKIN: Wash with plenty of water.
+P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes.
+Remove contact lenses, if present and easy to do. Continue rinsing.
+P391 - Collect spillage.
+P501 - Dispose of contents and container to an approved waste disposal plant.
+
+2.3.
+Other hazards
+Other hazards
+: Results of PBT and vPvB assessment : Not applicable.
+
+The mixture does not contain substance(s) included in the list established in accordance with Article 59(1) of REACH for
+having endocrine disrupting properties, or is not identified as having endocrine disrupting properties in accordance with
+the criteria set out in Commission Delegated Regulation (EU) 2017/2100 or Commission Regulation (EU) 2018/605
+
+SECTION 3: Composition/information on ingredients
+
+3.1.
+Substances
+Not applicable
+
+3.2.
+Mixtures
+
+ANYCUBIC
+
+--- Page 43 ---
+
+SAFETY DATA SHEET
+Page : 3 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+Substance name
+Product identifier
+%
+Classification according
+to Regulation (EC) No.
+1272/2008 [CLP]
+Epoxy resins
+(CAS-No.) 61788-97-4
+(EC-No.) 612-377-4
+60
+Skin Irrit. 2, H315
+Eye Irrit. 2, H319
+Skin Sens. 1, H317
+Aquatic Chronic 2, H411
+(1-methyl-1,2-ethanediyl)bis[oxy(methyl-2,1-ethanediyl)]
+diacrylate
+(CAS-No.) 42978-66-5
+(EC-No.) 256-032-2
+(EC Index) 607-249-00-X
+35
+Eye Irrit. 2, H319
+STOT SE 3, H335
+Skin Irrit. 2, H315
+Skin Sens. 1, H317
+Aquatic Chronic 2, H411
+hydroxycyclohexyl phenyl ketone
+(CAS-No.) 947-19-3
+(EC-No.) 213-426-9
+5
+Not classified
+
+Specific concentration limits:
+Substance name
+Product identifier
+Specific concentration limits
+(1-methyl-1,2-ethanediyl)bis[oxy(methyl-2,1-ethanediyl)]
+diacrylate
+(CAS-No.) 42978-66-5
+(EC-No.) 256-032-2
+(EC Index) 607-249-00-X
+( 10 ≤C < 100) STOT SE 3, H335
+
+Full text of H- and EUH-statements: see section 16
+
+SECTION 4: First aid measures
+
+4.1.
+Description of first aid measures
+Additional advice
+: First aider: Pay attention to self-protection!. Concerning personal protective
+equipment to use, see section 8. Never give anything by mouth to an
+unconscious person. In case of doubt or persistent symptoms, consult always a
+physician. Show this safety data sheet to the doctor in attendance.
+Inhalation
+: Remove casualty to fresh air and keep warm and at rest. Give oxygen or
+artificial respiration if necessary. In case of doubt or persistent symptoms,
+consult always a physician.
+Skin contact
+: Remove contaminated clothing and shoes. Gently wash with plenty of soap
+and water. In case of doubt or persistent symptoms, consult always a
+physician.
+Eyes contact
+: Rinse immediately carefully and thoroughly with eye-bath or water. Remove
+contact lenses, if present and easy to do. Continue rinsing. In case of doubt or
+persistent symptoms, consult always a physician.
+Ingestion
+: Rinse mouth thoroughly with water. Do not induce vomiting. Get medical
+advice/attention.
+
+4.2.
+Most important symptoms and effects, both acute and delayed
+Inhalation
+: May cause respiratory irritation. The following symptoms may occur:
+Headache. Nausea. Irritation.
+Skin contact
+: May cause an allergic skin reaction. Causes skin irritation. The following
+symptoms may occur: Redness, pain.
+Eyes contact
+: Causes serious eye irritation. The following symptoms may occur: Redness,
+pain.
+Ingestion
+: May cause gastrointestinal irritation, nausea, vomiting and diarrhoea.
+
+4.3.
+Indication of any immediate medical attention and special treatment needed
+Treat symptomatically.
+ANYCUBIC
+
+--- Page 44 ---
+
+SAFETY DATA SHEET
+Page : 4 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+SECTION 5: Firefighting measures
+
+5.1.
+Extinguishing media
+Suitable extinguishing media
+: carbon dioxide (CO2), powder, alcohol-resistant foam, water spray.
+Unsuitable extinguishing media
+: Strong water jet.
+
+5.2.
+Special hazards arising from the substance or mixture
+Specific hazards
+: Combustible. Heating will cause a rise in pressure with a risk of bursting.
+Vapours are heavier than air and may travel considerable distance to an
+ignition source and flash back to source of vapours. Can form explosive
+mixture with air.
+Hazardous decomposition products in
+case of fire
+: Carbon oxides (CO, CO2). Toxic fumes may be released.
+
+5.3.
+Advice for firefighters
+Firefighting instructions
+: Evacuate area. Use water spray or fog for cooling exposed containers. Contain
+the extinguishing fluids by bunding. Prevent fire fighting water from entering
+the environment.
+Protection during firefighting
+: Do not attempt to take action without suitable protective equipment. Self-
+contained breathing apparatus.
+Other information
+: Do not allow run-off from fire-fighting to enter drains or water courses.
+Dispose of waste in accordance with environmental legislation.
+SECTION 6: Accidental release measures
+
+6.1.
+Personal precautions, protective equipment and emergency procedures
+6.1.1.
+For non-emergency personnel
+For non-emergency personnel
+: Evacuate unnecessary personnel. Keep upwind. Provide adequate ventilation.
+Do not breathe vapours. Avoid contact with skin, eyes and clothing. Wear
+recommended personal protective equipment. Concerning personal protective
+equipment to use, see section 8. Keep away from heat, hot surfaces, sparks,
+open flames and other ignition sources. No smoking. Ensure equipment is
+adequately earthed. Use explosion-proof equipment. Use only non-sparking
+tools.
+6.1.2.
+For emergency responders
+For emergency responders
+: Ensure procedures and training for emergency decontamination and disposal
+are in place. Concerning personal protective equipment to use, see section 8.
+
+6.2.
+Environmental precautions
+Do not allow to enter into surface water or drains. Notify authorities if product enters sewers or public waters.
+
+6.3.
+Methods and material for containment and cleaning up
+Methods for cleaning up
+: Stop leak if safe to do so. Dam up the liquid spill. Small quantities of liquid
+spill: take up in non-combustible absorbent material and shovel into container
+for disposal. Recover large spills by pumping (use an explosion proof or hand
+pump). Place in a suitable container for disposal in accordance with the waste
+regulations (see Section 13). This material and its container must be disposed
+of in a safe way, and as per local legislation.
+
+6.4.
+Reference to other sections
+Concerning personal protective equipment to use, see section 8. Concerning disposal elimination after cleaning, see
+section 13.
+ANYCUBIC
+
+--- Page 45 ---
+
+SAFETY DATA SHEET
+Page : 5 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+SECTION 7: Handling and storage
+
+7.1.
+Precautions for safe handling
+Precautions for safe handling
+: Provide adequate ventilation. Do not breathe vapours. Avoid contact with skin,
+eyes and clothing. Use personal protective equipment as required. Concerning
+personal protective equipment to use, see section 8. Take any precaution to
+avoid mixing with Incompatible materials, Refer to Section 10 on Incompatible
+Materials. Ensure proper process control to avoid excess waste discharge
+(temperature, concentration, pH, time). Avoid release to the environment.
+Contaminated work clothing must not be allowed out of the workplace. Keep
+away from heat, hot surfaces, sparks, open flames and other ignition sources.
+No smoking. Ground/bond container and receiving equipment. Use explosion-
+proof equipment. Use only non-sparking tools.
+Hygiene measures
+: Keep good industrial hygiene. Wash hands and other exposed areas with mild
+soap and water before eating, drinking or smoking and when leaving work. Do
+not eat, drink or smoke when using this product. Keep away from food, drink
+and animal feedingstuffs. Remove contaminated clothes. Separate working
+clothes from town clothes. Launder separately. Wash contaminated clothing
+before reuse.
+
+7.2.
+Conditions for safe storage, including any incompatibilities
+Technical measures
+: Keep out of the reach of children.
+Storage conditions
+: Store in a dry, cool and well-ventilated place. Do not store near or with any of
+the incompatible materials listed in section 10. Bund storage facilities to
+prevent soil and water pollution in the event of spillage. Take precautionary
+measures against static discharge.
+Heat and ignition sources
+: Keep away from heat, hot surfaces, sparks, open flames and other ignition
+sources. No smoking. Protect from sunlight.
+Special rules on packaging
+: Containers which are opened should be properly resealed and kept upright to
+prevent leakage. Keep container tight closed.
+Packaging materials
+: Keep only in the original container.
+
+7.3.
+Specific end use(s)
+3D printer filaments.
+SECTION 8: Exposure controls/personal protection
+
+8.1.
+Control parameters
+
+Epoxy resins (61788-97-4)
+Bulgaria
+OEL TWA
+0,5 mg/m³ (solid)
+Czech Republic
+PEL (OEL TWA)
+2 mg/m³ (dust)
+
+Additional information
+: Recommended monitoring procedures :. Personal air monitoring. Room air
+monitoring
+8.2.
+Exposure controls
+Engineering measure(s)
+: Organisational measures to prevent /limit releases, dispersion and exposure.
+See Section 7 for information on safe handling. Use only outdoors or in a well-
+ventilated area. Take precautionary measures against static discharges. Ensure
+equipment is adequately earthed.
+Personal protective equipment
+: The type of protective equipment must be selected according to the
+concentration and amount of the dangerous substance at the specific
+workplace.
+ANYCUBIC
+
+--- Page 46 ---
+
+SAFETY DATA SHEET
+Page : 6 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+Hand protection
+: Wear chemically resistant gloves (tested to EN374) . Suitable material: Butyl
+rubber. Thickness : Not determined. Breakthrough time : Not determined. The
+quality of the protective gloves resistant to chemicals must be chosen as a
+function of the specific working place concentration and quantity of hazardous
+substances.
+Eye protection
+: Use suitable eye protection (EN166): goggles
+Body protection
+: Wear suitable protective clothing
+Respiratory protection
+: In case of insufficient ventilation, wear suitable respiratory equipment. Half-
+face mask (DIN EN 140). full face mask (DIN EN 136). Filter type: (ABEK)
+(EN14387). The filter class must be suitable for the maximum contaminant
+concentration (gas/vapour/aerosol/particulates) that may arise when handling
+the product. If the concentration is exceeded, self-contained breathing
+apparatus must be used. (EN 137)
+Thermal hazard protection
+: Not required for normal conditions of use. Use dedicated equipment.
+Environmental exposure controls
+: Avoid release to the environment. Comply with applicable Community
+environmental protection legislation.
+SECTION 9: Physical and chemical properties
+
+9.1.
+Information on basic physical and chemical properties
+Physical state
+: Liquid
+Appearance
+: Liquid.
+Colour
+: Transparent. clear.
+Odour
+: odourless.
+Odour threshold
+: No data available
+pH
+: No data available
+Relative evaporation rate (butylacetate=1)
+: No data available
+Melting / freezing point
+: No data available
+
+Freezing point
+: No data available
+
+Initial boiling point and boiling range
+: 238 °C
+
+Flash point
+: 90 °C
+
+Auto-ignition temperature
+: 252 °C
+
+Decomposition temperature
+: No data available
+
+Flammability (solid, gas)
+: Not applicable,liquid
+
+Vapour pressure
+: No data available
+
+Vapour density
+: No data available
+
+Relative density
+: No data available
+
+Density
+: 0,8 – 0,9 g/cm³
+Solubility
+: Insoluble in water. Soluble in alcohols.
+
+Partition coefficient n-octanol/water
+: No data available
+
+Kinematic viscosity
+: 1,54 mm²/s
+
+Dynamic viscosity
+: No data available
+
+Explosive properties
+: Not applicable. The study does not need to be conducted because there are
+no chemical groups associated with explosive properties present in the
+molecule.
+
+Oxidising properties
+: Not applicable. The classification procedure needs not to be applied because
+there are no chemical groups present in the molecule which are associated
+with oxidising properties.
+
+ANYCUBIC
+
+--- Page 47 ---
+
+SAFETY DATA SHEET
+Page : 7 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+Explosive limits
+: No data available
+
+Particle size
+: Not applicable
+Particle size distribution
+: Not applicable
+Particle shape
+: Not applicable
+Particle aspect ratio
+: Not applicable
+Particle aggregation state
+: Not applicable
+Particle agglomeration state
+: Not applicable
+Particle specific surface area
+: Not applicable
+Particle dustiness
+: Not applicable
+
+9.2.
+Other information
+9.2.1. Information with regard to physical hazard classes
+No additional information available
+9.2.2. Other safety characteristics
+No additional information available
+SECTION 10: Stability and reactivity
+
+10.1.
+Reactivity
+Combustible. Reference to other sections: 10.4 & 10.5.
+
+10.2.
+Chemical stability
+Stable under normal conditions.
+
+10.3.
+Possibility of hazardous reactions
+No dangerous reactions known under normal conditions of use.
+
+10.4.
+Conditions to avoid
+Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking. Protect from sunlight.
+Take precautionary measures against static discharge. See Section 7 for information on safe handling.
+
+10.5.
+Incompatible materials
+Strong oxidizing agents. Acids. Bases. See Section 7 for information on safe handling.
+
+10.6.
+Hazardous decomposition products
+Reference to other sections 5.2.
+
+SECTION 11: Toxicological information
+
+11.1.
+Information on hazard classes as defined in Regulation (EC) No 1272/2008
+Acute toxicity
+: Not classified (Based on available data, the classification criteria are not met)
+
+(1-methyl-1,2-ethanediyl)bis[oxy(methyl-2,1-ethanediyl)] diacrylate (42978-66-5)
+LD50/oral/rat
+3000 - 8100 mg/kg
+LD50/dermal/rabbit
+> 2000 mg/kg
+
+hydroxycyclohexyl phenyl ketone (947-19-3)
+LD50/dermal/rat
+> 5000 mg/kg
+LC50/inhalation/4h/rat
+> 1000 mg/m³ (Exposure time: 4 h)
+
+ANYCUBIC
+
+--- Page 48 ---
+
+SAFETY DATA SHEET
+Page : 8 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+Skin corrosion/irritation
+: Causes skin irritation.
+pH: No data available
+Serious eye damage/irritation
+: Causes serious eye irritation.
+pH: No data available
+Respiratory or skin sensitisation
+: May cause an allergic skin reaction.
+Germ cell mutagenicity
+: Not classified (Based on available data, the classification criteria are not met)
+Carcinogenicity
+: Not classified (Based on available data, the classification criteria are not met)
+
+Reproductive toxicity
+: Not classified (Based on available data, the classification criteria are not met)
+STOT-single exposure
+: May cause respiratory irritation.
+
+STOT-repeated exposure
+: Not classified (Based on available data, the classification criteria are not met)
+
+Aspiration hazard
+: Not classified (Based on available data, the classification criteria are not met)
+
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Kinematic viscosity
+1,54 mm²/s
+
+Other information
+: Symptoms related to the physical, chemical and toxicological characteristics.
+For further information see section 4.
+11.2. Information on other hazards
+11.2.1. Endocrine disrupting properties
+Adverse health effects caused by
+endocrine disrupting properties
+: Not applicable
+11.2.2 Other information
+Other information
+: Symptoms related to the physical, chemical and toxicological
+characteristics,For further information see section 4
+
+SECTION 12: Ecological information
+
+12.1. Toxicity
+Environmental properties
+: Toxic to aquatic life with long lasting effects.
+Hazardous to the aquatic environment,
+short-term (acute)
+: Not classified
+Hazardous to the aquatic environment,
+long-term (chronic)
+: Toxic to aquatic life with long lasting effects.
+
+(1-methyl-1,2-ethanediyl)bis[oxy(methyl-2,1-ethanediyl)] diacrylate (42978-66-5)
+LC50 - Fish [1]
+4,5 - 10 mg/l (Leuciscus idus)
+EC50 - Crustacea [1]
+88,7 mg/l (Daphnia Magna)
+EC50 72h - Algae [1]
+> 28 mg/l (Species: Desmodesmus subspicatus)
+
+hydroxycyclohexyl phenyl ketone (947-19-3)
+LC50 - Fish [1]
+24 mg/l (Exposure time: 96 h - Species: Danio rerio [static])
+
+ANYCUBIC
+
+--- Page 49 ---
+
+SAFETY DATA SHEET
+Page : 9 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+12.2. Persistence and degradability
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Persistence and degradability
+No additional information available.
+
+12.3. Bioaccumulative potential
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Partition coefficient n-octanol/water
+No data available
+Bioaccumulative potential
+No additional information available.
+
+(1-methyl-1,2-ethanediyl)bis[oxy(methyl-2,1-ethanediyl)] diacrylate (42978-66-5)
+BCF - Fish [1]
+(no significant bioaccumulation expected)
+Partition coefficient n-octanol/water
+2,77
+
+12.4. Mobility in soil
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Mobility in soil
+No data available
+
+12.5. Results of PBT and vPvB assessment
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Results of PBT assessment
+Not applicable
+
+12.6. Endocrine disrupting properties
+Adverse effects on the environment
+caused by endocrine disrupting properties
+: Not applicable
+
+12.7. Other adverse effects
+Other adverse effects
+: No data available
+
+SECTION 13: Disposal considerations
+
+13.1.
+Waste treatment methods
+Product/Packaging disposal
+recommendations
+: Avoid release to the environment. Dispose of empty containers and wastes
+safely. See Section 7 for information on safe handling. Refer to
+manufacturer/supplier for information on recovery/recycling. Recycling is
+preferred to disposal or incineration. If recycling is not possible, eliminate in
+accordance with local valid waste disposal regulations. Handle contaminated
+packages in the same way as the substance itself. Dispose of contaminated
+materials in accordance with current regulations. Do not pierce or burn, even
+after use. Never use pressure to empty container.
+European waste catalogue
+(2001/573/EC, 75/442/EEC, 91/689/EEC)
+: This material and its container must be disposed of as hazardous waste
+Waste codes should be assigned by the user, preferably in discussion with the
+waste disposal authorities
+ANYCUBIC
+
+--- Page 50 ---
+
+SAFETY DATA SHEET
+Page : 10 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+SECTION 14: Transport information
+
+In accordance with ADR / RID / IMDG / IATA / ADN
+ADR
+IMDG
+IATA
+ADN
+RID
+14.1.
+UN number
+3082
+3082
+3082
+3082
+3082
+14.2.
+UN proper shipping name
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (Epoxy resins ;
+(1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate)
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (Epoxy resins ;
+(1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate)
+Environmentally
+hazardous substance,
+liquid, n.o.s. (Epoxy
+resins ; (1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate)
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (Epoxy resins ;
+(1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate)
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (Epoxy resins ;
+(1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate)
+Transport document description
+UN 3082
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (Epoxy resins ;
+(1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate), 9, III, (-)
+
+UN 3082
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (Epoxy resins ;
+(1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate), 9, III,
+MARINE POLLUTANT
+
+UN 3082
+Environmentally
+hazardous substance,
+liquid, n.o.s. (Epoxy
+resins ; (1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate), 9, III
+
+UN 3082
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (Epoxy resins ;
+(1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate), 9, III
+
+UN 3082
+ENVIRONMENTALLY
+HAZARDOUS
+SUBSTANCE, LIQUID,
+N.O.S. (Epoxy resins ;
+(1-methyl-1,2-
+ethanediyl)bis[oxy(me
+thyl-2,1-ethanediyl)]
+diacrylate), 9, III
+
+14.3.
+Transport hazard class(es)
+9
+9
+9
+9
+9
+14.4.
+Packing group
+III
+III
+III
+III
+III
+14.5.
+Environmental hazards
+Dangerous for the
+environment : Yes
+Dangerous for the
+environment : Yes
+Marine pollutant : Yes
+Dangerous for the
+environment : Yes
+Dangerous for the
+environment : Yes
+Dangerous for the
+environment : Yes
+No supplementary information available
+
+14.6.
+Special precautions for user
+Special precautions for user
+: No data available
+- Overland transport
+Classification code (ADR)
+:
+M6
+Special provisions
+:
+274, 335, 375, 601
+Limited quantities (ADR)
+:
+5l
+Excepted quantities (ADR)
+:
+E1
+Packing instructions (ADR)
+:
+P001, IBC03, LP01, R001
+Special packing provisions (ADR)
+:
+PP1
+Mixed packing provisions (ADR)
+:
+MP19
+ANYCUBIC
+
+--- Page 51 ---
+
+SAFETY DATA SHEET
+Page : 11 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+Portable tank and bulk container
+instructions (ADR)
+:
+T4
+Portable tank and bulk container
+special provisions (ADR)
+:
+TP1, TP29
+Tank code (ADR)
+:
+LGBV
+Vehicle for tank carriage
+:
+AT
+Transport category (ADR)
+:
+3
+Special provisions for carriage -
+Packages (ADR)
+:
+V12
+Special provisions for carriage -
+Loading, unloading and handling
+(ADR)
+:
+CV13
+Hazard identification number (Kemler
+No.)
+:
+90
+Orange plates
+:
+
+Tunnel restriction code
+:
+-
+EAC code
+:
+•3Z
+- Transport by sea
+Special provisions (IMDG)
+: 274, 335, 969
+Limited quantities (IMDG)
+: 5 L
+Excepted quantities (IMDG)
+: E1
+Packing instructions (IMDG)
+: LP01, P001
+Special packing provisions (IMDG)
+: PP1
+IBC packing instructions (IMDG)
+: IBC03
+Tank instructions (IMDG)
+: T4
+Tank special provisions (IMDG)
+: TP1, TP29
+EmS-No. (Fire)
+: F-A
+EmS-No. (Spillage)
+: S-F
+Stowage category (IMDG)
+: A
+- Air transport
+PCA Excepted quantities (IATA)
+: E1
+PCA Limited quantities (IATA)
+: Y964
+PCA limited quantity max net quantity
+(IATA)
+: 30kgG
+PCA packing instructions (IATA)
+: 964
+PCA max net quantity (IATA)
+: 450L
+CAO packing instructions (IATA)
+: 964
+CAO max net quantity (IATA)
+: 450L
+Special provisions (IATA)
+: A97, A158, A197, A215
+ERG code (IATA)
+: 9L
+- Inland waterway transport
+Classification code (ADN)
+: M6
+Special provisions (ADN)
+: 274, 335, 375, 601
+ANYCUBIC
+
+--- Page 52 ---
+
+SAFETY DATA SHEET
+Page : 12 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+Limited quantities (ADN)
+: 5 L
+Excepted quantities (ADN)
+: E1
+Equipment required (ADN)
+: PP
+Number of blue cones/lights (ADN)
+: 0
+- Rail transport
+Classification code (RID)
+: M6
+Special provisions (RID)
+: 274, 335, 375, 601
+Limited quantities (RID)
+: 5L
+Excepted quantities (RID)
+: E1
+Packing instructions (RID)
+: P001, IBC03, LP01, R001
+Special packing provisions (RID)
+: PP1
+Mixed packing provisions (RID)
+: MP19
+Portable tank and bulk container
+instructions (RID)
+: T4
+Portable tank and bulk container special
+provisions (RID)
+: TP1, TP29
+Tank codes for RID tanks (RID)
+: LGBV
+Transport category (RID)
+: 3
+Special provisions for carriage –
+Packages (RID)
+: W12
+Special provisions for carriage -
+Loading, unloading and handling (RID)
+: CW13, CW31
+Colis express (express parcels) (RID)
+: CE8
+Hazard identification number (RID)
+: 90
+
+14.7.
+Maritime transport in bulk according to IMO instruments
+Code: IBC
+: No data available.
+
+SECTION 15: Regulatory information
+
+15.1.
+Safety, health and environmental regulations/legislation specific for the substance or mixture
+15.1.1. EU-Regulations
+The following restrictions are applicable according to Annex XVII of the REACH Regulation (EC) No 1907/2006:
+3(b) Substances or mixtures fulfilling the criteria for any of the following hazard
+classes or categories set out in Annex I to Regulation (EC) No 1272/2008: Hazard
+classes 3.1 to 3.6, 3.7 adverse effects on sexual function and fertility or on
+development, 3.8 effects other than narcotic effects, 3.9 and 3.10
+ANYCUBIC
+3D Printing UV Sensitive Resin ; (1-methyl-
+1,2-ethanediyl)bis[oxy(methyl-2,1-
+ethanediyl)] diacrylate
+3(c) Substances or mixtures fulfilling the criteria for any of the following hazard classes
+or categories set out in Annex I to Regulation (EC) No 1272/2008: Hazard class 4.1
+ANYCUBIC
+3D Printing UV Sensitive Resin ; (1-methyl-
+1,2-ethanediyl)bis[oxy(methyl-2,1-
+ethanediyl)] diacrylate
+
+Contains no substance on the REACH candidate list
+
+Contains no REACH Annex XIV substances
+
+15.1.2. National regulations
+
+France
+ANYCUBIC
+
+--- Page 53 ---
+
+SAFETY DATA SHEET
+Page : 13 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+No ICPE
+Installations classées
+Désignation de la rubrique
+Code Régime Rayon
+4511.text
+Dangereux pour l'environnement aquatique de catégorie chronique 2.
+
+4511.1
+La quantité totale susceptible d'être présente dans l'installation étant :
+1. Supérieure ou égale à 200 t
+Quantité seuil bas au sens de l'article R. 511-10 : 200 t.
+Quantité seuil haut au sens de l'article R. 511-10 : 500 t.
+A
+1
+4511.2
+La quantité totale susceptible d'être présente dans l'installation étant :
+2. Supérieure ou égale à 100 t mais inférieure à 200 t
+Quantité seuil bas au sens de l'article R. 511-10 : 200 t.
+Quantité seuil haut au sens de l'article R. 511-10 : 500 t.
+DC
+
+Germany
+Regulatory reference
+: WGK 3, Highly hazardous to water (Classification according to AwSV, Annex 1)
+German storage class (LGK)
+: LGK 10 - Combustible liquids
+Hazardous Incident Ordinance (12.
+BImSchV)
+
+: Listed in the 12. BlmSchV (Annex I) under: 1.3.2
+Quantity threshold for operational area under § 1 para. 1
+-
+Sentence 1: 200000 kg
+-
+Sentence 2: 500000 kg
+
+Netherlands
+Waterbezwaarlijkheid
+: A (2) - Vergiftig voor in water levende organismen
+kan in het aquatische milieu op lange termijn schadelijke effecten veroorzaken
+SZW-lijst van kankerverwekkende
+stoffen
+: None of the components are listed
+SZW-lijst van mutagene stoffen
+: None of the components are listed
+NIET-limitatieve lijst van voor de
+voortplanting giftige stoffen –
+Borstvoeding
+: None of the components are listed
+NIET-limitatieve lijst van voor de
+voortplanting giftige stoffen –
+Vruchtbaarheid
+: None of the components are listed
+NIET-limitatieve lijst van voor de
+voortplanting giftige stoffen –
+Ontwikkeling
+: None of the components are listed
+
+Denmark
+Class for fire hazard
+: Class III-1
+Store unit
+: 50 liter
+Classification remarks
+: Flammable according to the Danish Ministry of Justice; Emergency
+management guidelines for the storage of flammable liquids must be followed
+Recommendations Danish Regulation
+: Young people below the age of 18 years are not allowed to use the product
+
+15.2.
+Chemical safety assessment
+
+Not applicable
+
+SECTION 16: Other information
+
+Abbreviations and acronyms:
+
+ABM = Algemene beoordelingsmethodiek
+ANYCUBIC
+
+--- Page 54 ---
+
+SAFETY DATA SHEET
+Page : 14 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+ADN = Accord Européen relatif au Transport International des Marchandises Dangereuses par voie de Navigation du
+Rhin
+ADR = Accord européen relatif au transport international des marchandises Dangereuses par Route
+CLP = Classification, Labelling and Packaging Regulation according to 1272/2008/EC
+IATA = International Air Transport Association
+IMDG = International Maritime Dangerous Goods Code
+LEL = Lower Explosive Limit/Lower Explosion Limit
+UEL = Upper Explosion Limit/Upper Explosive Limit
+REACH = Registration, Evaluation, Authorisation and Restriction of Chemicals
+
+BTT = Breakthrough time (maximum wearing time)
+
+DMEL = Derived Minimal Effect level
+
+DNEL = Derived No Effect Level
+
+EC50 = Median Effective Concentration
+
+EL50 = Median effective level
+
+ErC50 = EC50 in terms of reduction of growth rate
+
+ErL50 = EL50 in terms of reduction of growth rate
+
+EWC =  European waste catalogue
+
+LC50 =  Median lethal concentration
+
+LD50 = Median lethal dose
+
+LL50 = Median lethal level
+
+NA =  Not applicable
+
+NOEC = No observed effect concentration
+
+NOEL: no-observed-effect level
+
+NOELR = No observed effect loading rate
+
+NOAEC = No observed adverse effect concentration
+
+NOAEL = No observed adverse effect level
+
+N.O.S. = Not Otherwise Specified
+
+OEL = Occupational Exposure Limits - Short Term Exposure Limits (STELs)
+
+PNEC = Predicted No Effect Concentration
+
+Quantitative structure-activity relationship (QSAR)
+
+STOT = Specific Target Organ Toxicity
+
+TWA = time weighted average
+
+VOC = Volatile organic compounds
+
+WGK = Wassergefährdungsklasse (Water Hazard Class under German Federal Water Management Act)
+
+Sources of key data used to compile the
+datasheet
+: ECHA (European Chemicals Agency). LOLI. Supplier information.
+Training advice
+: Training staff on good practice. Manipulations are to be done only by qualified
+and authorised persons.
+Other information
+: Classification - Assessment method: CLP Calculation method (Article 9).
+Physicochemical hazard assessment: Information given is based on tests on
+the mixture itself.
+
+ Full text of H- and EUH-statements:
+Aquatic Chronic 2
+Hazardous to the aquatic environment — Chronic Hazard, Category 2
+Eye Irrit. 2
+Serious eye damage/eye irritation, Category 2
+Skin Irrit. 2
+Skin corrosion/irritation, Category 2
+Skin Sens. 1
+Skin sensitisation, Category 1
+STOT SE 3
+Specific target organ toxicity — Single exposure, Category 3, Respiratory tract irritation
+H315
+Causes skin irritation.
+H317
+May cause an allergic skin reaction.
+H319
+Causes serious eye irritation.
+ANYCUBIC
+
+--- Page 55 ---
+
+SAFETY DATA SHEET
+Page : 15 / 15
+Revision nr : 1.0
+Issue date : 16/06/2021
+ANYCUBIC
+3D Printing UV Sensitive Resin
+Supersedes :
+
+H335
+May cause respiratory irritation.
+H411
+Toxic to aquatic life with long lasting effects.
+
+according to Regulation (EC) No. 1907/2006 (REACH) with its amendment Regulation (EU) 2020/878
+Classification according to Regulation (EC) No. 1272/2008 [CLP]
+Labelling according to Regulation (EC) No. 1272/2008 [CLP]
+
+DISCLAIMER OF LIABILITY  The information in this SDS was obtained from sources which we believe are reliable.
+However, the information is provided without any warranty, express or implied, regarding its correctness.  The conditions
+or methods of handling, storage, use or disposal of the product are beyond our control and may be beyond our
+knowledge.  For this and other reasons, we do not assume responsibility and expressly disclaim liability for loss, damage
+or expense arising out of or in any way connected with the handling, storage, use or disposal of the product.  This SDS
+was prepared and is to be used only for this product.  If the product is used as a component in another product, this SDS
+information may not be applicable.
+
+ANYCUBIC
+
+--- Page 56 ---
+
+SAFETY DATA SHEET
+Page : 1 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+SECTION 1: Identification of the substance/mixture and of the company/undertaking
+
+1.1.
+Product identifier
+Product form
+: Mixture
+Trade name
+: Plant based Resin+
+
+1.2.
+Relevant identified uses of the substance or mixture and uses advised against
+1.2.1.
+Relevant identified uses
+Intended for general public
+Main use category
+: Consumer use
+Use of the substance/mixture
+: Resin
+
+1.2.2.
+Uses advised against
+No additional information available
+
+1.3.
+Details of the supplier of the safety data sheet
+Shenzhen Anycubic Technology Co.,Ltd
+12-13th floor，Building #3B，Vanke Times Square, No.85 Longcheng Avenue,Longcheng Street,Longgang District
+518000 Shenzhen, Guangdong Province - China
+T 17688757950
+weiwulin@anycubic.com
+
+1.4.
+Emergency telephone number
+Emergency number
+: 17688757950
+Only available during office hours.
+
+Country
+Official advisory body
+Address
+Emergency number
+Ireland
+National Poisons Information Centre
+Beaumont Hospital
+PO Box 1297
+Beaumont Road
+9 Dublin
++353 1 809 2566
+(Healthcare
+professionals-24/7)
++353 1 809 2166 (public,
+8am - 10pm, 7/7)
+SECTION 2: Hazards identification
+
+2.1.
+Classification of the substance or mixture
+Classification according to Regulation (EC) No. 1272/2008 [CLP]Mixtures/Substances: SDS EU > 2015: According to
+Regulation (EU) 2015/830, 2020/878 (REACH Annex II)
+Skin Irrit. 2
+H315
+Eye Irrit. 2
+H319
+Skin Sens. 1
+H317
+Aquatic Chronic 3 H412
+
+Full text of H- and EUH-statements: see section 16
+
+ANYCUBIC
+
+--- Page 57 ---
+
+SAFETY DATA SHEET
+Page : 2 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+2.2.
+Label elements
+Labelling according to Regulation (EC) No. 1272/2008 [CLP]
+Hazard pictograms (CLP)
+:
+
+GHS07
+
+Signal word
+: Warning
+Contains
+: 1,2-ethanediylbis(oxy-2,1-ethanediyl) diacrylate, Propylidynetrimethanol,
+ethoxylated, esters with acrylic acid, Glycerol, propoxylated, esters with
+acrylic acid , phenyl bis (2,4,6-trimethylbenzoyl)-phosphine oxide
+Hazard statements (CLP)
+: H315 - Causes skin irritation.
+H317 - May cause an allergic skin reaction.
+H319 - Causes serious eye irritation.
+H412 - Harmful to aquatic life with long lasting effects.
+Precautionary statements (CLP)
+: P101 - If medical advice is needed, have product container or label at hand.
+P102 - Keep out of reach of children.
+P264 - Wash hands thoroughly after handling.
+P273 - Avoid release to the environment.
+P280 - Wear protective gloves, protective clothing, eye protection, face
+protection.
+P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several
+minutes. Remove contact lenses, if present and easy to do. Continue rinsing.
+P501 - Dispose of contents and container to an approved waste disposal
+plant.
+Child-resistant fastening
+: Not applicable
+Tactile warning
+: Not applicable
+
+2.3.
+Other hazards
+Other hazards
+: Results of PBT and vPvB assessment : Not applicable. Risk of dust
+explosion.
+
+The mixture does not contain substance(s) included in the list established in accordance with Article 59(1) of REACH for
+having endocrine disrupting properties, or is not identified as having endocrine disrupting properties in accordance with
+the criteria set out in Commission Delegated Regulation (EU) 2017/2100 or Commission Regulation (EU) 2018/605 at a
+concentration equal to or greater than 0,1 %
+
+SECTION 3: Composition/information on ingredients
+
+3.1.
+Substances
+Not applicable
+
+3.2.
+Mixtures
+
+Substance name
+Product identifier
+%
+Classification according
+to Regulation (EC) No.
+1272/2008 [CLP]
+Glycerol, propoxylated, esters with acrylic acid
+(CAS-No.) 52408-84-1
+(EC-No.) 500-114-5
+30 – 40
+Eye Irrit. 2, H319
+Skin Sens. 1, H317
+1,2-ethanediylbis(oxy-2,1-ethanediyl) diacrylate
+(CAS-No.) 1680-21-3
+(EC-No.) 216-853-9
+(EC Index) 607-126-00-0
+10 – 25
+Skin Irrit. 2, H315
+Eye Irrit. 2, H319
+Skin Sens. 1, H317
+ANYCUBIC
+
+--- Page 58 ---
+
+SAFETY DATA SHEET
+Page : 3 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+Propylidynetrimethanol, ethoxylated, esters with acrylic
+acid
+(CAS-No.) 28961-43-5
+(EC-No.) 500-066-5
+15 – 25
+Eye Irrit. 2, H319
+Skin Sens. 1, H317
+Poly(oxy-1,2-ethanediyl), .alpha.,.alpha.'-[(1-
+methylethylidene)di-4,1-phenylene]bis[.omega.-[(1-oxo-2-
+propen-1-yl)oxy]-
+(CAS-No.) 64401-02-1
+(EC-No.) 613-584-2
+10 – 20
+Aquatic Chronic 2, H411
+phenyl bis (2,4,6-trimethylbenzoyl)-phosphine oxide
+(CAS-No.) 162881-26-7
+(EC-No.) 423-340-5
+(EC Index) 015-189-00-5
+2 – 10
+Skin Sens. 1A, H317
+Aquatic Chronic 4, H413
+
+Full text of H- and EUH-statements: see section 16
+
+SECTION 4: First aid measures
+
+4.1.
+Description of first aid measures
+Additional advice
+: First aider: Pay attention to self-protection!. Concerning personal protective
+equipment to use, see section 8. Never give anything by mouth to an
+unconscious person. In case of doubt or persistent symptoms, consult always a
+physician. Show this safety data sheet to the doctor in attendance.
+Inhalation
+: Remove casualty to fresh air and keep warm and at rest. In case of doubt or
+persistent symptoms, consult always a physician.
+Skin contact
+: Remove contaminated clothing and shoes. Gently wash with plenty of soap
+and water. In case of doubt or persistent symptoms, consult always a
+physician.
+Eyes contact
+: Rinse immediately carefully and thoroughly with eye-bath or water. Remove
+contact lenses, if present and easy to do. Continue rinsing. In case of doubt or
+persistent symptoms, consult always a physician.
+Ingestion
+: Rinse mouth thoroughly with water. Get medical advice/attention.
+
+4.2.
+Most important symptoms and effects, both acute and delayed
+Inhalation
+: Inhalation of dust may cause irritation of the respiratory system.
+Skin contact
+: May cause an allergic skin reaction. Causes skin irritation. The following
+symptoms may occur: Redness, pain. Contact with dust may cause mechanical
+irritation or drying of the skin.
+Eyes contact
+: Causes serious eye irritation. The following symptoms may occur: Redness,
+pain. Blurred vision. Dust may cause painful eye irritation and tearing.
+Ingestion
+: May cause gastrointestinal irritation, nausea, vomiting and diarrhoea.
+
+4.3.
+Indication of any immediate medical attention and special treatment needed
+Treat symptomatically.
+SECTION 5: Firefighting measures
+
+5.1.
+Extinguishing media
+Suitable extinguishing media
+: carbon dioxide (CO2), powder, alcohol-resistant foam, water spray.
+Unsuitable extinguishing media
+: Strong water jet.
+
+5.2.
+Special hazards arising from the substance or mixture
+Specific hazards
+: Not flammable. Risk of dust explosion.
+Hazardous decomposition products in
+case of fire
+: Carbon oxides (CO, CO2).
+
+5.3.
+Advice for firefighters
+Firefighting instructions
+: Evacuate area. Use water spray or fog for cooling exposed containers. Contain
+the extinguishing fluids by bunding. Prevent fire fighting water from entering
+the environment. Avoid dust formation. Knock down/dilute dust cloud with
+water spray.
+ANYCUBIC
+
+--- Page 59 ---
+
+SAFETY DATA SHEET
+Page : 4 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+Protection during firefighting
+: Do not attempt to take action without suitable protective equipment. Self-
+contained breathing apparatus.
+Other information
+: Do not allow run-off from fire-fighting to enter drains or water courses.
+Dispose of waste in accordance with environmental legislation.
+SECTION 6: Accidental release measures
+
+6.1.
+Personal precautions, protective equipment and emergency procedures
+6.1.1.
+For non-emergency personnel
+For non-emergency personnel
+: Evacuate unnecessary personnel. Keep upwind. Provide adequate ventilation.
+Do not breathe dust. Avoid contact with skin, eyes and clothing. Wear
+recommended personal protective equipment. Concerning personal protective
+equipment to use, see section 8. Keep away from heat, hot surfaces, sparks,
+open flames and other ignition sources. No smoking. Ensure equipment is
+adequately earthed. Use explosion-proof equipment. Use only non-sparking
+tools.
+6.1.2.
+For emergency responders
+For emergency responders
+: Ensure procedures and training for emergency decontamination and disposal
+are in place. Concerning personal protective equipment to use, see section 8.
+
+6.2.
+Environmental precautions
+Do not allow to enter into surface water or drains. Notify authorities if product enters sewers or public waters.
+
+6.3.
+Methods and material for containment and cleaning up
+Methods for cleaning up
+: Stop leak if safe to do so. Dam up the solid spill. Take up mechanically
+(sweeping, shovelling) and collect in suitable container for disposal. Large
+spills: scoop solid spill into closing containers. This material and its container
+must be disposed of in a safe way, and as per local legislation. Avoid dust
+formation. Knock down/dilute dust cloud with water spray.
+
+6.4.
+Reference to other sections
+Concerning personal protective equipment to use, see section 8. Concerning disposal elimination after cleaning, see
+section 13.
+SECTION 7: Handling and storage
+
+7.1.
+Precautions for safe handling
+Precautions for safe handling
+: Provide adequate ventilation. Do not breathe dust. Avoid contact with skin,
+eyes and clothing. Use personal protective equipment as required. Concerning
+personal protective equipment to use, see section 8. Take any precaution to
+avoid mixing with Incompatible materials, Refer to Section 10 on Incompatible
+Materials. Ensure proper process control to avoid excess waste discharge
+(temperature, concentration, pH, time). Avoid release to the environment.
+Avoid dust formation. Keep away from heat, hot surfaces, sparks, open flames
+and other ignition sources. No smoking. Ground/bond container and receiving
+equipment. Use explosion-proof equipment. Use only non-sparking tools.
+Hygiene measures
+: Keep good industrial hygiene. Wash hands and other exposed areas with mild
+soap and water before eating, drinking or smoking and when leaving work. Do
+not eat, drink or smoke when using this product. Keep away from food, drink
+and animal feedingstuffs. Remove contaminated clothes. Separate working
+clothes from town clothes. Launder separately. Wash contaminated clothing
+before reuse.
+
+7.2.
+Conditions for safe storage, including any incompatibilities
+Storage conditions
+: Store in a dry, cool and well-ventilated place. Do not store near or with any of
+the incompatible materials listed in section 10.
+ANYCUBIC
+
+--- Page 60 ---
+
+SAFETY DATA SHEET
+Page : 5 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+Heat and ignition sources
+: Keep away from heat, hot surfaces, sparks, open flames and other ignition
+sources. No smoking.
+Special rules on packaging
+: Containers which are opened should be properly resealed and kept upright to
+prevent leakage.
+Packaging materials
+: Keep only in the original container.
+
+7.3.
+Specific end use(s)
+Resin.
+SECTION 8: Exposure controls/personal protection
+
+8.1.
+Control parameters
+
+Additional information
+: Recommended monitoring procedures :. Personal air monitoring. Room air
+monitoring
+8.2.
+Exposure controls
+Engineering measure(s)
+: Provide adequate ventilation. Organisational measures to prevent /limit
+releases, dispersion and exposure. See Section 7 for information on safe
+handling. Apply measures to prevent dust explosions. Ensure equipment is
+adequately earthed.
+Personal protective equipment
+: The type of protective equipment must be selected according to the
+concentration and amount of the dangerous substance at the specific
+workplace.
+Hand protection
+: Wear chemically resistant gloves (tested to EN374) . Suitable material:
+Impervious gloves. Breakthrough time : refer to the recommendations of the
+supplier. Thickness : Not determined. The quality of the protective gloves
+resistant to chemicals must be chosen as a function of the specific working
+place concentration and quantity of hazardous substances.
+Eye protection
+: Use suitable eye protection (EN166): Safety glasses with side shields
+Body protection
+: Wear suitable protective clothing
+Respiratory protection
+: Not required for normal conditions of use. In case of insufficient ventilation,
+wear suitable respiratory equipment. Effective dust mask (EN 149). Half-face
+mask (DIN EN 140). full face mask (DIN EN 136). Filter type: P (EN 143)
+Thermal hazard protection
+: Not required for normal conditions of use. Use dedicated equipment.
+Environmental exposure controls
+: Avoid release to the environment. Comply with applicable Community
+environmental protection legislation.
+SECTION 9: Physical and chemical properties
+
+9.1.
+Information on basic physical and chemical properties
+Physical state
+: Solid
+Appearance
+: Solid. pellets.
+Colour
+: Grey.
+Odour
+: Sweet.
+Odour threshold
+: No data available
+pH
+: Not applicable
+pH solution
+: Not available
+Relative evaporation rate (butylacetate=1)
+: No data available
+Melting / freezing point
+: 150 – 180 °C (Glass Transition Temperature)
+
+Freezing point
+: No data available
+
+ANYCUBIC
+
+--- Page 61 ---
+
+SAFETY DATA SHEET
+Page : 6 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+Initial boiling point and boiling range
+: No data available
+
+Flash point
+: No data available
+
+Auto-ignition temperature
+: 388 °C
+
+Decomposition temperature
+: 250 °C
+
+Flammability (solid, gas)
+: Non flammable
+
+Vapour pressure
+: No data available
+
+Vapour density
+: No data available
+
+Relative density
+: 1,25
+
+Solubility
+: Insoluble in water.
+
+Partition coefficient n-octanol/water
+: No data available
+
+Kinematic viscosity
+: Not applicable
+
+Dynamic viscosity
+: Not applicable
+
+Explosive properties
+: Not applicable. The study does not need to be conducted because there are
+no chemical groups associated with explosive properties present in the
+molecule.
+
+Oxidising properties
+: Not applicable. The classification procedure needs not to be applied because
+there are no chemical groups present in the molecule which are associated
+with oxidising properties.
+
+Explosive limits
+: No data available
+
+Particle size
+: Not available
+Particle size distribution
+: Not available
+Particle shape
+: Not available
+Particle aspect ratio
+: Not available
+Particle aggregation state
+: Not available
+Particle agglomeration state
+: Not available
+Particle specific surface area
+: Not available
+Particle dustiness
+: Not available
+
+9.2.
+Other information
+9.2.1. Information with regard to physical hazard classes
+No additional information available
+9.2.2. Other safety characteristics
+No additional information available
+SECTION 10: Stability and reactivity
+
+10.1.
+Reactivity
+None under normal conditions. Reference to other sections: 10.4 & 10.5.
+
+10.2.
+Chemical stability
+Stable under normal conditions.
+
+10.3.
+Possibility of hazardous reactions
+No dangerous reactions known under normal conditions of use.
+ANYCUBIC
+
+--- Page 62 ---
+
+SAFETY DATA SHEET
+Page : 7 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+10.4.
+Conditions to avoid
+Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking. See Section 7 for
+information on safe handling.
+
+10.5.
+Incompatible materials
+None known. See Section 7 for information on safe handling.
+
+10.6.
+Hazardous decomposition products
+Reference to other sections 5.2.
+
+SECTION 11: Toxicological information
+
+11.1.
+Information on hazard classes as defined in Regulation (EC) No 1272/2008
+Acute toxicity
+: Not classified (Based on available data, the classification criteria are not met)
+
+1,2-ethanediylbis(oxy-2,1-ethanediyl) diacrylate (1680-21-3)
+LD50/oral/rat
+500 mg/kg
+
+Propylidynetrimethanol, ethoxylated, esters with acrylic acid (28961-43-5)
+LD50/dermal/rabbit
+> 13200 mg/kg
+
+Glycerol, propoxylated, esters with acrylic acid  (52408-84-1)
+LD50/dermal/rabbit
+> 2000 mg/kg
+
+phenyl bis (2,4,6-trimethylbenzoyl)-phosphine oxide (162881-26-7)
+LD50/oral/rat
+> 2000 mg/kg
+LD50/dermal/rat
+> 2000 mg/kg
+
+Skin corrosion/irritation
+: Causes skin irritation.
+pH: Not applicable
+Serious eye damage/irritation
+: Causes serious eye irritation.
+pH: Not applicable
+Respiratory or skin sensitisation
+: May cause an allergic skin reaction.
+Germ cell mutagenicity
+: Not classified (Based on available data, the classification criteria are not met)
+Carcinogenicity
+: Not classified (Based on available data, the classification criteria are not met)
+
+Reproductive toxicity
+: Not classified (Based on available data, the classification criteria are not met)
+STOT-single exposure
+: Not classified (Based on available data, the classification criteria are not met)
+
+STOT-repeated exposure
+: Not classified (Based on available data, the classification criteria are not met)
+
+Aspiration hazard
+: Not classified (Based on available data, the classification criteria are not met)
+
+Plant based Resin+
+Kinematic viscosity
+Not applicable
+
+Other information
+: Symptoms related to the physical, chemical and toxicological characteristics.
+For further information see section 4.
+11.2. Information on other hazards
+11.2.1. Endocrine disrupting properties
+Adverse health effects caused by
+endocrine disrupting properties
+: The mixture does not contain substance(s) included in the list established in
+accordance with Article 59(1) of REACH for having endocrine disrupting
+properties, or is not identified as having endocrine disrupting properties in
+accordance with the criteria set out in Commission Delegated Regulation
+(EU) 2017/2100 or Commission Regulation (EU) 2018/605 at a concentration
+equal to or greater than 0,1 %
+ANYCUBIC
+
+--- Page 63 ---
+
+SAFETY DATA SHEET
+Page : 8 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+11.2.2 Other information
+Other information
+: Symptoms related to the physical, chemical and toxicological
+characteristics,For further information see section 4
+
+SECTION 12: Ecological information
+
+12.1. Toxicity
+Environmental properties
+: Harmful to aquatic life with long lasting effects.
+Hazardous to the aquatic environment,
+short–term (acute)
+: Not classified
+Hazardous to the aquatic environment,
+long–term (chronic)
+: Harmful to aquatic life with long lasting effects.
+
+Propylidynetrimethanol, ethoxylated, esters with acrylic acid (28961-43-5)
+LC50 - Fish [1]
+1,95 mg/l (Exposure time: 96 h - Species: Danio rerio [static])
+
+Glycerol, propoxylated, esters with acrylic acid  (52408-84-1)
+LC50 - Fish [1]
+5,74 mg/l (Exposure time: 96 h - Species: Danio rerio [static])
+
+phenyl bis (2,4,6-trimethylbenzoyl)-phosphine oxide (162881-26-7)
+LC50 - Fish [1]
+> 90 μg/l (Exposure time: 96 h - Species: Danio rerio [semi-static])
+
+12.2. Persistence and degradability
+Plant based Resin+
+Persistence and degradability
+No additional information available.
+
+12.3. Bioaccumulative potential
+Plant based Resin+
+Partition coefficient n-octanol/water
+No data available
+Bioaccumulative potential
+No additional information available.
+
+Propylidynetrimethanol, ethoxylated, esters with acrylic acid (28961-43-5)
+Partition coefficient n-octanol/water
+2,89 (at 23 °C (at pH 8.1)
+
+Poly(oxy-1,2-ethanediyl), .alpha.,.alpha.'-[(1-methylethylidene)di-4,1-phenylene]bis[.omega.-[(1-oxo-2-propen-1-yl)oxy]-
+(64401-02-1)
+Partition coefficient n-octanol/water
+2,45 – 4,16 (at pH 6.97)
+
+Glycerol, propoxylated, esters with acrylic acid  (52408-84-1)
+Partition coefficient n-octanol/water
+2,52 (at 23 °C (at pH 8.1)
+
+phenyl bis (2,4,6-trimethylbenzoyl)-phosphine oxide (162881-26-7)
+Partition coefficient n-octanol/water
+5,8 (at 22 °C (at pH 8.3)
+
+ANYCUBIC
+
+--- Page 64 ---
+
+SAFETY DATA SHEET
+Page : 9 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+12.4. Mobility in soil
+Plant based Resin+
+Mobility in soil
+No data available
+
+12.5. Results of PBT and vPvB assessment
+Plant based Resin+
+Results of PBT assessment
+Not applicable
+
+12.6. Endocrine disrupting properties
+Adverse effects on the environment
+caused by endocrine disrupting properties
+: The mixture does not contain substance(s) included in the list established in
+accordance with Article 59(1) of REACH for having endocrine disrupting
+properties, or is not identified as having endocrine disrupting properties in
+accordance with the criteria set out in Commission Delegated Regulation
+(EU) 2017/2100 or Commission Regulation (EU) 2018/605 at a concentration
+equal to or greater than 0,1 %
+
+12.7. Other adverse effects
+Other adverse effects
+: No data available
+
+SECTION 13: Disposal considerations
+
+13.1.
+Waste treatment methods
+Product/Packaging disposal
+recommendations
+: Avoid release to the environment. Dispose of empty containers and wastes
+safely. See Section 7 for information on safe handling. Refer to
+manufacturer/supplier for information on recovery/recycling. Recycling is
+preferred to disposal or incineration. If recycling is not possible, eliminate in
+accordance with local valid waste disposal regulations. Handle contaminated
+packages in the same way as the substance itself. Dispose of contaminated
+materials in accordance with current regulations.
+European waste catalogue
+(2001/573/EC, 75/442/EEC, 91/689/EEC)
+: This material and its container must be disposed of as hazardous waste
+Waste codes should be assigned by the user, preferably in discussion with the
+waste disposal authorities
+SECTION 14: Transport information
+
+In accordance with ADR / RID / IMDG / IATA / ADN
+ADR
+IMDG
+IATA
+ADN
+RID
+14.1.
+UN number
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+14.2.
+UN proper shipping name
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+
+Not applicable
+
+Not applicable
+
+Not applicable
+
+Not applicable
+
+14.3.
+Transport hazard class(es)
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+14.4.
+Packing group
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+14.5.
+Environmental hazards
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+ANYCUBIC
+
+--- Page 65 ---
+
+SAFETY DATA SHEET
+Page : 10 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+ADR
+IMDG
+IATA
+ADN
+RID
+No supplementary information available
+
+14.6.
+Special precautions for user
+Special precautions for user
+: No data available
+- Overland transport
+Not applicable
+- Transport by sea
+Not applicable
+- Air transport
+Not applicable
+- Inland waterway transport
+Not applicable
+- Rail transport
+Not applicable
+
+14.7.
+Maritime transport in bulk according to IMO instruments
+Code: IBC
+: No data available.
+
+SECTION 15: Regulatory information
+
+15.1.
+Safety, health and environmental regulations/legislation specific for the substance or mixture
+15.1.1. EU-Regulations
+The following restrictions are applicable according to Annex XVII of the REACH Regulation (EC) No 1907/2006:
+3(b) Substances or mixtures fulfilling the criteria for any of the following hazard
+classes or categories set out in Annex I to Regulation (EC) No 1272/2008: Hazard
+classes 3.1 to 3.6, 3.7 adverse effects on sexual function and fertility or on
+development, 3.8 effects other than narcotic effects, 3.9 and 3.10
+Glycerol, propoxylated, esters with acrylic
+acid
+3(c) Substances or mixtures fulfilling the criteria for any of the following hazard classes
+or categories set out in Annex I to Regulation (EC) No 1272/2008: Hazard class 4.1
+Poly(oxy-1,2-ethanediyl), .alpha.,.alpha.'-[(1-
+methylethylidene)di-4,1-
+phenylene]bis[.omega.-[(1-oxo-2-propen-1-
+yl)oxy]-
+
+Contains no substance on the REACH candidate list
+
+Contains no REACH Annex XIV substances
+
+15.1.2. National regulations
+
+France
+No ICPE
+Installations classées
+Désignation de la rubrique
+Code Régime Rayon
+na
+Not Applicable
+na
+na
+
+Germany
+Regulatory reference
+: WGK 3, Highly hazardous to water (Classification according to AwSV, Annex 1)
+German storage class (LGK)
+: LGK 13 - Non-combustible solids
+ANYCUBIC
+
+--- Page 66 ---
+
+SAFETY DATA SHEET
+Page : 11 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+Hazardous Incident Ordinance (12.
+BImSchV)
+
+: Is not subject of the 12. BlmSchV (Hazardous Incident Ordinance)
+
+Netherlands
+Waterbezwaarlijkheid
+: A (3) - hazardous for aquatic organisms, may have longterm hazardous effects
+in aquatic environment
+SZW-lijst van kankerverwekkende
+stoffen
+: None of the components are listed
+SZW-lijst van mutagene stoffen
+: None of the components are listed
+SZW-lijst van reprotoxische stoffen –
+Borstvoeding
+: None of the components are listed
+SZW-lijst van reprotoxische stoffen –
+Vruchtbaarheid
+: None of the components are listed
+SZW-lijst van reprotoxische stoffen –
+Ontwikkeling
+: None of the components are listed
+
+15.2.
+Chemical safety assessment
+
+Not applicable
+
+SECTION 16: Other information
+
+Abbreviations and acronyms:
+
+ABM = Algemene beoordelingsmethodiek
+
+ADN = Accord Européen relatif au Transport International des Marchandises Dangereuses par voie de Navigation du
+Rhin
+ADR = Accord européen relatif au transport international des marchandises Dangereuses par Route
+CLP = Classification, Labelling and Packaging Regulation according to 1272/2008/EC
+IATA = International Air Transport Association
+IMDG = International Maritime Dangerous Goods Code
+LEL = Lower Explosive Limit/Lower Explosion Limit
+UEL = Upper Explosion Limit/Upper Explosive Limit
+REACH = Registration, Evaluation, Authorisation and Restriction of Chemicals
+
+BTT = Breakthrough time (maximum wearing time)
+
+DMEL = Derived Minimal Effect level
+
+DNEL = Derived No Effect Level
+
+EC50 = Median Effective Concentration
+
+EL50 = Median effective level
+
+ErC50 = EC50 in terms of reduction of growth rate
+
+ErL50 = EL50 in terms of reduction of growth rate
+
+EWC =  European waste catalogue
+
+LC50 =  Median lethal concentration
+
+LD50 = Median lethal dose
+
+LL50 = Median lethal level
+
+NA =  Not applicable
+
+NOEC = No observed effect concentration
+
+NOEL: no-observed-effect level
+
+NOELR = No observed effect loading rate
+
+NOAEC = No observed adverse effect concentration
+
+NOAEL = No observed adverse effect level
+
+N.O.S. = Not Otherwise Specified
+ANYCUBIC
+
+--- Page 67 ---
+
+SAFETY DATA SHEET
+Page : 12 / 12
+Revision nr : 1.0
+Issue date : 08/06/2022
+Plant based Resin+
+Supersedes :
+
+OEL = Occupational Exposure Limits - Short Term Exposure Limits (STELs)
+
+PNEC = Predicted No Effect Concentration
+
+Quantitative structure-activity relationship (QSAR)
+
+STOT = Specific Target Organ Toxicity
+
+TWA = time weighted average
+
+VOC = Volatile organic compounds
+
+WGK = Wassergefährdungsklasse (Water Hazard Class under German Federal Water Management Act)
+
+Sources of key data used to compile the
+datasheet
+: ECHA (European Chemicals Agency). LOLI. Supplier information.
+Training advice
+: Training staff on good practice.
+Other information
+: Classification - Assessment method: CLP Calculation method (Article 9).
+
+ Full text of H- and EUH-statements:
+Aquatic Chronic 2
+Hazardous to the aquatic environment – Chronic Hazard, Category 2
+Aquatic Chronic 3
+Hazardous to the aquatic environment – Chronic Hazard, Category 3
+Aquatic Chronic 4
+Hazardous to the aquatic environment – Chronic Hazard, Category 4
+Eye Irrit. 2
+Serious eye damage/eye irritation, Category 2
+H315
+Causes skin irritation.
+H317
+May cause an allergic skin reaction.
+H319
+Causes serious eye irritation.
+H411
+Toxic to aquatic life with long lasting effects.
+H412
+Harmful to aquatic life with long lasting effects.
+H413
+May cause long lasting harmful effects to aquatic life.
+Skin Irrit. 2
+Skin corrosion/irritation, Category 2
+Skin Sens. 1
+Skin sensitisation, Category 1
+Skin Sens. 1A
+Skin sensitisation, category 1A
+
+according to Regulation (EC) No. 1907/2006 (REACH) with its amendment Regulation (EU) 2020/878
+Classification according to Regulation (EC) No. 1272/2008 [CLP]
+Labelling according to Regulation (EC) No. 1272/2008 [CLP]
+
+DISCLAIMER OF LIABILITY  The information in this SDS was obtained from sources which we believe are reliable.
+However, the information is provided without any warranty, express or implied, regarding its correctness.  The conditions
+or methods of handling, storage, use or disposal of the product are beyond our control and may be beyond our
+knowledge.  For this and other reasons, we do not assume responsibility and expressly disclaim liability for loss, damage
+or expense arising out of or in any way connected with the handling, storage, use or disposal of the product.  This SDS
+was prepared and is to be used only for this product.  If the product is used as a component in another product, this SDS
+information may not be applicable.
+
+ANYCUBIC
+
+--- Page 75 ---
+SAFETY DATA SHEET
+Creation Date  28-Jan-2010
+Revision Date  24-Dec-2021
+Revision Number  8
+1. Identification
+Product Name
+Isopropyl alcohol, 70% in water
+Cat No. :
+A459-1; A459-20; A459-4; A459-500; XXA459N119; NC1321602;
+A459-200; NC1883130; XXA45910LI
+Synonyms
+IPA; Isopropanol (70% aqueous solution)
+Recommended Use
+Laboratory chemicals.
+Uses advised against
+Food, drug, pesticide or biocidal product use.
+Details of the supplier of the safety data sheet
+Emergency Telephone Number
+CHEMTRECÒ, Inside the USA: 800-424-9300
+CHEMTRECÒ, Outside the USA: 001-703-527-3887
+2. Hazard(s) identification
+Classification
+This chemical is considered hazardous by the 2012 OSHA Hazard Communication Standard (29 CFR 1910.1200)
+Label Elements
+Signal Word
+Danger
+Hazard Statements
+Highly flammable liquid and vapor
+Causes serious eye irritation
+May cause drowsiness or dizziness
+Company
+Fisher Scientific Company
+One Reagent Lane
+Fair Lawn, NJ 07410
+Tel: (201) 796-7100
+Serious Eye Damage/Eye Irritation
+Category 2
+Specific target organ toxicity (single exposure)
+Category 3
+Target Organs -  Central nervous system (CNS).
+Flammable liquids
+Category 2
+______________________________________________________________________________________________
+Page  1 / 8
+
+--- Page 76 ---
+______________________________________________________________________________________________
+Isopropyl alcohol, 70% in water
+Revision Date  24-Dec-2021
+Precautionary Statements
+Prevention
+Wash face, hands and any exposed skin thoroughly after handling
+Avoid breathing dust/fume/gas/mist/vapors/spray
+Use only outdoors or in a well-ventilated area
+Keep away from heat/sparks/open flames/hot surfaces. - No smoking
+Keep container tightly closed
+Ground/bond container and receiving equipment
+Use explosion-proof electrical/ventilating/lighting equipment
+Use only non-sparking tools
+Take precautionary measures against static discharge
+Wear protective gloves/protective clothing/eye protection/face protection
+Keep cool
+Inhalation
+IF INHALED: Remove victim to fresh air and keep at rest in a position comfortable for breathing
+Call a POISON CENTER or doctor/physician if you feel unwell
+Skin
+IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water/shower
+Eyes
+IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing
+If eye irritation persists: Get medical advice/attention
+Fire
+In case of fire: Use CO2, dry chemical, or foam for extinction
+Storage
+Store in a well-ventilated place. Keep container tightly closed
+Store locked up
+Disposal
+Dispose of contents/container to an approved waste disposal plant
+Hazards not otherwise classified (HNOC)
+None identified
+3. Composition/Information on Ingredients
+Component
+CAS No
+Weight %
+Isopropyl alcohol
+67-63-0
+64.7
+Water
+7732-18-5
+35.3
+4. First-aid measures
+General Advice
+If symptoms persist, call a physician.
+Eye Contact
+Rinse immediately with plenty of water, also under the eyelids, for at least 15 minutes. Get
+medical attention.
+Skin Contact
+Wash off immediately with soap and plenty of water. If skin irritation persists, call a
+physician.
+Inhalation
+Remove to fresh air. If not breathing, give artificial respiration. Get medical attention if
+symptoms occur.
+______________________________________________________________________________________________
+Page  2 / 8
+
+--- Page 77 ---
+______________________________________________________________________________________________
+Isopropyl alcohol, 70% in water
+Revision Date  24-Dec-2021
+Ingestion
+Clean mouth with water and drink afterwards plenty of water.
+Most important symptoms and
+effects
+Difficulty in breathing.  Inhalation of high vapor concentrations may cause symptoms like
+headache, dizziness, tiredness, nausea and vomiting
+Notes to Physician
+Treat symptomatically
+5. Fire-fighting measures
+Suitable Extinguishing Media
+CO 2, dry chemical, dry sand, alcohol-resistant foam. Water mist may be used to cool
+closed containers.
+Unsuitable Extinguishing Media
+Water may be ineffective
+Flash Point
+ 18  °C  /  64.4  °F
+Method -
+No information available
+Autoignition Temperature
+ 399  °C  /  750.2  °F
+Explosion Limits
+Upper
+12.7 vol %
+Lower
+2.0 vol %
+Sensitivity to Mechanical Impact No information available
+Sensitivity to Static Discharge
+No information available
+Specific Hazards Arising from the Chemical
+Flammable. Risk of ignition. Vapors may form explosive mixtures with air. Vapors may travel to source of ignition and flash back.
+Containers may explode when heated. Vapors may form explosive mixtures with air.
+Hazardous Combustion Products
+Carbon monoxide (CO). Carbon dioxide (CO2). peroxides.
+Protective Equipment and Precautions for Firefighters
+As in any fire, wear self-contained breathing apparatus pressure-demand, MSHA/NIOSH (approved or equivalent) and full
+protective gear.
+NFPA
+6. Accidental release measures
+Personal Precautions
+Use personal protective equipment as required. Ensure adequate ventilation. Remove all
+sources of ignition. Take precautionary measures against static discharges.
+Environmental Precautions
+Should not be released into the environment. See Section 12 for additional Ecological
+Information.
+Methods for Containment and Clean
+Up
+Soak up with inert absorbent material. Keep in suitable, closed containers for disposal.
+Remove all sources of ignition. Use spark-proof tools and explosion-proof equipment.
+7. Handling and storage
+Handling
+Wear personal protective equipment/face protection. Do not get in eyes, on skin, or on
+clothing. Ensure adequate ventilation. Avoid ingestion and inhalation. Keep away from open
+flames, hot surfaces and sources of ignition. Use only non-sparking tools. To avoid ignition
+of vapors by static electricity discharge, all metal parts of the equipment must be grounded.
+Take precautionary measures against static discharges.
+Storage.
+Keep containers tightly closed in a dry, cool and well-ventilated place. Keep away from
+heat, sparks and flame. Flammables area.  Incompatible Materials.  Strong oxidizing
+Health
+2
+Flammability
+3
+Instability
+0
+Physical hazards
+N/A
+______________________________________________________________________________________________
+Page  3 / 8
+
+--- Page 78 ---
+______________________________________________________________________________________________
+Isopropyl alcohol, 70% in water
+Revision Date  24-Dec-2021
+agents. Strong acids. Metals.
+8. Exposure controls / personal protection
+Exposure Guidelines
+9. Physical and chemical properties
+Physical State
+Liquid
+Appearance
+Colorless
+Odor
+Alcohol-like
+Odor Threshold
+No information available
+pH
+No information available
+Melting Point/Range
+ -88  °C  /  -126.4  °F
+Boiling Point/Range
+ 82  °C  /  179.6  °F
+Flash Point
+ 18  °C  /  64.4  °F
+Evaporation Rate
+1.7 (Butyl Acetate = 1.0)
+Flammability (solid,gas)
+Not applicable
+Flammability or explosive limits
+Upper
+12.7 vol %
+Lower
+2.0 vol %
+Vapor Pressure
+20 mmHg @ 332°C
+Vapor Density
+2.1 (Air = 1.0)
+Specific Gravity
+0.7850
+Solubility
+Miscible with water
+Partition coefficient; n-octanol/water
+No data available
+Autoignition Temperature
+ 399  °C  /  750.2  °F
+Decomposition Temperature
+No information available
+Component
+ACGIH TLV
+OSHA PEL
+NIOSH IDLH
+Mexico OEL (TWA)
+Isopropyl alcohol
+TWA: 200 ppm
+STEL: 400 ppm
+(Vacated) TWA: 400 ppm
+(Vacated) TWA: 980 mg/m3
+(Vacated) STEL: 500 ppm
+(Vacated) STEL: 1225
+mg/m3
+TWA: 400 ppm
+TWA: 980 mg/m3
+IDLH: 2000 ppm
+TWA: 400 ppm
+TWA: 980 mg/m3
+STEL: 500 ppm
+STEL: 1225 mg/m3
+TWA: 200 ppm
+STEL: 400 ppm
+Legend
+ACGIH - American Conference of Governmental Industrial Hygienists
+OSHA - Occupational Safety and Health Administration
+NIOSH IDLH:  NIOSH -  National Institute for Occupational Safety and Health
+Engineering Measures
+Ensure adequate ventilation, especially in confined areas. Use explosion-proof
+electrical/ventilating/lighting equipment. Ensure that eyewash stations and safety showers
+are close to the workstation location.
+Personal Protective Equipment
+Eye/face Protection
+Wear appropriate protective eyeglasses or chemical safety goggles as described by
+OSHA's eye and face protection regulations in 29 CFR 1910.133 or European Standard
+EN166.
+Skin and body protection
+Wear appropriate protective gloves and clothing to prevent skin exposure.
+Respiratory Protection
+Follow the OSHA respirator regulations found in 29 CFR 1910.134 or European Standard
+EN 149. Use a NIOSH/MSHA or European Standard EN 149 approved respirator if
+exposure limits are exceeded or if irritation or other symptoms are experienced.
+Hygiene Measures
+Handle in accordance with good industrial hygiene and safety practice.
+______________________________________________________________________________________________
+Page  4 / 8
+
+--- Page 79 ---
+______________________________________________________________________________________________
+Isopropyl alcohol, 70% in water
+Revision Date  24-Dec-2021
+Viscosity
+No information available
+10. Stability and reactivity
+Reactive Hazard
+None known, based on information available
+Stability
+Stable under normal conditions.
+Conditions to Avoid
+Incompatible products. Heat, flames and sparks. Keep away from open flames, hot
+surfaces and sources of ignition.
+Incompatible Materials
+Strong oxidizing agents, Strong acids, Metals
+Hazardous Decomposition Products Carbon monoxide (CO), Carbon dioxide (CO2), peroxides
+Hazardous Polymerization
+Hazardous polymerization does not occur.
+Hazardous Reactions
+None under normal processing.
+11. Toxicological information
+Acute Toxicity
+Product Information
+Oral LD50
+Based on ATE data, the classification criteria are not met. ATE > 2000 mg/kg.
+Dermal LD50
+Based on ATE data, the classification criteria are not met. ATE > 2000 mg/kg.
+Vapor LC50
+Based on ATE data, the classification criteria are not met. ATE > 20 mg/l.
+Component Information
+Component
+LD50 Oral
+LD50 Dermal
+LC50 Inhalation
+Isopropyl alcohol
+5045 mg/kg  ( Rat )
+3600 mg/kg  ( Mouse )
+12800 mg/kg  ( Rat )
+72.6 mg/L  ( Rat ) 4 h
+Water
+-
+-
+-
+Toxicologically Synergistic
+Products
+No information available
+Delayed and immediate effects as well as chronic effects from short and long-term exposure
+Irritation
+Severe eye irritant
+Sensitization
+No information available
+Carcinogenicity
+The table below indicates whether each agency has listed any ingredient as a carcinogen.
+Component
+CAS No
+IARC
+NTP
+ACGIH
+OSHA
+Mexico
+Isopropyl alcohol
+67-63-0
+Not listed
+Not listed
+Not listed
+Not listed
+Not listed
+Water
+7732-18-5
+Not listed
+Not listed
+Not listed
+Not listed
+Not listed
+Mutagenic Effects
+No information available
+Reproductive Effects
+No information available.
+Developmental Effects
+No information available.
+Teratogenicity
+No information available.
+STOT - single exposure
+Central nervous system (CNS)
+STOT - repeated exposure
+None known
+Aspiration hazard
+No information available
+Symptoms  / effects,both acute and
+delayed
+Inhalation of high vapor concentrations may cause symptoms like headache, dizziness,
+tiredness, nausea and vomiting
+______________________________________________________________________________________________
+Page  5 / 8
+
+--- Page 80 ---
+______________________________________________________________________________________________
+Isopropyl alcohol, 70% in water
+Revision Date  24-Dec-2021
+Endocrine Disruptor Information
+No information available
+Other Adverse Effects
+The toxicological properties have not been fully investigated.
+12. Ecological information
+Ecotoxicity
+.
+Component
+Freshwater Algae
+Freshwater Fish
+Microtox
+Water Flea
+Isopropyl alcohol
+EC50: > 1000 mg/L, 96h
+(Desmodesmus
+subspicatus)
+EC50: > 1000 mg/L, 72h
+(Desmodesmus
+subspicatus)
+LC50: = 9640 mg/L, 96h
+flow-through (Pimephales
+promelas)
+LC50: > 1400000 µg/L, 96h
+(Lepomis macrochirus)
+LC50: = 11130 mg/L, 96h
+static (Pimephales
+promelas)
+LC50: = 10000000 µg/L, 96h
+(Daphnia)
+= 35390 mg/L EC50
+Photobacterium
+phosphoreum 5 min
+13299 mg/L EC50 = 48 h
+9714 mg/L EC50 = 24 h
+Persistence and Degradability
+Persistence is unlikely based on information available.
+Bioaccumulation/ Accumulation
+No information available.
+Mobility
+Will likely be mobile in the environment due to its volatility.
+Component
+log Pow
+Isopropyl alcohol
+0.05
+13. Disposal considerations
+Waste Disposal Methods
+Chemical waste generators must determine whether a discarded chemical is classified as a
+hazardous waste.  Chemical waste generators must also consult local, regional, and
+national hazardous waste regulations to ensure complete and accurate classification.
+14. Transport information
+DOT
+UN-No
+UN1219
+Proper Shipping Name
+ISOPROPANOL
+Hazard Class
+3
+Packing Group
+II
+  TDG
+UN-No
+UN1219
+Proper Shipping Name
+ISOPROPANOL
+Hazard Class
+3
+Packing Group
+II
+IATA
+UN-No
+UN1219
+Proper Shipping Name
+ISOPROPANOL
+Hazard Class
+3
+Packing Group
+II
+IMDG/IMO
+UN-No
+UN1219
+Proper Shipping Name
+ISOPROPANOL
+Hazard Class
+3
+Packing Group
+II
+15. Regulatory information
+United States of America Inventory
+______________________________________________________________________________________________
+Page  6 / 8
+
+--- Page 81 ---
+______________________________________________________________________________________________
+Isopropyl alcohol, 70% in water
+Revision Date  24-Dec-2021
+Component
+CAS No
+TSCA
+TSCA Inventory notification -
+Active-Inactive
+TSCA - EPA Regulatory
+Flags
+Isopropyl alcohol
+67-63-0
+X
+ACTIVE
+-
+Water
+7732-18-5
+X
+ACTIVE
+-
+Legend:
+TSCA  US EPA (TSCA) - Toxic Substances Control Act, (40 CFR Part 710)
+X - Listed
+'-' - Not Listed
+TSCA 12(b) - Notices of Export
+Not applicable
+International Inventories
+Canada (DSL/NDSL), Europe (EINECS/ELINCS/NLP), Philippines (PICCS), Japan (ENCS), Japan (ISHL), Australia (AICS), China (IECSC), Korea
+(KECL).
+Component
+CAS No
+DSL
+NDSL
+EINECS
+PICCS
+ENCS
+ISHL
+AICS
+IECSC
+KECL
+Isopropyl alcohol
+67-63-0
+X
+-
+200-661-7
+X
+X
+X
+X
+X
+KE-29363
+Water
+7732-18-5
+X
+-
+231-791-2
+X
+X
+X
+X
+KE-35400
+KECL - NIER number or KE number (http://ncis.nier.go.kr/en/main.do)
+U.S. Federal Regulations
+SARA 313
+Component
+CAS No
+Weight %
+SARA 313 - Threshold
+Values %
+Isopropyl alcohol
+67-63-0
+64.7
+1.0
+SARA 311/312 Hazard Categories
+See section 2 for more information
+CWA (Clean Water Act)
+Not applicable
+Clean Air Act
+Not applicable
+OSHA - Occupational Safety and
+Health Administration
+Not applicable
+CERCLA
+Not applicable
+California Proposition 65
+This product does not contain any Proposition 65 chemicals.
+U.S. State Right-to-Know
+Regulations
+Component
+Massachusetts
+New Jersey
+Pennsylvania
+Illinois
+Rhode Island
+Isopropyl alcohol
+X
+X
+X
+-
+X
+Water
+-
+-
+X
+-
+-
+U.S. Department of Transportation
+Reportable Quantity (RQ):
+N
+DOT Marine Pollutant
+N
+DOT Severe Marine Pollutant
+N
+U.S. Department of Homeland
+Security
+This product does not contain any DHS chemicals.
+Other International Regulations
+______________________________________________________________________________________________
+Page  7 / 8
+
+--- Page 82 ---
+______________________________________________________________________________________________
+Isopropyl alcohol, 70% in water
+Revision Date  24-Dec-2021
+Mexico - Grade
+Serious risk, Grade 3
+Authorisation/Restrictions according to EU REACH
+Component
+REACH (1907/2006) - Annex XIV -
+Substances Subject to
+Authorization
+REACH (1907/2006) - Annex XVII -
+Restrictions on Certain Dangerous
+Substances
+REACH Regulation (EC
+1907/2006) article 59  - Candidate
+List of Substances of Very High
+Concern (SVHC)
+Isopropyl alcohol
+-
+Use restricted. See item 75.
+(see link for restriction details)
+-
+https://echa.europa.eu/substances-restricted-under-reach
+Safety, health and environmental regulations/legislation specific for the substance or mixture
+Component
+CAS No
+OECD HPV
+Persistent Organic
+Pollutant
+Ozone Depletion
+Potential
+Restriction of
+Hazardous
+Substances (RoHS)
+Isopropyl alcohol
+67-63-0
+Listed
+Not applicable
+Not applicable
+Not applicable
+Water
+7732-18-5
+Listed
+Not applicable
+Not applicable
+Not applicable
+Component
+CAS No
+Seveso III Directive
+(2012/18/EC) -
+Qualifying Quantities
+for Major Accident
+Notification
+Seveso III Directive
+(2012/18/EC) -
+Qualifying Quantities
+for Safety Report
+Requirements
+Rotterdam
+Convention (PIC)
+Basel Convention
+(Hazardous Waste)
+Isopropyl alcohol
+67-63-0
+Not applicable
+Not applicable
+Not applicable
+Annex I - Y42
+Water
+7732-18-5
+Not applicable
+Not applicable
+Not applicable
+Not applicable
+16. Other information
+Prepared By
+Regulatory Affairs
+Thermo Fisher Scientific
+Email: EMSDS.RA@thermofisher.com
+Creation Date
+28-Jan-2010
+Revision Date
+24-Dec-2021
+Print Date
+24-Dec-2021
+Revision Summary
+This document has been updated to comply with the US OSHA HazCom 2012 Standard
+replacing the current legislation under 29 CFR 1910.1200 to align with the Globally
+Harmonized System of Classification and Labeling of Chemicals (GHS).
+Disclaimer
+The information provided in this Safety Data Sheet is correct to the best of our knowledge, information and belief at the
+date of its publication. The information given is designed only as a guidance for safe handling, use, processing, storage,
+transportation, disposal and release and is not to be considered a warranty or quality specification. The information
+relates only to the specific material designated and may not be valid for such material used in combination with any other
+materials or in any process, unless specified in the text
+End of SDS
+______________________________________________________________________________________________
+Page  8 / 8

@@ -1,0 +1,74 @@
+# 3D-Printing-Hardware-Guide-1
+
+Source: 3D-Printing-Hardware-Guide-1.pdf
+Category: 3d_printing
+Pages: 1
+========================================
+
+--- Page 1 ---
+CHANGING THE FILAMENT
+Power on the printer using the red power switch located on the left hand of the
+machine
+1.
+The control panel is a touch screen, touch anywhere on the screen to wake it up
+2.
+Select the “Prepare” icon at the bottom of the screen (3 lines with dots on them)
+3.
+Select the “Extrude/Retract” tab at the top of the screen
+4.
+to remove the old filament select the “Retract Button” this will start the nozzle heating,
+ once it has heated up to the proper temperature the filament will automatically star
+t to retract
+5.
+once the filament is fully retracted you can pull it  the rest of the way out of the
+ extruder
+6.
+Always remember to wind up the old filament and tuck the end through one of the
+holes on the spool!!!!
+7.
+Place the new filament on the holder and thread the filament first through the
+filament detector then down into the extruder
+8.
+Touch the “Extrude” Button and the nozzle will begin to heat up, once it has heated to
+the proper temperature the filament will start to extrude
+9.
+ GUIDE
+3D
+PRINTING
+ HARDWARE
+PRINTER SET UP
+Make sure the printer bed and nozzle are free of any debris, with the
+new printers you no longer need to use glue on the bed!!!
+1.
+Place the USB into the slot on the side of the control panel
+2.
+Make sure the printer is turned on using the red power button on
+the left hand side of the machine
+3.
+The control panel is a touch screen, touch anywhere on the screen
+to wake it up
+4.
+Select the “File” icon at the bottom of the screen
+5.
+Select the “USB Drive” tab at the top of the screen
+6.
+Select your file from the list
+7.
+A screen will show your file details
+8.
+Select the “Print” button
+9.
+This will start the printing process, first the printer will auto-level the
+ bed then heat up to the proper temperature after that your file wil
+l start to print
+10.
+WATCH
+FILAMENT TUTORIAL:
+IMPORTANT PRINTER CHANGES!
+All of the printers in the lab have been upgraded!!
+Glue or hairspray is no longer needed for the print bed
+Bed leveling is now automatic
+The beds are magnetic, to remove your print simply lift off the bed and gently flex until your print pops off
+Fill out the dry erase board in front of the printer you are using with your contact info, that way if anyone is in
+ the lab and notices a problem with your print they can notify you if you are in the lab and notice a print is
+failing send the user an email

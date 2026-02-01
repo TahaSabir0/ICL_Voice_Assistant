@@ -1,0 +1,2959 @@
+# Janome-mc550e-User-Manual
+
+Source: Janome-mc550e-User-Manual.pdf
+Category: sewing_embroidery
+Pages: 76
+========================================
+
+--- Page 1 ---
+Instruction Book
+
+--- Page 3 ---
+IMPORTANT SAFETY INSTRUCTIONS
+When using an electrical appliance, basic safety precautions should always be followed, including the
+following:
+This sewing machine is designed and manufactured for household use only.
+Read all instructions before using this sewing machine.
+DANGER— To reduce the risk of electric shock:
+	1.	 An appliance should never be left unattended when plugged in. Always unplug
+
+	 this sewing machine from the electric outlet immediately after using and before
+
+	 cleaning.
+WARNING— To reduce the risk of burns, fire, electric shock, or injury to persons:
+	 1.	 Do not allow to be used as a toy. Close attention is necessary when this sewing machine is used
+
+	 by or near children.
+	 2.	 Use this appliance only for its intended use as described in this owner’s manual.
+
+	 Use only attachments recommended by the manufacturer as contained in this owner’s manual.
+	 3.	 Never operate this sewing machine if it has a damaged cord or plug, if it is not working properly, if
+
+	 it has been dropped or damaged, or dropped into water.
+
+	 Return this sewing machine to the nearest authorized dealer or service center for examination,
+
+	 repair, electrical or mechanical adjustment.
+	 4.	 Never operate the appliance with any air opening blocked. Keep ventilation openings of this
+
+	 sewing machine and foot controller free from accumulation of lint, dust and loose cloth.
+	 5.	 Never drop or insert any object into any opening.
+	 6.	 Do not use outdoors.
+	 7.	 Do not operate where aerosol (spray) products are being used or where oxygen is being
+       	administered.
+	 8.	 To disconnect, turn all controls to the off (“O”) position, then remove plug from outlet.
+	 9.	 Do not unplug by pulling on cord. To unplug, grasp the plug, not the cord.
+	10.	 Keep fingers away from all moving parts. Special care is required around the sewing machine
+
+	 needle and/or cutting blade.
+	11.	 Always use the proper needle plate. The wrong plate can cause the needle to break.
+	12.	 Do not use bent needles.
+	13.	 Do not pull or push fabric while stitching. It may deflect the needle causing it to break.
+	14.	 Switch this sewing machine off (“O”) when making any adjustment in the needle area, such as
+
+	 threading the needle, changing the needle, threading the bobbin or changing the presser foot, and
+
+	 the like.
+	15.	 Always unplug this sewing machine from the electrical outlet when removing covers, lubricating, or
+
+	 when making any other adjustments mentioned in this owner’s manual.
+SAVE THESE INSTRUCTIONS
+Please note that on disposal, this product must be safely recycled in accordance with relevant
+National legislation relating to electrical/electronic products. If in doubt please contact your
+retailer for guidance. (European Union only)
+For Europe only:
+This appliance can be used by children aged from 8 years and above and persons with reduced
+physical, sensory or mental capabilities or lack of experience and knowledge if they have been given
+supervision or instruction concerning use of the appliance in a safe way and understand the hazards
+involved. Children shall not play with the appliance. Cleaning and user maintenance shall not be made
+by children without supervision.
+For outside Europe (except U.S.A and Canada):
+This appliance is not intended for use by persons (including children) with reduced physical, sensory or
+mental capabilities, or lack of experience and knowledge, unless they have been given supervision or
+instruction concerning use of the appliance by a person responsible for their safety.
+Children should be supervised to ensure that they do not play with the appliance.
+
+--- Page 4 ---
+TABLE OF CONTENTS
+GETTING READY TO SEW
+Names of Parts............................................................... 3
+Standard Accessories..................................................... 4
+Extra Wide Table............................................................. 5
+Anti-slipping sticker (for Embroidery hoop RE28b)......... 5
+Connecting the Power Supply......................................... 6
+Machine Operating Buttons............................................ 6
+Raising and Lowering the Presser Foot.......................... 7
+Common Keys................................................................. 7
+Setting the Spool of Thread............................................ 8
+	 Extra spool pin............................................................. 8
+Winding the Bobbin.................................................... 8-10
+	 Removing the bobbin................................................... 8
+	 Winding the bobbin...................................................... 9
+	 Inserting the bobbin................................................... 10
+Threading the Machine..................................................11
+Built-in Needle Threader............................................... 12
+Replacing Needles........................................................ 13
+Fabric and Needle Chart............................................... 13
+On-screen Help............................................................. 14
+Removing and Attaching the Embroidery Foot............. 15
+Bobbin Holder for Embroidery (high tension)................ 16
+Embroidery Hoops........................................................ 16
+Stabilizers..................................................................... 17
+	 Types of the stabilizers.............................................. 17
+Setting the Fabric in an Embroidery Hoop.................... 18
+Attaching the Embroidery Hoop to the Machine........... 19
+Thread Holder............................................................... 20
+Selecting Built-in Embroidery Designs......................... 20
+Monogramming............................................................. 21
+Function Keys............................................................... 22
+Programming a Monogram......................................23-24
+	 Color change.............................................................. 23
+	 Monogram placement................................................ 23
+	 2-Letter monogram.................................................... 24
+Editing a Monogram...................................................... 25
+Ready to Sew Window.............................................26-31
+	 Function keys............................................................. 26
+	 Pattern information..................................................... 26
+	 Stitch back/forward keys............................................ 27
+	 Jump key.................................................................... 27
+	 Cross mark................................................................. 27
+	 Color section key....................................................... 27
+	 Trace key.................................................................... 28
+	 Thread color/Jog key.................................................. 28
+	 Fine position/angle adjustment key........................... 29
+	 Rotating a design....................................................... 29
+	 Moving a design......................................................... 29
+	 Color list key.............................................................. 30
+	 Adjust key................................................................... 30
+	 	 Auto thread tension level........................................ 30
+	 	 Cutting the tails of jump threads............................. 30
+	 Hoop back key........................................................... 31
+Starting to Sew Embroidery.......................................... 32
+Editing Mode............................................................33-43
+	 Selecting a hoop size................................................. 33
+	 Opening the embroidery designs............................... 33
+	 Editing tool bar information........................................ 34
+	 Selecting a pattern..................................................... 34
+	 Moving a pattern........................................................ 34
+	 Duplicating a pattern.................................................. 35
+	 Deleting a pattern....................................................... 35
+	 Resizing a pattern...................................................... 35
+	 Rotating a pattern...................................................... 36
+	 Flipping a pattern....................................................... 36
+	 Monogramming in an arc........................................... 37
+	 Grouping patterns...................................................... 38
+	 Customizing the display colors.................................. 39
+	 Color grouping........................................................... 40
+	 Sewing order.............................................................. 41
+	 Center positioning...................................................... 41
+	 Creating a square frame............................................ 42
+	 Single color sewing.................................................... 42
+	 Zooming in the editing window.................................. 43
+Pantry Designs for Applique....................................44-45
+	 Alternative method..................................................... 45
+Celebration Designs...................................................... 46
+Bracelet Designs........................................................... 47
+CUSTOMIZING MACHINE SETTINGS
+Machine Setting Mode.................................................. 48
+	 Registering the custom settings................................. 48
+Common Setting Mode............................................49-50
+CUSTOMIZING EMBROIDERY MODE SETTINGS
+Embroidery Mode Settings...................................... 51-54
+Language Selection Mode............................................ 54
+Saving and Opening a File............................................ 55
+	 Creating a new folder................................................. 55
+	 Deleting a file or folder............................................... 56
+	 Opening a file............................................................. 56
+	 Changing a name of the file or folder......................... 57
+Direct PC-Link............................................................... 57
+CARE AND MAINTENANCE
+Cleaning the Hook Area................................................ 58
+Cleaning the Thread Path............................................. 59
+Oiling the Machine...................................................60-64
+Troubleshooting............................................................ 65
+DESIGN CHART
+Embroidery............................................................... 66-71
+
+--- Page 5 ---
+3
+GETTING READY TO SEW
+Names of Parts
+Thread take-up lever
+Upper thread guide
+Pre-tension thread guide
+Bobbin winder thread guide
+Spool pin
+Spool holder (large)
+Hole for extra spool pin
+Bobbin thread cutter
+Bobbin winder spindle
+Bobbin winder stopper
+Face plate
+Start/stop button
+Thread cutter button
+Visual touch screen
+Carriage
+Thread cutter/holder
+Needle threader
+Setscrew
+Embroidery foot
+Needle plate
+Thread cutter
+Lower thread guide
+Needle clamp screw
+Needle
+Hook cover plate
+Hook cover release button
+Carrying handle
+Handwheel
+Touch panel stylus holder
+USB port (type B)
+USB port (type A)
+Presser foot lifter
+Power switch
+Power inlet
+q
+w
+e
+r
+t
+y
+u
+i
+o
+!0
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+@0
+@1
+@2
+@3
+@4
+@5
+@6
+@7
+@8
+@9
+#0
+#1
+#2
+#3
+#4
+ * Design and specifications are subject to change without prior notice.
+q
+!1
+@9
+#0
+#1
+@8
+t y
+u
+o
+i
+!0
+w e
+!2
+!3
+!4
+!5
+!6
+!7
+!9
+@1
+@5
+@6
+@2
+@3
+!8
+@4
+@7
+#3
+#4
+#2
+NOTE:
+To carry the sewing machine,
+hold the carrying handle with your
+hand, and support the sewing
+machine with the other hand.
+r
+@0
+
+--- Page 6 ---
+4
+Standard Accessories
+Bobbin x 5 (1 set on the machine)
+Screwdriver (Large)
+Screwdriver key (for needle plate)
+Lint brush
+Scissors
+Needle set
+Spool holder (large) X 2 (1 set on the machine)
+Spool holder (small) X 2
+Spool holder (special) X 2
+Extra spool pin
+Special bobbin holder for Embroidery (high tension)
+Touch panel stylus
+Bobbin holder cleaner
+Instruction book
+Quick reference guide
+Instructional DVD
+Embroidery Editor/Installation guide
+Soft machine cover
+USB cable
+Power cable**
+Embroidery hoop SQ14b (with template)*
+Embroidery hoop RE20b (with template)*
+Embroidery hoop SQ20b (with template)*
+Embroidery hoop RE28b (with template)* and
+anti-slipping sticker
+Clamp X 8
+Extra wide table
+q
+w
+e
+r
+t
+y
+u
+i
+o
+!0
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+@0
+@1
+@2
+@3
+@4
+@5
+@6
+q
+w
+e
+r
+t
+y
+u
+i
+o
+!0
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+@1
+@2
+@3
+@4
+@5
+@6
+@0
+**	 The power cable included may differ from the illustration.
+*	The embroidery hoops supplied with your machine vary
+depending on your model.
+
+--- Page 7 ---
+5
+Extra Wide Table
+Use the extra wide table when the Embroidery hoop
+RE20b, SQ20b or RE28b is attached to the machine.
+Extract the 4 legs located the underside of the table.
+Place the extra wide table on the machine.
+NOTE:
+Adjust the height of the extra wide table to the height
+of the machine table by turning the adjusting screws
+of 4 legs. Otherwise the carriage may hit the extra
+wide table when attached. Use a phillips screwdriver*
+to turn the adjusting screw.
+	 q	Adjusting screw
+* Phillips screwdriver is not included with the machine.
+q
+Anti-slipping sticker (for Embroidery hoop RE28b)
+Embroidery hoop RE28b unit includes the anti-slipping
+sticker.
+Peel and paste the sticker on the Embroidery RE28 as
+shown to prevent slipping of the fine fabrics.
+
+--- Page 8 ---
+6
+Connecting the Power Supply
+z	First make sure the power switch q is off.
+x	Insert the machine plug w of the power supply cord
+into the power inlet e.
+c	Insert the power supply plug r into the wall outlet t,
+and turn the power switch q on.
+   q	Power switch
+   w	Machine plug
+   e	Power inlet
+   r	Power supply plug
+   t	Wall outlet
+NOTE:
+Make sure to use the power cable that came with the
+machine.
+If you turn off the power switch, wait for 5 seconds
+before turning it on again.
+
+WARNING:
+While in operation, always keep your eyes on the
+sewing area, and do not touch any moving parts such
+as the thread take-up lever, handwheel or needle.
+Always turn off the power switch and unplug the
+machine from the power supply:
+- when leaving the machine unattended.
+- when attaching or removing parts.
+- when cleaning the machine.
+q
+w
+For the U.S.A. and Canada only
+Polarized plug (one blade wider than the other):
+To reduce the risk of electric shock, this plug is intended
+to fit in a polarized outlet only one way. If it does not fit
+fully in the outlet, reverse the plug. If it still does not fit,
+contact a qualified electrician to install the proper outlet.
+Do not modify the plug in any way.
+r
+t
+q	Start/stop button
+Press this button to start or stop the machine. The button
+turns red when the machine is running, and green when
+it stops.
+w	Thread cutter button
+Press this button when you finish sewing to trim the
+threads. The needle bar automatically rise after trimming
+the threads.
+NOTE:
+If you press the start/stop button without lowering the
+presser foot, the warning message e appears on the
+visual touch screen.
+Lower the presser foot and press the start/stop button.
+Machine Operating Buttons
+q
+w
+e
+e
+
+--- Page 9 ---
+7
+Raising and Lowering the Presser Foot
+You can raise and lower the presser foot with the presser
+foot lifter.
+q Presser foot lifter
+w Extra lifted position
+You can raise the presser foot about 7 mm (1/4˝) higher
+than the normal up position by exerting more pressure
+when lifting the presser foot lifter.
+NOTE:
+Do not turn the hand wheel when the presser foot is in
+the extra lifted position.
+q
+w
+q	Home key
+Press this key to enter the category selection.
+w	Open file key
+Press this key and the open file window will open.
+You can open embroidery designs saved in the machine’s
+internal memory or on a USB flash drive.
+e	Set mode key
+Press this key to enter the setting mode. You can
+customize the machine settings to your preference.
+The machine settings for common settings, embroidery
+and language selection are available in this mode.
+r	Help key
+Press this key to view the step-by-step visual guide about
+the essential operations.
+t	Lockout key
+Press this key to lockout the machine when threading the
+machine, replacing the accessories etc.
+To reduce the risk of injury, all the buttons and keys are
+deactivated.
+To unlock the machine, press the lockout key t again.
+y	Next page key
+To view the next page, press the next page key.
+u	Previous page key
+To view the previous page, press the previous page key.
+Common Keys
+	 	 	 	 CAUTION:
+Do not press the visual touch screen with hard or
+sharp objects like pencils, screwdrivers or the like.
+Use the touch panel stylus included in the standard
+accessories.
+q
+w
+e
+r
+t
+y
+u
+
+--- Page 10 ---
+8
+Extra spool pin
+Use the extra spool pin when you need to wind a bobbin
+without unthreading the machine while working on a
+sewing project.
+Insert the extra spool pin into the hole as shown.
+Place a spool of thread on the extra spool pin and fix the
+spool with the spool holder.
+ q Extra spool pin
+ w Hole for extra spool pin
+ e Large spool holder
+Setting the Spool of Thread
+Lift up the spool pin. Place the spool of thread on the
+spool pin.
+Attach the large spool holder, and press it firmly against
+the spool of thread.
+NOTE:
+Use the small spool holder to hold narrow or small
+spools of thread.
+Winding the Bobbin
+Removing the bobbin
+	 	 	 CAUTION:
+Press the lockout key or turn the power switch off.
+z	Slide the hook cover release button q to the right,
+and remove the hook cover plate w.
+	 	 	 q	Hook cover release button
+	 	 	 w	Hook cover plate
+x	Remove the bobbin e from the bobbin holder.
+	 	 	 e	Bobbin
+NOTE:
+Use the plastic bobbins for horizontal hook marked
+with a “J” r. Using other bobbins, such as pre-wound
+paper bobbins, may cause stitching problems and/
+or damage to the bobbin holder.
+x
+z
+q
+w
+Use the spool holder (special) to hold the specific size of
+the spool of threads as shown.
+The sizes of the spools of thread are as follows;
+The hole diameter of the spool has a range of 3/8˝ to
+7/16˝ (9.5 to 10.5 mm)), and the spool length has a range
+of 2 3/4˝ to 3˝ (70 to 75 mm).
+	 q	Spool holder (special)
+	 w	Hole diameter (3/8˝ to 7/16˝)
+	 e	Spool length (2 3/4˝ to 3˝)
+Firmly insert the spool holder (special) into the hole and
+hold the spool as illustrated.
+q
+q
+w
+w
+e
+Draw the thread to the left and forward around the bobbin
+winder thread guide as shown.
+Firmly pull the thread to the right.
+Follow the procedure from x to , of page 9 to wind the
+bobbin.
+r
+e
+q
+w
+e
+
+--- Page 11 ---
+9
+,	Remove the bobbin.
+	 	 Insert the thread into one of the slits of the flange
+plate and pull the thread to cut.
+NOTE:
+For safety purposes, the machine will automatically
+stop 1.5 minutes after starting bobbin winding.
+x	Put the bobbin on the bobbin winder spindle.
+   w Bobbin
+   e Bobbin winder spindle
+c	Pass the thread to the bobbin.
+	 	 Hold the thread with both hands and wind it around
+the bobbin clockwise several times.
+z
+w
+x
+b
+Winding the bobbin
+z	Draw the thread from the spool.
+	 	 Guide the thread around the bobbin winder thread
+guide.
+	 	 	 q	Bobbin winder thread guide
+v
+n
+q
+e
+c
+i
+t
+r
+v	Insert the thread into one of the slits t of the flange
+plate r and pull the thread to cut.
+   r Flange plate
+   t Slit
+b	Push the bobbin winder spindle e to the right.
+	 	 The visual touch screen will show the bobbin winding
+sign.
+	 	 If you wish to wind the bobbin thread more quickly or
+slowly, you can adjust the maximum bobbin winding
+speed by pressing the “+” key y or “–” key u.
+m
+,
+n	Press the start/stop button i.
+   i Start/stop button
+	 	 When the bobbin is fully wound, it will stop spinning
+automatically.
+	 	 Press the start/stop button i to stop the machine.
+m	Return the bobbin winder to its original position by
+moving the spindle to the left.
+e
+y
+u
+NOTE:
+Do not move the bobbin winder spindle while the
+machine is running.
+
+--- Page 12 ---
+10
+z
+x
+c
+v
+Inserting the bobbin
+z	Press the lockout key.
+	 	 Place a bobbin in the bobbin holder with the thread
+running off counterclockwise as shown on the hook
+cover plate.
+   q Lockout key
+   w End of thread
+   e Bobbin holder
+   r Hook cover plate
+x Hold the bobbin with your fingertip so it does not
+rotate.
+	 	 Guide the thread into the front notch of the bobbin
+holder.
+	 	 Pull the thread to the left to pass it under the guide.
+   t Front notch
+   y Guide
+c	Draw the thread to the left to pass it into the guide
+path marked “1”.
+	 	 Make sure that the thread comes out from the side
+notch of the bobbin holder.
+   u Guide path 1
+   i Side notch
+NOTE:
+If the thread does not come out from the side notch,
+rethread from step z.
+v	Continue to draw the thread along the guide path
+marked “2” and pull the thread to the right through the
+slit. The thread will be cut to a proper length and held
+in place.
+   o Guide path 2
+   !0 Slit (Thread cutter)
+e
+w
+r
+t
+y
+u
+Correct
+i
+i
+i
+Wrong
+o
+!0
+b
+r
+b	Set the left edge of the hook cover plate into opening.
+	 	 Push down the hook cover plate to fit in place.
+q
+
+--- Page 13 ---
+11
+z
+Threading the Machine
+Raise the presser foot lifter.
+Press the lockout key to lockout the machine.
+Turn the handwheel toward you to raise the needle at its
+highest position.
+	 q	Lockout key
+Pass the thread in order from z to m.
+x
+z Pull the thread from the spool.
+  Hold the thread with both hands and pass the thread
+into the slit of the pre-tension thread guide.
+	 	 	 w	Slit
+x Wind the thread around the pre-tension thread guide
+once as shown.
+	 	 Draw the thread around the corner of the upper thread
+guide.
+	 	 Firmly pull the thread toward you along the right
+channel until the thread snaps.
+	 	 	 e	Pre-tension thread guide
+	 	 	 r	Upper thread guide
+	 	 	 t	Right channel
+NOTE:
+If the thread slips out of the pre-tension thread guide
+while sewing, wind the thread through the hole as
+shown y when threading through the pre-tension
+thread guide.
+c Draw the thread down along the right channel and
+around the bottom of the thread guide plate.
+	 	 Pull the thread up along the left channel.
+	 	 	 t	Right channel
+	 	 	 i	Thread guide plate
+	 	 	 o	Left channel
+v While holding the thread at the spool, firmly draw the
+thread up and to the back of the take-up lever. Draw
+the thread forward to draw it into the eye of the take-
+up lever.
+	 	 	 !0	Eye of the take-up lever
+b Then pull the thread down along the left channel and
+through the lower thread guide.
+	 	 	 !1	Lower thread guide
+n Slide the thread from the right of the needle bar thread
+guide to the left.
+	 	 	 !2	Needle bar thread guide
+m Thread the needle with the needle threader (refer to
+the next page).
+q
+w
+c
+e
+r
+t
+t
+i
+o
+!0
+v
+b n m
+!1
+!2
+NOTE:
+If the thread coming out from the needle eye is too
+short after auto thread cutting and skipped stitch
+occurs, draw the thread through the pre-tension
+thread guide as shown u.
+y
+u
+
+--- Page 14 ---
+12
+n	Pull the thread loop to take the thread end out through
+the needle eye to the rear.
+NOTE:
+If the thread is caught in the hook and the thread loop
+is not formed, remove the thread from the hook and
+pull it to take the thread end out through the needle
+eye.
+b	Raise the threader slowly so a loop of the thread is
+pulled up through the needle eye.
+Built-in Needle Threader
+NOTE:
+The needle threader can be used with a #11 to #14
+needle.
+Thread size 50 to 90 is recommended.
+Do not use thread size 30 or thicker.
+z	Press the lockout key to lock the machine.
+	 	 Lower the presser foot.
+	 	 Turn the handwheel toward you to until the needle
+thread sign w appears on the right upper corner of
+the lockout window.
+	 	 	 q	Lockout key
+	 	 	 w	Needle threader sign
+x	Draw the thread through the slit e of the needle
+threader. The thread should pass under the hook r.
+	 	 	 e	Slit
+	 	 	 r	Hook
+z
+c
+v
+n
+c	Pull the thread up and slip it between the thread cutter
+and face plate from behind.
+	 	 Pull the thread toward you to cut.
+v	Pull down the needle threader knob as far as it will go.
+b
+e
+x
+q
+w
+r
+
+--- Page 15 ---
+13
+Replacing Needles
+	 	 	 	 CAUTION:
+Always make sure to press the lockout key to lockout
+the machine or turn the power switch off before
+replacing the needle.
+Raise the needle by turning the handwheel.
+Turn the power switch off or press the lockout key.
+	 	 q	Lockout key
+Loosen the needle clamp screw by turning it
+counterclockwise.
+Remove the needle from the clamp.
+	 	 w	Needle clamp screw
+Insert a new needle into the needle clamp with the flat
+side of the needle to the rear.
+	 	 e	Flat side
+When inserting the needle into the needle clamp, push it
+up against the stopper pin and tighten the needle clamp
+screw firmly with a screwdriver.
+To check needle straightness, place the flat side of the
+needle onto something flat (a needle plate, glass etc.).
+The gap between the needle and the flat surface should
+be consistent.
+	 	 r	Gap
+Never use a blunt needle.
+r
+e
+w
+NOTE:
+Use size 11 blue tipped needle for fine fabrics.
+For medium to heavy weight fabrics, use size 14
+needles.
+q
+Fabric
+Thread
+Needle
+Fine
+Embroidery thread
+Blue tip needle
+or
+EL x 705
+Size 12/80
+Medium
+Heavy
+weight
+ Universal needle #14
+or
+EL x 705
+Size 14/90
+Fabric and Needle Chart
+Janome bobbin thread for embroidery is recommended
+for bobbin.
+	 	 	 CAUTION:
+Be sure to tighten the needle clamp screw firmly
+with a screwdriver when attaching a needle to the
+machine, otherwise the needle may break or cause
+malfunction.
+
+--- Page 16 ---
+14
+On-screen Help
+Press the help key to open the help menu.
+You can view instructions on 4 topics of essential
+operations of the machine.
+Select the help topic by pressing the book icon and the
+step-by-step instruction will open.
+
+q	Help key
+
+w	Book icon
+q
+w
+e
+r
+t
+To view the next page, press the next page key.
+To view the previous page, press the previous page key.
+Press the X key to close the current window.
+
+e	Next page key
+
+r	Previous page key
+
+t	X key
+
+--- Page 17 ---
+15
+Removing and Attaching the Embroidery Foot
+Remove the embroidery foot when removing the needle
+plate for the maintenance, etc.
+	 	 	 	 CAUTION:
+Always make sure to press the lockout key to lockout
+the machine or turn the power switch off before
+removing or attaching the embroidery foot.
+To remove:
+z	Turn the power switch off or press the lockout key.
+	 	 Raise the needle by turning the handwheel toward
+you.
+	 	 	 q	Lockout key
+x	Loosen the setscrew with the screwdriver and remove
+the embroidery foot.
+	 	 	 w	Setscrew
+To attach:
+z	Attach the embroidery foot to the presser bar from the
+left side.
+
+	 	 	 w	Setscrew
+	 	 	 e	Embroidery foot
+x		Tighten the setscrew securely with the screwdriver.
+z
+x
+z x
+q
+w
+w
+e
+
+--- Page 18 ---
+16
+NOTE:
+The special bobbin holder for embroidery (high
+tension) is marked with a yellow dot for identification.
+	 q	Yellow dot
+z	Remove the needle, embroidery foot and needle plate
+(refer to the pages 13, 15 and 58).
+	 	 Take out the standard bobbin holder.
+	 	 	 w	Standard bobbin holder
+x	Insert the special bobbin holder into the hook race.
+Make sure to match the knob of the bobbin holder with
+the stopper on the machine.
+	 	 Attach the needle plate, presser foot and needle.
+	 	 	 e	Knob
+	 	 	 r	Stopper
+	 	 	 t	Special bobbin holder for embroidery (high tension)
+NOTE:
+Use the standard bobbin holder when sewing quilting
+designs that use the same thread for the bobbin as the
+needle thread.
+Bobbin Holder for Embroidery (high tension)
+Replace the standard bobbin holder with the bobbin
+holder for embroidery (high tension) when using bobbin
+threads other than Janome bobbin thread for embroidery.
+r
+e
+z
+x
+t
+q
+Embroidery Hoops
+q	Embroidery hoop SQ14b
+A square embroidery hoop with a 14 cm (5.5˝) square
+embroidery area.
+w	Embroidery hoop RE20b
+An extra large embroidery hoop with a 14 cm by 20 cm
+(5.5˝ by 7.9˝) embroidery area.
+q
+w
+r
+e
+t
+e	Embroidery hoop SQ20b
+A square embroidery hoop with a 20 cm (7.9˝) square
+embroidery area.
+r	Embroidery hoop RE28b
+An extra large embroidery hoop with a 20 cm by 28 cm
+(7.9˝ by 11˝) embroidery area.
+t	Clamp (RE20b, SQ20b and RE28b)
+A clamp for holding the fabric to the embroidery hoops
+RE20b, SQ20b and RE28b.
+w
+*	The embroidery hoops supplied with your machine vary
+depending on your model.
+	 	 	 	 CAUTION:
+Always make sure to press the lockout key to lockout
+the machine or turn the power switch off before
+attaching the bobbin holder.
+
+--- Page 19 ---
+17
+Stabilizers
+To create the best quality embroidery, it is important to
+use stabilizers.
+How to use:
+Attach the stabilizer to the wrong side of the fabric.
+You may need to use more than one layer.
+For firm fabrics, you may place a thin sheet of paper
+under the fabric.
+The non-adhesive type should be used when
+embroidering fabric which cannot be ironed or for
+sections which are difficult to iron.
+Cut the stabilizer larger than the embroidery hoop and
+set it on the hoop so that the entire piece is fastened to
+the hoop to prevent any looseness in the fabric.
+Attaching the stabilizer
+Place the wrong side of fabric and the glossy side of
+the stabilizer together. Fold up a corner of the stabilizer
+and fuse it with an iron.
+NOTE:
+Fold up a corner of the stabilizer, to make it easier
+to peel off the excess stabilizer after stitching.
+Ironing temperatures vary depending on the kind of
+adhesive stabilizer you are using.
+Types of the stabilizers
+NOTE:
+Sticky type stabilizers can be used only for securing a small piece of fabric or work that cannot be secured in the
+hoop, or for securing velvet and other napped fabric that would be permanently marked by the hoop.
+Clean the bobbin holder after stitching as glue can get stuck on it.
+Type
+Usage
+Property
+Tear-away
+Stable woven fabrics
+Made from a fiber that will tear easily.
+Iron-on
+Knits and all kinds of unstable fabrics
+Adhesive type fusible with an iron.
+Cut-away
+Knits and all kinds of unstable fabrics
+Non-woven fabric that does not tear.
+Water soluble
+Cutwork or lace embroidery
+Right side of looped fabrics such as towels to avoid loops
+coming through the embroidery
+A thin film that will dissolve in water.
+Heat-away
+Cutwork or lace embroidery
+A thin film that will melt away with
+heat.
+
+--- Page 20 ---
+18
+v	Push the inner hoop and fabric into the outer hoop.
+	 	 Tighten the screw on the outer hoop to stretch the
+fabric. Make sure that the fabric is stretched tightly in
+the hoop.
+	 	 Remove the template.
+c	Loosen the hoop tightening screw on the outer hoop.
+	 	 Place the inner hoop and fabric on the outer hoop.
+	 	 	 t	Hoop tightening screw
+	 	 	 y 	Outer hoop
+Setting the Fabric in an Embroidery Hoop
+z	Prepare a fabric and attach a stabilizer to the wrong
+side of the fabric.
+	 	 The fabric and stabilizer should be larger than the
+hoop size.
+	 	 Draw the centerlines on the fabric with tailor’s chalk.
+	 	 	 q 	Fabric
+	 	 	 w 	Centerlines
+q
+w
+r
+e
+t
+y
+u
+x	Lay the inner hoop and template on the fabric,
+matching the centerlines of the fabric with the
+template.
+	 	 	 e 	Inner hoop
+	 	 	 r	Template
+z
+x
+c
+v
+b
+b	Clamp the fabric to the hoop with the clamps when
+using hoop SQ20b, RE20b or hoop RE28b.
+	 	 	 u Clamp
+NOTE:
+Thick layers of fabric and stabilizer may cause
+skipped stitches, or broken threads and needles.
+Avoid sewing on the layers thicker than 3 mm (1/8˝).
+
+--- Page 21 ---
+19
+Attaching the Embroidery Hoop to the Machine
+z
+To attach:
+z Raise the presser foot.
+	 	 Turn the handwheel toward you to raise the needle at
+its highest position. Turn the power switch on.
+	 	 If the carriage is not at the home position, the caution
+message appears to move the carriage to the home
+position.
+	 	 Press OK key to move the carriage to the home
+position.
+   q OK key
+	 	 Select or edit the desired pattern and press OK key.
+Ready to Sew screen appears and the carriage moves
+to the start position.
+	 	 Press the lockout key to lockout the machine.
+   w Lockout key
+r
+x
+x	Place the prepared hoop on the machine.
+	 	 Position the hoop by aligning the notches of the hoop
+with the carriage pins.
+   e Notch
+   r Carriage pin
+   t Carriage
+   y Lever
+r
+r
+e
+c
+b
+c Shift the lever in the direction of the arrow.
+   y Lever
+v Attach the hoop by pushing it against the carriage
+pins.
+b Push the lever in the direction of arrow to lock the
+hoop in place.
+To remove:
+z Raise the presser foot. Turn the handwheel toward
+you to raise the needle at its highest position.
+	 	 Press the lockout key to lock the machine.
+x Shift the lever in the direction of the arrow and remove
+the hoop.
+   y Lever
+e
+e
+y
+y
+y
+v
+w
+q
+z
+x
+t
+r
+y
+e
+e
+	 	 	 	 CAUTION:
+•	Be careful not to place the excess of fabric
+between the carriage and machine body u.
+•	Never try to move the carriage by hand or touch
+the carriage while it is moving.
+u
+
+--- Page 22 ---
+20
+q
+Selecting Built-in Embroidery Designs
+Press the built-in design key and the first page of the
+design list of Petite Designs will open.
+	 q	Built-in design key
+Press the design category key to browse the design list
+by design category, or press the hoop selection key to
+browse the designs by hoop size.
+	 w	Design category key
+	 e	Hoop selection key
+q
+r
+Design category
+Press the design category key w to show the design lists
+by category.
+Press the previous/next page keys to browse the design
+lists.
+	 r	Previous page key
+	 t	Next page key
+Page 1 of 3
+• Petite Designs
+• Favorite Designs
+• Border Designs
+• Geometric Designs
+Page 2 of 3
+• Pantry Designs
+• Word Style Designs
+• Flourish Alphabet
+• Quilting Designs
+Page 3 of 3
+• Bracelet Designs
+• Celebration Designs
+• Calibration Pattern
+Press the desired category to select and the pattern
+selection window will open.
+Browse the pattern list with the previous/next page keys,
+and select the desired pattern by pressing the pattern
+icon key.
+w e
+t
+Thread Holder
+To avoid sewing over a tail of the needle thread, place
+the thread end on the thread holder.
+Pass the needle thread through the hole in the
+embroidery foot and draw it up to the thread holder.
+Hang the thread on the thread holder from front to back.
+	 q	Thread holder
+
+--- Page 23 ---
+21
+Page 1 of 2
+• Gothic font
+• Script font
+• Cheltenham font
+• Cyrillic 1 font
+• Cyrillic 2 font
+• Cyrillic 3 font
+Page 2 of 2
+• 2-Letter
+• 3-Letter
+• Border patterns
+• Normal sew patterns
+Press the icon key of the desired font and the monogram
+window will open.
+Browse pages with the previous/next page keys.
+You can enter alphabet letters, numbers, symbols,
+Cyrillic and European letters.
+	 e	Previous page key
+	 r	Next page key
+Selecting the design by hoop size
+Press the hoop selection key e and the hoop selection
+window will open. Select a hoop size the same or smaller
+than the one you will attach.
+Browse the design list with the previous/next page keys,
+and select the desired pattern by pressing the pattern
+icon key.
+Monogramming
+Press the monogram key and the monogram window will
+open.
+Press the font selection key to open the font selection
+window.
+	 q	Monogram key
+	 w	Font selection key
+You can select one of the 10 fonts for monogramming as
+well as 2-letter, 3-letter, border patterns and normal sew
+patterns.
+The following fonts and patterns are available:
+w
+e
+q
+e
+r
+
+--- Page 24 ---
+22
+!0
+Function Keys
+q	Font selection key
+Press this key to open the font selection window.
+w	Lettering orientation key
+Press this key to select the horizontal or vertical
+orientation.
+e	Letter size key
+You can select the following 3 letter sizes by pressing this
+key.
+The approximate letter sizes of upper case are as follows:
+L (Large):
+30 mm (1.2˝)
+M (Medium): 	 20 mm (0.8˝)
+S (Small):
+10 mm (0.4˝)
+r	Letter case key
+Pressing this key changes the letter case from upper
+case to lower case and vice versa.
+t	Save file key
+Pressing this key opens the save file window and allows
+you to save the text or monogram as a file (refer to page
+55).
+y	OK key
+Press this key to confirm your entry and open the Ready
+to Sew screen or the previous editing window.
+u	X key
+Press this key to exit the monogram entry.
+i	Cursor key
+Press these keys to move the cursor to the left or right.
+o	Delete key
+Press this key to delete the character above the cursor or
+the character in front of the cursor.
+!0	Space adjust key
+This key is activated only when a space is entered.
+If the spaces between characters look uneven, insert a
+blank space between characters and adjust the space
+width to justify.
+Press this key to open the space adjustment window.
+To increase the space width, press the “+” key.
+To decrease the space width, press the “–” key.
+NOTE:
+The space width is shown only in millimeters.
+q
+w
+e
+r
+y
+t
+i
+i
+u
+o
+
+--- Page 25 ---
+23
+e 	Right Justify
+Press the      key to sew from the right end reference line
+on the template.
+w 	Center Justify
+Press the      key to sew in the center of the hoop.
+q 	Left Justify
+Press the       key to start sewing from the left end
+reference line on the template.
+Monogram placement
+You can select one of 3 monogram placements: left
+justify, center justify and right justify.
+Programming a Monogram
+Example: Programming “R&B” in Gothic style font.
+Enter “R”, the cursor shifts to the right and “R” is
+
+automatically memorized.
+Press the letter size key and select small size.
+	 q	Letter size key
+Enter “&”, the cursor shifts to the right and “&” is
+automatically memorized.
+Press the letter size key and select medium size.
+Enter “B”, the cursor shifts to the right and “B” is
+
+automatically memorized.
+Press the OK key.
+The hoop confirmation window will appear.
+The screen changes to the ready to sew window.
+NOTE:
+The hoop confirmation window will not be displayed
+if the hoop confirmation option is turned off (refer to
+page 51.).
+Color change
+You can sew a multi-colored monogram by changing the
+thread color of each letter if you press the color change
+key before sewing. The color change key changes to
+when the color change function is activated.
+The machine will stop automatically when each character
+has been sewn.
+Change the thread to the next color and start sewing
+again.
+	 w	Color change key
+w
+q
+w
+e
+q
+
+--- Page 26 ---
+24
+c	Enter “A” and “B”.
+	 	 Press the OK key and a warning message will appear.
+	 	 Press the OK key and the carriage moves to the
+starting position.
+  The hoop confirmation window will appear.
+	 	 Press the OK key.
+	 	 The screen changes to the ready to sew window.
+NOTE:
+The 3-letter monogram is sewn in the same way as
+the 2-letter monogram.
+The monogram placement for the 2-letter and 3-letter
+monogram is center justify.
+The hoop confirmation window will not be displayed
+if the hoop confirmation option is turned off (refer to
+page 51.).
+2-Letter monogram
+Example: 2-Letter in an octagon
+z	Press the font selection key q.
+	 	 Select 2-letter w.
+z
+q
+x
+c
+x	Select the octagon e.
+w
+e
+
+--- Page 27 ---
+25
+Editing a Monogram
+Deleting a character: Deleting “R” from “MART”
+z	Press the cursor key q to move the cursor under “R”.
+x	Press the delete key w and letter “R” is deleted.
+Inserting a character: Inserting “E” into “MAT”
+z		Press the cursor key q to move the cursor under “A”.
+x	Enter “E”.
+	 	 The letter “E” is inserted before “A”.
+z
+x
+z
+x
+q
+w
+q
+
+--- Page 28 ---
+26
+Pattern information
+The visual touch screen displays the following details:
+q	Hoop size
+w Dimension of the design
+e	Maximum sewing speed
+r	Tension setting
+t	Number of thread colors (layers)
+y	Required sewing time
+u Preview window
+i Cross mark (current sewing point)
+o Progress bar
+!0 Stitch count
+!1 Thread color
+Ready to Sew Window
+The ready to sew window shows embroidery function
+keys and information on the selected pattern.
+Press the down arrow key t or up arrow key y to show
+the next set of function keys (u to o).
+Function keys
+q	Color section key
+w	Trace key
+e	Thread color/Jog key
+r	Fine position/angle adjustment key
+t	Down arrow key
+y	Up arrow key
+u	Color list key
+i	Adjust key
+o	Hoop back key
+!0	Stitch forward key
+!1	Stitch back key
+!2	Jump key
+!3	Jog keys
+q
+w
+e
+r
+i
+o
+y
+t
+u
+!0
+!1
+!2
+!3
+q
+w
+e
+r
+t
+y
+o
+i
+!0
+!1
+u
+
+--- Page 29 ---
+27
+Stitch back/forward keys
+Press the “–” key q to move the hoop back to a previous
+sewing point.
+Press the “+” key w to move the hoop ahead.
+The hoop will move one stitch each time the key is
+pressed. Hold down the key to travel faster and jump 10,
+100 or 500 stitches at a time. The stitch count e and the
+total number of stitch count r are displayed in the stitch
+count window.
+You can use these keys to move the embroidery hoop to
+where the thread has broken or run out.
+	 q	Stitch back key
+	 w	Stitch forward key
+	 e	Stitch count
+	 r	Total number of stitch count
+The pale blue bar in the stitch count window is the
+progress bar. The progress bar t appears when the
+stitch count increases, and indicates the progress of
+the embroidery sewing project. When the project is
+completed, the progress bar returns to 0.
+	 t	Progress bar
+Jump key
+If you want to jump to the desired sewing point directly,
+press the jump key y and the numeric keypad window u
+will open. Enter the desired stitch count number and press
+the OK key.
+The hoop moves to the sewing point you entered.
+	 y	Jump key
+	 u	Numeric keypad window
+Cross mark
+The cross mark o in the preview window i indicates the
+current sewing point. Press the preview window i to hide
+the cross mark.
+	 i	Preview window
+	 o	Cross mark (Current sewing point)
+q
+w
+t
+y
+e r
+u
+!0
+!2
+!1
+o
+i
+Color section key
+Press this key !0 to show the complete image of the
+selected design or partial image of each color section only.
+To view the next color section, press the next page key !2.
+To view the previous color section, press the previous
+page key !1.
+If you want to sew the specific color section only, press
+the next/previous color keys until the desired section is
+displayed.
+	 !0	Color section key
+	 !1	Previous page key
+	 !2	Next page key
+
+--- Page 30 ---
+28
+Trace key
+You can check the size of the embroidery area by tracing
+the pattern outline without stitching or with basting
+stitches.
+Press the trace key and the trace option window will
+open.
+	 q Trace key
+The following 3 options are available:
+1.	 Trace without stitching
+Press the       key to open the trace without stitching
+window.
+Press the trace key       to start tracing or press one of
+the	                     keys to move the hoop to a corner.
+2.	 Trace and baste (single)
+Press the       key to open the trace and baste (single)
+window.
+Lower the presser foot.
+Press the start/stop button to start tracing with basting
+stitches.
+3.	 Trace and baste (double)
+Press the       key to open the trace and baste (double)
+window.
+Lower the presser foot.
+Press the start/stop button to start tracing with basting
+stitches. First, the machine bastes inside the pattern then
+traces the pattern outline with basting stitches.
+NOTE:
+The machine will baste around the embroidery area
+with a 5 mm allowance.
+However, the allowance will be null if the pattern
+spreads over the maximum limit of embroidery area.
+To close the tracing option window, press the X key.
+q
+Thread color/Jog key
+Press the thread color/jog key to show or hide the jog
+keys. The thread color list of the selected design is
+displayed when the jog keys are hidden.
+Adjust the hoop position with the jog keys so that the
+needle position comes right above the center of the
+reference lines on the fabric.
+	 w	Thread color/Jog key
+	 e	Thread color list
+	 r	Jog keys
+w
+r
+e
+
+--- Page 31 ---
+29
+Moving a design
+You can make fine adjustments to the position of the
+embroidery design.
+Press the angle/move key !1.
+The jog keys appear on the screen.
+Press the     or     keys u to move the design 0.5 mm
+right or left (X window o).
+Press the     or     keys i to move the design 0.5 mm
+forward or backward (Y window !0).
+The moving distance from the original position is shown
+as coordinates in the X and Y windows.
+	 NOTE:
+The position of an embroidery design can be fine
+adjusted from -5.0 mm to 5.0 mm.
+The position of the embroidery design cannot be
+adjusted to exceed the sewing area.
+The moving distance from the original position is
+shown only in millimeters.
+Fine position/angle adjustment key
+You can make fine adjustments to the position or angle of
+the embroidery design without removing the embroidery
+hoop from the machine.
+Press the fine position/angle adjustment key q.
+The original embroidery design position is previewed as
+a rectangle w.
+q
+Rotating a design
+You can make fine adjustments to the angle of the
+embroidery design.
+Press the      key r to rotate the design 0.5 degrees
+clockwise.
+Press the      key t to rotate the design 0.5 degrees
+counterclockwise.
+The angle value is displayed in the window y.
+	 NOTE:
+The angle of an embroidery design can be adjusted
+from -5.0 to 5.0 degrees.
+The angle of the embroidery design cannot be
+adjusted to exceed the sewing area.
+w
+y
+!1
+t
+The red rectangle e appears when you make fine
+adjustments to the embroidery design, and it shows the
+difference between the original position and the adjusted
+position.
+e
+r
+i
+o
+!0
+u
+
+--- Page 32 ---
+30
+Color list key
+Press the down arrow key q or up arrow key w to show
+the next set of function keys.
+Press the color list key e to view a list of thread colors
+employed in the selected design.
+r
+t
+Press the stitch number key r to view a number of
+stitches for each color in the selected design.
+Press the spool key t to view a list of thread colors
+employed in the selected design.
+y
+i	Cutting the tails of jump threads
+This option is can be used when the “jump thread cutting
+length” setting or “cutting command“ is activated (refer to
+page 53).
+Press the “+” or “–” key to adjust the tail length of jump
+thread.
+Adjust key
+Press the adjust key to open the manual setting window.
+You can adjust the following settings in this window.
+	 y	Adjust key
+u	Auto thread tension level
+Press the “+” or “–” key to adjust the thread tension to
+your preference.
+w
+e
+q
+u
+i
+
+--- Page 33 ---
+31
+Hoop back key
+Turn the handwheel toward you to raise the needle at its
+highest position if the needle is in down position.
+Raise the presser foot.
+Press the hoop back key q and hoop back option
+window will open.
+Press the       key w and the confirmation window open.
+Press the OK to move the carriage back to the home
+position and return to the Ready to Sew screen. Press
+one of the                 keys to move the carriage to a
+standby position.
+Press the X key to close the hoop back option window.
+	 w	Hoop back key
+q
+w
+Press the start/stop button.
+The caution message appears.
+Press the OK key and the hoop will go back to the
+original position.
+
+--- Page 34 ---
+32
+c	Press the start/stop button and sew 5 to 6 stitches.
+	 	 Press the start/stop button again to stop the machine.
+	 	 Cut the loose thread close to the beginning of the
+starting point.
+	 	 	 e 	Loose thread
+	 	 Press the start/stop button to start sewing again.
+	 	 The machine will stop (and trim the threads if the auto
+thread cutting is activated) automatically when the first
+color section is finished.
+	 	 Change the thread to the next color and sew the next
+section.
+	 	 You can adjust the sewing position with the jog keys
+during the sewing if necessary.
+	 	 Press the start/stop button to stop the machine.
+	 	 	Press the jog keys to move the hoop at the desired
+position. Press the start/stop button again to continue
+sewing.
+NOTE:
+The needle drop position will resume the original
+position after all the color sections are finished.
+
+Sewing results
+The embroidery pattern is sewn against the centerlines
+on the fabric as shown.
+
+r	Centerlines on the fabric
+NOTE:
+Refer to page 53 for how to set auto thread cutting.
+Starting to Sew Embroidery
+z	Select the desired pattern.
+	 	 Press the thread color/Jog key q. The jog keys
+appear.
+e
+r
+x	Adjust the hoop position with the jog keys so that the
+needle position comes right above the center of the
+centerlines on the fabric.
+	 	 	 w	Jog keys
+z
+x
+c
+w
+q
+
+--- Page 35 ---
+33
+x	Press the next page key w to show the other hoops.
+	 	 Press the hoop icon key to select the desired hoop.
+	 	 The screen will return to the editing window.
+	 	 	 w	Next page key
+NOTE:
+•	In the editing mode, you cannot select patterns
+larger than the size of the selected hoop.
+•	Some of the hoops are not included with the
+machine.
+Editing Mode
+In the editing mode, you can edit and combine patterns
+to create original embroidery designs.
+Press the editing mode key q and the editing window for
+the hoop SQ20b will open.
+	 q	Editing mode key
+Opening the embroidery designs
+You can open the built-in designs, monogram, and
+designs from the USB flash drive in the editing window.
+To open design patterns, press the home key q.
+Press the built-in design key w.
+Select the desired pattern from the design list (refer to
+page 66-71).
+	 q	Home key
+	 w	Built-in design key
+Selecting a hoop size
+You can select other hoop sizes.
+z	Press the hoop selection key q and the hoop
+selection window will open.
+	 	 	 q	Hoop selection key
+z
+x
+q
+q
+w
+w
+q
+
+--- Page 36 ---
+34
+Selecting a pattern
+To select the pattern to edit, press on the pattern image
+in the editing window.
+The green frame appears around the selected pattern.
+Moving a pattern
+To move the embroidery pattern in the editing window,
+press and drag the pattern to a desired location with the
+touch panel stylus or your fingertip.
+NOTE:
+Do not drag the pattern on the screen with a sharp
+pointed object.
+q
+Editing tool bar information
+The editing tool bar contains the following keys as shown.
+Press the next set key w to show the next set of editing
+tools. Press the previous set key e to show the previous
+set of editing tools.
+q	Layout keys
+w	Next set key
+e	Previous set key
+r	Scroll key
+t	Zoom key
+y	Hoop selection key
+u	Duplicate key
+i	Delete key
+o	Resize key
+!0	Rotate key
+!1	Horizontal mirror image key
+!2	Vertical mirror image key
+!3	Arc key
+!4	Group key
+!5	Save file key (refer to page 55)
+!6	Custom color key
+!7	Color group key
+!8	Sewing order key
+!9	Center position key
+@0	Corner layout key
+@1	Single color sewing key
+q
+e
+r t
+y
+u
+i
+o
+!0
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+@0
+@1
+w
+w
+You can move the selected pattern also by pressing the
+layout keys.
+Press the layout keys q to move the pattern to the
+desired position in the editing window.
+Press the center position key w to move the pattern to
+the center of the editing window.
+	 q	Layout keys
+	 w	Center position key
+The carriage will not move when you press the layout
+keys since the pattern position will move relative to the
+hoop, not to the machine.
+
+--- Page 37 ---
+35
+Resizing a pattern
+z	Press the resize key to open the resize option window.
+	 	 	 q	Resize key
+x	You can change the embroidery pattern size from
+80% to 120% of the original size.
+	 	 Press the “+” key w to enlarge the pattern size.
+	 	 Press the “–” key e to reduce the pattern size.
+	 	 The size will change 1% each time you press the “+”
+or “–” key. To change the size quickly, press and hold
+the “+” or “–” key.
+	 	 The scale of a resized pattern is displayed in
+percentage r.
+	 	 Press the OK key to confirm the new size.
+Duplicating a pattern
+z	Press the duplicate key to make a copy of the selected
+pattern.
+	 	 	 q	Duplicate key
+x	The duplicated pattern will be superimposed over
+the original pattern. Move the duplicate to show the
+original pattern.
+z
+x
+Deleting a pattern
+z	Press on the pattern to delete.
+x	Press the delete key to delete the selected pattern.
+	 	 	 q	Delete key
+q
+e
+w
+r
+z
+x
+q
+z
+x
+q
+
+--- Page 38 ---
+36
+Rotating a pattern
+z		Press the next set key q to show the next set of editing
+tools.
+	 	 Press the rotate key w to open the rotation option
+window.
+	 	 	 w	Rotate key
+x	Press the      key e to rotate the selected pattern
+	 	 1 degree clockwise.
+	 	 Press the      key r to rotate the selected pattern
+	 	 1 degree counterclockwise.
+	 	 Press the      key t to rotate the selected pattern
+	 	 45 degrees clockwise.
+	 	 Press the      key y to rotate the selected pattern
+	 	 45 degrees counterclockwise.
+	 	 The angle of a rotated pattern is displayed in the
+window u.
+	 	 Press the OK key to confirm.
+z
+x
+e
+t
+u
+w
+q
+r
+y
+Flipping a pattern
+z	Press the vertical or horizontal mirror image key.
+	 	 	 q	Horizontal mirror image key
+	 	 	 w	Vertical mirror image key
+x	Press the      key q to create the horizontal mirror
+image of a selected pattern.
+c	Press the      key w to create the vertical mirror image
+of a selected pattern.
+z
+x
+c
+q
+w
+
+--- Page 39 ---
+37
+Monogramming in an arc
+In the editing mode, you can make a monogram in an
+upper or lower arc.
+z	Enter the characters and press the OK key.
+x	The entered characters are displayed in the editing
+window.
+	 	 Press the arc key and the arc layout window will open.
+	 	 	 q	Arc key
+c	Press the upper arc key w to make an upper arc.
+	 	 Press the lower arc key e to make a lower arc.
+	 	 Press the enlarge key r to make an arc longer.
+	 	 Press the shorten key t to make an arc shorter.
+	 	 Press the OK key to confirm.
+	 	 	 w	Upper arc key
+	 	 	 e	Lower arc key
+	 	 	 r	Enlarge key
+	 	 	 t	Shorten key
+z
+x
+c
+q
+w
+e
+r
+t
+
+--- Page 40 ---
+38
+Grouping patterns
+z	You can group patterns together.
+	 	 Press the next set key q to show the next set of
+editing tools.
+	 	 Press the group key w and the grouping option
+window will open.
+	 	 	 q	Next set key
+	 	 	 w	Group key
+z
+w
+x	Press the group all key e and press the OK key to
+group all the patterns in the editing window.
+	 	 	 e	Group all key
+c	If you wish to group the selected patterns only, press
+the group select key r.
+	 	 Select the desired patterns by pressing on the pattern
+images.
+	 	 Press the selected pattern again to deselect the
+pattern.
+	 	 Press the OK key to group the selected patterns.
+	 	 	 r	Group select key
+v	The grouped patterns can be moved and duplicated
+as a unit.
+	 	 When grouping the selected patterns only, the rest of
+the patterns are grayed out and cannot be selected.
+	 	 To ungroup the patterns, press the group key again.
+q
+x
+e
+c
+v
+r
+
+--- Page 41 ---
+39
+c	To change the background color, press the
+background color key and select the desired color.
+	 	 To select the hue, press one of the 12 color tiles.
+	 	 To change the shade of the selected color, press next
+page key, previous page key, or drag the slider to the
+left or right.
+	 	 	 o	Background color key
+NOTE:
+If a design in *.JPX format has a background image,
+you can display the background image in the editing
+window by pressing the background image key.
+	 !0	Background image key
+	 	 To change the shade of the selected color, press next
+page key, previous page key, or drag the slider to the
+left or right.
+	 	 	 r	Color tiles
+	 	 	 t	Slider
+	 	 	 y	Next page key
+	 	 	 u	Previous page key
+	 	 	You can assign a name to the customized color for
+the color section by pressing the name key.
+	 	 The assigned name will be displayed instead of the
+name and code of the thread color in the embroidery
+window.
+	 	 	 i	Name key
+x	If you wish to change the color of the design pattern,
+press the design color key.
+	 	 Press the scroll keys until the desired section is
+displayed in the preview window.
+	 	 	 w	Design color key
+	 	 	 e	Scroll keys
+	 	 To select the hue, press one of the 12 color tiles.
+Customizing the display colors
+You can simulate the colors of the actual fabric and
+threads on the screen by customizing the colors of the
+design image and editing window.
+z	Press the custom color key and the custom color
+window will open.
+	 	 	 q	Custom color key
+z
+c
+q
+w
+e
+r
+t
+x
+o
+!0
+y
+u
+i
+
+--- Page 42 ---
+40
+c	The number of color sections is reduced to 3.
+NOTE:
+Color grouping will be cancelled when returning to the
+editing window.
+Color grouping
+When combining duplicated patterns, you can reduce the
+number of color sections with color grouping.
+z	For example, the combined design pattern created on
+page 42 has 12 color sections.
+x	Press the color group key q and the color grouping
+window will open.
+	 	 Press the OK key  to unite all color sections of the
+same color and the ready to sew window opens.
+	 	 	 q	Color group key
+z
+x
+c
+q
+
+--- Page 43 ---
+41
+Sewing order
+You can change the sewing order of a pattern
+combination.
+Press the sewing order key q and press on the images
+of the pattern one by one.
+The patterns will be sewn in the order you press on the
+images.
+Press the sewing order key q again to return to the
+previous screen.
+	 q	Sewing order key
+q
+Center positioning
+You can move the selected pattern to the center position.
+z	Press on the pattern to move.
+x	Press the center position key q to move the selected
+pattern to the center position.
+	 	 	 q	Center position key
+q
+
+--- Page 44 ---
+42
+z
+x
+c
+Creating a square frame
+z	Select pattern Geometric Design SQ14B-56.
+	 	 Move the design up and to the right.
+x	Press the corner layout key.
+	 	 The pattern will automatically be copied and placed
+symmetrically into 4 corners.
+	 	 Press the OK key.
+	 	 	 q	Corner layout key
+c	The ready to sew window will open.
+q
+Single color sewing
+If you want to sew a pattern or a pattern combination in
+one color only, press the single color sewing key q.
+The machine will not stop until the entire design is sewn.
+z	Press the single color sewing key q.
+x	Press the OK key.
+z
+x
+c
+c	The design(s) will be displayed in gray.
+	 	 Press the start/stop button to start single color sewing.
+	 	 The design will be sewn without stopping for color
+change.
+q
+
+--- Page 45 ---
+43
+Zooming in the editing window
+Press the zoom key to open the zoom in/out window.
+Select the view size from normal, large or largest by
+pressing one of the view size keys.
+ q Zoom key
+ w Normal view size key
+ e Large view size key
+ r Largest view size key
+The scroll function is activated automatically when
+zoomed in.
+To scroll the magnified window, drag the window in the
+desired direction.
+Press the scroll key to cancel the scroll command.
+ t Scroll key
+w e r
+t
+q
+
+--- Page 46 ---
+44
+Attach the hoop to the carriage and press the trace key.
+Press the       key to select trace and baste (single) (refer
+to page 28).
+Start the machine to mark around embroidery design with
+basting stitches.
+Cut the applique fabric the same size as the marked
+area.
+Place the applique piece on the marked area and sew
+the first section (color).
+NOTE:
+Pin the applique piece or use spray adhesive to fix it
+in place as necessary.
+Pantry Designs for Applique
+Pantry designs SQ14b-67 to SQ14b-69 are special
+designs for machine embroidery applique.
+You can attach applique piece to background fabric and
+embroider applique design at the same time.
+Example: Pantry design SQ14b-67
+Prepare background fabric and applique fabric.
+Select Pantry design SQ14b-67, and set the background
+fabric to the hoop.
+Remove the hoop from the machine, but do not unhoop
+the fabric.
+Remove the basting stitches. Cut away the excess
+applique fabric as close to the seam line as possible.
+Attach the hoop to the machine again.
+Sew the remaining sections (colors) of the applique
+design.
+
+--- Page 47 ---
+45
+Alternative method
+Prepare applique fabric larger than hoop size.
+Set the applique fabric to the hoop.
+Sew the first section (color) only.
+Remove the hoop and unhoop the applique fabric. Cut
+the applique fabric along the stitching line to make an
+applique piece.
+Prepare background fabric and set it to the hoop.
+Attach the hoop to the carriage.
+Press the previous page key to go back to the first
+section (color) and sew the first section (color) to mark
+the applique position.
+
+q	Previous page key
+Place the applique piece on the background fabric and
+align the applique piece with the positioning mark. Fix the
+applique piece in place with sticky tape or a pin.
+Sew the remaining sections (colors) of the applique
+design.
+q
+
+--- Page 48 ---
+46
+z
+x
+c
+v
+b
+n
+.
+m
+Celebration Designs
+You can make your own flag garland with the celebration
+designs.
+z	Select the design list by hoop size and select the
+hoop SQ20b.
+	 	 Select design pattern SQ20b-39.
+x	Edit your pennant design in the editing mode.
+c	Press the OK key to open the ready to sew window.
+	 	 Set the fabric in the hoop and attach the hoop to the
+carriage.
+	 	 Press the start/stop button to sew.
+v	Remove the hoop from the carriage when finished
+sewing. Remove the fabric from the hoop.
+	 	 Cut out the pennant design along the outer seam.
+b	Fold back the top of the pennant to the wrong side of
+the fabric as shown.
+	 	 Use press cloth and Iron the folded edge.
+n	Sew the folded edge or paste the wrong side of the
+folded edge with a double-sided tape or glue.
+	 	 Be sure to leave the space to pass the cord.
+m	Pass the cord through the hole as shown.
+,	Cut the fabric to the same size as the pennant design.
+	 	 Sew the fabric to cover the back of the pennant.
+.	Repeat the procedure above and make your own flag
+garland.
+,
+
+--- Page 49 ---
+47
+Bracelet Designs
+You can make a your own bracelet by sewing the bracelet
+designs on a water soluble stabilizer.
+Use the same thread for the bobbin as the needle thread.
+Use a fully wound bobbin.
+Set the low bobbin thread warning level to 3 or 4 (refer to
+page 51).
+Set the maximum sewing speed to 600 spm or less (refer
+to page 51).
+Set the water soluble stabilizer in the hoop.
+Be sure that the stabilizer is stretched tightly in the hoop.
+Select the desired bracelet design pattern and sew.
+Remove the water soluble stabilizer from the hoop.
+Trim away the water soluble stabilizer surrounding the
+design pattern with scissors.
+Remove the water soluble stabilizer by soaking the
+bracelet design into the bowl of warm water.
+Attach the chain rings* to the each end of the bracelet.
+ q	Chain ring
+* Chain rings are not included with the machine.
+q
+q
+
+--- Page 50 ---
+48
+CUSTOMIZING MACHINE SETTINGS
+Machine Setting Mode
+Press the set mode key to enter the machine setting
+mode.
+You can select various options and customize the
+machine settings to suit your personal preference.
+	 q	Set mode key
+Press one of the 3 tabs to select the mode to customize.
+w	Common Setting Mode
+Press the common setting mode tab to enter the common
+setting mode.
+In this mode, you can customize the general machine
+settings and options.
+e	Embroidery Setting Mode
+Press the embroidery setting mode tab to enter the
+embroidery setting mode.
+In this mode, you can customize the machine settings
+and options for embroidery (refer to pages 51-54 for the
+operation).
+r	Language Selection Mode
+Press the language selection tab to enter the language
+selection mode.
+In this mode, you can select the desired language for the
+screen messages.
+To browse pages in each mode, press the next page key
+or previous page ley
+	 t	Previous page key
+	 y	Next page key
+Registering the custom settings
+After customizing the settings, press the OK key to
+enable the new settings.
+To cancel the changes to the settings, press the X key
+and the setting mode window will close.
+q
+e
+r
+w
+t
+y
+
+--- Page 51 ---
+49
+Common Setting Mode
+q	Screen Contrast
+You can adjust the contrast of the visual touch screen by
+pressing the “+” or “–” key.
+w	Sound Volume
+The signal sound can be adjusted by pressing the “+” or “–”
+key.
+Set the value to “OFF” by pressing the “–” key several
+times to mute the signal sounds.
+e	Inch/mm Option
+You can set your machine’s dimensional unit to either
+inches or millimeters by pressing the “inch” or “mm” icon
+key.
+The default unit is millimeters.
+Press the next page key to show the next menu.
+q
+r	Touch Screen Calibration
+You can calibrate the key positions of the touch screen if
+you feel the touch screen key is not responding properly.
+Press the Yes key to open the calibration window.
+Press the “+” sign with the touch panel stylus as the sign
+appears.
+When you press the last sign, the screen shows “END”
+and the calibration window will close.
+w
+e
+r
+
+--- Page 52 ---
+50
+y	Standby Timer
+The sewing lights will turn off and the machine will enter
+standby mode if you do not use the machine within the time
+period set by this timer. Doing any operation will turn the
+lights and screen on again.
+The standby timer can be set from 1 to 30 minutes.
+If you wish to turn off the timer, press and hold the “+” key
+until “OFF” shows in the timer window.
+Press the next page key to show the next menu.
+t	Formatting the memory
+If the internal memory of the machine or USB flash drive
+does not function due to damage to the memory bank,
+you need to re-enable it by formatting the memory.
+To format the machine’s internal memory, press the
+machine icon key and a confirmation message will
+appear. Press the OK key to format.
+To format a USB flash drive, press the USB icon and
+the confirmation window will open. Press the OK key to
+format.
+	 	 	 CAUTION:
+Do not turn off the power or disconnect the USB flash
+drive while a warning message is displayed otherwise
+it may damage the memory bank.
+t
+y
+u	Upper Thread Sensor
+If you need to run the machine without threads, turn off the
+upper thread sensor.
+i	Sewing Light
+The sewing lights can be turned on or off.
+Press the ON key to turn on the sewing lights.
+Press the OFF key to turn off the sewing lights.
+o	Quiet Mode
+If you prefer the machine to run more quietly, turn on this
+option so the signal sound and maximum embroidery
+speed will be set at the lowest levels.
+The quiet mode setting overrules any previous settings for
+these parameters.
+u
+i
+o
+!1	Background Color
+You can select from the colorful wallpapers for the
+background of the visual touch screen by pressing the
+relevant icon.
+!0	Clean bobbin holder message
+The caution message for cleaning the bobbin case and
+the hook race will be displayed when the certain time
+passes when this option is turned on.
+The caution message will not be displayed when this
+option is turned off.
+!2	Reset All to Defaults
+Press the Yes key to reset all the parameters to the
+original values (factory settings) except the language
+selection.
+!0
+!1
+!2
+
+--- Page 53 ---
+51
+CUSTOMIZING EMBROIDERY MODE
+SETTINGS
+Embroidery Mode Settings
+Press the embroidery setting mode tab (refer to page 48).
+q	Auto thread tension
+The auto thread tension level can be adjusted with the
+“+” or “–” key. Increase the value when using the same
+threads on the bobbin and needle.
+w	Low bobbin thread warning
+The low bobbin thread warning level can be adjusted with
+the “+” or “–” key. To turn this option off, press the “–” key
+until “OFF” shows in the window.
+Press the next page key to go to the next menu.
+e	Maximum embroidery speed
+The maximum embroidery sewing speed can be set from
+400 to 860 spm in 100 spm intervals by pressing the “+”
+or “–” key.
+r	One stitch stop
+When this function is turned on, the machine sews one
+stitch and stops automatically so that you can bring the
+bobbin thread up before sewing.
+t	Consecutive color grouping
+If an imported design files of a pattern combination
+contain consecutive sections in the same color, these
+sections are automatically grouped together as one
+section when opening the file or going to the ready to sew
+window. This function is invalid when combining the built-
+in designs and externally sourced designs.
+Turn this option off if you do not wish to group the
+sections together.
+q
+w
+e
+r
+t
+y	Hoop confirmation
+The hoop confirmation message will appear every time
+before opening the ready to sew window. However you
+can turn this option off by selecting off.
+y
+
+--- Page 54 ---
+52
+u	Hoop calibration
+You can calibrate the center position of the hoops.
+Press the Yes key.
+	 u-1 Yes key
+u-1
+u-2
+The carriage moves to the center position.
+Press the hoop selection key to open the hoop selection
+window.
+	 u-2 Hoop selection key
+Select the hoop and attach it to the carriage. Set the
+template in the hoop.
+Adjust the hoop position by pressing the jog keys so that
+the needle is right above the hole in the template and
+press the OK key.
+Press the next page key to go to the next menu.
+
+--- Page 55 ---
+53
+Thread cutting
+i	Easy setting
+When this setting is turned on, the machine will trim the
+threads if the jump thread is 3 mm or longer, or when the
+machine stops to change the thread to the next color.
+Press the OK key to confirm the easy setting.
+o	Advanced setting
+When this setting is turned on, you can configure the
+Jump thread cutting !0, Cut at color change/end !1, and
+Cutting Command !2 options individually.
+Press the OK key to confirm the advanced setting.
+i
+!0
+!1
+!2
+o
+!3	Thread selection
+There are 9 types of embroidery thread to choose from.
+Press the key of the thread you wish to use. The color
+code of the selected brand is shown on the list of thread
+colors along with the name of the color.
+If you use imported embroidery stitch data containing
+proper thread information, press the retain original color
+key to retain this information.
+	 !3-1 Retain original color key
+!3
+!3-1
+There are 3 thread cutting options for embroidery.
+!0	Jump thread cutting length
+When this option is turned on, the machine trims the
+jump threads if the jump thread length is the same or
+more than the set value.
+!1	Cut at color change/end
+When this option is turned on, the machine trim the
+thread when it stops to change the thread to the next
+color.
+!2	Cutting command
+When this option is turned on, the machine trim the
+threads at the trim code if the imported stitch data file
+contains a trim command (cutting command).
+
+--- Page 56 ---
+54
+!5	Resume mode
+When Resume Mode is turned on, the last pattern sewn
+before turning the power off will resume when you turn
+the power on again.
+When you turn the power on, the confirmation window
+opens. Press the OK key to resume the last pattern.
+After customizing the settings, press the OK key to
+enable the new settings.
+To exit the setting mode without changing the settings,
+press X key.
+!4	Grid line on/off
+Turn this option on to show grid in the editing window.
+The grid size can be altered from 10 to 30 mm with the “+”
+or “−” key when this option is on.
+Turn this option off to hide the grid.
+!4
+!5
+Language Selection Mode
+Select the desired language and press the OK key.
+The visual touch screen shows messages in the selected
+language.
+
+--- Page 57 ---
+55
+Saving and Opening a File
+You can save original embroidery designs as files in the
+built-in memory and/or USB flash drive.
+Press the save file key and the save file window will
+open.
+	 q	Save file key
+A folder labeled “Embf” is displayed on the screen.
+To select a folder, press the folder icon.
+File names are assigned automatically in numerical order
+starting from M_001.....
+Press the OK key and the file is saved in the selected
+folder.
+To assign a particular name to the file, press the rename
+key.
+	 w	Rename key
+The keyboard window opens.
+Enter a new name and press the OK key.
+The file is saved under the new name.
+When you attempt to save a file with a name that already
+exists, the confirmation message will appear.
+Press the OK key to overwrite the existing file or press
+the X key if you do not want to overwrite it.
+q
+w
+q
+Creating a new folder
+Press the new folder key and the keyboard window will
+open.
+	 q	New folder key
+Enter a folder name and press the OK key.
+A new folder is created under the assigned name.
+q
+
+--- Page 58 ---
+56
+Opening a file
+To open saved files, press the open file key to open the
+open file window.
+	 q	Open file key
+Select the folder location, either the built-in memory or
+USB flash drive.
+Open the folder that contains the desired file by pressing
+the folder icon.
+Deleting a file or folder
+Press the delete key and select the file or folder to delete.
+A confirmation message appears.
+Press the OK key to delete the file or folder.
+	 q	Delete key
+The file list of the selected folder is displayed.
+To open the file, press the file icon.
+The file attributes can be shown on the file icon.
+To show the file attribute, press the “large icon” key or “file
+list” key.
+	 w	Large icon key
+	 e	File list key
+There are 6 file attributes as follows:
+	 	 	 : *.JEF (Janome embroidery format)
+	 	 	  : *.JEF+ (editable Janome embroidery format)
+	 	 	  : *.JPX (*.JEF+ with a background bitmap image)
+	 	 	     : *.JPX (Acufil embroidery format)
+    :*.DST (Tajima embroidery format)
+To hide file attribute, press the small icon key.
+	 r	Small icon key
+NOTE:
+Tajima (*.DST) format does not have thread color
+information. Janome’s thread color will be assigned
+automatically when opening.
+q
+q
+w
+e
+r
+
+--- Page 59 ---
+57
+Direct PC-Link
+You can connect the MC 500E to a PC with the USB
+cable included in the standard accessories.
+You need to install Embroidery Editor and the USB driver
+for the MC 500E on your computer.
+Embroidery Editor and the USB driver are available in
+the Embroidery Editor CD-ROM included in the standard
+accessories.
+Start up the MC 500E and PC, and insert the type “A”
+USB port into the PC.
+Insert the type “B” connector into the MC 500E.
+You can send original embroidery design data from a PC
+to the MC 500E.
+Refer to on-screen help of Embroidery Editor for more
+details.
+	 	 	 CAUTION:
+Do not turn the power off or disconnect the USB cable
+while the data transfer is in progress, as this will cause
+loss of data and can damage the machine’s memory.
+Changing a name of the file or folder
+Press the rename key and select the file or folder for
+which you wish to change the name.
+The keyboard window will open.
+Enter a new name and press the OK key.
+The name of the file or folder will change.
+
+q	Rename key
+If you enter a name that already exists, the message “The
+same name exists.” will appear.
+Press the X key and enter another name.
+q
+
+--- Page 60 ---
+58
+Turn the power switch off and unplug the machine.
+Remove the needle plate by turning the setscrews with
+the screwdriver key.
+Remove the needle and presser foot.
+CARE AND MAINTENANCE
+Cleaning the Hook Area
+Clean the hook area at least once a month.
+When the clean bobbin holder message option is turned
+on, the caution message for cleaning the bobbin case
+and the hook race will be displayed when the certain time
+passes (refer to page 50).
+q
+w
+u
+y
+Take out the bobbin and bobbin holder.
+	 q 	Bobbin holder
+Clean the bobbin holder with a lint brush.
+Apply a few drops of the bobbin holder cleaner (included
+in the standard accessories) to a soft cloth and wipe the
+bobbin holder thoroughly both inside and outside.
+	 w 	Lint brush
+	 e 	Bobbin holder cleaner
+	 r 	Soft cloth
+Clean the auto thread cutter device with the lint brush.
+	 t 	Auto thread cutter device
+t
+Clean the inside and lip of the hook race with a soft cloth.
+Insert the bobbin holder so that the knob fits next to the
+stopper in the hook race.
+Insert the bobbin.
+	 y 	Knob
+	 u 	Stopper
+Attach the needle plate, presser foot and needle.
+	 	 	 	 CAUTION:
+Always make sure to turn the power switch off before
+cleaning the hook area.
+Do not dismantle the machine in any way other than
+as explained in this section.
+e
+r
+
+--- Page 61 ---
+59
+Cleaning the Thread Path
+Clean lint and wax in the tension area with a piece of
+paper.
+Insert a piece of paper along the right channel and
+scrape out lint.
+Clean the needle bar thread guide with lint brush.
+
+--- Page 62 ---
+60
+Oiling the Machine
+
+WARNING:
+Move the carriage to the home position (refer to page
+31), and turn off the power switch and/or unplug the
+machine before oiling the machine.
+Wait until the motor cools down before oiling.
+Do not dismantle the machine in any way other than
+as explained in this section.
+Do not oil any parts other than as explained in this
+section.
+NOTE:
+Oil the points as shown at least once a month if you
+are using the machine every day.
+Use good quality sewing machine oil.
+One or two drops of oil is sufficient.
+Remove excess oil, otherwise it may stain fabric.
+In case machine is not used for an extended time, oil
+it before sewing.
+You need a phillips driver to attach/remove the covers
+or setscrews.
+q
+Oil the needle bar, presser bar and thread take-up
+lever
+z	Remove the setscrew q.
+   q	Setscrew
+x	Pull the face plate to unhook the front hook.
+   w	Front hook
+w
+c	Tilt the face plate in the direction of arrow to unhook
+the rear hooks.
+	 	 Remove the face plate.
+   e	Face plate
+   r	Rear hooks
+e
+r
+r
+z
+x
+c
+
+--- Page 63 ---
+61
+t
+y
+u
+q
+w
+w
+v	Oil the arrow points as indicated in the illustration.
+   t	Needle bar
+   y	Presser bar
+   u	Thread take-up lever
+	 	 To attach the face plate, reverse the procedure z to
+c in reverse.
+v
+Oil the oil wick
+Slide the cover q on the top rear side of the machine.
+Oil the oil wick w inside of the machine.
+ q	Cover
+ w	Oil wick
+
+--- Page 64 ---
+62
+Oil the lower shaft supporter (front)
+NOTE:
+Be careful not to damage any parts when raise the
+machine.
+Remove the cap q and setscrew A w with a screwdriver.
+Stand the machine so that the handwheel side comes to
+the underside of the machine.
+Insert the screwdriver from the bottom hole of the thread
+cutter cover. Loosen the setscrew B e.
+Remove the thread cutter cover r.
+ q	Cap
+ w	Setscrew A
+ e	Setscrew B
+ r	Thread cutter cover
+q
+w
+r
+Oil the lower shaft supporter (rear)
+NOTE:
+Be careful not to damage any parts when raise the
+machine.
+Stand the machine so that the handwheel side comes to
+the underside of the machine.
+Remove the cover q on the underside of the machine
+with a screwdriver.
+ q	Cover
+q
+Oil the arrow point (felt) as indicated in the illustration.
+Oil the arrow point (felt) as indicated in the illustration.
+e
+
+--- Page 65 ---
+63
+Oil the Y-carriage
+z	Remove the setscrew q.
+   q	Setscrew
+q
+w
+e
+x	Remove the setscrew w.
+	 	 Remove the carriage cover e.
+   w	Setscrew
+   e	Carriage cover
+c	Oil the arrow point (felt) as indicated in the illustration.
+	 	 To attach the carriage cover, reverse the procedure z
+to x in reverse.
+z
+x
+c
+
+--- Page 66 ---
+64
+Oil the X-carriage
+Oil the arrow point (felt) inside of the carriage slit.
+
+--- Page 67 ---
+65
+Troubleshooting
+Condition
+Cause
+Reference
+The machine is
+noisy.
+1. 	Thread is jammed in the hook area.
+See page 58.
+The needle thread
+breaks.
+1. 	The needle thread is not threaded properly.
+2. 	The needle thread tension is too tight.
+3. 	The needle is bent or blunt.
+4. 	The needle is inserted incorrectly.
+5. 	The needle thread was not set in the thread holder when embroidery
+
+sewing started.
+See page 11.
+See page 51.
+See page 13.
+See page 13.
+See page 20.
+The bobbin thread
+breaks.
+1. 	The bobbin thread is not threaded properly in the bobbin holder.
+2. 	Lint has collected in the bobbin holder.
+3. 	The bobbin is damaged and does not turn smoothly.
+See page 10.
+See page 58.
+Replace the bobbin.
+The needle breaks.
+1. 	The needle is inserted incorrectly.
+2. 	The needle is bent or blunt.
+3. 	The needle clamp screw is loose.
+See page 13.
+See page 13.
+See page 13.
+Visual Touch Screen
+is not clear.
+1. 	The contrast of the screen is not adjusted properly.
+See page 49.
+Skipped stitches
+1. 	The needle is inserted incorrectly.
+2. 	The needle is bent or blunt.
+3. 	The needle thread is not threaded properly.
+4. 	The needle is defective (rusted, burr on needle eye or tip).
+5. 	The embroidery hoop is not set properly.
+6. 	The fabric is not stretched tightly enough on the embroidery hoop.
+7.	 A stabilizer is not being used.
+8.	 The thread coming out from the needle eye is too short after auto
+
+thread cutting.
+See page 13.
+See page 13.
+See page 11.
+Change the needle.
+See page 19.
+See page 18.
+See page 17.
+See page 11.
+The machine does
+not run.
+1. 	Thread is jammed in the hook area.
+2. 	The machine is not plugged in.
+See page 58.
+See pages 6.
+Abnormal noise
+occurs when the
+machine is switched
+on.
+1. 	Something is caught between the carriage and the arm.
+Remove the object.
+The patterns are
+distorted.
+1. 	The fabric is not pulled tightly on the embroidery hoop.
+2. 	The embroidery hoop is not fixed securely.
+3. 	The carriage is bumping into something around the machine.
+4. 	The fabric is caught or pulled for some reason when sewing
+
+	 	 embroidery.
+5.	 A stabilizer is not used.
+See page 18.
+See page 19.
+Do not place any
+obstacle around the
+machine.
+Reattach the fabric.
+See page 17
+Function keys do
+not work.
+1.	 Key positions are not adjusted properly.
+2.	 The control circuit is not working correctly.
+3.	 The bobbin winder spindle is in the winding position.
+See page 49.
+Contact the service
+center or the store.
+See page 9.
+USB flash drive
+does not work.
+1.	 The USB flash drive is not inserted correctly.
+2.	 The USB flash drive is damaged.
+Insert the USB flash
+drive properly.
+Replace or format
+the USB flash drive.
+It is not abnormal for a faint humming sound to be heard from the internal motors.
+The visual touch screen and function key area may become warm after several hours of continuous use.
+
+--- Page 68 ---
+66
+(SQ14b)
+(SQ14b)
+(SQ20b)
+DESIGN CHART
+Embroidery
+Petite Designs
+Pattern images are not to scale.
+Favorite Designs
+
+--- Page 69 ---
+67
+(SQ20b)
+(SQ14b)
+(SQ20b)
+(SQ14b)
+(SQ14b)
+DESIGN CHART
+Embroidery
+Border Designs
+Pattern images are not to scale.
+Geometric Designs
+Pantry Designs
+
+--- Page 70 ---
+68
+DESIGN CHART
+Embroidery
+Pattern images are not to scale.
+(SQ14b)
+(SQ14b)
+(SQ20b)
+Word Style Designs
+Flourish Alphabet
+
+--- Page 71 ---
+69
+DESIGN CHART
+Embroidery
+Pattern images are not to scale.
+(SQ14b)
+(SQ20b)
+(SQ20b)
+(SQ20b)
+(SQ14b)
+Quilting Designs
+Bracelet Designs
+Celebration Designs
+Calibration Pattern
+
+--- Page 72 ---
+70
+DESIGN CHART
+Embroidery
+Gothic
+Script
+Cheltenham
+Cyrillic 1
+Cyrillic 2
+Cyrillic 3
+
+--- Page 73 ---
+71
+DESIGN CHART
+Embroidery
+2-letters / 3-letters
+Border
+Normal Sew
+
+--- Page 76 ---
+864-800-000 (ENG)

@@ -1,0 +1,194 @@
+[
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/3D-Printing-Hardware-Guide-1.pdf",
+    "name": "Hardware guide",
+    "local_file": "3D-Printing-Hardware-Guide-1.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/3D-Printing-Software-Guide.pdf",
+    "name": "Software guide",
+    "local_file": "3D-Printing-Software-Guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Ender-3-v3-ke-user-guide.pdf",
+    "name": "User Manual",
+    "local_file": "Ender-3-v3-ke-user-guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/SOP-3D-Printer.pdf",
+    "name": "sop",
+    "local_file": "SOP-3D-Printer.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2023/03/SDS-PLA.ABS_.PETG_.pdf",
+    "name": "msds",
+    "local_file": "SDS-PLA.ABS_.PETG_.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/crm4_creality_user-manual.pdf",
+    "name": "User Manual",
+    "local_file": "crm4_creality_user-manual.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2023/03/SDS-PLA.ABS_.PETG_-1.pdf",
+    "name": "msds",
+    "local_file": "SDS-PLA.ABS_.PETG_-1.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/saturn_4_ultra.pdf",
+    "name": "user manual",
+    "local_file": "saturn_4_ultra.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2023/03/Resin-MSDS-2.pdf",
+    "name": "msds",
+    "local_file": "Resin-MSDS-2.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/LD-002R.pdf",
+    "name": "user manual",
+    "local_file": "LD-002R.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Laser-Cutter-Hardware-Guide.pdf",
+    "name": "Hardware guide",
+    "local_file": "Laser-Cutter-Hardware-Guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Laser-Cutter-Software-Guide.pdf",
+    "name": "software guide",
+    "local_file": "Laser-Cutter-Software-Guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/60w-Laser-Settings.pdf",
+    "name": "60w Laser Settings",
+    "local_file": "60w-Laser-Settings.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Laser-Cutting-Materials-Guide.pdf",
+    "name": "materials guide",
+    "local_file": "Laser-Cutting-Materials-Guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2023/04/MF1624-55.pdf",
+    "name": "user manual",
+    "local_file": "MF1624-55.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/130w-Laser-Settings.pdf",
+    "name": "130w Laser settings",
+    "local_file": "130w-Laser-Settings.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/Laser-cutter-materials.pdf",
+    "name": "material guide",
+    "local_file": "Laser-cutter-materials.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/130w-laser-user-manual.pdf",
+    "name": "user manual",
+    "local_file": "130w-laser-user-manual.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Embroidery-Hardware-Guide.pdf",
+    "name": "Hardware Guide",
+    "local_file": "Embroidery-Hardware-Guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Embroidery-Software-Guide.pdf",
+    "name": "software Guide",
+    "local_file": "Embroidery-Software-Guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Janome-mc550e-User-Manual.pdf",
+    "name": "User manual",
+    "local_file": "Janome-mc550e-User-Manual.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Janome-MC-9850-User-Manual-1.pdf",
+    "name": "User manual",
+    "local_file": "Janome-MC-9850-User-Manual-1.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Janome-HD-3000-User-Manual.pdf",
+    "name": "User manual",
+    "local_file": "Janome-HD-3000-User-Manual.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Janome-792pg-Serger-Manual.pdf",
+    "name": "User manual",
+    "local_file": "Janome-792pg-Serger-Manual.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/quest.pdf",
+    "name": "user manual",
+    "local_file": "quest.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/Vive_User_Guide.pdf",
+    "name": "User Manual",
+    "local_file": "Vive_User_Guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/go.pdf",
+    "name": "User Manual",
+    "local_file": "go.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Vinyl-Cutting-Hardware-Guide.pdf",
+    "name": "hardware guide",
+    "local_file": "Vinyl-Cutting-Hardware-Guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "https://icl.sites.gettysburg.edu/wp-content/uploads/2024/08/Vinyl-Cutting-Software-Guide.pdf",
+    "name": "software guide",
+    "local_file": "Vinyl-Cutting-Software-Guide.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/SOP-Vinyl.pdf",
+    "name": "sop",
+    "local_file": "SOP-Vinyl.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/Titan_Documentation_6_27_2016.pdf",
+    "name": "User Manual",
+    "local_file": "Titan_Documentation_6_27_2016.pdf",
+    "downloaded": true
+  },
+  {
+    "url": "http://icl.sites.gettysburg.edu/wp-content/uploads/2021/07/A1DogecheeL.pdf",
+    "name": "User Manual",
+    "local_file": "A1DogecheeL.pdf",
+    "downloaded": true
+  }
+]

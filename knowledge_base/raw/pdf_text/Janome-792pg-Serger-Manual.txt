@@ -1,0 +1,2685 @@
+# Janome-792pg-Serger-Manual
+
+Source: Janome-792pg-Serger-Manual.pdf
+Category: sewing_embroidery
+Pages: 42
+========================================
+
+--- Page 1 ---
+INSTRUCTION BOOK
+
+--- Page 2 ---
+IMPORTANT SAFETY INSTRUCTIONS
+When using an electrical appliance, basic safety precautions should always be followed, including the
+following:
+This sewing machine is designed and manufactured for household use only.
+Read all instructions before using this sewing machine.
+DANGER— To reduce the risk of electric shock:
+	1.	 An appliance should never be left unattended when plugged in. Always unplug
+this sewing machine from the electric outlet immediately after using and before
+cleaning.
+WARNING— To reduce the risk of burns, fire, electric shock, or injury to persons:
+	 1.	 Do not allow to be used as a toy. Close attention is necessary when this sewing machine is used
+by or near children.
+	 2.	 Use this appliance only for its intended use as described in this owner’s manual.
+Use only attachments recommended by the manufacturer as contained in this owner’s manual.
+	 3.	 Never operate this sewing machine if it has a damaged cord or plug, if it is not working properly, if
+it has been dropped or damaged, or dropped into water.
+Return this sewing machine to the nearest authorized dealer or service center for examination,
+repair, electrical or mechanical adjustment.
+	 4.	 Never operate the appliance with any air opening blocked. Keep ventilation openings of this
+sewing machine and foot controller free from accumulation of lint, dust and loose cloth.
+	 5.	 Never drop or insert any object into any opening.
+	 6.	 Do not use outdoors.
+	 7.	 Do not operate where aerosol (spray) products are being used or where oxygen is being
+administered.
+	 8.	 To disconnect, turn all controls to the off (“O”) position, then remove plug from outlet.
+	 9.	 Do not unplug by pulling on cord. To unplug, grasp the plug, not the cord.
+	10.	 Keep fingers away from all moving parts. Special care is required around the sewing machine
+needle and/or cutting blade.
+	11.	 Always use the proper needle plate. The wrong plate can cause the needle to break.
+	12.	 Do not use bent needles.
+	13.	 Do not pull or push fabric while stitching. It may deflect the needle causing it to break.
+	14.	 Switch this sewing machine off (“O”) when making any adjustment in the needle area, such as
+threading the needle, changing the needle, threading the bobbin or changing the presser foot,
+and the like.
+	15.	 Always unplug this sewing machine from the electrical outlet when removing covers, lubricating,
+or when making any other adjustments mentioned in this owner’s manual.
+SAVE THESE INSTRUCTIONS
+For Europe only:
+This appliance can be used by children aged from 8 years and above and persons with reduced
+physical, sensory or mental capabilities or lack of experience and knowledge if they have been given
+supervision or instruction concerning use of the appliance in a safe way and understand the hazards
+involved. Children shall not play with the appliance. Cleaning and user maintenance shall not be
+made by children without supervision.
+For outside Europe (except U.S.A and Canada):
+This appliance is not intended for use by persons (including children) with reduced physical, sensory
+or mental capabilities, or lack of experience and knowledge, unless they have been given supervision
+or instruction concerning use of the appliance by a person responsible for their safety.
+Children should be supervised to ensure that they do not play with the appliance.
+Please note that on disposal, this product must be safely recycled in accordance with relevant
+National legislation relating to electrical/electronic products. If in doubt please contact your
+retailer for guidance. (European Union only)
+
+--- Page 3 ---
+2
+Do’s and Don’ts
+1. 	Always be aware of the up-and-down movement of the needle and do not turn your attention
+
+away from the machine while it is running.
+2. 	When leaving the sewing machine unattended, the main switch of the machine must be
+
+switched off or the plug must be removed from the socket-outlet.
+3. 	When servicing the sewing machine, or when removing covers or changing lamps, the machine
+
+must be disconnected from the power supply by removing the plug from the socket-outlet.
+4. 	Do not place anything on the foot control, otherwise the machine will start inadvertently, or the
+
+control or motor may burn out.
+5. 	When using your sewing machine for the first time, place a piece of waste fabric under the
+
+presser foot and run the machine without thread for a few minutes. Wipe away any oil which
+
+may have appeared.
+
+--- Page 4 ---
+3
+PREPARATION
+
+Names of Parts ...................................................4
+
+Standard Accessories ........................................4
+
+Connecting the Machine to the Power Supply ......5
+
+Controlling Sewing Speed ..................................5
+
+For Your Safety ...................................................5
+
+How to turn the Handwheel ...............................6
+
+Opening and Closing the Side Cover .................6
+
+Opening and Closing the Looper Cover .............6
+
+The Position of Thread Guide Bar ......................7
+
+Attaching the Spool Holder Cap and Net ..............7
+
+Changing Needle ................................................8
+
+Raising or Lowering the Presser Foot ................8
+
+Removing the Presser Foot ................................9
+
+Attaching the Presser Foot .................................9
+
+Adjustment of Foot Pressure ..............................9
+
+Adjustment of Stitch Length .............................10
+
+Adjustment of Differential Feed Ratio ...............10
+
+To Deactivate the Upper Knife .........................11
+
+To Activate the Upper Knife ..............................11
+
+Adjustment of Cutting Width ............................12
+
+Adjustment of Needle Plate Setting Knob ........13
+
+Threading the Machine ...............................14~23
+
+• Threading the Lower Looper .....................15
+
+• Threading the Upper Looper .....................18
+
+• Threading the Needle on the Right ...........20
+
+• Threading the Needle on the Left .............22
+TEST STITCHING
+
+Starting Sewing ................................................24
+
+Finishing Sewing ..............................................24
+
+Sewing Continuously ........................................24
+
+How to use Guide Lines ...................................24
+
+Securing Ends ..................................................25
+
+Thread Tension (4 threads) ...............................26
+
+Threading the Machine (3 threads) ...................28
+
+Thread Tension (3 threads) ...............................29
+
+Thread and Needle Chart .................................30
+TABLE OF CONTENTS
+ROLLED HEMMING, PICOT EDGING AND
+NARROW HEMMING
+
+Machine Setting and Thread, Fabric and
+
+Range of the Tension Dial .................................31
+
+Thread Tension .................................................32
+
+For Better Results ............................................33
+DECORATIVE OVEREDGING
+
+Thread and Fabric ............................................34
+
+Machine Setting ...............................................34
+GATHERING
+
+Thread and Fabric ............................................34
+
+Machine Setting ...............................................34
+PIN TUCKING
+
+Thread and Fabric ............................................35
+
+Machine Setting ...............................................35
+
+Sewing ..............................................................35
+CARE OF YOUR MACHINE
+
+Replacing the Upper Knife ...............................36
+
+Cleaning Upper Knife Area ...............................36
+
+Cleaning the Feed Dog .....................................37
+
+Oiling the Machine ............................................38
+
+Carrying the Machine .......................................38
+
+Troubleshooting ................................................39
+OPTIONAL PARTS ........................................40
+
+--- Page 5 ---
+4
+Names of Parts
+ 1
+Left needle thread tension dial
+ 2
+Right needle thread tension dial
+ 3
+Upper looper thread tension dial
+ 4
+Lower looper thread tension dial
+ 5
+Side cover
+ 6
+Looper cover
+ 7
+Handwheel
+ 8
+Power switch
+ 9
+Machine socket
+10 Differential feed dial
+11 Stitch length dial
+12 Spool stand
+13 Spool holder
+14 Spool pin
+15 Thread guide bar
+16 Thread guide
+17 Pressure adjusting screw
+18 Presser foot
+19 Needle plate setting knob
+20 Thread cutter
+21 Presser foot lifter
+22 Needle plate
+23 Upper knife release knob
+24 Cutting width adjusting dial
+25 Upper looper
+26 Lower looper
+27 Upper knife
+28 Lower knife
+Standard Accessories
+ 1
+Screwdrivers
+ 2
+Tweezers
+ 3
+Set of needles
+PREPARATION
+1
+2
+3
+1
+17
+2
+15
+16
+14
+13
+12
+11
+10
+9
+8
+7
+5
+3
+4
+6
+20
+21
+22
+23
+24
+19
+18
+27
+28
+25
+26
+
+--- Page 6 ---
+5
+Connecting the Machine to the Power Supply
+Before connecting the machine to the power supply,
+make sure the voltage and frequency shown on the
+machine conform to your electrical power.
+1. Turn off the power switch, and connect the
+machine plug to the machine socket.
+2. Connect the power supply plug to your power
+supply.
+3. Turn on the power switch.
+Controlling Sewing Speed
+Sewing speed can be varied by the speed controller.
+The harder you press on the controller, the faster the
+machine runs.
+Step on the speed controller with the presser foot
+lifter up, and practice controlling the speed.
+For Your Safety:
+ * While in operation, always keep your eye on the
+sewing area, and do not touch any moving parts
+such as the thread take-up lever, loopers,
+handwheel, needle or knives.
+ * Always disconnect the machine from the power
+supply:
+— when leaving the machine unattended.
+— when attaching or removing parts.
+— when threading or cleaning the machine.
+ * Do not place anything on the foot control,
+ otherwise the machine will start inadvertently.
+1 Power switch
+2 Machine plug
+3 Machine socket
+4 Power supply plug
+5 Power supply
+6 Speed controller
+1 Speed controller
+5
+4
+3
+2
+1
+1
+6
+2
+1
+3
+1
+Operating Instructions
+(for U.S.A. and Canada only):
+The symbol "O" of a switch indicates the "off" position of
+the switch.
+For an appliance with a polarized plug (one blade wider
+than the other):
+To reduce the risk of electrical shock, this plug is
+intended to fit in a polarized outlet only one way.
+If it does not fit fully in the outlet, reverse the plug. If it
+still does not fit, contact a qualified electrician to install
+the proper outlet. Do not modify the plug in any way.
+The foot controller Model YC-482J or YC-482J-EC is
+used with the sewing machine Model 7034D.
+
+--- Page 7 ---
+6
+How to turn the Handwheel
+Always turn the handwheel toward you (Counter-
+clockwise).
+1
+Handwheel
+Opening and Closing the Side Cover
+To open:
+Push the side cover to the left.
+To close:
+Push the side cover to the right.
+1
+Side cover
+Opening and Closing the Looper Cover
+To open: A
+While pushing with the thumb to the right as far as it
+will go, pull the looper cover toward you.
+To close: B
+Lift the looper cover and push it against the
+machine.
+The looper cover snaps into its position
+automatically.
+1
+Looper cover
+Note:
+Always close both side cover and looper cover
+when the machine is in use.
+1
+1
+1
+A
+B
+
+--- Page 8 ---
+7
+1. Pull the thread guide bar up as far as it will go.
+2. Turn the thread guide bar so that the thread
+guides are right above the spool pins.
+The Position of Thread Guide Bar
+1
+Thread guide bar
+2
+Thread guide
+3
+Stoppers
+4
+Spool pin
+Attaching the Spool Holder Cap and Net
+(Optional)
+1. When you use a small thread spool, pull out the
+spool holder from the spool pin. Then place the
+spool with its slit side up, and put the spool
+holder cap on top of it.
+2. If the thread slips down from the spool
+during threading and/or sewing, put a net on the
+spool as illustrated to prevent jamming.
+ * The spool holder cap and net are optional
+accessories.
+1
+Net
+2
+Spool pin
+1
+Spool holder
+2
+Spool pin
+3
+Spool holder cap
+4
+Slit
+1
+2
+3
+4
+1
+3
+4
+2
+1
+2
+1
+2
+1
+2
+* Make sure to lock the thread guide of guide pole
+in the correct position with the two stoppers.
+
+--- Page 9 ---
+8
+Raising or Lowering the Presser Foot
+By raising or lowering the presser foot lifter, the
+presser foot goes up or down.
+ * While in operation, keep the presser foot lowered
+except when threading the machine or test-
+running without threads.
+1
+Presser foot
+2
+Presser foot lifter
+Changing Needle
+Turn off the power switch and unplug the machine.
+Raise the needle to its highest position.
+Then loosen the left or right needle clamp screw for the
+needle you are going to remove.
+1
+Needle clamp screw on the left
+2
+Needle clamp screw on the right
+ * Use HA-1SP #14 Needle or #11.
+To attach the needle on the right :
+Insert a new needle into the needle clamp with the
+flat side to the back until the top of the needle
+touches the stopper pin, then tighten the needle
+clamp screw on the right.
+To attach the needle on the left :
+Insert a new needle into the needle clamp with the
+flat side to the back until the top of the needle
+touches the edge of the needle bar, then tighten the
+needle clamp screw on the left.
+ * When the needles are set correctly, the left
+needle is higher than the right one.
+ * Do not use any needle which is bent or blunt.
+1
+Needle clamp
+2
+Needle
+3
+Needle stopper pin
+4
+Edge of needle bar
+5
+Needle clamp screws
+6
+Flat side to the back
+1
+2
+1
+2
+4
+3
+4
+5
+6
+1
+2
+ * Use HA-1SP #14 Needle or #11.
+6
+
+--- Page 10 ---
+9
+Adjustment of Foot Pressure
+It is not necessary to adjust the presser foot’s
+pressure for normal sewing.
+When you sew heavy or lightweight fabrics, turn the
+adjusting screw:
+–– clockwise for heavyweight fabric.
+–– counterclockwise for lightweight fabric.
+ * For normal sewing, set the adjusting screw so
+that it sits 1mm below the top of the machine.
+1
+To decrease
+2
+To increase
+3
+Adjusting screw
+4
+Top of the machine
+Removing the Presser Foot
+1. Turn off the power switch and unplug the
+machine.
+2. Raise the needle and the presser foot.
+3. Press the lever located on the back of the foot
+holder. The presser foot will drop off.
+1
+Needle
+2
+Presser foot lifter
+3
+Foot holder
+4
+Lever
+Attaching the Presser Foot
+1. Turn off the power switch and unplug the
+machine.
+2. Place the presser foot so that the pin on the foot
+lies just under the groove of the foot holder.
+3. Lower the foot holder to lock the foot into place.
+4. Raise the presser foot lifter to check that the
+presser foot is secure.
+1
+Groove
+2
+Pin
+3
+Lever
+1 mm
+2
+1
+4
+3
+3
+1
+2
+2
+3
+1
+2
+4
+
+--- Page 11 ---
+10
+Adjustment of Stitch Length
+To select stitch length, turn the dial.
+The larger the number, the longer the stitch.
+The stitch length can be adjusted from 1 to 4 mm.
+Position “R” is for rolled and narrow hemmings.
+1
+Stitch length dial
+2
+Setting mark
+Adjustment of Differential Feed Ratio
+The differential feed ratio can be altered by turning
+the dial.
+The number on the dial indicates the ratio between
+the main and the sub feed motion.
+1.0 indicates the neutral position.
+1
+Differential feed dial
+2
+Setting mark
+How to adjust
+•
+If the sewn fabric is stretched, turn the dial
+counterclockwise (toward 2.2).
+•
+If the sewn fabric is gathered, turn the dial
+clockwise (toward 0.5).
+1
+Stretched
+2
+Gathered
+1
+2
+1
+2
+1
+2
+
+--- Page 12 ---
+11
+To Deactivate the Upper Knife
+1. Turn off the power switch and unplug the machine.
+2. Open both the looper cover and side cover.
+3. Turn the upper knife release knob toward you
+while pushing it to the right, then guide the hole
+on the upper knife to the pin to lock the upper
+knife in the down position.
+4. Close the looper cover and side cover.
+1
+Upper knife release knob
+2
+Stopper pin
+3
+Upper Knife
+To Activate the Upper Knife
+1. Turn off the power switch and unplug the machine.
+2. Open both the looper cover and side cover.
+3. Turn the upper knife release knob away from you
+while pushing it to the right, then guide the
+groove on the upper knife to the pin to lock the
+upper knife in the up position.
+4. Close the looper cover and side cover.
+1
+Upper knife release knob
+2
+Stopper pin
+1
+2
+3
+1
+2
+
+--- Page 13 ---
+12
+Adjustment of Cutting Width
+When cutting width is too narrow or too wide against
+seam width, adjust it as follows.
+1. Turn off the power switch and unplug the
+machine.
+2. Open the looper cover and side cover.
+3. Set the upper knife to down position
+4. Turn the cutting width adjusting dial to get
+desired position of lower knife.
+1
+Cutting width adjusting dial
+2
+Lower knife
+3
+Standard setting
+ * The cutting width of this model can be
+adjusted approximately 3.0 to 5.0 mm from the
+right needle position depending upon your
+sewing needs or the fabric being used.
+(The cutting width should be adjusted to get
+the same results as in drawing  4 .)
+When cutting width is too narrow.
+Turn cutting width adjusting dial clockwise (A).
+Lower knife will move to right.
+When cutting width is too wide.
+Turn the cutting width adjusting dial counterclockwise
+(B).
+Lower knife will move to left.
+5. Set the upper knife to up position.
+6. Close the looper cover and side cover.
+1
+2
+2
+3
+2
+2
+(A)
+(B)
+4
+
+--- Page 14 ---
+13
+Adjustment of Needle Plate Setting Knob
+(Changing to Standard Serging or Rolled
+Hemming)
+1. Turn off the power switch and unplug the
+machine.
+2. Open the looper cover and side cover.
+3. Deactivate the upper knife.
+4. Push the cutting width adjusting dial to the right
+as far as it will go, then, move the needle plate
+setting knob to the guide line of S (for Standard
+Serging) or R (for Rolled Hemming).
+Release the cutting width adjusting dial to the left
+gently.
+5. Set the upper knife to up position.
+6. Close the looper cover and side cover.
+1
+Chaining finger
+2
+Guide line
+3
+Cutting width adjusting dial
+4
+Upper knife
+5
+Needle plate setting knob
+(A)Standard Serging
+ * The chaining finger is located beside the needle
+plate as shown in diagram (A) for guiding the flat
+edge of the fabric for overlock sewing.
+(B)Rolled Hemming
+ * Pull the needle plate setting knob from “S” to “R”
+position, so that the fabric edge will be rolled for
+hemming, picot edging and narrow hemming.
+(A)
+(B)
+1
+2
+3
+5
+4
+1
+5
+1
+5
+
+--- Page 15 ---
+14
+Threading the Machine
+The left illustration shows the completed threading
+conditions of four threads.
+1
+Lower looper thread
+2
+Upper looper thread
+3
+Right needle thread
+4
+Left needle thread
+5
+Thread guide
+6
+Thread guide plate
+7
+Threading chart
+The machine is pre-threaded to make threading
+easier.
+Tie the end of a new thread to one of the pre-set
+threads, and pull it to draw the new thread through
+the machine, following the steps below.
+*
+Turn off the power switch before threading the
+machine.
+1. Pull the threads from the spools and draw them
+through the thread guides, then tie the thread
+ends together.
+2. Raise the presser foot, draw the threads until the
+knots are coming out from under the back of the
+presser foot.
+3. However, stop drawing the needle threads when
+the knots reach just before the needle eye.
+Cut the knots and thread the needle eye.
+4. Before starting sewing, clear the needle threads
+from under the presser foot to make sure they are
+not caught below the needle plate.
+(Draw the needle threads in the direction A)
+Then pull out the threads to the back approxi-
+mately 10 cm (4˝) away from the presser foot.
+Lower the presser foot, and you are now ready to
+sew.
+1
+Thread guide
+2
+Needle
+3
+Needle thread
+4
+Presser foot
+5
+Needle plate
+ • For re-threading the machine easily, start from the
+lower looper, upper looper, right needle and left
+needle threads.
+Make sure to clear the needle threads out from
+below the needle plate and draw them to the
+back and under the presser foot about 10 cm (4˝).
+4
+3
+2
+5
+1
+6
+7
+A
+2
+3
+5
+1
+4
+
+--- Page 16 ---
+15
+1
+• Threading the Lower Looper
+Open the looper cover and side cover.
+Place the spool of thread on the right side spool pin.
+ * The points to thread for lower looper are marked
+in green.
+ * A convenient threading chart is placed on the
+machine body inside the looper cover.
+1. Draw the thread through the right side thread
+guide from back to front: (A)
+ * If the thread is coming out from the thread guide
+groove, pass the thread through the thread guide
+hole again as shown: (B)
+1
+Thread guide
+2. Pass the thread through the holes on the right side
+of the thread guide plate as illustrated.
+2
+Thread guide plate
+3. Pass the thread through the right side of the
+looper thread guide, sliding the thread from left to
+right.
+3
+Looper thread guide
+1
+2
+3
+1
+2
+3
+5
+6
+7
+8
+9
+11
+2
+3
+(A)
+(B)
+10
+4
+
+--- Page 17 ---
+16
+4. Insert the thread between tension discs from the
+right. Then pull both sides of the thread firmly to
+insert it between tension discs.
+5. Pass the thread through lower looper thread
+guide (1).
+4
+Lower looper thread tension dial
+5
+Lower looper thread guide (1)
+ * Make sure that the thread is between the tension
+discs.
+(1) Thread
+(2) Tension discs
+6. Pass the thread through lower looper thread
+guide (2).
+7. Pass the thread through the looper thread
+take-up lever (lower).
+8. Pass the thread through lower looper thread
+guide (3).
+9. Pass the thread through lower looper thread
+guide (4).
+6
+Lower looper thread guide (2)
+7
+Looper thread take-up lever (lower)
+8
+Lower looper thread guide (3)
+9
+Lower looper thread guide (4)
+10. Turn the handwheel toward you until the
+lower looper comes to the right, and pass the
+threader through the hole on lower looper thread
+guide (5).
+Hook the end of the thread on the threader.
+ * Looper threader is optional.
+ * If you don’t have the looper threader, turn the
+handwheel towards you until the lower looper
+comes to its most left position.
+Thread lower looper thread guide (5) from the
+left side with a pair of tweezers. Then, turn the
+handwheel towards you to move the lower looper
+to the right position.
+10 Lower looper thread guide (5)
+(1) Lower looper thread
+(2) Looper threader
+4 5
+6 7 8 9
+10
+5
+4
+6
+7
+8
+9
+10
+(1)
+(2)
+(1)
+(2)
+(2)
+
+--- Page 18 ---
+17
+11. Pull the threader to pass the thread through the
+hole of lower looper thread guide (5).
+Remove the thread from the threader, and draw
+the thread through the hole on the lower looper
+10 cm (4˝) or more with a pair of tweezers.
+ * For threading without the looper threader, draw
+the thread from the right side of lower looper
+thread guide (5) with a pair of tweezers.
+ * And draw the thread through the hole on the
+lower looper 10 cm (4˝) or more with a pair of
+tweezers.
+11 Lower looper
+(1) Looper threader
+(2) Tweezers
+NOTE: How to thread woolly nylon/polyester thread.
+ * The illustration at left shows one of the easiest
+ways to pass woolly nylon/polyester thread
+through the lower looper.
+1
+Lower looper
+2
+Ordinary thread
+3
+Woolly nylon/polyester thread
+11
+11
+1
+2
+3
+(1)
+(2)
+
+--- Page 19 ---
+18
+(A)
+(B)
+• Threading the Upper Looper
+Place a spool of thread on the spool pin second
+from the right.
+ * The points to thread for upper looper are marked
+in red.
+ * A convenient threading chart is placed on the
+machine body inside the looper cover.
+1. Draw the thread through the thread guide second
+from the right from back to front: (A)
+1
+Thread guide
+2. Pass the thread through the holes in the second
+row from the right of thread guide plate as
+illustrated.
+2
+Thread guide plate
+3. Pass the thread through the left side of looper
+thread guide sliding the thread from right to left.
+3
+Looper thread guide
+1
+2
+3
+4
+5
+6
+9
+1
+2
+3
+1
+2
+3
+ * If the thread is coming out from the thread guide
+groove, pass the thread through the thread guide
+hole again as shown: (B)
+8
+7
+
+--- Page 20 ---
+19
+NOTE:
+* When you thread the upper looper only, to avoid
+tangled threads pull out both threads over the
+needle plate and under the presser foot.
+Turn the handwheel toward you until the upper
+looper comes to the middle point of its travel, and
+unhook the thread of the lower looper from the
+upper looper.
+Thread the upper looper.
+1
+Lower looper thread
+2
+Upper looper
+4. Insert the thread between tension discs from the
+right. Then pull both sides of thread.
+5. Pass the thread through upper looper thread
+guide (1)
+4
+Upper looper thread tension dial
+5
+Upper looper thread guide (1)
+6. Pass the thread through upper looper thread
+guide (2).
+7. Pass the thread through the looper thread
+take-up lever (upper).
+6
+Upper looper thread guide (2)
+7
+Looper thread take-up lever (upper)
+8. Pass the thread through upper looper thread
+guide (3).
+9. Holding the end of the thread with a pair of
+tweezers, pass it through the hole on the upper
+looper. Pull 10 cm (4˝) or more of thread through
+the hole.
+8
+Upper looper thread guide (3)
+9
+Upper looper
+5
+4
+6
+7
+8
+9
+1
+2
+4  5
+6  7
+8  9
+
+--- Page 21 ---
+20
+• Threading the Needle on the Right
+Place the spool of thread on the spool pin second from
+the left.
+ * The points to thread for needle on the right are
+marked in blue.
+ * A convenient threading chart is placed on the
+machine body inside the looper cover.
+1. Draw the thread through the thread guide second
+from the left from back to front: (A)
+1
+Thread guide
+2. Pass the thread through the holes in the second
+row from the left of the thread guide plate as
+illustrated.
+2
+Thread guide plate
+1
+2
+1
+3
+4
+5
+6
+2
+ * If the thread is coming out from the thread guide
+groove, pass the thread through the thread guide
+hole again as shown: (B)
+7
+8
+2
+(A)
+(B)
+1
+
+--- Page 22 ---
+21
+3. Insert the thread between tension discs from the
+right. Then pull both sides of thread.
+3
+Right needle thread tension dial
+4. Turn the handwheel toward you to bring the
+needle bar to its highest position, then pass the
+thread through the right needle thread guide and
+the thread take-up lever cover.
+4
+Right needle thread guide
+5
+Thread take-up lever cover
+5. Pass the thread through the needle thread guide
+sliding the thread from left to right.
+6. Pass it through the needle bar thread guide from
+left to right.
+7. Thread the right needle from front to back and
+pull the thread about 10 cm (4˝) from the eye of
+the needle to the back.
+6
+Needle thread guide
+7
+Needle bar thread guide
+8
+Right needle
+3
+4
+5  6  7
+3
+5
+4
+6
+7
+8
+
+--- Page 23 ---
+22
+• Threading the Needle on the Left
+Place the spool of thread on the left side spool pin.
+ * The points to thread for needle on the left are
+marked in orange.
+ * A convenient threading chart is placed on the
+machine body inside the looper cover.
+1. Draw the thread through the thread guide on the
+left from back to front: (A)
+1
+Thread guide
+2. Pass the thread through the holes on the left of
+thread guide plate as illustrated.
+2
+Thread guide plate
+1
+2
+1
+3
+4
+5
+2
+ * If the thread is coming out from the thread guide
+groove, pass the thread through the thread guide
+hole again as shown: (B)
+2
+6
+7
+1
+(A)
+(B)
+
+--- Page 24 ---
+23
+3. Insert the thread between tension discs from the
+right. Then pull both sides of thread.
+4. Turn the handwheel toward you to bring the
+needle bar to its  highest position, then pass the
+thread through the thread take-up lever cover.
+3
+Left needIe thread tension dial
+4
+Thread take-up lever cover
+5. Pass the thread through the needle thread guide
+sliding the thread from right to left.
+6. Pass it through the needle bar thread guide from
+left to right.
+7. Thread the left needle from front to back and pull
+the thread about 10 cm (4˝) from the eye of the
+needle to the back.
+5
+Needle thread guide
+6
+Needle bar thread guide
+7
+Left needle
+– Gently pull all four thread ends towards the
+back of the machine.
+– Run threads under the presser foot and lower
+the presser foot.
+– Close side cover and looper cover.
+– Turn handwheel toward you to chain off three
+or four stitches.
+The sewing preparation is now complete.
+3  4
+5  6  7
+3
+4
+5
+6
+7
+
+--- Page 25 ---
+24
+Starting Sewing
+1. Insert the fabric under the toe of the foot.
+(It is not necessary to raise the foot.)
+2. Turn the handwheel gently toward you a couple
+of turns and check the thread chain. Then start
+sewing slowly.  The fabric will be automatically fed.
+Guide the fabric in the desired direction.
+ * For heavyweight fabric, raise the presser foot
+and insert the fabric in front of the knife.
+Then lower the foot and start to sew while guiding
+the fabric.
+Finishing Sewing
+1. When stitching is completed, continue to run the
+machine slowly to produce a thread chain for
+about 12 cm (5´´) while pulling the thread chain
+slightly to the back.
+2. Cut the threads with the thread cutter as
+illustrated, leaving about 5 cm (2´´) thread chain
+from the end of the fabric.
+1  Thread cutter
+* The thread cutter becomes blunt as loose threads
+build up. Remove the loose threads collected in
+the thread cutter.
+Sewing Continuously
+Insert the next fabric under the toe of the foot, then
+start sewing. It is not necessary to raise the presser
+foot for ordinary fabric.
+ * For heavyweight fabric, raise the presser foot
+and insert the fabric in front of the knife.
+Then lower the foot and start to sew while guiding
+the fabric.
+How to use Guide Lines
+On the top of the looper cover are guide lines
+indicating the distance from the needle position.
+Please use them as sewing guides.
+Mark L indicates the distance from the left needle.
+Mark R indicates the distance from the right needle.
+The distance between center of guide line and
+needle position is 5/8 inch.
+TEST STITCHING
+1  2
+1
+2
+1
+
+--- Page 26 ---
+25
+Securing Ends
+To avoid unravelling, it is necessary to leave a
+thread chain about 5 cm (2´´) long at the beginning
+and at the end of a seam. To secure the beginning
+and end of a seam choose one of the following
+methods.
+At the beginning
+A. Separate the end of the threads and knot them.
+B. Thread the chain through a large eyed needle,
+and weave the chain through the overlock
+stitches on the fabric.
+C. Cut the chain at the edge of the fabric. Then
+apply a small amount of seam sealant (Fray
+CheckTM or Fray-No-MoreTM ) on the end of the
+threads.
+D. 1. Before putting your fabric in the machine, sew
+a thread chain about 5 cm (2´´) long behind the
+needle.
+2. Put your fabric on the machine. Then serge a
+few stitches and stop.
+3. Raise the presser foot and bring the thread
+chain to the left, around and under the presser
+foot.
+4. Place the thread chain between the presser
+foot and upper knife, holding it in position as
+you lower the presser foot to sew.
+5. After sewing about 2.5 cm (1´´), move the chain
+to the right and under the upper knife, cutting
+the chain as you sew.
+At the end of a seam
+ * You can use the same methods as “At the
+beginning” to secure the end of a seam except
+“D” or you can use the methods shown below.
+1. Serge one stitch off the end of a seam.
+2. Raise the needle and presser foot, and gently pull
+the threads off the chaining finger.
+3. Turn the fabric over so that the under side is up.
+4. Serge about 2.5 cm (1˝) over stitching and angle
+off the fabric.
+A
+B
+C
+D
+1
+2  3
+4
+
+--- Page 27 ---
+26
+Thread Tension (4 threads)
+Correct tension
+The illustration at left shows sewing results with
+correct tension settings. However, adjusting the
+thread tension may be required depending upon the
+type of fabric and thread being used.
+ 1 Wrong side of fabric
+ 2 Right side of fabric
+ 3 Right needle thread
+ 4 Left needle thread
+ 5 Upper looper thread
+ 6 Lower looper thread
+Thread tension adjustment
+ * Set all four thread tension dials at “3”.
+Then sew, and check the thread tensions.
+If the tension balance on the test piece is not satis-
+factory, you can adjust the thread tension with the
+tension balance dial.
+ 7 Thread tension dial
+ 8 Setting mark
+ 9 Loosen
+10 Tighten
+Left needle thread tension is too loose
+The illustration shows sewing results when the left
+needle thread tension is too loose.
+Remedy:
+Tighten the left needle thread tension.
+11 Left needle thread tension dial
+Right needle thread tension is too loose
+The illustration shows sewing results when the right
+needle thread tension is too loose.
+Remedy:
+Tighten the right needle thread tension.
+12  Right needle thread tension dial
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+1
+4
+3
+2
+5
+6
+7
+8
+9
+10
+1
+4
+3
+2
+5
+6
+1
+4
+2
+5
+6
+11
+12
+3
+
+--- Page 28 ---
+27
+Looper thread tension is out of balance (1)
+The illustration shows sewing results when the lower
+looper thread tension is too tight and/or upper looper
+thread tension is too loose.
+Remedy:
+Loosen lower looper thread tension and/or tighten
+upper looper thread tension.
+ 1 Wrong side of fabric
+ 2 Right side of fabric
+ 3 Right needle thread
+ 4 Left needle thread
+ 5 Upper looper thread
+ 6 Lower looper thread
+13 Upper looper thread tension dial
+14 Lower looper thread tension dial
+Looper thread tension is out of balance (2)
+The illustration shows sewing results when the upper
+looper thread tension is too tight and/or lower looper
+thread tension is too loose.
+Remedy:
+Loosen upper looper thread tension and/or tighten
+lower looper thread tension.
+13 Upper looper thread tension dial
+14 Lower looper thread tension dial
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+1
+6
+4
+3
+2
+5
+13
+14
+1
+6
+4
+3
+2
+5
+13
+14
+
+--- Page 29 ---
+28
+Threading the Machine (3 threads)
+Using the needle on the right only
+(for regular three-thread serging)
+Turn off the power switch and unplug the machine.
+Remove the needle and the thread on the left. Then
+retighten the needle clamp screw on the left to
+prevent losing the screw.
+1
+Needle on the right
+2
+Needle clamp screw on the left
+Using the needle on the left only
+(for wide three-thread serging)
+Turn off the power switch and unplug the machine.
+Remove the needle and the thread on the right.
+Then retighten the needle clamp screw on the right
+to prevent losing the screw.
+1
+Needle on the left
+2
+Needle clamp screw on the right
+2
+1
+2
+1
+
+--- Page 30 ---
+29
+Thread Tension (3 threads)
+Correct tension
+The illustration at left shows sewing results with
+correct tension settings. However, adjusting the
+thread tension may be required depending on the
+type of fabric and thread being used.
+1
+Wrong side of fabric
+2
+Right side of fabric
+3
+Right or left needle thread
+4
+Upper looper thread
+5
+Lower looper thread
+Thread tension adjustment
+ * Set all three thread tension dials at “3”.
+Then sew, and check the tension balance.
+If the tension balance on the test piece is not
+satisfactory, you can adjust the thread tension
+with thread tension dial.
+6
+Thread tension dial
+7
+Setting mark
+8
+Loosen
+9
+Tighten
+Needle thread tension is too loose
+The illustration shows sewing results when the
+needle thread tension is too loose.
+Remedy:
+Tighten needle thread tension.
+  10 Left needle thread tension dial
+  11 Right needle thread tension dial
+Looper thread tension is out of balance (1)
+The illustration shows sewing results when the lower
+looper thread tension is too tight and/or upper looper
+thread tension is too loose.
+Remedy:
+Loosen lower looper thread tension and/or tighten
+upper looper thread tension.
+  12 Upper looper thread tension dial
+  13 Lower looper thread tension dial
+Looper thread tension is out of balance (2)
+The illustration shows sewing results when the upper
+looper thread tension is too tight and/or lower looper
+thread tension is too loose.
+Remedy:
+Loosen upper looper thread tension and/or tighten
+lower looper thread tension.
+  12 Upper looper thread tension dial
+  13 Lower looper thread tension dial
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+10
+11
+5
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5
+12
+13
+12
+13
+4
+
+--- Page 31 ---
+30
+Mediumweight Cotton,
+Linen, Satin,
+Ordinary
+fabric.
+Cotton:
+No. 80 – 100
+Silk:
+No. 80 – 100
+Synthetic:
+No. 80 – 100
+Type of fabric
+Type of thread
+* Refer to page 20 for adjusting the stitch length and differential feed ratio.
+NOTE: Your overlock uses standard sewing needles (HA-1 SP, No.11, No.14).
+Thread and Needle Chart
+Organdy,
+Georgette,
+Lawn, Crepe
+de chine,
+Lining.
+Lightweight
+Heavy-
+weight
+Knitte dfabric.
+Knits
+Tweed,
+Coating,
+Denim,
+Doeskin,
+Thick fabric.
+Cotton:
+No. 60 – 80
+Synthetic:
+No. 60 – 90
+Woolly nylon (For looper
+thread)
+Woolly polyester (For looper
+thread)
+Cotton:
+No. 50 – 60
+Silk:
+No. 50 – 60
+Synthetic:
+No. 50 – 60
+Cotton:
+No. 60 – 100
+Silk:
+No. 50 – 100
+Synthetic:
+No. 60 – 100
+Needle
+HA-1 SP
+No. 11
+HA-1 SP
+No. 11 – 14
+HA-1 SP
+No. 14
+HA-1 SP
+No. 11 – 14
+Stitch length Differential
+feed ratio
+0.5 – 1.0
+2.0 – 3.0
+2.5 – 3.5
+3.0 – 4.0
+2.5 – 4.0
+1.0
+1.0
+1.0 – 2.2
+
+--- Page 32 ---
+31
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+Stitch
+Length
+Differential
+Feed Ratio
+Needle Plate
+Setting Knob
+Needle
+Needle
+Thread
+Upper and
+Lower Looper
+Threads
+Fabric
+Standard
+Setting of
+Tension
+Dials
+Correct
+Thread
+Tension
+(R)
+(1.0)
+(R)
+(3 ~ 4)
+(1.0)
+(R)
+(R)
+(1.0)
+(R)
+Needle thread
+tension (L)
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+Needle thread
+tension (R)
+Upper looper
+thread tension
+Lower looper
+thread tension
+Needle thread
+tension (L)
+Needle thread
+tension (R)
+Upper looper
+thread tension
+Lower looper
+thread tension
+Wrong side
+of fabric
+Lower looper
+thread
+Upper
+looper
+thread
+Right side
+of fabric
+Needle thread
+Wrong side
+of fabric
+Lower looper
+thread
+Upper
+looper
+thread
+Right side
+of fabric
+Needle thread
+Needle thread
+tension (L)
+Needle thread
+tension (R)
+Upper looper
+thread tension
+Lower looper
+thread tension
+Wrong side
+of fabric
+Lower looper
+thread
+Upper
+looper
+thread
+Right side
+of fabric
+Needle thread
+Using the needle on the right: HA-1 SP No. 11
+Synthetic:  No. 80 ~ 100
+Synthetic  :   No. 60 ~ 100
+Silk           :   No. 50 ~ 100
+Lightweight fabric such as Organdy, Crepe de chine, Lawn and Georgette
+Woolly nylon,
+Woolly polyester
+Synthetic:  No. 80 ~100
+Woolly nylon,
+Woolly polyester
+Synthetic:  No. 80 ~100
+ROLLED HEMMING, PICOT EDGING AND NARROW HEMMING
+Machine Setting and Thread, Fabric and Range of
+the Tension Dial
+The setting of tension dials may vary depending on the type
+and thickness of fabric and thread being sewn.
+Rolled Hemming
+Picot Edging
+Narrow Hemming
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+
+--- Page 33 ---
+32
+Thread Tension
+For rolled hemming and picot edging
+Correct tension
+The illustration at left shows sewing results with
+correct tension settings.
+Adjusting the thread tension may be required de-
+pending on the type of fabric and thread being used.
+1
+Wrong side of fabric
+2
+Right side of fabric
+3
+Right needle thread
+4
+Upper looper thread
+5
+Lower looper thread
+Thread tension adjustment
+1. Set the tension dial as shown on page 60.
+2. Sew and check the tensions.
+3. If the tension balance on the test piece is not
+satisfactory, you can adjust the thread tension
+with thread tension dial.
+Needle thread tension is too loose
+The illustration shows the sewing results when the
+right needle thread tension is too loose.
+Remedy:
+Tighten the right needle thread tension.
+6
+Right needle thread tension dial
+Upper looper thread tension is too loose
+The illustration shows the sewing results when the
+upper looper thread tension is too loose.
+Remedy:
+Tighten the upper looper thread tension.
+7
+Upper looper thread tension dial
+Looper thread tension is out of balance
+The illustration shows sewing results when the upper
+looper thread tension is too tight and/or lower looper
+thread tension is too loose.
+Remedy:
+Loosen upper looper thread tension and/or tighten
+lower looper thread tension.
+7
+Upper looper thread tension dial
+8
+Lower looper thread tension dial
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+8
+3
+4
+5
+6
+7
+9
+0
+1
+2
+1
+2
+5
+3
+4
+1
+2
+5
+3
+4
+1
+2
+5
+3
+4
+1
+2
+5
+3
+4
+7
+8
+7
+6
+
+--- Page 34 ---
+33
+For Better Results
+Rolled hemming
+Pull the end of thread chain to the back lightly in the
+beginning and end of sewing.
+1
+Fabric
+2
+Thread chain
+Picot edging
+Pull the fabric lightly to the back while sewing.
+1
+Fabric
+For narrow hemming
+Correct tension
+The illustration at left shows sewing results with
+correct tension settings.
+1
+Wrong side of fabric
+2
+Right side of fabric
+3
+Right needle thread
+4
+Upper looper thread
+5
+Lower looper thread
+ * Refer to pages 58 for the adjustment.
+1
+2
+1
+1
+5
+3
+2
+4
+
+--- Page 35 ---
+34
+ * Refer to pages 24, 25, 29 for thread tension
+balance adjustment.
+ * For the best results, pull the thread chain to the
+back lightly at the beginning and end of sewing.
+1
+Overedging
+Thread and Fabric
+DECORATIVE OVEREDGING
+Fabric
+Medium
+to
+Heavy
+Fabric
+Needle threads
+Upper looper thread
+Lower looper thread
+Synthetic
+: No. 60~80
+Silk
+: No. 50~80
+Buttonhole twist
+Light weight wool yarn
+Synthetic
+: No. 60~80
+Silk
+: No. 50~80
+Thread
+Machine Setting
+1
+Needle plate setting knob
+GATHERING
+ * Refer to pages 24, 25, 29 for thread tension
+balance adjustment.
+1 Gathering
+Thread and Fabric
+Fabric
+Light to
+Medium
+Woven
+Fabric
+Needle threads
+Upper looper thread
+Lower looper thread
+Synthetic
+: No. 60~80
+Silk
+: No. 50~80
+Synthetic
+: No. 60~80
+Silk
+: No. 50~80
+Thread
+Machine Setting
+1
+Needle plate setting knob
+HA-1 SP No. 14
+HA-1 SP No. 11
+    or 14
+1
+1
+1
+1
+
+--- Page 36 ---
+35
+PIN TUCKING
+ * Refer to page 29 (Narrow Hemming) for thread
+tension balance adjustment.
+1 Pin tucking
+Thread and Fabric
+Fabric
+Light to
+Medium
+Fabric
+Needle thread on the
+right
+Upper looper thread
+Lower looper thread
+Synthetic
+: No. 60~80
+Silk
+: No. 50~80
+Synthetic
+: No. 60~100
+Silk
+: No. 50~100
+Thread
+Machine Setting
+1
+Remove the needle on the left-hand side
+2
+Needle plate setting knob
+Sewing
+Remove the needle on the left-hand side.
+Deactivate the upper knife.
+Sew the folded edge while guiding along the guide
+line.
+1
+Guide line
+Open the fold flat and press the pin tucks to one
+side.
+ * Activate the upper knife.
+HA-1 SP No.11 or No.141
+2
+1
+1
+
+--- Page 37 ---
+36
+Replacing the Upper Knife
+To remove:
+1. Turn off the power switch and unplug the machine.
+2. Open the looper cover and side cover.
+3. Deactivate the upper knife.
+4. Remove the hexagonal bolt, and remove the
+upper knife.
+1
+Upper knife
+2
+Hexagonal bolt
+3
+Stopper pin
+4
+Lower knife
+To attach:
+1. Insert new upper knife into the groove of knife
+holder and stopper pin, then tighten the
+hexagonal bolt slightly.
+2. Turn the upper knife holder to cutting position.
+3. Turn the handwheel toward you until the upper
+knife comes to its lowest position.
+Loosen the hexagonal bolt, and adjust the
+position of the upper knife so that the edge of the
+upper knife overlaps 0.8 to 1.5 mm (3/64´´) from
+the edge of lower knife as illustrated.
+Then tighten the hexagonal bolt firmly.
+4. Close the looper cover and side cover.
+Cleaning Upper Knife Area
+1. Turn off the power switch and unplug the machine.
+2. Open the looper cover.
+Remove the waste pieces to the front with a lint
+brush or waste scraps.
+ * You may use a vacuum cleaner to clean the upper
+knife area or feed dog.
+ * The lower knife will last over one year in normal
+use. However, if you run over a pin or a hard
+object, it may be required to replace both upper
+and lower knives at the same time.
+CARE OF YOUR MACHINE
+0.8 ~ 1.5 mm (3/64˝)
+1
+3
+4
+2
+1
+4
+2
+3
+
+--- Page 38 ---
+37
+Cleaning the Feed Dog
+1. Turn off the power switch and unplug the
+machine.
+2. Open the looper cover and side cover.
+3. Remove the needles and presser foot.
+4. Remove the needle plate set screw, and remove
+the needle plate.
+1
+Needle plate
+2
+Needle plate set screw
+5. Brush out the lint around the feed dogs to the
+front by using the lint brush or use a vacuum
+cleaner.
+6. Reattach the needle plate, presser foot and
+needles.
+Close the looper cover and side cover.
+1
+Feed dog
+1 2 3 4
+5 6
+2
+1
+1
+
+--- Page 39 ---
+38
+Oiling the Machine
+Apply a few drops of fine quality sewing machine oil
+to the parts indicated with arrows.
+It is recommended to apply oil once a week in
+normal use, once in ten hours in continuous use.
+ * Open the side cover and apply oil.
+ * Open the looper cover and apply oil.
+Carrying the Machine
+Put your fingers into the hole on the back side of the
+machine as illustrated.
+
+--- Page 40 ---
+39
+Troubleshooting
+Condition
+The fabric is not
+being fed
+smoothly.
+The needle
+breaks.
+The thread
+breaks.
+Skipped stitches
+The seam is not
+sewn neatly.
+Seam
+puckering.
+The machine
+does
+not operate.
+The fabric is not
+cut neatly.
+Cause
+1. The feed dog is packed with lint.
+2. The presser foot has been raised.
+3. Pressure of the foot is too weak.
+1. The needle is incorrectly inserted.
+2. The needle is bent or blunt.
+3. The fabric is forcedly pulled.
+1. The machine is not correctly threaded.
+2. The needle or looper thread tension is too tight.
+3. The needle is incorrectly inserted.
+4. The needle is bent or blunt.
+1. The needle is bent or blunt.
+2. The machine is not correctly threaded.
+3. The needle is incorrectly inserted.
+1. The needle and/or looper thread tensions are
+not correctly adjusted.
+2. The machine is not correctly threaded.
+3. The needle and/or the thread are not suitable
+for the fabric being sewn.
+4. The thread is not between the tension discs.
+1. The needle or looper thread tension is too tight.
+2. The machine is not correctly threaded.
+3. The differential feed dial is not correctly
+adjusted.
+1. The machine has not been plugged in firmly.
+2. The power switch is turned off.
+1. The position of the upper knife is not adjusted
+properly.
+2. The upper knife is dull.
+Reference
+See page 37.
+Lower the presser foot.
+See page 9
+See page 8.
+See page 8.
+Pull the fabric lightly.
+See pages 14 ~ 23 and 28.
+See pages 26 ~ 27 and 29, 32.
+See page 8.
+See page 8.
+See page 8.
+See pages 14 ~ 23 and 28.
+See page 8.
+See pages 26 ~ 27 and 29, 32.
+See pages 14 ~ 23 and 28.
+See pages 30, 31, 34 and 35.
+See pages 10, 19, 21 and 23.
+See pages 26 ~ 27 and 29, 32.
+See pages 14 ~ 23 and 28.
+See page 10.
+See page 5.
+See page 5.
+See page 36.
+Replace the upper knife.
+(See page 36.)
+
+--- Page 41 ---
+40
+1
+6
+2
+7
+8
+3
+9
+4
+11
+5
+12
+1
+OPTIONAL PARTS
+Blind stitch foot
+Taping foot with
+tape reel
+Cording foot (1)
+Cording foot (2)
+Beading
+attachment
+Gathering
+attachment
+Elastic gathering
+attachment
+Cloth guide
+Piping foot (1/8˝)
+Piping foot (3/16˝)
+Needle threader
+Gathering foot
+Use to blind stitch a cuff or
+a skirt.
+Use for sewing tape on a
+shoulder or armpit line to
+protect from stretching or
+to decorate.
+Works well with the taping
+foot or the cording foot.
+Use to sew decorative
+cording.
+Use to sew decorative
+cording.
+Use for decorating cloth,
+wide cord decoration,
+cording, etc.
+Use when sewing sleeves,
+cuffs, collars, etc.
+Use for elastic taping,
+decorative taping, etc.
+Use to help you create a
+constant-width seam allow-
+ance and when doing flat-
+lock and pintuck sewing.
+Use to pipe the edge of a
+sewing article to decorate
+or strengthen.
+For easy threading and
+changing needle.
+Use to sew sleeves, yokes,
+frills, etc.
+2
+3
+4
+5
+6
+7
+8
+11
+12
+9
+10
+ 1  200-203-104
+ 2  200-204-208
+ 3  200-207-108
+ 4  200-208-109
+ 5   200-214-108
+ 6  200-217-101
+ 7  200-218-102
+ 8  200-216-100
+ 9  200-219-103
+10 200-220-107
+11 200-254-605
+12  200-248-101
+10
+
+--- Page 42 ---
+  792-800-956 (E)
+Printed in Taiwan

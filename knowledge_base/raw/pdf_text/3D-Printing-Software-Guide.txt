@@ -1,0 +1,48 @@
+# 3D-Printing-Software-Guide
+
+Source: 3D-Printing-Software-Guide.pdf
+Category: 3d_printing
+Pages: 1
+========================================
+
+--- Page 1 ---
+CREATING A 3D OBJECT
+1. In order to print a 3D object you will need a 3D object file (.obj or .stl)
+2. There are many open source objects online that people have already created, however you are
+    strongly encouraged to try designing your own. The Autodesk suite of software is
+     great for designing 3D objects
+3. If you do not have any experience with 3D design I highly recommend starting with
+    Tinkercad.com. Tinkercad offers free online software that is very intuitive to use and
+     great for beginners
+ GUIDE
+3D
+PRINTING
+ SOFTWARE
+WATCH
+TINKERCAD TUTORIAL:
+SLICING YOUR 3D OBJECT FILE
+1. In order to print a 3D object you will need to “slice” your .OBJ or .STL file and turn it into a .GCODE
+ 2.  This is done by using a slicing program like Ultimaker Cura 3. Open Ultimaker Cura (cura can be downloaded for free at www.ultimaker.com/software 4. If it is the first time you are using Cura you will need to set up the printer:
+Click Add non-network printer then select the correct printer from the drop-down list,
+the majority of our printers are Creality Ender 3 V3 KE’s the large printer is the CR-M4
+5. To import your file into Cura you can click either the folder icon in the top left or go to
+     File>Open File
+6. Select your file and it will be placed into Cura
+7. With your object selected you can use any of the following 6 functions on the left side of the screen:
+ Move – Allows you to reposition your object anywhere on the printing bed
+Scale – Allows you to resize your object
+Rotate – Allows you to rotate your object 360° on 3 axis
+Mirror – Allows you to create a mirror image of your object
+Mesh Type – Allows you to set the mesh type
+Support Blocker – Allows you to select areas where you do not want supports
+8. Using the bar on the top of the screen you can select the type of plastic you are printing
+     (typically we use PLA) and the quality of the print.
+9. The quality of print drop-down menu gives you options for:
+Profiles – Determines the resolution of the print default=.2mm
+Infill (%) - Determines how dense the interior of the object will be
+       default=20
+Support – Check this box to automatically add supports to your object
+       (supports allow you to print objects with overhangs)
+Adhesion – Check this box to add adhesion (helps object stick to base)
+10. After you have the settings where you want them click on the Slice button in the bottom right corner
+11. Once your file is sliced save it to a USB

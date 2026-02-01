@@ -1,0 +1,1311 @@
+# SDS-PLA.ABS_.PETG_
+
+Source: SDS-PLA.ABS_.PETG_.pdf
+Category: 3d_printing
+Pages: 24
+========================================
+
+--- Page 1 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 1 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+Section 1 - PRODUCT AND COMPANY IDENTIFICATION
+
+Material Name
+ABS 3D Printer Filament/ MakerBot ABS
+Synonyms
+Acrylonitrile-Butadiene-Styrene Copolymer.
+Chemical Family
+polymer, copolymer.
+Product Use
+3D  Printing
+Restrictions on Use
+Do not use in printers where temperatures exceed 250°C.
+Details of the supplier of the safety data sheet
+MakerBot Industries LLC
+One MetroTech Center
+Brooklyn, NY 11201
+USA
+Emergency Phone #: MakerBot (347) 334-6800
+E-mail: Edwin.Meek@makerbot.com
+Emergency Poison Control Hot Line : 1 (800) 222-1222
+
+Section 2 - HAZARDS IDENTIFICATION
+
+Classification in accordance with paragraph (d) of 29 CFR 1910.1200.
+None needed according to classification criteria
+GHS Label Elements
+Symbol(s)
+None needed according to classification criteria
+Signal Word
+None needed according to classification criteria
+Hazard Statement(s)
+None needed according to classification criteria.
+Precautionary Statement(s)
+Prevention
+None needed according to classification criteria.
+Response
+None needed according to classification criteria.
+Storage
+None needed according to classification criteria.
+Disposal
+
+--- Page 2 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 2 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+Dispose of contents/container in accordance with local/regional/national/international regulations.
+
+Section 3 - COMPOSITION / INFORMATION ON INGREDIENTS
+
+CAS
+Component Name
+Percent
+9003-56-9
+ABS resin
+> 98
+100-42-5
+Styrene
+< 0.1
+
+Section 4 - FIRST AID MEASURES
+
+Inhalation
+Heating may release vapors which may be irritating. In case of inhalation of decomposition products,
+affected person should be moved into fresh air and kept still. Get medical advice/attention.
+Skin
+It is unlikely that first aid will be required. IF ON SKIN: Wash with plenty of soap and water. If skin
+irritation occurs: Get medical advice/attention.
+Eyes
+It is unlikely that first aid will be required. Dust may be irritating to the eyes: Rinse cautiously with water
+for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing. Get medical
+attention, if needed.
+Ingestion
+IF SWALLOWED: Rinse mouth. Get immediate medical advice/attention.
+Indication of any immediate medical attention and special treatment needed
+First aid is not expected to be necessary if material is used under ordinary conditions and as
+recommended. Treat symptomatically and supportively.
+Most Important Symptoms/Effects
+Acute
+Molten material may cause thermal burns.
+Delayed
+No information on significant adverse effects.
+Note to Physicians
+Treat symptomatically. Give artificial respiration if not breathing.
+Antidote
+None known. Treat symptomatically and supportively.
+
+Section 5 - FIRE FIGHTING MEASURES
+
+Extinguishing Media
+
+--- Page 3 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 3 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+Suitable Extinguishing Media
+water, foam, regular dry chemical
+Unsuitable Extinguishing Media
+None known
+Special Hazards Arising from the Chemical
+Avoid generating dust; fine dust dispersed in air in sufficient concentrations, and in the presence of an
+ignition source is a potential dust explosion hazard.
+Hazardous Combustion Products
+oxides of carbon, oxides of nitrogen, HCN, acrylonitrile, styrene monomer.
+Fire Fighting Measures
+Wear full protective fire fighting gear including self contained breathing apparatus (SCBA) for protection
+against possible exposure. Keep unnecessary people away, isolate hazard area and deny entry. Stay
+upwind and keep out of low areas.
+Special Protective Equipment and Precautions for Firefighters
+Avoid inhalation of material or combustion by-products. Stay upwind and keep out of low areas.
+
+Section 6 - ACCIDENTAL RELEASE MEASURES
+
+Personal Precautions, Protective Equipment and Emergency Procedures
+No measures required.
+Methods and Materials for Containment and Cleaning Up
+Collect spilled material in appropriate container for disposal. Dispose in accordance with all applicable
+regulations.
+Environmental Precautions
+Avoid release to the environment. Comply with all applicable regulations on spill and release
+reporting. Prevent entry into waterways, sewers, basements, or confined areas.
+
+Section 7 - HANDLING AND STORAGE
+
+Precautions for Safe Handling
+Minimize dust generation and accumulation. Routine housekeeping should be instituted to ensure that
+dusts do not accumulate on surfaces. Dry powders can build static electricity charges when subjected to
+the friction of transfer and mixing operations.
+Conditions for Safe Storage, Including any Incompatibilities
+None needed according to classification criteria.
+Store in a cool dry place. Store below 50 C. Avoid heat, flames, sparks and other sources of
+ignition. Keep away from incompatible materials.
+Incompatible Materials
+Oxidizing agents.
+
+--- Page 4 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 4 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+Section 8 - EXPOSURE CONTROLS / PERSONAL PROTECTION
+
+Component Exposure Limits
+Styrene
+100-42-5
+ACGIH:
+20 ppm TWA
+
+40 ppm STEL
+NIOSH:
+50 ppm TWA; 215 mg/m3 TWA
+
+100 ppm STEL; 425 mg/m3 STEL
+
+700 ppm IDLH
+OSHA (US):  100 ppm TWA
+
+200 ppm Ceiling
+Mexico:
+50 ppm TWA LMPE-PPT; 215 mg/m3 TWA LMPE-PPT
+
+100 ppm STEL [LMPE-CT]; 425 mg/m3 STEL [LMPE-CT]
+
+Skin - potential for cutaneous absorption
+EU - Occupational Exposure (98/24/EC) - Binding Biological Limit Values and Health Surveillance
+Measures
+There are no biological limit values for any of this product's components.
+ACGIH - Threshold Limit Values - Biological Exposure Indices (BEI)
+Styrene (100-42-5)
+400 mg/g creatinine Medium: urine Time: end of shift Parameter: Mandelic acid plus phenylglyoxylic
+acid (nonspecific); 40 µg/L Medium: urine Time: end of shift Parameter: Styrene
+Engineering Controls
+Provide local exhaust ventilation system. Ventilation should be sufficient to effectively remove and
+prevent buildup of any dusts or fumes that may be generated during handling or thermal processing.
+Individual Protection Measures, such as Personal Protective Equipment
+Eye/face protection
+None during normal use.Protect against molten solid.
+Skin Protection
+None during normal use. Protect against molten solid.
+Respiratory Protection
+No respirator is required under normal conditions of use. If respirable dusts are generated, respiratory
+protection may be needed.
+Glove Recommendations
+Protect against molten solid. In the molten form, Wear protective gloves.
+
+Section 9 - PHYSICAL AND CHEMICAL PROPERTIES
+
+--- Page 5 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 5 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+Appearance
+Spool,string,strand
+Physical State
+solid
+Odor
+odorless,sweet,plastic
+Color
+clear,translucent,opaque
+Odor Threshold
+varies
+pH
+Not available
+Melting Point
+Softening above 100
+°C
+Boiling Point
+Not available
+Freezing point
+Not available
+Evaporation Rate
+Not available
+Boiling Point
+Range
+Not available
+Flammability (solid, gas)
+Not available
+Autoignition
+466 °C
+Flash Point
+404 °C
+Lower Explosive
+Limit
+45 g/m³
+Decomposition
+>250 °C
+Upper Explosive
+Limit
+Not available
+Vapor Pressure
+Not available
+Vapor Density
+(air=1)
+Not available
+Specific Gravity (water=1)
+1.03 - 1.1
+Water Solubility
+Insoluble
+Partition coefficient: n-
+octanol/water
+Not available
+Viscosity
+Not available
+Solubility (Other)
+Not available
+Density
+Not available
+Molecular Weight
+Not available
+
+Section 10 - STABILITY AND REACTIVITY
+
+Reactivity
+The product is chemically stable under recommended conditions of storage, use and temperature.
+Chemical Stability
+Stable under normal conditions of use.
+Possibility of Hazardous Reactions
+Will not polymerize.
+Conditions to Avoid
+Avoid contact with temperatures above 250 C.
+Incompatible Materials
+Oxidizing agents.
+Hazardous decomposition products
+oxides of carbon, oxides of nitrogen, HCN, acrylonitrile, styrene monomer
+
+--- Page 6 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 6 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+Section 11 - TOXICOLOGICAL INFORMATION
+
+Information on Likely Routes of Exposure
+Inhalation
+No hazard is expected from the normal use of this product. Dust may cause irritation of the nose, throat
+and upper respiratory tract.
+Skin Contact
+Molten material may cause burns.
+Eye Contact
+Molten material may cause burns.
+Ingestion
+No information on significant adverse effects.
+Acute and Chronic Toxicity
+Component Analysis - LD50/LC50
+The components of this material have been reviewed in various sources and the following selected
+endpoints are published:
+Styrene (100-42-5)
+Oral LD50 Rat 1000 mg/kg
+Inhalation LC50 Rat 11.7 mg/L 4 h
+Immediate Effects
+Molten material may cause thermal burns.
+Delayed Effects
+No information on significant adverse effects.
+Irritation/Corrosivity Data
+No data available.
+Respiratory Sensitization
+No data available.
+Dermal Sensitization
+No data available.
+Component Carcinogenicity
+ABS
+resin
+9003-56-9
+IARC:
+Supplement 7 [1987]; Monograph 19 [1979] (Group 3 (not classifiable))
+Styrene
+100-42-5
+ACGIH:
+A4 - Not Classifiable as a Human Carcinogen
+IARC:
+Monograph 82 [2002]; Monograph 60 [1994] (Group 2B (possibly carcinogenic to
+humans))
+NTP:
+Reasonably Anticipated To Be A Human Carcinogen
+DFG:
+Category 5 (low carcinogenic potency)
+
+--- Page 7 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 7 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+OSHA:
+Present
+Germ Cell Mutagenicity
+No data available.
+Tumorigenic Data
+No data available
+Reproductive Toxicity
+No effects are expected due to the low concentration of the component(s).
+Specific Target Organ Toxicity - Single Exposure
+No data available.
+Specific Target Organ Toxicity - Repeated Exposure
+No data available.
+Aspiration hazard
+No data available.
+Medical Conditions Aggravated by Exposure
+No data available.
+
+Section 12 - ECOLOGICAL INFORMATION
+
+Component Analysis - Aquatic Toxicity
+Styrene
+100-42-5
+Fish:
+LC50 96 h Pimephales promelas 3.24 - 4.99 mg/L [flow-through]; LC50 96 h Lepomis
+macrochirus 19.03 - 33.53 mg/L [static]; LC50 96 h Pimephales promelas 6.75 - 14.5
+mg/L [static]; LC50 96 h Poecilia reticulata 58.75 - 95.32 mg/L [static]
+Algae:
+EC50 72 h Pseudokirchneriella subcapitata 1.4 mg/L IUCLID; EC50 96 h
+Pseudokirchneriella subcapitata 0.72 mg/L IUCLID; EC50 72 h Pseudokirchneriella
+subcapitata 0.46 - 4.3 mg/L [static] EPA; EC50 96 h Pseudokirchneriella subcapitata
+0.15 - 3.2 mg/L [static] EPA
+Invertebrate:  EC50 48 h Daphnia magna 3.3 - 7.4 mg/L EPA
+Persistence and Degradability
+No information available for the product.
+Bioaccumulative Potential
+No information available for the product.
+Mobility
+No information available for the product.
+
+Section 13 - DISPOSAL CONSIDERATIONS
+
+Disposal Methods
+
+--- Page 8 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 8 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+Dispose of contents/container in accordance with local/regional/national/international regulations. Avoid
+release to the environment. Incineration should be done in accordance with prevailing municipal, state,
+and federal laws and standards from local environmental agencies.
+
+Section 14 - TRANSPORT INFORMATION
+
+US DOT Information:
+UN/NA #: Not regulated
+
+International Bulk Chemical Code
+This material contains one or more of the following chemicals required by the IBC Code to be identified
+as dangerous chemicals in bulk.
+Styrene
+100-42-5
+IBC Code:  Category Y
+
+Section 15 - REGULATORY INFORMATION
+
+U.S. Federal Regulations
+This material contains one or more of the following chemicals required to be identified under SARA
+Section 302 (40 CFR 355 Appendix A), SARA Section 313 (40 CFR 372.65), CERCLA (40 CFR 302.4),
+TSCA 12(b), and/or require an OSHA process safety plan.
+Styrene
+100-42-5
+SARA 313:  0.1 % de minimis concentration
+CERCLA:
+1000 lb final RQ; 454 kg final RQ
+SARA Section 311/312 (40 CFR 370 Subparts B and C)
+Acute Health: No Chronic Health: No Fire: No Pressure: No Reactivity: No
+U.S. State Regulations
+The following components appear on one or more of the following state hazardous substances lists:
+Component  CAS
+CA  MA  MN  NJ
+PA
+Styrene
+100-42-5 Yes  Yes  Yes  Yes  Yes
+Not listed under California Proposition 65
+Canadian WHMIS Ingredient Disclosure List (IDL)
+Components of this material have been checked against the Canadian WHMIS Ingredients Disclosure
+List. The List is composed of chemicals which must be identified on MSDSs if they are included in
+products which meet WHMIS criteria specified in the Controlled Products Regulations and are present
+above the threshold limits listed on the IDL
+Styrene 100-42-5
+
+0.1 %
+
+--- Page 9 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 9 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+Component Analysis - Inventory
+ABS resin (9003-56-9)
+US
+CA
+EU AU PH
+JP -
+ENCS
+JP -
+ISHL
+KR -
+KECI/KECL
+KR -
+TCCA
+CN NZ MX TW
+Yes DSL No Yes Yes Yes
+No
+Yes
+No
+Yes Yes Yes Yes
+
+Styrene (100-42-5)
+US
+CA
+EU
+AU PH
+JP -
+ENCS
+JP -
+ISHL
+KR -
+KECI/KECL
+KR -
+TCCA
+CN NZ MX TW
+Yes DSL EIN Yes Yes Yes
+No
+Yes
+No
+Yes Yes Yes Yes
+
+Section 16 - OTHER INFORMATION
+
+NFPA Ratings
+Health: 0 Fire: 1 Reactivity: 0
+Hazard Scale: 0 = Minimal 1 = Slight 2 = Moderate 3 = Serious 4 = Severe
+Summary of Changes
+New SDS : 08/24/2015
+Key / Legend
+ACGIH - American Conference of Governmental Industrial Hygienists; ADR - European Road Transport;
+AU - Australia; BOD - Biochemical Oxygen Demand; C - Celsius; CA - Canada; CAS - Chemical
+Abstracts Service; CERCLA - Comprehensive Environmental Response, Compensation, and Liability
+Act; CLP - Classification, Labelling, and Packaging; CN - China; CPR - Controlled Products
+Regulations; DFG - Deutsche Forschungsgemeinschaft; DOT - Department of Transportation; DSD -
+Dangerous Substance Directive; DSL - Domestic Substances List; EEC - European Economic
+Community; EINECS - European Inventory of Existing Commercial Chemical Substances; EPA -
+Environmental Protection Agency; EU - European Union; F - Fahrenheit; IARC - International Agency
+for Research on Cancer; IATA - International Air Transport Association; ICAO - International Civil
+Aviation Organization; IDL - Ingredient Disclosure List; IDLH - Immediately Dangerous to Life and
+Health; IMDG - International Maritime Dangerous Goods; JP - Japan; Kow - Octanol/water partition
+coefficient; KR - Korea; LEL - Lower Explosive Limit; LLV - Level Limit Value; LOLI - List Of LIsts™
+- ChemADVISOR’s Regulatory Database; MAK - Maximum Concentration Value in the Workplace;
+MEL - Maximum Exposure Limits; NFPA - National Fire Protection Agency; NIOSH - National Institute
+for Occupational Safety and Health; NJTSR - New Jersey Trade Secret Registry; NTP - National
+Toxicology Program; NZ - New Zealand; OSHA - Occupational Safety and Health Administration; PH -
+Philippines; RCRA - Resource Conservation and Recovery Act; REACH- Registration, Evaluation,
+Authorisation, and restriction of Chemicals; RID - European Rail Transport; SARA - Superfund
+Amendments and Reauthorization Act; STEL - Short-term Exposure Limit; TDG - Transportation of
+Dangerous Goods; TSCA - Toxic Substances Control Act; TWA - Time Weighted Average; UEL - Upper
+Explosive Limit; US - United States.
+Other Information
+Disclaimer:
+
+--- Page 10 ---
+
+Safety Data Sheet
+Material Name: ABS 3D Printer Filament/ MakerBot ABS
+SDS ID: MB-001_US
+
+____________________________________________________________
+Page 10 of 10
+
+Issue date: 2015-08-25    Revision 1.0
+Print date: 2015-08-28
+
+Supplier gives no warranty whatsoever, including the warranties of merchantability or of fitness for a
+particular purpose. Any product purchased is sold on the assumption the purchaser shall determine the
+quality and suitability of the product. Supplier expressly disclaims any and all liability for incidental,
+consequential or any other damages arising out of the use or misuse of this product. No information
+provided shall be deemed to be a recommendation to use any product in conflict with any existing patent
+rights.
+
+--- Page 11 ---
+Revision date: 21. 11. 2018
+MATERIAL SAFETY DATA SHEET
+P r u s a m e n t  P E T G  b y  P r u s a  P o l y m e r s
+c o n f o r m s  t o  R e g u l a t i o n  E C  N o .  1 9 0 7/ 2 0 0 6  ( R E A C H )
+1. IDENTIFICATION OF THE SUBSTANCE AND THE COMPANY
+Product name: Prusament PETG, all colours
+Chemical name: Copolyester
+Chemical family: Thermoplastic
+Application: filaments for 3D printing
+Manufacturer/Supplier:
+Prusa Research s.r.o.
+Partyzánská 188/7a
+17000 Praha 7
+Czech Republic
+IČ: 24213705
++420 222 263 718
+info@prusa3d.cz
+2. HAZARD IDENTIFICATION
+2.1 CLASSIFICATION OF SUBSTANCE OR MIXTURE
+Classification: (Regulation (EC) No 1272/2008) Not a hazardous substance or mixture.
+2.2 LABEL ELEMENTS
+Symbols/Pictograms: None
+Signal Words: None
+Hazard statement: None
+Precautionary statement: None
+PBT and vPvB substances: No data available
+2.3 OTHER HAZARDS
+None known.
+3. COMPOSITION AND INFORMATION ON INGREDIENTS
+Chemical name: Copolyester
+Product based on copolyester with additives.
+Copolyester concentration >97%
+Classification:
+Chemical name
+Classification
+copolyester
+DSD:
+This substance is not classified according to Directive 67/548/EEC
+copolyester
+CLP:
+NOT CLASS,
+DSD: Directive 67/548/EEC.
+CLP: Regulation No. 1272/2008.:
+
+--- Page 12 ---
+Revision date: 21. 11. 2018
+4. FIRST AID MEASURES
+4.1 DESCRIPTION OF FIRST AID MEASURES
+Inhalation: After inhalation of decomposition products of polymer, take affected persons to fresh air. Call a doctor if necessary.
+Eye contact: Rinse immediately with plenty of water, also under the eyelids, for at
+least 15 minutes. Get medical attention immediately.
+Skin contact: After contact with hot polymer cool skin rapidly with cold water. Call a doctor if necessary.
+Ingestion: Call doctor or consider to induce vomiting. Rinse mouth with water. Call a doctor if necessary.
+4.2 MOST IMPORTANT SYMPTOMS AND EFFECTS, BOTH ACUTE AND DELAYED:
+Burns should be treated as thermal burns. The material will come off as healing occurs; therefore, immediate removal from the
+skin is not necessary.
+4.3 INDICATION OF ANY IMMEDIATE MEDICAL ATTENTION AND SPECIAL TREATMENT NEEDED
+Hazards: Contact with molten substance/product may cause severe burns to skin and eyes.
+Treatment: Treat symptomatically.
+5. FIREFIGHTING MEASURES
+General fire hazards: Material can accumulate static charges which may cause an electrical spark (ignition source). Use proper
+bonding and/or grounding procedures.
+5.1 EXTINGUISHING MEDIA
+Suitable extinguishing media: Water, Carbon dioxide (CO2), Dry chemical.
+Unsuitable extinguishing media - High pressure water jet can spread the fire
+5.2 SPECIAL HAZARDS ARISING FROM THE SUBSTANCE OR MIXTURE
+Burning produces obnoxious and toxic fumes, carbon monoxide, carbon
+dioxide.
+Powdered material may form explosive dust-air mixtures
+5.3 ADVICE FOR FIREFIGHTERS
+Wear positive-pressure self-contained breathing apparatus (SCBA) and protective firefighting clothing (includes firefighting
+helmet, coat, trousers, boots, and gloves). Avoid contact with this material during firefighting operations. If contact is likely,
+change to full chemical resistant firefighting clothing with self-contained breathing apparatus.
+Under fire conditions: Cool containers / tanks with water spray Water mist may be
+used to cool closed containers Fine dust dispersed in air may ignite. Risks of
+ignition followed by flame propagation or secondary explosions shall be prevented by
+avoiding accumulation of dust, e.g. on floors and ledges.
+6. ACCIDENTAL RELEASE MEASURES
+6.1 PERSONAL PRECAUTIONS
+Use personal protective equipment as required
+Avoid contact with skin and eyes
+Remove all sources of ignition
+Sweep up to prevent slipping hazard
+Use with recommended personal protective equipment (see Section 8).
+6.2 ENVIRONMENTAL PRECAUTIONS
+Do not allow material to contaminate groundwater system
+Do not flush into surface water or sanitary sewer system
+Should not be released into environment
+6.3 METHODS AND MATERIAL FOR CONTAINMENT AND CLEANING UP
+Avoid dust formation. Sweep up into suitable container for disposal.
+In the event of a spill or accidental release, notify relevant authorities in accordance with all applicable regulations.
+
+--- Page 13 ---
+Revision date: 21. 11. 2018
+7. HANDLING AND STORAGE
+7.1 PRECAUTIONS FOR SAFE HANDLING
+Avoid contact with skin and eyes
+Low hazard for usual industrial or commercial handling
+Users should be protected from the possibility of contact with molten material
+Recommended for sufficient ventilation at the workplace.
+Flammable product
+Minimize dust generation and accumulation.
+7.2 CONDITIONS FOR SAFE STORAGE, INCLUDING ANY INCOMPATIBILITIES
+Store in original container protected from excessive heat, direct sunlight, dust and condensed water.
+Protect from moisture, product can be hygroscopic, Store in a cool dry place 5-35 °C.
+If you do not need filament for longer period of time, insert it back into container with attached silica gel.
+Use within 1 year from manufacture.
+Avoid contact with food.
+Remove all possible sources of ignition.
+7.3 SPECIFIC END USES
+Thermoplastic material for FDM 3D-printing
+8. EXPOSURE CONTROLS/PERSONAL PROTECTION
+8.1 APPROPRIATE ENGINEERING CONTROLS:
+Avoid contact with skin, eyes and mucous membranes. Avoid prolonged or repeated contact with skin. Always observe good
+personal hygiene measures, such as washing after handling the material and before eating, drinking, and/or smoking.
+8.2 PERSONAL PROTECTION
+Eye protection: not required for FDM 3D printing
+Skin protection: not required for FDM 3D printing
+Respiratory protection: not required for FDM 3D printing
+Hand protection: Avoid contact with molten material
+Engineering measures: Use recommended printing temperatures to avoid accumulating of decomposition products in
+workspace and allow air ventilation.
+Allow air ventilation to avoid accumulating of dust in the workspace.
+Environmental exposure controls: Do not allow product to enter water sources or soil.
+9. PHYSICAL AND CHEMICAL PROPERTIES
+Physical state: Solid
+Appearance: Colored plastic wire
+Odor: Odorless
+pH: No data available
+Melting point: > 220 °C
+Boiling point / boiling range: No data available
+Vapor pressure: No data available
+Vapor density: No data available
+Evaporation rate: No data available
+Specific gravity: > 1 g/cm3
+Decomposition temperature: Thermal stability not tested. Low stability hazard expected at normal operating temperatures.
+Autoignition temperature: No data available
+Flammability: Fine dust dispersed in air may ignite
+Flammability Limits in Air: No information available
+Water solubility: negligible
+Solubility in other solvents: Not determined
+Partition coefficient(n-ocatnol/water): No data available
+
+--- Page 14 ---
+Revision date: 21. 11. 2018
+Dynamic Viscosity: No data available
+Kinematic Viscosity: No data available
+Explosive properties: No data available
+Oxidizing properties: No data available
+10. STABILITY AND REACTIVITY
+Reactivity: None expected under conditions of normal use.
+Chemical stability: Stable under recommended storage conditions.
+Possibility of hazardous reactions: None expected under conditions of normal use.
+Conditions to avoid: None at ambient temperatures.
+Incompatible materials: Avoid to strong oxidizing agents.
+Avoid keeping resin molten for excessive periods of time at elevated temperatures. Prolonged exposure can cause polymer
+degradation.
+Hazardous decomposition products: Burning produces obnoxious and toxic fumes, Carbon monoxide (CO),
+carbon dioxide (CO2).
+11. TOXICOLOGICAL INFORMATION
+11.1 INFORMATION ON LIKELY ROUTES OF EXPOSURE
+Inhalation: None known.
+Ingestion: None known.
+Skin contact: Molten material will produce thermal burns.
+Eye contact: Molten material will produce thermal burns.
+11.2 INFORMATION ON TOXICOLOGICAL EFFECTS
+Acute toxicity
+Oral: No data available.
+Dermal: No data available.
+Inhalation: No data available.
+Repeated dose toxicity: No data available.
+Skin corrosion/irritation: No data available.
+Serious eye damage/eye irritation: No data available.
+Respiratory or skin sensitization: No data available.
+Mutagenicity: No data available.
+Carcinogenicity: No data available.
+Reproductive toxicity: No data available.
+STOT - single exposure: No data available.
+STOT - repeated exposure: No data available.
+Aspiration hazards: No data available.
+Other adverse effects: No data available.
+12. ECOLOGICAL INFORMATION
+Acute toxicity
+Fish: No data available.
+Aquatic invertebrates: No data available.
+Chronic toxicity
+Fish: No data available.
+Aquatic invertebrates: No data available.
+Toxicity to aquatic plants: No data available.
+Bioaccumulative potential:	 No data available.
+Mobility in soil: No data available.
+Results of PBT and vPvB assessment: No data available.
+Other adverse effects: No data available.
+
+--- Page 15 ---
+Revision date: 21. 11. 2018
+DISCLAIMER:
+The information contained herein is given in good faith and is accurate to the best of knowledge at the date indicated above.
+User should consider this information only as additional. It is the user’s responsibility to ensure that he is subject to no other
+obligations than those mentioned. No liability can be assumed for accuracy and completeness. It is the responsibility of the user
+to adapt the warnings to local laws and regulations. Safety information describes the product in terms of safety and can not be
+considered as technical information about the product.
+13. DISPOSAL CONSIDERATIONS
+Waste treatment:
+Dispose of in accordance with local regulations.
+Should not be released into the environment.
+Do not contaminate ponds, waterways or ditches with chemical or used container.
+Do not dispose as a common household waste.
+Sort out as plastic waste.
+Packaging:
+Dispose of in accordance with local regulations.
+14. TRANSPORT INFORMATION
+The substance is not classified as dangerous for transport.
+ADR
+Class not regulated
+RID
+Class not regulated
+IMDG
+Class not regulated
+IATA
+Class not regulated
+15. REGULATORY INFORMATION
+TSCA (US Toxic Substances Control Act): This product is listed on the TSCA inventory. Any impurities present in this
+product are exempt from listing.
+DSL (Canadian Domestic Substances List) and CEPA (Canadian Environmental Protection Act): This product is
+listed on the DSL. Any impurities present in this product are exempt from listing.
+AICS / NICNAS (Australian Inventory of Chemical Substances and National Industrial Chemicals Notification and
+Assessment Scheme): This product is listed on AICS or otherwise complies with NICNAS.
+MITI (Japanese Handbook of Existing and New Chemical Substances): This product is listed in the Handbook or has
+been approved in Japan by new substance notification.
+ECL (Korean Toxic Substances Control Act): This product is listed on the Korean inventory or otherwise complies with
+the Korean Toxic Substances Control Act.
+Philippines Inventory (PICCS): This product is listed on the Philippine Inventory or otherwise complies with PICCS.
+Inventory of Existing Chemical Substances in China: All components of this product are listed on the Inventory of
+Existing Chemical Substances in China (IECSC).
+16. OTHER INFORMATION
+The information presented in this Material Safety Data Sheet (MSDS) is based on our best knowledge in combination with
+original MSDS provided by manufacturer. MSDS contains information on safety use, storage and disposal.
+Abbreviations:
+REACH 	 Registration, Evaluation, Authorisation and restriction of chemical substances
+EC
+European Community
+PBT
+Persistent, Bioaccumulating, Toxic
+vPvB
+very Persistent, very Bioaccumulating
+PNOC
+Particulates Not Otherwise Classifiable Occupational Safety and Health Administration (OSHA)
+ADR
+European Agreement concerning the International Carriage of Dangerous Goods by Road
+RID
+International Rule for Transport of Dangerous Substances by Railway
+IMDG
+International Maritime Dangerous Goods Code
+IATA
+International Air Transport Association
+
+--- Page 16 ---
+Safety Data Sheet
+Material Name: PLA 3D Printer Filament/ MakerBot PLA
+SDS ID: MB-002_US
+____________________________________________________________
+Page 1 of 9
+Issue date: 2015-08-26
+Revision 1.0
+Print date: 2016-09-26
+Section 1 - PRODUCT AND COMPANY IDENTIFICATION
+Material Name
+PLA 3D Printer Filament/ MakerBot PLA
+Synonyms
+Polyactide resin
+Chemical Family
+polymer, copolymer
+Product Use
+3D Printing
+Restrictions on Use
+Do not use in printers where temperatures exceed 250°C.
+Details of the supplier of the safety data sheet
+MakerBot Industries LLC
+One MetroTech Center
+Brooklyn, NY 11201
+USA
+Phone #: MakerBot (347) 334-6800
+Emergency Phone #: +1 978 495 5580 –USA multi-linguil response
+E-mail: RegulatoryCompliance@makerbot.com
+Emergency Poison Control Hot Line : 1 (800) 222-1222
+Section 2 - HAZARDS IDENTIFICATION
+Classification in accordance with paragraph (d) of 29 CFR 1910.1200.
+None needed according to classification criteria
+GHS Label Elements
+Symbol(s)
+None needed according to classification criteria
+Signal Word
+None needed according to classification criteria
+Hazard Statement(s)
+None needed according to classification criteria.
+Precautionary Statement(s)
+Prevention
+None needed according to classification criteria.
+Response
+None needed according to classification criteria.
+Storage
+None needed according to classification criteria.
+
+--- Page 17 ---
+Safety Data Sheet
+Material Name: PLA 3D Printer Filament/ MakerBot PLA
+SDS ID: MB-002_US
+____________________________________________________________
+Page 2 of 9
+Issue date: 2015-08-26
+Revision 1.0
+Print date: 2016-09-26
+Disposal
+Dispose of contents/container in accordance with local/regional/national/international regulations.
+Section 3 - COMPOSITION / INFORMATION ON INGREDIENTS
+CAS
+Component Name
+Percent
+9051-89-2
+1,4-Dioxane-2,5-dione, 3,6-dimethyl-,
+(3R-cis)-, polymer with (3S-cis)-3,6-
+dimethyl-1,4-dioxane-2,5-dione and
+trans-3,6-dimethyl-1,4-dioxane-2,5-
+dione
+>98
+Section 4 - FIRST AID MEASURES
+Inhalation
+Heating may release vapors which may be irritating. In case of inhalation of decomposition products,
+affected person should be moved into fresh air and kept still. Get medical advice/attention.
+Skin
+It is unlikely that first aid will be required. IF ON SKIN: Wash with plenty of soap and water. If skin
+irritation occurs: Get medical advice/attention.
+Eyes
+It is unlikely that first aid will be required. Dust may be irritating to the eyes: Rinse cautiously with water
+for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing. Get medical
+attention, if needed.
+Ingestion
+IF SWALLOWED: Rinse mouth. Get immediate medical advice/attention.
+Indication of any immediate medical attention and special treatment needed
+First aid is not expected to be necessary if material is used under ordinary conditions and as
+recommended. Treat symptomatically and supportively.
+Most Important Symptoms/Effects
+Acute
+Molten material may cause thermal burns.
+Delayed
+No information on significant adverse effects.
+Note to Physicians
+Treat symptomatically. Give artificial respiration if not breathing.
+Antidote
+None known. Treat symptomatically and supportively.
+
+--- Page 18 ---
+Safety Data Sheet
+Material Name: PLA 3D Printer Filament/ MakerBot PLA
+SDS ID: MB-002_US
+____________________________________________________________
+Page 3 of 9
+Issue date: 2015-08-26
+Revision 1.0
+Print date: 2016-09-26
+Section 5 - FIRE FIGHTING MEASURES
+Extinguishing Media
+Suitable Extinguishing Media
+Water, alcohol resistant foam, regular dry chemical
+Unsuitable Extinguishing Media
+None known
+Special Hazards Arising from the Chemical
+Avoid generating dust; fine dust dispersed in air in sufficient concentrations, and in the presence of an
+ignition source is a potential dust explosion hazard.
+Hazardous Combustion Products
+Oxides of carbon, aldehydes. May decompose upon heating to produce corrosive and/or toxic fumes.
+Fire Fighting Measures
+Wear full protective fire fighting gear including self contained breathing apparatus (SCBA) for protection
+against possible exposure. Keep unnecessary people away, isolate hazard area and deny entry. Stay
+upwind and keep out of low areas.
+Special Protective Equipment and Precautions for Firefighters
+Avoid inhalation of material or combustion by-products. Stay upwind and keep out of low areas.
+Section 6 - ACCIDENTAL RELEASE MEASURES
+Personal Precautions, Protective Equipment and Emergency Procedures
+No measures required.
+Methods and Materials for Containment and Cleaning Up
+Collect spilled material in appropriate container for reuse or disposal. Dispose in accordance with all
+applicable regulations.
+Environmental Precautions
+Avoid release to the environment. Comply with all applicable regulations on spill and release
+reporting. Prevent entry into waterways, sewers, basements, or confined areas.
+Section 7 - HANDLING AND STORAGE
+Precautions for Safe Handling
+Minimize dust generation and accumulation. Routine housekeeping should be instituted to ensure that
+dusts do not accumulate on surfaces. Dry powders can build static electricity charges when subjected to
+the friction of transfer and mixing operations.
+Conditions for Safe Storage, Including any Incompatibilities
+None needed according to classification criteria.
+Store in a cool dry place. Store below 50 C. Avoid heat, flames, sparks and other sources of
+ignition. Keep away from incompatible materials.
+Incompatible Materials
+
+--- Page 19 ---
+Safety Data Sheet
+Material Name: PLA 3D Printer Filament/ MakerBot PLA
+SDS ID: MB-002_US
+____________________________________________________________
+Page 4 of 9
+Issue date: 2015-08-26
+Revision 1.0
+Print date: 2016-09-26
+Oxidizing agents, strong bases
+Section 8 - EXPOSURE CONTROLS / PERSONAL PROTECTION
+Component Exposure Limits
+1,4-Dioxane-2,5-dione, 3,6-dimethyl-, (3R-
+cis)-, polymer with (3S-cis)-3,6-dimethyl-
+1,4-dioxane-2,5-dione and trans-3,6-
+dimethyl-1,4-dioxane-2,5-dione
+9051-89-2
+ACGIH:
+10 mg/m3 TWA inhalable particles, recommended; 3
+mg/m3 TWA respirable particles, recommended
+(related to Particulates not otherwise classified
+(PNOC))
+OSHA (US):
+15 mg/m3 TWA total dust; 5 mg/m3 TWA respirable
+fraction (related to Particulates not otherwise classified
+(PNOC))
+15 mppcf TWA respirable fraction; 5 mg/m3 TWA
+respirable fraction; 50 mppcf TWA total dust; 15
+mg/m3 TWA total dust (related to Particulates not
+otherwise classified (PNOC))
+EU - Occupational Exposure (98/24/EC) - Binding Biological Limit Values and Health Surveillance
+Measures
+There are no biological limit values for any of this product's components.
+ACGIH - Threshold Limit Values - Biological Exposure Indices (BEI)
+There are no biological limit values for any of this product's components.
+Engineering Controls
+Provide local exhaust ventilation system. Ventilation should be sufficient to effectively remove and
+prevent buildup of any dusts or fumes that may be generated during handling or thermal processing.
+Individual Protection Measures, such as Personal Protective Equipment
+Eye/face protection
+None during normal use. Protect against molten solid.
+Skin Protection
+None during normal use. Protect against molten solid.
+Respiratory Protection
+No respirator is required under normal conditions of use. If respirable dusts are generated, respiratory
+protection may be needed.
+Glove Recommendations
+Protect against molten solid. In the molten form: Wear protective gloves.
+Section 9 - PHYSICAL AND CHEMICAL PROPERTIES
+
+--- Page 20 ---
+Safety Data Sheet
+Material Name: PLA 3D Printer Filament/ MakerBot PLA
+SDS ID: MB-002_US
+____________________________________________________________
+Page 5 of 9
+Issue date: 2015-08-26
+Revision 1.0
+Print date: 2016-09-26
+Appearance
+Spool,string,strand
+Physical State
+solid
+Odor
+odorless,sweet,plastic
+Color
+clear,translucent,opaque
+Odor Threshold
+varies
+pH
+Not available
+Melting Point
+150 - 180 °C
+Boiling Point
+Not available
+Freezing point
+Not available
+Evaporation Rate
+Not available
+Boiling Point
+Range
+Not available
+Flammability (solid, gas)
+Not available
+Autoignition
+388 °C
+Flash Point
+Not available
+Lower Explosive
+Limit
+Not applicable
+Decomposition
+>250 °C
+Upper Explosive
+Limit
+Not applicable
+Vapor Pressure
+Not available
+Vapor Density
+(air=1)
+Not available
+Specific Gravity (water=1)
+Not available
+Water Solubility
+Insoluble
+Partition coefficient: n-
+octanol/water
+Not available
+Viscosity
+Not available
+Solubility (Other)
+Not available
+Density
+1.25 g/cc
+Molecular Weight
+Not available
+Section 10 - STABILITY AND REACTIVITY
+Reactivity
+The product is chemically stable under recommended conditions of storage, use and temperature.
+Chemical Stability
+Stable under normal conditions of use.
+Possibility of Hazardous Reactions
+Will not polymerize.
+Conditions to Avoid
+Avoid contact with temperatures above 250 C.
+Incompatible Materials
+Oxidizing agents, strong bases
+Hazardous decomposition products
+Oxides of carbon, aldehydes
+Thermal decomposition products
+May decompose upon heating to produce corrosive and/or toxic fumes.
+
+--- Page 21 ---
+Safety Data Sheet
+Material Name: PLA 3D Printer Filament/ MakerBot PLA
+SDS ID: MB-002_US
+____________________________________________________________
+Page 6 of 9
+Issue date: 2015-08-26
+Revision 1.0
+Print date: 2016-09-26
+Section 11 - TOXICOLOGICAL INFORMATION
+Information on Likely Routes of Exposure
+Inhalation
+No hazard is expected from the normal use of this product. Dust may cause irritation of the nose, throat
+and upper respiratory tract.
+Skin Contact
+Molten material may cause burns.
+Eye Contact
+Molten material may cause burns.
+Ingestion
+No information on significant adverse effects.
+Acute and Chronic Toxicity
+Component Analysis - LD50/LC50
+The components of this material have been reviewed in various sources and the following selected
+endpoints are published:
+1,4-Dioxane-2,5-dione, 3,6-dimethyl-, (3R-cis)-, polymer with (3S-cis)-3,6-dimethyl-1,4-dioxane-2,5-
+dione and trans-3,6-dimethyl-1,4-dioxane-2,5-dione (9051-89-2)
+Oral LD50 Rat >5000 mg/kg
+Dermal LD50 Rabbit >2000 mg/kg
+Immediate Effects
+Molten material may cause thermal burns.
+Delayed Effects
+No information on significant adverse effects.
+Irritation/Corrosivity Data
+No data available.
+Respiratory Sensitization
+No data available.
+Dermal Sensitization
+Found to be non-sensitizing when tested on guinea pigs.
+Component Carcinogenicity
+None of this product's components are listed by ACGIH, IARC, NTP, DFG or OSHA
+Germ Cell Mutagenicity
+Negative in the Ames test for mutagenicity.
+Tumorigenic Data
+No data available
+Reproductive Toxicity
+No data available.
+Specific Target Organ Toxicity - Single Exposure
+No target organs identified.
+Specific Target Organ Toxicity - Repeated Exposure
+
+--- Page 22 ---
+Safety Data Sheet
+Material Name: PLA 3D Printer Filament/ MakerBot PLA
+SDS ID: MB-002_US
+____________________________________________________________
+Page 7 of 9
+Issue date: 2015-08-26
+Revision 1.0
+Print date: 2016-09-26
+No target organs identified.
+Aspiration hazard
+No data available.
+Medical Conditions Aggravated by Exposure
+No data available.
+Section 12 - ECOLOGICAL INFORMATION
+Component Analysis - Aquatic Toxicity
+1,4-Dioxane-2,5-dione, 3,6-dimethyl-, (3R-cis)-, polymer with (3S-cis)-3,6-
+dimethyl-1,4-dioxane-2,5-dione and trans-3,6-dimethyl-1,4-dioxane-2,5-dione
+9051-89-2
+Algae:
+EC50 72 hr Algae
+>1100 mg/L
+Persistence and Degradability
+No information available for the product.
+Bioaccumulative Potential
+No information available for the product.
+Mobility
+No information available for the product.
+Section 13 - DISPOSAL CONSIDERATIONS
+Disposal Methods
+Dispose of contents/container in accordance with local/regional/national/international regulations. Avoid
+release to the environment. Incineration should be done in accordance with prevailing municipal, state,
+and federal laws and standards from local environmental agencies.
+Component Waste Numbers
+The U.S. EPA has not published waste numbers for this product's components
+Section 14 - TRANSPORT INFORMATION
+US DOT Information:
+UN#: Not regulated
+Section 15 - REGULATORY INFORMATION
+U.S. Federal Regulations
+
+--- Page 23 ---
+Safety Data Sheet
+Material Name: PLA 3D Printer Filament/ MakerBot PLA
+SDS ID: MB-002_US
+____________________________________________________________
+Page 8 of 9
+Issue date: 2015-08-26
+Revision 1.0
+Print date: 2016-09-26
+None of this products components are listed under SARA Sections 302/304 (40 CFR 355 Appendix A),
+SARA Section 313 (40 CFR 372.65), CERCLA (40 CFR 302.4), TSCA 12(b), or require an OSHA
+process safety plan.
+SARA Section 311/312 (40 CFR 370 Subparts B and C)
+Acute Health: No Chronic Health: No Fire: No Pressure: No Reactivity: No
+U.S. State Regulations
+None of this product's components are listed on the state lists from CA, MA, MN, NJ or PA
+Not listed under California Proposition 65
+Canadian WHMIS Ingredient Disclosure List (IDL)
+The components of this product are either not listed on the IDL or are present below the threshold limit
+listed on the IDL.
+Component Analysis - Inventory
+1,4-Dioxane-2,5-dione, 3,6-dimethyl-, (3R-cis)-, polymer with (3S-cis)-3,6-dimethyl-1,4-dioxane-2,5-
+dione and trans-3,6-dimethyl-1,4-dioxane-2,5-dione (9051-89-2)
+US
+CA
+EU
+AU
+PH
+JP -
+ENCS
+JP -
+ISHL
+KR -
+KECI/KECL
+KR -
+TCCA
+CN
+NZ
+MX
+TW
+Yes
+DSL
+No
+Yes
+No
+Yes
+No
+No
+No
+Yes
+Yes
+No
+Yes
+Section 16 - OTHER INFORMATION
+NFPA Ratings
+Health: 0 Fire: 1 Reactivity: 0
+Hazard Scale: 0 = Minimal 1 = Slight 2 = Moderate 3 = Serious 4 = Severe
+Summary of Changes
+New SDS : 08/26/2015
+New SDS : 09/26/2016 Updated phone numbers, email
+Key / Legend
+ACGIH - American Conference of Governmental Industrial Hygienists; ADR - European Road Transport;
+AU - Australia; BOD - Biochemical Oxygen Demand; C - Celsius; CA - Canada; CAS - Chemical
+Abstracts Service; CERCLA - Comprehensive Environmental Response, Compensation, and Liability
+Act; CLP - Classification, Labelling, and Packaging; CN - China; CPR - Controlled Products
+Regulations; DFG - Deutsche Forschungsgemeinschaft; DOT - Department of Transportation; DSD -
+Dangerous Substance Directive; DSL - Domestic Substances List; EEC - European Economic
+Community; EINECS - European Inventory of Existing Commercial Chemical Substances; EPA -
+Environmental Protection Agency; EU - European Union; F - Fahrenheit; IARC - International Agency
+for Research on Cancer; IATA - International Air Transport Association; ICAO - International Civil
+Aviation Organization; IDL - Ingredient Disclosure List; IDLH - Immediately Dangerous to Life and
+Health; IMDG - International Maritime Dangerous Goods; JP - Japan; Kow - Octanol/water partition
+coefficient; KR - Korea; LEL - Lower Explosive Limit; LLV - Level Limit Value; LOLI - List Of LIsts™
+- ChemADVISOR’s Regulatory Database; MAK - Maximum Concentration Value in the Workplace;
+MEL - Maximum Exposure Limits; NFPA - National Fire Protection Agency; NIOSH - National Institute
+for Occupational Safety and Health; NJTSR - New Jersey Trade Secret Registry; NTP - National
+Toxicology Program; NZ - New Zealand; OSHA - Occupational Safety and Health Administration; PH -
+
+--- Page 24 ---
+Safety Data Sheet
+Material Name: PLA 3D Printer Filament/ MakerBot PLA
+SDS ID: MB-002_US
+____________________________________________________________
+Page 9 of 9
+Issue date: 2015-08-26
+Revision 1.0
+Print date: 2016-09-26
+Philippines; RCRA - Resource Conservation and Recovery Act; REACH- Registration, Evaluation,
+Authorisation, and restriction of Chemicals; RID - European Rail Transport; SARA - Superfund
+Amendments and Reauthorization Act; STEL - Short-term Exposure Limit; TDG - Transportation of
+Dangerous Goods; TSCA - Toxic Substances Control Act; TWA - Time Weighted Average; UEL - Upper
+Explosive Limit; US - United States.
+Other Information
+Disclaimer:
+Supplier gives no warranty whatsoever, including the warranties of merchantability or of fitness for a
+particular purpose. Any product purchased is sold on the assumption the purchaser shall determine the
+quality and suitability of the product. Supplier expressly disclaims any and all liability for incidental,
+consequential or any other damages arising out of the use or misuse of this product. No information
+provided shall be deemed to be a recommendation to use any product in conflict with any existing patent
+rights.

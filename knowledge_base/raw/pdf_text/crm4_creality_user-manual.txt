@@ -1,0 +1,637 @@
+# crm4_creality_user-manual
+
+Source: crm4_creality_user-manual.pdf
+Category: 3d_printing
+Pages: 30
+========================================
+
+--- Page 1 ---
+CR-M4
+CR-M4
+CREATE REALITY，ACHIEVE DREAMS
+3D Printer User Manual
+V1.4
+
+--- Page 3 ---
+To Our Dear Users
+Thank you for choosing Creality. To make using our products easier, please read this User Manual before you start and
+follow the instructions provided carefully.
+Creality is always ready to provide you with high-quality services. If you encounter any issues or have any questions when
+using our products, please use the contact information at the end of this manual to contact us.
+To further improve your user experience, you can ﬁnd more about our devices via the following methods:
+User manual: You can ﬁnd instructions and videos in the SD card provided with the printer.
+You can also visit our oﬃcial website (https://www.creality.com) to ﬁnd information regarding software, hardware,
+contact information, device instructions, device warranty information, and more.
+Firmware Upgrade
+Please visit our oﬃcial website https://www.creality.com/download, switch to your language, then select your printer
+and model. Download the required ﬁrmware and install it to use it with your printer.
+
+--- Page 4 ---
+NOTES
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Do not use the printer any way other than described here in order to avoid personal injury or property damage.
+Do not place the printer near any heat source or ﬂammable or explosive objects. We suggest placing it in a well-ventilated, low-dust environment.
+Do not expose the printer to violent vibration or any unstable environment, as this may cause poor print quality.
+Before using experimental or exotic ﬁlaments, we suggest using standard ﬁlaments such as ABS or PLA to calibrate and test the machine.
+Do not use any other power cable except the one supplied. Always use a grounded three-prong power outlet.
+Do not wear gloves or loose clothing when operating the printer. Such cloths may become tangled in the printers moving parts leading to burns, possible bodily injury, or printer damage.
+When cleaning debris from the printer hotend, always use the provided tools. Do not touch the nozzle directly when heated. This can cause personal injury.
+Children under 10 years old should  not use the printer without supervision.
+11
+12
+This machine is equipped with a security protection mechanism. Do not manually move the nozzle or printing platform mechanism manually while booting
+up, otherwise the device will automatically power oﬀ for safety.
+Clean the printer frequently. Always turn the power oﬀ when cleaning, and wipe with a dry cloth to remove dust, adhered printing plastics or any other material oﬀ the frame,
+guide rails, or wheels. Use glass cleaner or isopropyl alcohol to clean the print surface.
+Users should comply with the laws and regulations of the corresponding countries and regions where the equipment is located (used), abide by professional ethics, pay attention to
+safety obligations, and strictly prohibit the use of our products or equipment for any illegal purposes. Creality will not be responsible for any violators' legal liability under any circustance.
+Do not touch the nozzle, hotbed or motor while the printer is in operation, otherwise you may get burned.
+
+--- Page 5 ---
+Contents
+Equipment Introduction
+01-01
+02-02
+03-03
+04-09
+10-10
+11-11
+12-13
+14-15
+16-17
+18-20
+Equipment Parameters
+Parts List
+Product Installation
+Equipment Connecting
+Start Printing
+Filament Inﬁll
+Adjusting Pulley tightness
+Auto Leveling
+Print Method
+21-22
+Routine Maintenance
+23-23
+Circuit Connecting
+
+--- Page 6 ---
+1. Equipment Introduction
+1 Z-axis Cable Drag Chain
+1
+2
+2 X-axis Limit Switch
+3 Extruder Extrusion Kit
+4
+4 Printing Platform
+5 Y-axis Tensioner
+6 USB Flash Drive Port
+8
+7
+7
+Type-c port
+13
+14
+8
+Material rack
+9
+Filament Detection
+5
+6
+10
+X-axis Cable Drag Chain
+10
+9
+11
+X-axis Tensioner
+18
+19
+20
+15
+16
+17
+12
+Display screen
+3
+13
+Y-axis Motor
+14
+Pull Rod
+15
+X-axis Motor
+16
+Power Switch
+17
+Z-axis Motor
+18
+19
+20
+Y-axis Limit Switch
+01
+RJ45 Network Interface
+Camera Interface
+11
+12
+
+--- Page 7 ---
+2. Equipment Parameters
+Model
+Language
+Print Method
+Forming process
+Number of Extruder
+Printing Size
+Slice Thickness
+Printing Speed
+Nozzle Diameter
+Nozzle temperature
+Filaments
+Supported File Format
+Power Loss Recovery
+Rated Voltage
+Filament Detection
+CR-M4
+USB drive/WiFi/Type-C cable/RJ45 cable
+FDM
+1
+450*450*470mm
+0.05-0.35mm
+≤ 120 mm/s, generally 50 mm/s
+0.4 mm (0.6/0.8 mm optional)
+STL/OBJ/AMF
+PLA/PETG/TPU/ABS/PLA-Wood/PA/PLA-CF
+Yes
+100-240V~ 50/60Hz
+Yes
+Operating System
+Rated Power
+WIN/MAC/Linux
+800W
+Basic Parameters
+Hotbed temperature
+English/ 中文/ Español/ Deutsche/ Français/ Pусский/ Português/ Italiano/ Türk
+≤100℃
+Ambient Temperature
+5℃~35℃
+≤300℃
+02
+
+--- Page 8 ---
+3. Parts List
+03
+Tips: the above accessories are for reference only. Please refer to the physical accessories!
+1
+Base Component
+2
+Gantry Frame Assembly
+7
+Material Rack and
+Filament Sensor
+8
+Material Barrel × 2
+4
+Display screen
+5
+Display Screen Frame
+9
+Filament
+3  Z-axis Cable Drag Chain
+10 Cutting Plier
+14 USB Flash Drive
+12 Power Cable
+11 Blade
+Hexagon Socket
+Head Cap Screw
+M5*45 × 4
+20
+23 Hexagon Socket
+Button Head Screw
+M5*10 × 2
+24
+ Hexagon Socket
+Button Head Screw
+M5*25 × 2
+19 M5 Flat Gasket × 2
+21 Hexagon Socket
+Button Head Screw
+M4*20 × 3
+Wrench and
+Screwdriver
+18
+22 Countersunk Screw
+M3*5 × 3
+Cable Tie
+15
+1.2mmNozzle Cleaner
+16
+Nozzle Cleaner
+17
+13 Nozzle Kit
+Accessory kit
+6
+Pull Rod x 2
+25 0.8mm Nozzle
+
+--- Page 9 ---
+22
+04
+4.1 Installation of X-axis Cable Drag Chain
+A. Insert the extruder adapter terminals nto the appropriate interfaces.
+B. Fix the front end of the X-axis cable drag chain to the extruder back support plate with 3 M3*5 screws.
+C. Align the clips and then apply gentle pressure to assemble the drag chain at the rear end of the X-axis.
+4.Device Installation
+Figure A
+Figure B
+Figure C
+2
+Gantry Frame Assembly
+22 Countersunk Screw M3*5 × 3
+
+--- Page 10 ---
+20
+20
+1
+ 4.2 Gantry Frame Installation
+Place the gantry frame on the base slot and pre-ﬁx it ﬁrst with 4 M5*45 screws aligned with the holes, then tighten to secure it.
+05
+4.Device Installation
+ Hexagon Socket Head
+ Cap Screw M5*45 × 4
+20
+1
+Base Component
+
+--- Page 11 ---
+3
+4.Device Installation
+4.3 Z-axis Cable Drag Chain Installation
+A.  Insert the mainboard adapter cable into the appropriate interface and assemble the Z-axis cable drag chain at this end.
+B. Complete the assembly of the other end of the Z-axis cable drag chain.
+06
+Figure A
+Figure B
+3   Z-axis Cable Drag Chain
+
+--- Page 12 ---
+24
+19
+6
+Pull Rod x 2
+23
+4.4 Pull Rod Installation
+4.Device Installation
+A.
+B.
+Fix one end of the pull rod to the top of the gantry frame with one M5*10 screw (just pre-tighten the screw).
+Fix the other end of the pull rod to the base with one M5*25 screw and one M5 ﬂat gasket as shown, ﬁnally tighten the ﬁxing screws on
+both ends of the pull rod; then complete the assembly of the pull rod on the other side using the same method.
+07
+6
+23 Hexagon Socket Button
+Head Screw M5*10 × 2
+24
+ Hexagon Socket  Button
+Head Screw M5*25 × 2
+19 M5 Flat Gasket × 2
+
+--- Page 13 ---
+4
+Display screen
+4.5 Display screen Installation
+A.Assemble the display screen frame with three M4*20 screws.
+B.
+C.Align the pins on the back of the display screen with the punched holes in the display screen frame and insert it, then slide it downwards to fasten it.
+Insert the display screen cable into the appropriate interface and snap the cable into the buckle.
+4.Device Installation
+08
+21
+21
+Hexagon Socket Button
+Head Screw M4*20 × 3
+Figure A
+Figure B
+5
+Display Screen Frame
+
+--- Page 14 ---
+7
+Material Rack and
+Filament Sensor
+8
+Material Barrel × 2
+4.6 Material Rack Installation
+B.Screw the threaded ends of the two material barrels into the two ends of the material rack.
+A.Fit the front slot of the material rack to the front slot of the top proﬁle and press down on the end of the material rack to ﬁx it.
+09
+4.Device Installation
+Figure A
+Figure B
+
+--- Page 15 ---
+10
+5.Equipment Connecting
+Y-Axis
+Motor Port
+Filament Detection
+Module
+Filament detection
+connector
+6pin (4 wires)
+3pin (3 wires)
+A. Follow the yellow label on the 6pin (4 wires) port to connect the Y-axis stepper motor;
+B. Follow the yellow label on the 6pin (4 wires) port to connect the Z-axis stepper motor;
+C.
+D.
+Connect the ﬁlament detection module by following the yellow label on the 3pin (3 wires) port;
+Connect the ﬁlament detection connector;
+Z-Axis
+Motor Port
+6pin (4 wires)
+Z-axis
+Y-axis
+Filament
+Detection
+A
+B
+C
+D
+
+--- Page 16 ---
+X/Z-axis Pulley Adjustment
+X-axis
+Z-axis
+Z-axis
+Before switching on the machine, please check the tightness of the pulley by gently toggling it with your hand and check if it is idling
+or stuck (as shown in Figure A).
+If yes, please use an open-end spanner to adjust the hexagonal eccentric isolation column to make it rotate smoothly.
+6.Adjusting Pulley Tightness
+11
+Figure A
+
+--- Page 17 ---
+12
+7.Auto Leveling
+The above interface is for reference only.
+7.1 Click on "Prepare → Auto Leveling" in the main interface, and then click on "Start" after the machine has returned home,
+     and wait for the machine to detect the platform to ﬁnish the auto leveling.
+
+--- Page 18 ---
+13
+7.Auto Leveling
+The nozzle is too far away from the platform, so the ﬁlaments can not
+adhere to the platform.
+Filaments are extruded evenly, just sticking on the platform.
+The nozzle is too close to the platform, leading to insuﬁcient ﬁlament
+extrusion, even scraping the platform.
+7.2 Click on "Move " in the settings screen, observe the height value of the Z-axis, set the value to 0 and then click on "Move "
+     to return.
+     Click on "Z-oﬀset" and observe the gap between the nozzle and the platform by adjusting the Z-axis compensation value
+     so that the distance between the nozzle and the platform are about the thickness of a piece of an A4 paper.
+0.08-0.1MM
+7.3 Observe the print result after starting printing, and adjust the Z-axis compensation again if any exceptions occur.
+The above interface is for reference only.
+
+--- Page 19 ---
+8.1.Preheating Method
+A. Preheating mode 1: Click "Prepare" and select "Manual " to input corresponding values in the column of nozzle
+temperature and hot bed temperature respectively.
+B. Preheating mode 2: Click "Prepare" to select "Manual", select "PLA Preheat" or "ABS Preheat" according
+ to the type of consumables, and click "More Preheat" for other types of consumables.
+14
+8.Filament Inﬁll
+Note: The printing preheating parameter standard has been adjusted at the factory. PLA preheating standard: nozzle temperature 200 °,
+hot bed temperature 60 °; ABS preheating standard: nozzle temperature 250 °, hot bed temperature 100 °. If adjustment is required due
+to printing materials or other reasons, you can select "Preheat PLA" or "Preheat ABS" in "Tune - ADV.SET" to adjust the corresponding
+temperature. Click "More preheat set" for the preheating temperature adjustment of other consumables.
+
+--- Page 20 ---
+8.2 Filament Inﬁll
+8.Filament Inﬁll
+A.When you wait for the temperature to rise, hang the ﬁlament over the material rack.
+15
+B.Pass through the Filament Sensor, then press the extruder handle and insert the ﬁlament along the extruder hole to the nozzle position.
+If the ﬁlament ﬂows out of the nozzle when the temperature reaches the target value, the ﬁlament is properly loaded.
+Replacement of ﬁlaments:
+1.When the machine has just started printing, cut ﬁlaments near the extruder and slowly feed ﬁlaments until they are fed into the material barrel.
+2.When printing has ﬁnished and the machine has cooled down, heat the nozzle to 185℃+, then draw the ﬁlaments out and replace them by
+   referring to step 1.
+3.To change the ﬁlaments during printing, adjust the printing speed to 10% and refer to step 2 for replacement.
+For smooth insertion of the
+ﬁlaments, the end position
+of the ﬁlaments should be
+handled as shown in the ﬁgure.
+
+--- Page 21 ---
+9.Start Printing
+16
+Installation and use of the Creality Print slicing software
+② Choose a language;
+③ Choose a region;
+④ Choose a model;
+⑤ After the "Add Printer" is completed, adjust the basic
+parameters through the printer "Management": the screen
+size should be 480*800 and the preview image type should
+be jpg, otherwise the previews cannot be generated;
+Note: Previews cannot be generated when using other slicing
+software;
+Creality Print
+① Download at
+https://www.creality
+cloud.com/software
+-ﬁrmware/software
+or ﬁnd the software
+on a USB ﬂash drive
+and install it;
+
+M4
+CR-M4
+CR-M4
+CR-M4
+480*800
+450
+470
+450
+
+--- Page 22 ---
+9.Start Printing
+17
+⑦ Open the model and click on "Start Slicing";
+⑧ Click on "Export" when the slicing is ﬁnished
+and then save the ﬁnished ﬁle;
+⑥ Click on "Import Model" and select the model ﬁle;
+⑨ Generate a g-code ﬁle → Save to USB ﬂash drive.
+The above interface is for reference only.
+
+CR-M4
+CR-M4
+CR-M4
+CR-M4
+
+--- Page 23 ---
+18
+For details on using the software, please refer to the slicing
+software user manual on the storage card.
+Tips: The ﬁle name must only contain Latin letters and digits.
+Chinese characters or special symbols must not be used.
+① Generate a g-code ﬁle using Creality Print slicing
+    software and save it to a USB ﬂash drive.
+② Insert the USB ﬂash drive and select the ﬁle you want to print.
+
+Do not plug or unplug the USB ﬂash drive during the printing
+process.
+10. Print Method
+10.1 Local printing from a USB ﬂash drive
+CR-M4
+CR-M4
+480*800
+
+--- Page 24 ---
+19
+10. Print Method
+10.2 Download and install Creality Cloud
+① Search for "Creality Cloud" in the
+    app shop, download and install it.
+② Sign up for an account.
+③ Log in.
+The above interface is for reference only.
+
+--- Page 25 ---
+10. Print Method
+20
+10.2 Creality Cloud networking mode 2: Printing by Wi-Fi matching
+⑤ Connect the device to Wi-Fi;
+⑥ Enter Wi-Fi password;
+③ Scan the QR code on the device;
+④ Choose a networking method;
+The above interface is for reference only.
+② Reset the device;
+① Add a device;
+⑦ Device connecting;
+⑨ Turn oﬀ device hotspot alerts.
+⑧ Added successfully;
+DN: 1296561200F66D
+SSID: CXSWBox-FCEE1200F66D
+Open Creality Cloud App to scan QR Code
+to connect the device with your Smart Phone
+WiFi
+CR-M4
+CR-M4
+CR-M4；
+CR-M4
+
+--- Page 26 ---
+21
+11.Routine Maintenance
+11.1 Lubrication and maintenance
+Tip: Please lubricate the guideways, sliders and screw rods in the blue area regularly (as shown in the ﬁgure). It is recommended to
+do it once every 500 hours of printing.
+1.
+2.
+3.
+Tips:This hotbed can be heated up to 100°C. It is strictly forbidden to remove the printing platform when the temperature of the
+hotbed is higher than 70°C. Since the printing platform is a wearing part, it is recommended to clean it regularly to ensure that the
+ﬁrst layer of the model is adhered. Please replace it in time if it is damaged.
+11.2 Use and maintenance of the magnetic adhesive sticker
+Remove the printed model from
+the machine together with the
+platform and partially bend the
+platform slightly to separate the
+model from the platform.
+ﬁlaments can be scraped oﬀ with
+a blade included in the tool box.
+Be cautious of safety when using
+the blade.
+When printing large models, it is recommended
+to apply solid glue evenly on the surface of the
+platform; if the platform is over-glued, it can be
+cleaned with tap water and wipe the surface dry
+afterwards.。
+Linear guideways and sliders
+Screw rod
+
+--- Page 27 ---
+11.Routine Maintenance
+11.3 Extruder kit maintenance
+Tips:
+22
+Nozzle kit
+Fan
+Extruders are vulnerable parts. It is recommended to do the periodic inspection of extruder if it is used for more than three months
+to check whether the fan has foreign objects on it or whether it is damaged, which will aﬀect the heat dissipation and cooling. If the
+extrusion is uneven, intermittent and the printed model has no extrusion or has false layer, it is recommended to do the heat break
+cleaning or replace the nozzle kit with a new one as a priority. Refer to the      nozzle kit.
+13
+
+--- Page 28 ---
+23
+12.Circuit Connecting
+Wi-Fi antenna
+Y-axis Motor Port
+Z-axis Motor Port
+X-axis Motor Port
+E-axis Motor Port
+CR touch port
+TYPE-C port
+USB Port
+Y-axis Limit Switch Port
+Camera interface
+RJ45 network interface
+TF Card Port
+Filament
+Detection
+Bluetooth antenna
+Display screen port
+X-axis Limit
+Switch Port
+Extruder
+thermistor
+Hotbed
+thermistor
+Extruder heating
+pipe interface
+24V Power input
+Hotbed port
+Extruder normally
+open fan
+Extruder Hotend
+Cooling Fan
+Mainboard
+cooling fan
+
+--- Page 29 ---
+FCC WARNING
+This device complies with part 15 of the FCC Rules.
+Operation is subject to the following two conditions:
+    (1) this device may not cause harmful interference, and (2) this device must accept any interference received,
+including interference that may cause undesired operation.Any changes or modiﬁcations not expressly approved
+by the party responsible for compliancecould void the user's authority to operate the equipment.
+NOTE: This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant
+to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference
+in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not
+installed and used in accordance with the instructions, may cause harmful interference to radio communications.
+However, there is no guarantee that interference will not occur in a particular installation.
+If this equipment does cause harmful interference to radio or television reception,
+which can be determined by turning the equipment oﬀ and on, the user is encouraged to try to correct the
+interference by one or more of the following measures:
+   -- Reorient or relocate the receiving antenna.
+   -- Increase the separation between the equipment and receiver.
+   -- Connect the equipment into an outlet on a circuit diﬀerent from that to which the receiver is connected.
+   -- Consult the dealer or an experienced radio/TV technician for help.
+To maintain compliance with FCC’s RF Exposure guidelines, This equipment should be installed and operated
+with minimum distance between 20cm the radiator your body: Use only the supplied antenna.
+
+--- Page 30 ---
+Since each model is diﬀerent, the actual product may be diﬀerent from the picture. Please refer to the actual product.
+The ﬁnal interpretation right belongs to Shenzhen Creality 3D Technology Co., Ltd.
+Company Address:18th Floor, JinXiuHongDu Building, Meilong Road，Xinniu Community
+Minzhi Street, Longhua District, Shenzhen City,  China.
+Oﬃcial Website: www.creality.com
+Business Tel: +86 755-8523 4565

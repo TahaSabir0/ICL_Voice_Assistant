@@ -1,0 +1,961 @@
+# Titan_Documentation_6_27_2016
+
+Source: Titan_Documentation_6_27_2016.pdf
+Category: vinyl_cutting
+Pages: 13
+========================================
+
+--- Page 1 ---
+VINYL CUTTER
+User Manual & Assembly Instructions
+
+--- Page 2 ---
+2
+3
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+www.uscutter.com
+425.481.3555
+GET EVERYTHING FOR YOUR
+VINYL CUTTING NEEDS
+Table of Contents
+Thank you for purchasing this Titan vinyl cutter.
+Please read this manual completely and keep it in
+a safe place for future reference.
+For Accessories, Supplies, and replacement parts please visit
+our website at www.uscutter.com
+•
+This device uses sharp blades to cut vinyl. Take care not to touch the blades or gears during operation!
+•
+Make sure this device is not connected to power during assembly, service, and maintenance.  Also beware
+
+of static build- up. We recommend using mats and anti-static vinyl systems.
+•
+Vinyl cutting is not recommended for young children.
+Please read and heed these
+important safety messages:
+GreenStar 12-Color Starter Kit
+Green Star IPV vinyl is great for general
+purpose interior/exterior graphics of all types.
+An excellent vinyl to cut, weed and transfer,
+Green Star IPV vinyl has an outdoor lifespan of
+up to 5 years (3 years for metallic vinyl) and is
+made in USA. Includes twelve 24” x 5 yard rolls.
+
+The Siser EasyWeed Starter Kit
+consists of twelve 15” by 12”
+sheets of Siser EasyWeed heat-
+transfer vinyl in the 12 most
+popular colors. A great way to get
+acquainted with this versatile product!
+
+Oracal 8510 gives the professional appearance
+of etched glass for a fraction of the price and
+labor associated with sandblasting. This vinyl is
+meant for long-term indoor and outdoor window
+application to provide business names, logos and
+other graphics on entrance doors, street-facing
+windows, and corporate environments. This starter
+kit includes a 24” x 10 yard roll of coarse silver
+structure vinyl, clear high-tack application tape for
+accurate registration and ease of use, a squeegee,
+and application fluid for wet application.
+The ORACAL 631 24 x 5 Sample Pack
+contains 12 of the most popular
+colors in the ORACAL 631 line.
+ORACAL 631 vinyl is a removable
+calendared vinyl that is ideal for
+most indoor applications. It features
+a lower-tack adhesive that won’t
+damage interior walls during removal. Also has a
+matte surface which matches interior paint
+
+Greenstar Outdoor Starter Pack
+Oracal 631 Starter Kit
+Siser Start Bundle
+Etched Glass Kit
+Save big on bundles
+The fastest and most economical way to get started.
+SAME DAY SHIPPING
+Order by 4:30PM EST
+1
+1
+Intro
+2
+Where to use and store your vinylcutter
+3
+What’s in the box
+4
+Assembling the stand
+8
+Getting to know your vinyl cutter
+10
+Connecting to a computer
+11
+Setting up media
+16
+Making your first test cut
+15
+Control Panel
+20
+Maintenance
+21
+Cut and place vinyl like a pro
+Take Your Craft Cutting to the
+NEXT LEVEL
+14
+Blade set up
+18
+Troubleshooting
+Go to USCutter.com and search keyword:
+“Greenstar outdoor bundle” for pricing.
+Go to USCutter.com and search keyword:
+“Oracal 631” bundle for pricing.
+Go to USCutter.com and search keyword:
+“Siser starter bundle” bundle for pricing.
+Go to USCutter.com and search keyword:
+“etched glass kit” for pricing.
+
+--- Page 3 ---
+4
+5
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+Items:
+Locations for use and storage
+What’s in the box
+Where to use and store your vinyl Cutter
+Location, Location, Location!  It’s not just important for real estate.  Where your vinyl
+cutter “lives” in your home or business is a vitally important element of your success.
+You need access to a 110 volt grounded electrical outlet.  That’s the standard
+household kind with three holes, not two.  Be safe... don’t plug your cutter into
+an already over-crowded powerstrip or system of extension cords.
+Dust and dirt will limit the useful life of your cutter.  If you use it in a dusty or
+dirty environment the cooling fans will suck in the dust and it will get inside
+the machine and gum up the works.
+Operate on a stable surface.  A solid flat surface is needed for your vinyl cutter
+to do its best work.  If it wobbles or vibrates during operation your cut is not
+going to be as sharp and clean as it could be.
+Access is important.  This is a large machine, but it doesn’t belong in the corner
+during use.  You’ll need to access the front and back of the cutter to operate it
+and change the vinyl rolls.
+1
+2
+3
+4
+5
+6
+A:
+B:
+C:
+D:
+E:
+F:
+G:
+H:
+I:
+J:
+K:
+L:
+M:
+N:
+
+Before starting work, please check whether the
+following items are all present.
+If any parts seem to be missing from your package
+please contact support @1-888-975-2047
+There will be some noise when the cutter is in use.  Take that into account
+when you locate your vinyl cutting headquarters.
+2
+3
+Position the Titan near enough to your computer to be able to attach it via USB cable
+or 9-pin serial cable. Internet access will be necessary for downloading drivers and
+software.
+
+I
+J
+K
+M
+Titan Cutter
+Crosspieces
+Bolts, Washers, Nuts
+Media Roller Brackets
+Feet
+Legs
+Catch Roller Brackets
+Media Rollers
+Power Cord
+USB Cable
+9 Pin Adapter
+Vinyl Software
+A
+B
+C
+D
+E
+F
+G
+H
+Media Catch Basket
+L
+Software Registration
+Card
+N
+
+--- Page 4 ---
+6
+7
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+Face out
+Face in
+Assembling the stand
+Before you begin:
+Read the assembly instructions from
+beginning to end.  Give yourself plenty
+of time.  Gather the tools you’ll need that
+aren’t inluded in the box:
+
+1.  6mm Allen Wrench
+
+2.  Pliers, or a Crescent Wrench
+Here’s how to assemble the stand:
+Step 1.
+Attach the feet (E) to the legs (F).
+Attach the feet to the legs with 4 bolt sets
+(2 sets per leg).  If they aren’t already
+installed, screw in the rubber spacers
+to the bottom of each ends of the feet.
+Assembling the stand
+The middle indentation of the leg should be
+facing in.  The two outside indentations are
+where we will attatch the crosspieces.
+4
+5
+Step 2.
+Attach the lower crossbrace to the leg (F)
+using 2 bolt sets. Next, attach the upper
+crosspiece
+(B) and
+media
+roller
+bracket
+(D) to
+the inner
+and outer
+portion of
+the leg using these three bolts here.
+Step 3.
+Now, let’s mount the other leg assembly
+by connecting the bottom crosspiece to the
+adjascent holes and “floating” the upper
+crossbrace in the adjascent slot.  Do not
+attach the other side of the upper crosspiece
+yet as we will need access to this portion for
+the next step.
+This is the foot:
+This is the leg:
+Notice: The
+longer end
+of the foot
+offsets from
+the side of
+the leg that
+has the two
+highest
+holes.
+Longer End
+F
+The open hole is where we
+will attach the catch roller
+bracket in a later step.
+Rubber Spacers:
+Bolt Here:
+Lower Crosspiece
+Upper Crosspiece
+Note:  The bottom crosspiece only attaches
+with two bolt sets on each end despite
+having four holes.  The extra holes are not
+used.
+Do not attach yet.
+Float against leg
+E
+F
+B
+D
+F
+B
+D
+F
+
+--- Page 5 ---
+8
+9
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+Assembling the stand
+Assembling the stand
+Step 4.
+6
+7
+Step 5.
+Install the Media Catch Roller Brackets so that the side
+with the most distance from the holes is directly above
+the Media Roller Brackets with the lip at the top and
+facing out.
+Use two bolt
+sets per side
+threading
+one set
+through the
+Media Roller
+Brackets,
+Leg, and Top
+Crosspiece.
+Then set the
+media catcher
+poles and
+basket into the rounded slots on each side.
+Place the Titan Cutting module (A) on top of
+the stand running the bolt threads, rubber
+spacers,
+and
+washers
+on the
+bottom
+of the
+module
+through
+the holes on top of the leg mounts.  Make
+sure the media rollers are on the same side
+as the back of the module.  Connect using
+the remaining four nuts.
+Carefully set the media roller bars (H) inside
+the previously installed media roller bracket,
+and the uninstalled media roller bracket
+while holding it next to the leg.  Run bolt
+sets through the same holes of the media
+roller bracket, leg, and top crosspiece as we
+did on the other side with step 2 here.
+Step 6.
+Locate the grounding wire coming out
+from behind the bottom of the left end cap.
+Loosen the
+bolt on the
+outside of
+the leg and
+connect
+the other
+end of the
+grounding
+wire by
+tightenning
+the bolt
+back into
+the leg.
+Step 7.
+Longer side over media bars
+Position back of the pinch rollers over media rollers.
+H
+A
+
+--- Page 6 ---
+10
+11
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+8
+9
+Get to know your cutter
+Get to know your cutter
+Before you start cutting, you should familiarize yourself with the
+cutter along with its basic parts and functions.
+CONTROL PANEL
+Used to provide input directly to the cutter. Covered in detail in the
+“Control Panel” section of this manual.
+CARRIAGE ARM
+Holds the blade (or pen) carriage.
+PINCH ROLLERS
+Holds the media tightly to the feed roller below.
+FEED ROLLERS
+Positions the cutting material during operation.
+LASER
+Used by the cutter to determine the location of cut contours.
+LEFT SIDE COVER
+Contains the power cable port, power switch, and fuse cartridge for the
+cutter.
+RIGHT SIDE COVER
+Contains the USB and serial cable ports for the cutter.
+CONTROL PANEL
+CARRIAGE ARM
+PINCH ROLLERS
+FEED ROLLERS
+RIGHT SIDE COVER
+LEFT SIDE COVER
+LASER
+CARRIAGE SLOT
+LOCKING KNOB
+CARRIAGE SLOT
+Holds the blade carriage in
+place.
+LOCKING KNOB
+Allows access to the blade/pen
+carriage slots for exchanging/
+replacing carriages.
+USB CABLE PORT
+USB CABLE PORT
+Used to connect a USB cable
+from the cutter to a computer.
+SERIAL (COM) CABLE
+PORT
+Used to connect a serial cable
+from the cutter to a computer.
+RIGHT SIDE VIEW
+POWER SWITCH
+FUSE CARTRIDGE
+POWER CABLE PORT
+POWER CABLE PORT
+Used to connect a power cable
+from the cutter to a wall outlet
+or surge protector.
+POWER SWITCH
+Main power switch for turning
+the power of the cutter on (1)
+or off (0).
+FUSE CARTRIDGE
+Allows access to the fuse inside
+of the cutter.
+LEFT SIDE VIEW
+SERIAL (COM) CABLE PORT
+
+--- Page 7 ---
+12
+13
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+10
+11
+Connecting the cutter to a computer
+Attach the power cord to the cutter and then plug in the
+unit and turn on the power.
+If using the Serial Cable to connect
+your cutter to a computer:
+If using the USB Cable to connect
+your cutter to a computer:
+If you are using a Serial Cable to connect your cutter to a computer then no further
+setup is necessary. Simply connect one end of the cable to the cutter and the other end
+to a computer and setup is complete. If you have more than one serial connection on
+your computer or you are experiencing communication issues between your cutter and
+computer then you may wish to verify that the correct COM port is being used in your
+software setup, but for most users the COM port will be COM1.
+You will need to download and install drivers for the USB connection to work properly.
+Go to www.uscuttersupport.com/mh-support-page and select the driver that supports
+your Windows version.
+INSTALLING VINYL MASTER SOFTWARE
+Your Titan Vinyl Cutter comes bundled with VinylMaster Cut
+software, an easy to use software with the tools to help you take
+your projects from concept to a ready to cut computer image file.
+You can download and install the VinylMaster Cut software at
+www.uscutter.com/download, and you will need the key code
+packaged with this cutter to activate the software.  You may need
+to download drivers to support your operating system.  Drivers are
+available at http://support.uscutter.com
+Training for VinylMaster is all done via short videos accessed
+through the software.  To access the videos, click on the SUPPORT
+link, then HELP TOPICS.
+Setting up media
+Place the roll on top of the stand rollers.
+Release the pinch rollers release levers.
+If you are going to cut from a scrap or single sheet instead of a roll, then skip the next step on
+placing a vinyl roll. All other steps will be the same.
+1
+2
+For heat press vinyl, please flip the roll.
+
+--- Page 8 ---
+14
+15
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+12
+13
+Feed the vinyl underneath the pinch rollers (if
+working from a single sheet instead of a roll, the
+vinyl can also be feed from the front).
+Adjust the pinch rollers so there is one roller located on each side of the vinyl (and, on
+models with 3 or more rollers, one roller near the center). Avoid lowering a pinch roller
+to the gap between the two feed rollers.
+3
+4
+Leave a gap of between 1/2”-1 1/2” from the edge of
+the roller and the edge of the vinyl on both sides.
+Engage the Pinch Rollers by pushing down on the
+Pinch Roller Release Levers.
+5
+6
+If the cutter is not already on, turn it on now.
+Setting up Media
+Setting up Media
+
+--- Page 9 ---
+16
+17
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+Control Panel
+Changing your Titan’s Speed
+and cut Force
+To set speed and force of the Titan,  use the up and down
+arrows to adjust the speed and the left and right arrows
+to adjust the cutting force.  A typical cutting speed is
+500mm/s, and a typical cutting force is 100g.
+Setting the Origin for your
+Titan cutter
+To set the Origin of where the Titan cutter will begin
+cutting from press the “Offline” button then press the
+arrows.  Left and right will move the carriage, and up and
+down will move the feed rollers in and out.  When the
+carriage is located where you whant it to start, press the
+“Enter” button on your control panel and the origin is set.
+Pressing the “Reset” button simply brings the carriage
+back to it’s home origin.
+Blade Set Up
+Unscrew the cap from the
+Blade Carriage.
+Screw the cap back onto
+the Blade Carriage.
+Adjust the carriage cap until the blade
+is protruding approximately 1/64th of an
+inch.
+Adjust the Brass Ring until it fits snug
+against the Cap. This will help keep
+the cap in place during operation.
+Set Brass Ring on Blade
+Carriage to the fully down
+position.
+Remove the protective cover
+from a new blade.
+Insert the blade into the
+top of the Blade Carriage.
+1
+5
+7
+6
+2
+3
+4
+Blades should be replaced every 6 months. Your blade may need to be replaced
+more often if you are cutting thicker material such as flock, glitter, or reflectives.
+14
+15
+SPEED
+FORCE
+ENTER
+RESET
+OPTION
+SET
+TEST
+LASER
+ON/OFF
+    LINE
+Selects displayed option/sets the origin.
+Cancel current processes and jobs.
+Allows scrolling through further configurations menus/settings for calibrating.
+Performs cutting test to ensure that settings are adjusted correctly.
+Turns on laser located under cutting carriage.
+Online: Adjusts cutting speed.  Offline:  Adjusts media feed rollers back and forth.
+Online: Adjusts cutting depth.  Offline:  Adjusts cutting carriage back and forth.
+Switch between online and offline mode.  Use the offline mode to configure your
+settings and set your origin.  Use the online mode for cutting operations.
+Scrolls through Options
+
+--- Page 10 ---
+18
+19
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+16
+17
+1
+2
+3
+4
+LOAD MATERIAL
+CHOOSE BLADE
+For thin and regular sized media,
+use a 45o blade.
+Load the blade so
+that the length of the
+blade shown is not
+longer than the media is
+thick.
+For thicker materials, such as Siser
+StripFlock, Siser Glitter, and Hexis
+CutFlex 600 Reflective,
+a 60o blade is needed.
+Most
+vinyl
+products
+are
+loaded from over the top.
+CUT SPEED
+This setting determines how fast the design is cut out
+and is usually measured in centimeters per second.
+small intricate
+designs
+DECREASE CUT
+SPEED
+large simpler de-
+signs
+INCREASE
+CUT SPEED
+B
+L
+A
+D
+E
+MEDIA
+CARRIER
+MEDIA
+CARRIER
+B
+L
+A
+D
+E
+MEDIA
+CARRIER
+60
+FORCE/PRESSURE
+This setting determines how hard the blade comes down onto the material.
+outer square
+won’t weed
+INCREASE
+FORCE
+blade digging too far
+into carrier
+DECREASE FORCE
+weeds easily with a light-
+ly scored carrier
+PERFECT!
+Test Cut
+Making Your First Test Cut
+A Basic Guide To Vinyl Cutting
+Now that you’ve got your system fully
+assembled let’s take a moment to test it and
+also take moment to learn a bit about how
+to “fine tune” the machine so that it will do
+quality cuts on the different materials you’ll be
+cutting. To do this we’ll do a standard test cut,
+which when competed will a simple triangle
+inside of a square. Load the material roll and
+adjust the pinch rollers.  Remember to make
+sure the top roller is placed so that there is a
+bottom roller (called the “grit roller”) beneath
+it. Remember to line the material up so that it
+is moving straight through the feed area, and
+resist the temptation to run the material close
+to the edge of the cutter feed area or you
+increase the risk of a mis-feed that will wrinkle
+your vinyl. (See the graphic on the top of pg.
+21 for an example.)
+Assuming you’re cutting standard signage
+vinyl, you’ll want to use your 45° blade. If
+you received vinyl along with your cutter
+package, chances are very good it’s a standard
+GreenStar or Oracal signage vinyl.  Now, find
+the TEST button on the cutter control pad and
+press it.  It should cut a pattern that looks like
+this:
+This Test Cut will help you to calibrate the
+machine for this material. Examine this cut
+and use a weeding tool or exacto knife to
+weed the square out while keeping the
+triangle on the paper. (“Weeding” is the word
+for removing the cut vinyl in the design.)
+Use this simple diagram to make adjustments.
+There’s a certain amount of trial and error to it
+at first, but you’ll quickly get a feel for it.
+
+--- Page 11 ---
+20
+21
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+18
+19
+Troubleshooting
+PROBLEM
+SOLUTION
+The cutter performs erratically
+during cuts, stops cutting
+before the cut is finished, or
+cuts lines that do not appear in
+the design.
+Some computers do not work well when connected via the USB port of the
+cutters. If you are having problems while cutting and are using the USB cable
+to connect from your cutter to computer, you may wish to try the serial cable
+connection to avoid further problems. If a serial cable connection is not available
+on your computer, you can try a third party USB to serial connector or a PCI card
+serial adapter for your computer.
+After the first cut is made,
+subsequent cuts are made over
+the top of the original, or vinyl
+is fed backwards until it loses
+contact with the rollers.
+After a cut is made, you will need to reset the origin of the cutter. If the origin is
+not set again, the first origin will remain in the cutter and the cutter will return to
+this position before making any further cuts. To reset the origin; from the main
+screen of the cutter, press the Offline/Pause button on and then press the Origin
+button.
+Cuts are jagged or inconsistent.
+The Blade may be dulled or damaged. Replace with a new blade and try again.
+Make sure that the blade can turn freely (by attempting to turn it with your
+fingers while the release button of the Blade Carriage is pressed).
+Adjust the blade depth of the Blade Carriage (page 17) and Force setting on the
+cutter (page 8) until you are getting solid, uniform cuts. Start with a blade depth
+of around 1/64th of an inch and a pressure setting of 100g and try an increased
+pressure setting before attempting to increase the blade depth.
+Slashes are made across the
+vinyl from the blade movement
+during cutting.
+If the blade is protruding too far from the Blade Carriage then it can score and
+cut material during normal operations. If this is occurring, the blade needs to be
+adjusted so that it is protruding a minimal distance from the carriage.
+Vinyl not feeding straight and
+the rightmost Pinch Roller will
+not move.
+Sometimes, during shipping or movement of the machine, the right pinch roller
+will become stuck on a screw located on the back of the machine. If this occurs
+and is affecting your cutting, press forcefully against the pinch roller until it
+becomes dislodged from its position. If needed, remove the screw to reposition
+the pinch roller in the desired position.
+Cuts are warped and
+inconsistent.
+Sometimes,
+during
+shipping
+or
+movement
+of
+the
+machine,
+the
+Carriage
+Arm
+can be dislodged from its track. Make sure that the 2 white wheels behind the
+carriage arm are both resting securely on top of (not in front) of the track. If the
+wheels are not on the track, gently lift the carriage arm and press back until both
+wheels are resting on the track.
+ISSUE
+ISSUE
+ISSUE
+ISSUE
+CAUSE
+CAUSE
+CAUSE
+CAUSE
+SOLUTION
+SOLUTION
+SOLUTION
+SOLUTION
+EXAMPLE
+EXAMPLE
+EXAMPLE
+ROUNDED CORNERS
+CORNERS WITH FLAGS
+EXAMPLE
+Cut has dashes or looks perforated.
+Blade is skipping turns and corners.
+Corners are not cutting correctly.
+Cut line tapers and not cutting
+towards the end.
+Damaged cutting strip (groove in
+strip) or too much blade is exposed
+(friction build up).
+Part of the blade is dragging on its
+side during turns.
+Offset setting is incorrect.
+Dull blade or blade holder isn’t
+secured properly in slot.
+Replace the cutting strip or
+decrease the blade depth.
+Clean the inside of the blade holder by
+coating the blade with WD40 and moving
+it in and out of the blade holder. Clean off
+any debris that comes out. Replacement
+blade holder may be needed.
+Change the offset setting.
+RAISE OFFSET
+LOWER OFFSET
+Replace blade, check the
+blade force, and secure the
+blade holder.
+Common Cutting Issues
+
+--- Page 12 ---
+22
+23
+www.uscutter.com
+www.uscutter.com
+425.481.3555
+425.481.3555
+20
+21
+Cut & Place Vinyl Like A Pro
+www.uscutter.com
+425.481.3555
+GET EVERYTHING FOR YOUR
+VINYL CUTTING NEEDS
+Digital Printed
+Graphics
+Indoor Wall
+Vinyl
+Heat Press
+Outdoor
+Signage
+Stencils &
+Masks
+You also need the right
+media, blade, and
+application tape to
+ensure a professional job.
+A good VINYL CUTTER
+is just the start...
+Main Tape
+GFX-341
+45°
+Blade
+45°
+Blade
+Oracal 3951 & 3651
+HP Gloss & Matte
+Glass Application
+45°
+Blade
+Oracal 8300, 8500,
+8510, & 8800
+Main Tape
+GXF-775 or
+R-Tape AT65
+Main Tape
+GXP750 or
+Oratape HT55
+Oracal 631 or
+GreenStar Wall Vinyl
+30° Blade
+(general)
+60° Blade
+(glitter/ﬂock)
+EasyWeed
+(standard fabrics)
+EasyWeed Extra
+(nylons/water resistant)
+R-Tape
+4076RLA
+60° Blade
+Anchor BlastLite
+Oramask
+GreenStar
+Layﬂat Classic or
+Main Tape
+GXF-775
+45° Blade
+(general)
+60° Blade
+(reﬂective)
+Oracal 651 or GreenStar
+Intermediate (calendered)
+for short term
+Oracal 751 or 951 (cast)
+for long term
+Maintenance For Your Cutter
+Cutting Strips for your vinyl cutter will need
+to be replaced periodically - we recommend it
+be done every six months if you use your vinyl
+cutter continuously.
+You might need to change out your Cutting
+Strips sooner if you start experiencing an uneven
+depth of cut, or your material is peeling up even
+on slow speeds.
+To replace your Cutting Strip:
+
+•
+USCutter stocks replacement
+
+cutting strips.  Go to
+
+USCUTTER.com and search using
+
+the keyword:  Cutting Strip.
+
+•
+Use a weeding tool or other pointed
+
+tool to pry up the existing strip.
+
+(For best results, start at either end
+
+of the strip.)
+
+•
+Lay replacement into the channel
+
+and use a heat gun or hair dryer to
+
+heat the strip up as you squeeegee it
+
+into place.
+
+•
+Use a knife to trim the ends of the
+
+strip so that it fits in the channel.
+Cutting Blades wear out with use and the
+tips of the blades can snap just like the point of
+a sharp pencil.  (This is particularly true of the
+60 degree blade.)  You should also periodically
+visibly inspect your blades and if you see visible
+chips in the edge it’s best to replace the blade
+with a new one.  (This is also a good time to wipe
+away any vinyl debris that has built up inside the
+blade holder.)
+You might also consider the replacement of your
+blade if you develop problems weeding or other-
+wise experience problems with cut quality.
+Refer to the manual section on Blade
+Set-up for instructions on how to install re-
+placement blades and remember to dispose of
+your old blade safely by putting it in an alumi-
+num can or other closed hard container.
+
+--- Page 13 ---
+WE RECOMMEND USAGE OF THE FOLLOWING VINYL
+WITH YOUR NEW Titan CUTTER:
+All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form
+or by any means, including photocopying, recording, or other electronic or mechanical methods, without
+the prior written permission of the publisher,  except in the case of brief quotations embodied in critical
+reviews and certain other noncommercial uses permitted by copyright law. For permission requests,
+write to USCutter, 7945 NE 65th St., Suite 200, Redmond, WA 98052
+Copyright ©  2015 USCutter
+06/27/2016

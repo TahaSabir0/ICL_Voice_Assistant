@@ -1,0 +1,601 @@
+# A1DogecheeL
+
+Source: A1DogecheeL.pdf
+Category: vinyl_cutting
+Pages: 12
+========================================
+
+--- Page 1 ---
+15” x 15” Clamshell Press
+Model FLHP 3802
+User Manual
+
+--- Page 2 ---
+NEED HELP WITH YOUR NEW HEAT PRESS?
+For Sales & Support:
+
+(425)481-3555
+
+6:15am-4:45pm PST
+
+Monday - Friday
+Submit a Service Ticket at:
+www.uscuttersupport.com
+Heat transfer vinyl, transfer paper, teflon sheets, vinyl removal
+solution, spare parts, and more available at www.uscutter.com
+This documentation is copyright 2016 USCutter.  No duplication,
+republishing or reposting of this material in whole or in part is authorized
+without express written consent.  Product design, logos, brand names
+for various media, and product photos are owned by the manufacturers.
+
+--- Page 3 ---
+Thank you for purchasing this heat press from USCutter.  The following are important
+things you need to know before you begin:
+• Intended usage of this Heat Press: This heat press is designed to press heat transfer
+vinyl (HTV), sublimation and transfer papers onto soft garments.
+Do not attempt to set the temperature on this device at higher than 480 degrees
+Fahrenheit as it will burn out the heating element.
+Also avoid use of this heat press for other activities such as food preparation or extraction
+of oils from plant materials and other alternative uses.
+Use of this heat press in a manner other than intended will void the warranty, will damage
+the machine, and may constitute a fire hazard.
+• Preserve the shipping carton: Please do not discard or disassemble the carton this heat
+press came in.  It was designed to hold the weight of this machine during shipping.
+Should you need to return the equipment due to warranty or repair, you will need it. Do
+not attempt to ship this equipment in a different container.
+• Follow manufacturer instructions on materials  you press: Always use recommended
+settings from the manufacturer for any material used in this press.  Those instructions are
+usually always available on-line from the material maker.
+Instructions on the most common and recommended materials are enclosed within this
+documentation.
+• Test before you press: We encourage you to always do a test of your fabric and HTV
+or transfer paper together using a small sample of the materials before you do volume
+production.
+If possible your test should include actually washing and drying a pressed garment to
+assure that the media has properly adhered to the garment using the heat and pressure
+setting you have selected.
+• Use extreme care during operation: Please also be careful as you operate the heat press.
+During operation the platens will get hot enough to do serious injury to you should you
+touch them, and surrounding metal parts will also reach high temperatures.
+Please educate children and others around this equipment that it is not a toy and can
+cause severe burns and/or injury if the unit is closed onto fingers or other body parts.
+• Electrical Source: This heat press is designed for the North American market and is
+designed to plug into a standard household 3 prong outlet.  (110-120V/60Hz.)  Do not
+attempt to use this press with a two prong electrical cord or otherwise use it without
+proper grounding.
+
+--- Page 4 ---
+Overview of Your Heat Press
+1.	 Pressure Adjustment Knob
+2.	 Time/Temperature Control
+3.	 Open/Close Control Arm
+4.	 Top Platen
+5.	 Bottom Platen
+6.	 Reset button/Breaker switch
+7.	 Power cord
+8.	 On/Off Switch
+The Pressure Adjustment Knob controls the amount of force that will be used to push the
+transferred image into the fibers of the garment. Clockwise increases pressure. Counter
+clockwise decreases it.
+The Time/Temperature Control Panel on the left upper face of the casing is where you will
+set heat and time requirements of your project. These will vary depending on the vinyl or
+transfer paper used.
+The Control Arm opens & closes the top & bottom Heated Platens of the clamshell press.
+The Reset Button is a breaker. It will pop out when there is an overload of electricity. Press
+it in to reset.
+The Power switch must be set to the on position and the Cord must be plugged in before
+pressing.
+
+--- Page 5 ---
+How to calibrate your new Heat Press:
+Instructions from manufacturers of heat transfer vinyls and transfer papers will instruct
+you to use Low, Medium or High Pressure during the application process.  Here’s how to
+calibrate your machine and identify those settings.  (Do this while the platens are cold.)
+1.	 Turn the pressure knob counterclockwise a few times to lower pressure on the platens.
+2.	 Place a piece of paper onto bottom of the platen
+3.	 Close the clamshell press using the handle.
+4.	 Pull on the paper.
+5.	 If the paper moves at all, turn the knob clockwise and try again.
+6.	 Try again and repeat until the paper doesn’t move at all.  This is your “Medium” pressure.
+From the “Medium” setting, High pressure will be clockwise one to two turns.  Low pressure
+will be counterclockwise one to two turns.  (The number of turns will depend the thickness
+of the garment.
+Note that using Medium and High pressure will make it just a bit difficult to close the heat
+press.  During the pressing process, the goal is to press the heated material into the fibers
+of the garment.
+How to Calibrate the temperature of your new Heat Press:
+On a new heat press, it is not unusual for the temperature settings to be off by 18 to 20
+degrees.  To fix this, follow these simple steps:
+1.	 Set the Heat Press temperature settings to 380F on the control panel. (See info
+on this below)
+2.	 When the press heats to about 100F, press the down arrow on the control panel
+for 5 seconds.
+The heat press will go into Calibration Mode.  It may take as long as 20 minutes to finish
+this process.  Do not turn off or unplug the press during this time.  To ensure total accuracy,
+you might also want to test the heat press using an Infrared Thermometer Gun. (available
+at most hardware stores.)
+Setting the Time and Temperature on your new Heat Press:
+1.	 Using the control panel screen, press the “Set” button then the up or down arrow
+to the desired temperature.
+2.	 Press the Set button again and set the timer using the up and down arrows.
+3.	 Press the Set button and arrows again to choose Fahrenheit or Celsius.
+4.	 Press the Set button again to confirm these settings.
+5.	 Press the Set button and use arrows one more time to set an alarm that will
+notify you in advance when it is time to open the press.
+
+--- Page 6 ---
+How to press Heat Transfer Vinyl (HTV):
+1.	 Use a vinyl cutter to cut your heat transfer vinyl material.  Remember that unless
+otherwise instructed by the manufacturer, you will want to MIRROR the design so that
+when it cuts, it appears backwards.
+2.	 2)	Use a pair of scissors or cutting tool to trim around the image to make it a manageable
+size.
+3.	 Weed your design, removing the excess material. Remember to remove any material
+inside cavity such as the inside of the letters O and A.  (Tip: If you heat up the material
+using the bottom platen or your un-closed heat press for 2 to 3 seconds, it will be a lot
+easier to weed most materials.)
+4.	 Find the appropriate heating instructions for the material you are using either on-line
+or in the chart in this manual, and set your heat press time and temperature using
+manufacturer recommended settings.  (See info in this manual about setting your heat
+press temperature and time.)
+5.	 Use the Pressure Adjustment knob on the top of the press to adjust the pressure as
+recommended. (See info on this manual about how to adjust pressure on your heat press.)
+6.	 When  the heat press heats to the target temperature,  place your garment on the bottom
+platen so that it is flat and there are no wrinkles in the material  Warning: The platens will
+be very hot.  Be careful.
+7.	 Pre-press the garment for 2 to 3 seconds to remove wrinkles and moisture.
+8.	 Position the heat transfer vinyl on the shirt so that the colored vinyl on the liner is touching
+the shirt. (Your design should appear through the liner un-mirrored.)
+9.	 Lay a sheet of Teflon paper over the design to keep the top platen clean and avoid
+scorching the surface of your heat transfer vinyl.
+10.	Press the material at the time/temperature recommended by the manufacturer.
+11.	 Open the press and remove the Teflon sheet. Set it aside as it can be re-used a limited
+number of times.
+12.	Next peel the liner sheet off the top of the garment based on manufacturer instructions.
+Note:  After removing the garment, resist the urge to stretch, crumple or otherwise manipulate
+the pressed garment until the material has had a chance to rest for 24 hours or so.  (The
+chemical composition of the vinyl and adhesive are still reforming as the material cools.)
+• Using Sure Cuts A Lot, this option will appear on your Cut Setting menu as a
+click box.
+• With  Vinyl Master, when you send your design to the cutter, you will find the
+selection for the “Mirror” option in the Send to be Cut window.
+
+--- Page 7 ---
+Follow the manufacturer’s instructions for washing and care for best results.
+Your Guide To
+Perfect Results Every Time.
+Siser Easyweed
+Cotton, Polyester and Polycotton Blends
+305°F
+Medium
+10-15
+Hot/
+Cold
+Siser  Glitter
+Cotton, Polyester and Polycotton blends
+320°F
+Firm
+10-15
+Hot
+Siser  Easyweed Glow
+Leather and Polycotton Blends
+305°F
+Medium
+10-15
+Hot/
+Cold
+Siser Easyweed Stretch Lycra/Spandex & Cotton/Polycotton Blends
+305°F
+Med./Firm
+15
+Hot/
+Cold
+Siser  EasyWeed
+Electric
+Cotton, Polyester and Polycotton Blends
+305°F
+Medium
+15
+Hot/
+Cold
+Siser  Easyweed Extra
+Leather, Siliconed Nylons, Polycotton Blends
+320°F
+Light/Med. 10
+Hot/
+Cold
+Siser  EasyWeed Perf
+Cotton, Polyester and Polycotton Blends
+305°F
+Medium
+10-15
+Hot/
+Cold
+Siser Metallic
+Cotton, Polyester and Polycotton Blends
+305°F
+Medium
+10-15
+Cold
+Siser Holographic
+Cotton, Polyester and Polycotton Blends
+320°F
+Firm
+10-15
+Cold
+Siser  StripFlock
+Cotton, Polyester and Polycotton Blends
+320°F
+Medium
+15-20
+Cold
+Siser  Reflect All
+Polycotton blends and 100% Polyester
+305°F
+Medium
+10
+Warm
+Siser  CADflex
+Polycotton blends and 100% Polyester
+305°F
+Medium
+15
+Cold
+Siser  ColorPrint PU
+Cotton, Polyester and Polycotton Blends
+295°F
+Medium
+15-20
+Hot
+Siser  ColorPrint Soft
+Cotton, Polyester and Polycotton Blends
+311°F
+Medium
+10-15
+Warm
+Siser  ColorPrint
+Crystal
+Cotton, Polyester and Polycotton Blends
+320°F
+Medium
+10-15
+Cold
+Siser  ColorPrint Easy
+Cotton, Polyester and Polycotton Blends
+300°F
+Medium
+15
+Warm
+Siser  ColorPrint Extra
+Leather, Siliconed Nylons, Polycotton Blends
+320°F
+Light
+10-15
+Hot
+Siser  ColorPrint Glitter Leather and Polycotton Blends
+320°F
+Medium
+15
+Hot
+Chemica Fashion Prints Cotton, Polyester and Polycotton Blends
+310°F
+Medium
+15-20
+Cold
+Chemica Camouflage
+(Print/Digital)
+Cotton, Polyester and Polycotton Blends
+310°F
+Medium
+15-20
+Cold
+Chemica Animal Print
+Cotton, Polyester and Polycotton Blends
+310°F
+Medium
+15-20
+Cold
+Chemica Sports 3D
+Cotton, Polyester and Polycotton Blends
+310°F
+Med./Firm
+15-20
+Cold
+Color Theory Glitter
+Cotton, Polyester, & Cotton Poly Blend
+320°F
+Firm
+10-15
+Cold
+Color Theory Metallic
+Cotton, Polyester, & Cotton Poly Blend
+320°F
+Firm
+10-15
+Cold
+PRODUCT
+USED ON
+TEMP.
+PRESSURE
+TIME
+(IN SECONDS)
+PEEL
+
+--- Page 8 ---
+Using your Heat Press to press Transfer Paper:
+As with all media you’ll use on your heat press, we encourage you to look for the pressing
+recommendations from the manufacturer of the transfer material on-line if possible.  If you
+can’t find specific instructions, the following are general guidelines for your consideration.
+TRANSFERS
+PRINTER
+GARMENT
+TEMP.
+TIME
+PRESSURE
+Sublimation
+Paper
+Ricoh,
+Sawgrass
+Cotton
+400°F
+25~30sec.
+Medium
+Ink Tran. Paper
+Ink jet Printer
+Light Color
+365°F
+15sec.
+Medium
+Dark Color
+330°F
+25sec.
+Medium
+Laser Transfer
+Paper
+Laser Printer
+Light Color
+365°F
+15sec.
+Medium
+Dark Color
+330°F
+25sec.
+Medium
+Trim Free Laser
+Transfer
+Laser Printer
+Paper A
+250°F
+20sec.
+High
+/
+Paper B
+340°F
+25sec.
+High
+Transfer Vinyls
+Cutting
+Plotter
+/
+300~320°F
+8~10sec.
+Medium
+Plastisol Transfer
+/
+/
+390°F
+15sec.
+High
+Eco-solvent
+Transfer Paper
+Printing &
+Plotter
+/
+330°F
+15~25sec.
+High
+
+--- Page 9 ---
+Troubleshooting:
+When I pressed my HTV, the material would not stick to the garment and/or fell off during
+washing.  How do I fix this?
+First double check manufacturer instructions – especially on heat and pressure settings.  If
+you are following them to the letter, increase your pressure.  Remember:  Pressing isn’t just
+about heating the vinyl – it’s about pushing the vinyl into the materials so that the adhesive
+finds a grip.  Increasing the pressure is often the solution.
+You might also need to increase your temperature a bit, but try this after you’ve increased
+the pressure, and don’t up the temperature by more than about 5% over manufacturer
+instructions.
+When I peeled the carrier sheet from my HTV, the color vinyl came up off the garment but
+the adhesive below it stayed in place.  What happened?
+You are most likely peeling the material too hot.  HTV’s like metallic, printed/fashion, and
+many others are usually recommended for cold peel.
+If that’s not it, double check the garment you are pressing and make sure it’s appropriate
+for the HTV  you are using.  If the material has a coating of any kind, you might need to use
+a special HTV specifically designed for sticking to coated materials.  A common example of
+this is someone trying to heat press HTV onto a water resistant fabric.  Using an HTV like
+Siser Extra will solve the problem.
+My Transfer paper is sticking to the heated platen. How do I fix this?
+We really recommend the use of Teflon paper for most transfer pressings.  (In the case of
+N0-Cut Fel form Forever Paper – use the supplied non-stick paper – not Teflon – which can
+damage the flex material)
+When I transfer, my colors look faded.
+You need to increase the amount of time you’re pressing and/or increase the heat by 20
+degrees.
+My Heat Press won’t heat up.
+Heat presses use a lot of energy while they are heating up.  It’s possible that the energy
+drain has tripped the internal breaker in the press.  Use the reset button on the side of heat
+press to reset it. If that doesn’t work, take a moment to plug something else into the wall
+outlet you’re using for the press. It might be that you’ve tripped a circuit breaker.
+Time/Temperature control panel shows “000”
+If you see this, turn the machine off and back on.  If that doesn’t fix it, please contact our
+support group as a replacement part might be necessary.
+
+--- Page 10 ---
+Warranty Statement
+USCutter will repair or replace parts and equipment found to be defective in materials or workmanship during
+the warranty period subject to the following:
+•
+On this heat press, USCutter will supply new or rebuilt parts to replace parts that are found to be
+defective within the warranty period instead of replacing the equipment outright. USCutter will
+ship these parts with no cost to the customer as long as the shipment is within the United States.
+Full telephone based support will be given by USCutter representatives to aid the customer in the
+replacement of any parts sent.
+•
+If USCutter, at its sole discretion, determines that the equipment is not able to be repaired, then a RMA
+number will be assigned and the customer is authorized to return the equipment for replacement.
+•
+The standard FHP 3802 heat press warranty is 90 days from day the product is received.
+•
+Any equipment older than 30 days may be replaced with a certified refurbished unit at our discretion.
+•
+Included software with this heat press, if any, will be covered by a separate warranty included with
+software.
+Warranty and Exchange Process:
+•
+If you are having issues with a product or service purchased from the company, please contact the
+support department at www.USCuttersupport.com.
+•
+All returns must be authorized by a USCutter representative before the product is shipped. The
+USCutter representative will issue a Return Merchandise Authorization (RMA) number that must be
+put on the outside of the returned item packaging. US Cutter will not be responsible for any item sent
+back without a RMA in place and it may be returned to customer and they will be responsible for any
+shipping costs.
+•
+Any item being returned to USCutter (excluding items over 50 lbs which require freight shipping) are
+eligible for a flat rate ground shipping label at the market rate. Items determined to be defective within
+first 30 days or improperly shipped will receive this label free of charge. The customer may choose
+their own shipping method as long as tracking information is communicated to and acknowledged by
+USCutter.
+•
+Items should be returned in their original packaging. Items returned in other than the original packaging
+may be assessed additional restocking fees of up to 50% and USCutter will not be responsible for any
+damage of returned items that is a result of improper shipping methods.
+•
+Items returned for a refund may be subject to restocking fees. Once a refund is processed it will usually
+be returned to the originating account within 7 to 10 business days, depending on the customer’s bank.
+Warranty Exclusions and Verification:
+•
+Warranty does not include coverage of “consumables” or any item that is commonly subject to wear
+and tear. This would include blades, blade holders, cutting strips or vinyl media.
+•
+Defective Items: If any item arrives in unusable condition, USCutter must be notified within 30 days of
+receiving the product or replacement may not be provided.
+•
+USCutter reserves the right to request proof in the form of photos as proof of defects or to document
+failure of parts replaced under warranty.
+•
+USCutter DOES NOT COVER ANY INDIRECT DAMAGES OR LOSS OF PRODUCT OR REVENUE. Repair
+or replacement of defective parts or components under the terms of this warranty is the EXCLUSIVE
+REMEDY. USCutter is not liable for any incidental, consequential, or indirect damages of any kind,
+including without limitation personal injury, death, property damage, environmental damage, theft or
+loss of product, loss of revenue or profits, business interruption, or any other business or commercial
+loss. USCutter is not liable for any claims or lawsuits asserted against our customers or any claims or
+lawsuits related to the unlawful or fraudulent use of our product.
+•
+Damage suffered by supplied equipment due to neglect, abuse, misuse, power surge or act of nature
+is not covered.
+•
+This warranty covers products purchased and installed in the United States and is not valid elsewhere.
+THIS WARRANTY CONTAINED HEREIN IS EXCLUSIVE AND THEREFORE NO OTHER EXPRESS, IMPLIED
+OR STATUTORY WARRANTIES. WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+APPLICATION ARE IMPRESSLY EXCLUDED.
+
+--- Page 11 ---
+TIPS FOR YOUR HEAT PRESS
+CLEANLINESS & PROTECTION
+GARMENT SIZE
+TIME
+TEMPERATURE
+PRESSURE
+COLD/HOT PEEL
+•The length of time your
+heated press will be in
+contact with the material.
+•Heat transfer of a vinyl
+design onto a garment
+will usually take 10-15
+seconds, while sublimation
+onto a substrate can take
+minutes.
+•Many USCutter heat
+presses have an auto-open
+feature where the platen
+will pop open after the
+time expires, protecting
+your material from
+overexposure.
+•Debris and plastic residue from
+vinyl graphics can build up on the
+platen if it’s not protected, which
+can cause staining to affect whole
+production runs.
+•Use EZ Off Heat Press Platen
+Cleaner to maintain a pristine heat
+contact surface.
+Keep a sense of scale in
+mind. A graphic which
+looks good on a men’s
+extra-large might seem
+overpowering on a
+lady’s small. Fit the size
+of your graphic to the
+size of the material.
+•Most heat transfer vinyls
+require the temperature to
+be set between 295° and
+320°, while sublimation
+occurs in a higher
+temperature range of 350°
+to 400°.
+•Heat presses can be off
+a few degrees, so do a
+test press first with some
+scraps of fabric and vinyl
+to ensure your machine is
+correctly calibrated.
+•Usually the pressure
+setting for your heat
+platen must be manually
+set with a knob.
+•Most heat transfer
+vinyls and sublimation
+applications require
+medium pressure. Some
+textures like holographic
+or glitter require firmer
+pressure, but careful you
+don’t leave the knob
+cranked too much. This
+can lead to damaged
+equipment.
+•Different heat transfer
+vinyls require that you
+remove the carrier sheet at
+different points following
+the heat press cycle.
+•Many popular heat
+transfer vinyls peel hot OR
+cold.
+•Some vinyls MUST be
+peeled HOT, WARM, or
+COLD though to ensure
+the adhesives in the
+carrier sheet and the
+vinyl’s slower-setting
+melt adhesive don’t work
+against each other.
+UPPER PLATEN
+LOWER PLATEN
+•Protect your garment from direct contact with the heat press
+platens to prevent singeing.
+•Teflon sheets or Hexis Filflex will protect your garment,
+graphic, and platen.
+
+--- Page 12 ---
+This documentation is copyright 2016 USCutter.  No duplication,
+republishing or reposting of this material in whole or in part is authorized
+without express written consent.  Product design, logos, brand names
+for various media, and product photos are owned by the manufacturers.
+Providing sales and service for world-class providers of
+sublimation & heat transfer equipment & media

@@ -1,0 +1,280 @@
+# saturn_4_ultra
+
+Source: saturn_4_ultra.pdf
+Category: 3d_printing
+Pages: 16
+========================================
+
+--- Page 1 ---
+Saturn 4 Ultra
+3D Printer
+User Manual
+
+--- Page 2 ---
+Thank you for purchasing ELEGOO brand products.
+      After receiving the product, please conﬁrm whether the equipment is intact and the accessories
+are complete. If there is any damage or missing, please timely contact us at 3dp@elegoo.com.(To
+ensure the performance of each product, each product will undergo strict printing tests before
+leaving the factory. There may be some slight scratches when you receive the product, which is
+normal, please rest assured to use.)
+
+--- Page 3 ---
+Notice:
+Please keep the 3D printer and its accessories out of the reach of children.
+Please ﬁll the resin tank no less than 1/3 of its volume, but do not exceed the MAX line position.
+Please place the printer in a dry environment and protect it from rain and moisture.
+If you run into an emergency during use, please turn oﬀ the power supply of the 3D printer ﬁrst.
+Please use the printer indoors and avoid direct sunlight and a dusty environment.
+Please keep the original packaging box for 30 days for return/exchange (only ELEGOO original
+packaging boxes are accepted).
+If the printing fails, you need to clean the excess cured resin in the resin tank and change the
+resin, otherwise, it may cause damage to your printer.
+When operating the 3D printer, please wear a mask and gloves to avoid direct skin contact with
+the photopolymer resin.
+If the release ﬁlm in the resin tank is whitened, scratched, or has no elasticity, the printing failure
+rate is high, please replace the release ﬁlm in time.
+Please use 95% (or higher) ethyl alcohol or isopropyl alcohol to wash your model unless you are
+using water washable resin.
+If you have any problems with the printer, please contact us at 3dp@elegoo.com.  Please do not
+disassemble or modify ELEGOO 3D printers by yourself, otherwise, the warranty will expire, and
+damage caused by personal operating errors need to pay for repairs.
+
+--- Page 4 ---
+Packing List
+Wiﬁ Antenna
+Build Platform
+Resin Tank
+AI Camera
+USB Flash Disk
+Resin Tray
+Mask
+Gloves
+Scraper
+Funnel
+Backup Screws
+User Manual
+Adapter
+Tool Kit
+Saturn 4 Ultra 3D Printer
+
+--- Page 5 ---
+Printer Introduction
+1
+2
+3
+4
+5
+6
+7
+8
+LCD Display Screen
+4
+Touch Screen
+8
+Handle
+2
+AI Camera
+6
+Build Plate
+3
+Screw Knob
+7
+Z Axis
+1
+Resin Tank
+5
+
+--- Page 6 ---
+Printer Introduction
+1
+2
+3
+4
+5
+6
+Switch
+4
+Wiﬁ Antenna
+2
+Extension Port
+6
+USB Interface
+3
+Anti-UV Cover
+1
+DC Socket
+5
+
+--- Page 7 ---
+3D Printer Tech Specs
+System: EL3D-4.0
+Operation: 4.0-inch Capacitive Touch Screen
+Slicer Software: Chitu Box
+Connectivity: USB Interface & WiFi
+Printing Parameter
+Printing Speciﬁcation
+Hardware Speciﬁcation
+Technology: MSLA Stereolithography
+Light Source: COB Light Source + Fresnel Collimating Lens
+(wavelength 405nm)
+XY Resolution: 19*24um (11520*5120)
+Z-axis Accuracy: 0.02mm
+Layer Thickness: 0.01-0.2mm
+Printing Speed: 5.5S/Layer
+Power Requirements: 100-240V 50/60 Hz 24V 6A
+Dimension: 327.4mm(L)*329.2mm(W)*548mm(H)
+Build Volume: 218.88mm(L)*122.88mm(W)*220mm(H)
+Package Size: 685mm(L)*455mm(W)*455mm(H)
+Gross Weight: 17.5KG
+Net Weight: 14.5KG
+
+--- Page 8 ---
+1. Model Printing
+Slowly add the resin into the resin tank (the resin level is not less than 1/3 of the tank volume and
+does not exceed the MAX line. The machine will perform a self-check before printing, and do not
+touch the machine during the self-check). Cover the printer's anti-UV cover and then select the
+sliced test model for printing.
+2. Model Processing
+After printing is completed, wait until the resin on the build plate stops dripping, then lift the
+handle to take out the build plate, and use a scraper to remove the model. You can use ELEGOO's
+cleaning and curing machine to post-process the model.
+Test Printing
+After inserting the build platform into the connecting block, press down the handle to secure the
+build platform to the connecting block (the build plate is capable of self-leveling and ready to use
+right out of the box).
+Handle
+
+--- Page 9 ---
+The printer can install and use the Chitu Box in the USB ﬂash drive.
+1. Install Chitu Box
+Select from the USB ﬂash drive or go to Chitu's oﬃcial website (www.chitubox.com) to download
+the right slicing software version and install it on your computer.
+2. How to Use Chitu Box
+After the installation is complete, run the Chitu Box software. Click "File-Open File", then open
+your 3D model ﬁle (.stl type). By left-clicking on the model and using the options on the left menu,
+you can control and change the viewing angle, size, and position of the model.
+Software Installation and Setup
+3. Chitu Box Setting
+3.1 Machine Conﬁguration Parameters
+Click "Parameter Settings" and select ELEGOO Saturn 4 Ultra as your default printer. (See Picture 1)
+3.2 Build Volume
+You don't need to change the default parameters (See Picture 2), and X indicates the maximum
+print size in the X-axis direction, and so on.
+(Picture 2)
+(Picture 1)
+3.3 Resin Parameter (See Picture 3)
+Resin Density: 1.1g/ml
+Resin Cost: You can input the real price of the resin you purchased, and the slicing software can
+calculate the resin costs for each model you print.
+
+--- Page 10 ---
+3.4 Parameters (See Picture 3)
+Layer Height: The thickness of each printed layer, the recommended height is 0.05mm, but you
+can set it from 0.01-0.2mm. The higher the thickness you set, the longer the exposure time will
+be required for each layer.
+Bottom Layer Count: The setting number of initial printing layers. If the number of bottom layers
+is n, the exposure time of the ﬁrst n layers is the exposure time of the bottom layer. The default
+setting is 5 layers.
+Exposure Time: The exposure time for normal printing layers. The default exposure time is 2.5
+seconds, and the thicker the printing layer setting is, the longer the time it will take.
+Bottom Exposure Time: The setting of bottom layer exposure time. Properly increasing the bottom
+exposure time can help to increase the stickiness between the printed model and the printing
+platform, and the default setting is 35 seconds.
+Transition Layer Count: The number of transition layers after the bottom layers for a tighter
+bonding between layers.  Except for the exposure time, other parameters of the transition layers
+are the same as the normal layers.
+Transition Type: Set the transition type of exposure time when transitioning from bottom layers
+to normal layers, the default is linear transition.
+Rest Time Before Release: The time diﬀerence between the end of print exposure and the start of
+printer release. The default is 0 seconds.
+Rest Time After Release: After the printing platform is lifted, the time diﬀerence between the
+printer starts to rest and starts to return. The default is 0 seconds.
+Rest Time After Retract: The time diﬀerence between the printer starts to rest after retraction and
+the start of exposure. The default is 0 seconds.
+Note: The printing parameters listed in this manual are for reference only. In actual applications,
+please contact the oﬃcial after-sales technical support to conﬁrm the parameters based on
+comprehensive factors such as the machine model and resin (including type and color) used by
+the individual.
+Software Installation and Setup
+(Picture 3)
+
+--- Page 11 ---
+Network Management Center
+(Picture 4)
+1. After the printer is connected to WiFi, open the slicing software and click            in the upper right
+corner to enter "Network Management Center" (You need to download and install Chitu Manager
+for ﬁrst time use.) (See Picture 4)
+
+--- Page 12 ---
+(Picture 5)
+2. After entering the network management center, click "Add Device" to associate the printer
+(make sure the computer and printer are in the same LAN), and the associated device can be
+remotely controlled through the computer.  (See Picture 5)
+Network Management Center
+
+--- Page 13 ---
+(Picture 6)
+Network Management Center
+3. In the printer management interface, you can turn on the camera to observe the printing
+situation in real time, and you can also control the time-lapse photography function to turn on
+or oﬀ.  (See Picture 6)
+
+--- Page 14 ---
+Machine Maintenance
+Please do not use sharp or pointy tools to scrape the resin tank to avoid damaging the release
+liner ﬁlm.
+Please clean up the resin tank before changing the resin to another color.
+Before and after printing, clean the build plate with paper towels or alcohol to ensure that there
+are no bumps or burrs on the build plate.
+Before each printing, daily check the exterior of the machine and all mechanical parts for any
+obvious damage, defects, or abnormalities.
+Try to keep the printing environment at 25-30 degrees Celsius when printing, and ventilate the
+printing room as much as possible to facilitate heat dissipation of the machine and resin odor
+volatilization.
+If the Z-axis keeps making friction noise, please add some lubricant to the lead screw.
+Please check and apply lubricant grease at least every 2-3 months, and increase the frequency
+of application as the printing frequency increases.
+If you don't use the printer in the next 48 hours, please pour the remaining resin from the resin
+tank back into the resin bottle and seal it well. If there is any residue, please use a ﬁlter to ﬁlter
+it out.
+The release ﬁlm is a wearing part, please replace it regularly according to the machine prompts
+ to ensure the success rate of printing.
+Please be careful when removing the printing platform to prevent damaging the LCD screen.
+The service life of the screen is about 2000+ hours and will decrease with increasing printing
+frequency. Do a good job of daily screen cleaning, and unplug the machine in time after printing.
+If there is a screen exposure problem or service life has seriously aﬀected the print quality,
+please replace the screen in time.
+
+--- Page 15 ---
+Email Support
+Discussion Forums
+Help Articles
+
+--- Page 16 ---
+
+ FCC Warning
+
+This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions:
+(1) This device may not cause harmful interference, and (2) this device must accept any interference
+received, including interference that may cause undesired operation.
+
+Any Changes or modifications not expressly approved by the party responsible for compliance could
+void the user's authority to operate the equipment.
+
+Note: This equipment has been tested and found to comply with the limits for a Class B digital device,
+pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection
+against harmful interference in a residential installation. This equipment generates uses and can radiate
+radio frequency energy and, if not installed and used in accordance with the instructions, may cause
+harmful interference to radio communications. However, there is no guarantee that interference will not
+occur in a particular installation. If this equipment does cause harmful interference to radio or television
+reception, which can be determined by turning the equipment off and on, the user is encouraged to try to
+correct the interference by one or more of the following measures:
+ -Reorient or relocate the receiving antenna.
+ -Increase the separation between the equipment and receiver.
+ -Connect the equipment into an outlet on a circuit different from that to which the receiver is
+connected.
+ -Consult the dealer or an experienced radio/TV technician for help.
+
+This equipment complies with FCC radiation exposure limits set forth for an uncontrolled environment.
+This equipment should be installed and operated with minimum distance 20cm between the radiator &
+your body.

@@ -1,0 +1,1305 @@
+# Janome-HD-3000-User-Manual
+
+Source: Janome-HD-3000-User-Manual.pdf
+Category: sewing_embroidery
+Pages: 48
+========================================
+
+--- Page 1 ---
+INSTRUCTION BOOK
+
+--- Page 3 ---
+IMPORTANT SAFETY INSTRUCTIONS
+When using an electrical appliance, basic safety precautions should always be followed, including the
+following:
+This sewing machine is designed and manufactured for household use only.
+Read all instructions before using this sewing machine.
+DANGER— To reduce the risk of electric shock:
+	1.	 An appliance should never be left unattended when plugged in. Always unplug this
+
+	 sewing machine from the electric outlet immediately after using and before cleaning.
+	2.	 Always unplug before replacing a sewing machine bulb. Replace bulb with same type
+
+	 rated 15 Watts.
+WARNING— To reduce the risk of burns, fire, electric shock, or injury to persons:
+	 1.	 Do not allow to be used as a toy. Close attention is necessary when this sewing machine is used
+
+	 by or near children.
+	 2.	 Use this appliance only for its intended use as described in this owner’s manual.
+
+	 Use only attachments recommended by the manufacturer as contained in this owner’s manual.
+	 3.	 Never operate this sewing machine if it has a damaged cord or plug, if it is not working properly, if
+
+	 it has been dropped or damaged, or dropped into water.
+
+	 Return this sewing machine to the nearest authorized dealer or service center for examination,
+
+	  repair, electrical or mechanical adjustment.
+	 4.	 Never operate the appliance with any air opening blocked. Keep ventilation openings of this
+
+	 sewing machine and foot controller free from accumulation of lint, dust and loose cloth.
+	 5.	 Never drop or insert any object into any opening.
+	 6.	 Do not use outdoors.
+	 7.	 Do not operate where aerosol (spray) products are being used or where oxygen is being
+       	administered.
+	 8.	 To disconnect, turn all controls to the off (“O”) position, then remove plug from outlet.
+	 9.	 Do not unplug by pulling on cord. To unplug, grasp the plug, not the cord.
+	10.	 Keep fingers away from all moving parts. Special care is required around the sewing machine
+
+	 needle and/or cutting blade.
+	11.	 Always use the proper needle plate. The wrong plate can cause the needle to break.
+	12.	 Do not use bent needles.
+	13.	 Do not pull or push fabric while stitching. It may deflect the needle causing it to break.
+	14.	 Switch this sewing machine off (“O”) when making any adjustment in the needle area, such as
+
+	 threading the needle, changing the needle, threading the bobbin or changing the presser foot, and
+
+	 the like.
+	15.	 Always unplug this sewing machine from the electrical outlet when removing covers, lubricating, or
+
+	 when making any other adjustments mentioned in this owner’s manual.
+SAVE THESE INSTRUCTIONS
+Please note that on disposal, this product must be safely recycled in accordance with relevant National
+legislation relating to electrical/electronic products. If in doubt please contact your retailer for guidance.
+(European Union only)
+For Europe only:
+This appliance can be used by children aged from 8 years and above and persons with reduced
+physical, sensory or mental capabilities or lack of experience and knowledge if they have been given
+supervision or instruction concerning use of the appliance in a safe way and understand the hazards
+involved. Children shall not play with the appliance. Cleaning and user maintenance shall not be made
+by children without supervision.
+For outside Europe (except U.S.A and Canada):
+This appliance is not intended for use by persons (including children) with reduced physical, sensory or
+mental capabilities, or lack of experience and knowledge, unless they have been given supervision or
+instruction concerning use of the appliance by a person responsible for their safety.
+Children should be supervised to ensure that they do not play with this appliance.
+
+--- Page 4 ---
+SECTION I ESSENTIAL PARTS
+Names of Parts........................................................1
+Foot Storage Compartment.....................................2
+Extension Table(Accessory Storage Box)................2
+Accessory storage box............................................2
+Removable Extension Table.....................................3
+SECTION II GETTING READY TO SEW
+Connecting the Machine to the Power Supply........4
+Foot Control.............................................................4
+Additional Clearance................................................5
+Pressure Dial............................................................5
+Dropping the Feed Dogs..........................................5
+To Snap On and Snap Off the Preser Foot..............6
+To Detach and Attach the Foot Holder....................6
+Reverse Stitch Button..............................................7
+Seam Guide Line......................................................7
+Changing Needle.....................................................8
+   Thread and Needle Chart......................................8
+Winding the Bobbin.................................................9
+   Horizontal Spool Pin.............................................9
+   Additional Spool Pin.............................................9
+   Removing the Bobbin...........................................9
+   Threading the Bobbin Winder.............................10
+   Inserting the Bobbin ....................................... 9-11
+Threading the Machine..........................................12
+Needle Threader....................................................13
+Drawing Up Bobbin Thread...................................14
+Balancing Needle Thread Tension.........................15
+   Thread Tension for Zigzag Sewing......................15
+Pattern Selector Dial..............................................16
+Zigzag Width Control.............................................16
+Stitch Length Control ............................................ 16
+Variable Needle Position........................................16
+SECCTION III BASIC SEWING
+Straight Stitch Sewing...........................................17
+Changing the Sewing Directions............................18
+Straight Stitching on Heavy Fabrics......................18
+SECCTION IV UTILITY STITCHING
+Zigzag Stitch..........................................................19
+Overcasting............................................................19
+Overedge Stitch.....................................................20
+Tricot Stitch............................................................20
+Triple Strength Stitich.............................................21
+Outline Stretch Stitich............................................21
+Sewing Buttons......................................................22
+Automatic Buttonhole...................................... 23-24
+Manual Buttonhole.................................................25
+Corded Buttonhole.................................................26
+Zipper Application............................................ 27-29
+Rolled Hem............................................................30
+Blind Stitch Hemming............................................31
+SECCTION V DECORATIVE STITCHING
+Decorative Satin Stitch Patterns............................32
+Stretch Stitch Patterns...........................................32
+Adjusting Stretch Stitch Balance...........................33
+Smocking...............................................................33
+Quilting...................................................................34
+Pin Tucking.............................................................35
+Shell Tuck...............................................................36
+Fagoting.................................................................36
+Applique.................................................................37
+Patch Work.............................................................37
+SECCTION VI CARE AND MAINTENANCE
+Cleaning the Hook Race........................................38
+Sewing Light..........................................................39
+Trouble Shooting.............................................. 40-41
+TABLE OF CONTENTS
+
+--- Page 5 ---
+1
+SECTION I
+ESSENTIAL PARTS
+Names of Parts
+Stitch length control
+Zigzag width control
+Bobbin winder stopper
+Bobbin winder spindle
+Foot storage compartment
+Flip-top sewing instruction panel
+Spool holder (large)
+Spool pin
+Top cover
+Thread tension dial
+Pressure dial
+Face plate
+Buttonhole lever
+Thread cutter
+Needle threader
+Needle plate
+Hook cover plate
+Hook cover plate release button
+Extension table
+(Accessory storage box)
+Reverse stitch button
+Thread take-up lever
+Carrying handle
+Handwheel
+Pattern selector dial
+Feed balance dial
+Power switch
+Machine socket
+Needle clamp screw
+Drop feed lever
+Free arm
+Presser foot
+Presser foot lifter
+q
+w
+e
+r
+t
+y
+u
+i
+o
+!0
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+@0
+@1
+@2
+@3
+@4
+@5
+@6
+@7
+@8
+@9
+#0
+#1
+#2
+q
+w
+e
+y
+o
+u
+t
+i
+r
+!0
+!2
+!3
+!4
+!6
+!7
+!5
+!1
+!8
+!9
+@0
+@2
+@3
+#1
+#0
+@9
+@8
+@6
+@7
+@1
+@5
+#2
+@4
+
+--- Page 6 ---
+2
+Needle case
+L. Quilter
+G. Blind stitch hem foot
+D. Hemmer foot
+E. Zipper foot
+B. Transparent buttonhole foot
+A. Zigzag foot
+C. Overedge foot
+Extension Table
+Screwdriver (large)
+Screwdriver (small)
+Lint brush
+Seam ripper (buttonhole opener)
+Spool holder (large)
+Spool holder (small)
+R. Automatic buttonhole foot
+Bobbin X 5 (1 set on the machine)
+Extra spool pin
+Felt
+Each presser foot and pocket is lettered for easy
+identification and storage. To achieve optimum sewing
+results, use the foot recommended for each sewing
+technique.
+Extension Table (Accessory Storage Box)
+Sewing accessoires are conveniently located under
+the extension table.
+Foot Storage Compartment
+q
+w
+e
+r
+t
+y
+u
+i
+o
+!0
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+L
+G
+D
+C
+F
+A
+E
+q
+w
+e
+y
+o
+u
+t
+i
+r
+!0
+!2
+!3
+!4
+!6
+!7
+!5
+!1
+!8
+!9
+
+--- Page 7 ---
+3
+Extension Table
+The extension table provides added sewing surface
+and can be easily removed for free arm sewing.
+For free arm sewing
+Lift out the extension table, as illustrated.
+For attaching the table
+Position the two pins of the storage box on the base
+slit and push down gently.
+Removable Extension Table
+Free arm sewing:
+The free arm is used for stitching sleeves, waistbands,
+pant legs or any other tubular garments.
+It is also useful for darning socks or elbows.
+
+--- Page 8 ---
+4
+SECTION II
+GETTING READY TO SEW
+Foot Control
+Connecting the Machine to the Power Supply
+Before connecting the power, make sure the voltage
+and frequency of your electrical power conform to the
+machine.
+Switch off the power, fit the nonreversible plug into the
+machine socket and plug the machine into the power
+supply.
+Switch on the power.
+While in operation, always keep your eyes on the
+sewing area, and do not touch any moving parts such
+as the thread take-up lever, handwheel or needle.
+Always turn off the power switch and unplug from the
+power supply:
+- when leaving the machine unattended.
+- when attaching or removing parts.
+- when cleaning the machine.
+Do not place anything on the foot control, otherwise
+the machine will run intermittently.
+Operating Instructions:
+The symbol “O” of a switch indicates the “off” position
+of a switch.
+For an appliance with a polarized plug (one blade
+wider than the other):
+To reduce the risk of electrical shock, this plug is
+intended to fit in a polarized outlet only one way.
+If it does not fit fully in the outlet, reverse the plug. If it
+still does not fit,
+contact a qualified electrician to install the proper
+outlet.
+Do not modify the plug in any way.
+The foot controller Model YC-482J or TJC-150 is used
+with this sewing machine (USA market only).
+Sewing speed can be varied by the foot control.
+The harder you press on the control, the faster the
+machine runs.
+
+--- Page 9 ---
+5
+A
+B
+Additional Clearance
+The presser foot can be raised higher for additional
+clearance.
+Pressure Dial
+The pressure dial should be set at “3” for regular sew-
+ing. Reduce the pressure to “2” for appliques.
+Set the pressure to “1” when sewing chiffon, lace,
+organdy and other fine fabrics. Velours and knits with
+a lot of stretch may also require a “1” setting.
+Dropping the Feed Dogs
+Drop feed lever is located underneath of free arm bed.
+A: To raise the feed dogs, push the lever to the
+    direction of arrow as illustrated.
+B: For dropping the feed dogs, push the lever to the
+    direction of arrow as illustrated.
+* Feed dogs must always be up for normal sewing.
+
+--- Page 10 ---
+6
+To Snap On and Snap Off the Presser Foot
+To snap off
+Turn the handwheel toward you to raise the needle to
+its highest position. Raise the presser foot.
+Press the red button on the back of the foot holder.
+The presser foot will drop off.
+To snap on
+When attaching the presser foot, the pressure dial
+should always be at position “3”.
+Place the presser foot so the pin on the foot lies just
+under the groove of the foot holder.
+Lower the foot holder to lock the foot in place.
+
+  CAUTION:
+Turn the power switch off before replacing the
+presser foot.
+To Detach and Attach the Foot Holder
+To Detach
+Remove the thumb screw by turning the screw
+counter-clockwise with the screwdriver.
+To Attach
+Align the hole in the foot holder with the threaded
+hole in the presser bar and fit the foot holder screw
+into the hole. Tighten the screw by turning it clock-
+wise.
+
+--- Page 11 ---
+7
+Reverse Stitch Button
+As long as you keep the revers e stitch button
+depressed, the machine sews backwards.
+Seam Guide Line
+As loThe numbers on the needle plate indicate the
+distance between the left needle position and the line.
+The numbers in the front indicate in millimeters.
+The numbers in the back indicate in inches.
+15 20
+5/86/8
+
+--- Page 12 ---
+8
+
+  CAUTION:
+Turn the power switch off before replacing the
+needle.
+Changing Needle
+Raise the needle by turning the handwheel toward
+you and lower the presser foot.
+Turn off the power switch.
+Loosen the needle clamp screw by turning it counter-
+clockwise.
+Remove the needle from the clamp.
+Insert the new needle into the needle clamp with the
+flat side away from you.
+When inserting the needle into the clamp, push it up
+as far as it will go and tighten the clamp screw firmly
+with the screwdriver.
+* Check your needles frequently for barbed or blunted
+  points.A damaged needle can cause permanent
+  snags or runs in knits, fine silks and silk-like fabrics.
+Fine
+Medium
+Silk #80-100
+Cotton #80-100
+Synthetic #80-100
+Heavy
+weight
+Denim
+Tweed
+Coating
+Quilting
+Lawn
+Georgette
+Tricot
+Sheeting
+Jersey
+Wool
+Knit
+#9/65-11/75
+Blue tip needle
+Thread
+Needle
+Silk #50
+Cotton #50-80
+Synthetic #50-80
+#11/75-14/90
+Red tip needle
+Silk #30-50
+Cotton #40-50
+Synthetic #40-50
+#14/90-16/100
+Fabric and Needle Chart
+•	 For general sewing, use needle size
+	 #11/75 or #14/90.
+•	 Fine threads and needles should be
+	 used for sewing fine fabrics.
+•	 In general, use the same thread for
+	 both needle and bobbin.
+•	 Use a blue tip needle for sewing fine
+	 fabrics, stretch fabrics and buttonholes
+	 to prevent skipped stitches.
+•	 Use a stabilizer or interface for stretch
+	 or fine fabrics to prevent seam
+	 puckering.
+•	 Always test the thread and needle size
+	 on a small piece of the same fabric
+	 you will use for actual sewing.
+Fabric
+
+--- Page 13 ---
+9
+Winding the Bobbin
+Horizontal Spool Pin
+Lift up the spool pin. Place the spool of thread on the
+spool with the
+thread coming off the spool as shown.
+Attach the large spool holder pressing it firmly against
+the thread spool.
+* The small spool holder is used with narrow or small
+  thread spools.
+Additional Spool Pin
+The additional spool pin is used to wind extra bobbins
+without unthreading the machine.
+To use, insert the additional spool pin in the hole.
+Place the felt and the spool on the pin.
+Removing the Bobbin
+Gently slide the hook cover plate release button to the
+right, and remove the cover plate.
+Lift out the bobbin.
+
+--- Page 14 ---
+10
+Threading the Bobbin Winder
+Draw the thread from the spool.
+Guide the thread around the thread guide.
+Guide the thread around the bobbin winder thread
+guide.
+Insert the thread through the hole the bobbin,
+threading from the inside to the outside.
+Put the bobbin on the bobbin winder spindle, and
+push it to the right.
+With the free end of the thread held in your hand,
+depress the foot control.
+Stop the machine when it has made a few turns,
+and cut the thread close to the hole
+in the bobbin. Depress the foot control again.
+When the bobbin is fully wound, it will
+stop automatically.
+Return the bobbin winder to its original position by
+moving the spindle to the left, and
+cut the thread as shown.
+*	The machine will not sew untill the spindle has
+	 been returned to the left.
+q
+w
+e
+r
+t
+y
+u
+q
+w
+e
+w
+ e
+y
+u
+t
+r
+
+--- Page 15 ---
+11
+Inserting the Bobbin
+Place the bobbin in the bobbin holder with the thread
+running counter-clockwise.
+Guide the thread into the notch A on the front side of
+the bobbin holder. Draw the thread to the left
+sliding it between the tension spring blades.
+Continue to draw the thread lightly until the thread
+slips into notch B.
+Pull out about 15 cm (6˝) of thread and attach the
+hook cover plate.
+
+--- Page 16 ---
+12
+q Lead the thread from the spool and pass it through
+     the thread guide. Then draw it down along the right
+     slot.
+w Guide the thread around the bottom of the thread
+     guide plate from right to left, then draw it upward.
+e Firmly draw the thread from right to left over the
+     take-up lever and down into the take-up lever eye.
+r Then guide it down along the left slot.
+t Slide the thread from the left behind the needle bar
+     therad guide.
+     Thread the needle.
+Raise the presser foot with the presser foot lifter and
+thread in the order from q to t.
+q
+q
+w
+w
+e
+e
+t
+t
+r
+r
+Threading the Machine
+Raise the take-up lever to its highest position by
+turning the handwheel toward you.
+
+--- Page 17 ---
+13
+Needle Threader
+Lower the presser foot. Raise the needle to its highest
+position.
+Pull down the needle threader knob as far as it will go.
+  q Threader knob
+Turn the knob in the direction of the arrow in the
+illustration, then insert hook into the needle eye.
+The hook comes out through the needle eye from be-
+hind. Paying close attention to the needle point, draw
+the thread around the guide and under the hook.
+  w Hook
+  e Guide
+Turn the knob in the direction of the arrow in the illus-
+tration, drawing the thread loop through the needle.
+Gently let the threader goes up to pull the thread loop
+up.
+Pull the thread through the needle eye.
+q
+w
+e
+NOTE:
+The needle threader can be used with a #11 to #16
+needle or a blue tipped needle.
+Thread size 50 to 90 should also work well.
+
+--- Page 18 ---
+14
+Drawing Up Bobbin Thread
+Raise the presser foot and hold the needle thread
+lightly with your left hand.
+Turn the handwheel slowly towards you with your right
+hand until the needle goes down and continue turning
+handwheel until the take-up lever is at its highest posi-
+tion.
+Lightly draw up the needle therad forming a loop of
+bobbin thread.
+Pull 15 cm (6˝) of both threads back and under the
+presser foot.
+
+--- Page 19 ---
+15
+Balancing Needle Thread Tension
+The needle thread and the bobbin thread should
+interlock in the center of two layers of fabric in straight
+seams.
+Thread Tension for Zigzag Sewing
+To obtain better zigzag stitches, the needle thread
+tension should be slightly weaker than in the case of
+straight sewing.
+The needle thread should appear slightly on the re-
+verse side of the fabric.
+Set the desired number of the thread tension dial at
+setting mark.
+Loosen the needle thread tension by moving the dial
+to a lower number.
+Tighten the needle thread tension by moving the dial
+to a higher number.
+
+--- Page 20 ---
+16
+Pattern Selector Dial
+Select the pattern by turning the pattern selector dial
+and the red signal shows the selected pattern.
+*Raise the needle above the fabrics and presser foot
+  when you turn the pattern selector dial.
+Zigzag Width Control
+Higher the number, wider the stitch width.
+This machine will sew the maximum 6.5mm (0.25˝)
+wide zigzag.
+*Raise the needle above the fabrics when you set the
+  stitch width.
+Stitch Length Control
+The higher the number, the longer the stitch length.
+You can select the suitable stitch length for fabrics
+that you plan to sew.
+Variable Needle Position
+When pattern number 13 is selected, you can move
+the needle between center and left needle positions.
+NOTE:
+Stitch length is automatically set for stretch stitch
+pattern on pattern number 14 to 18.
+
+--- Page 21 ---
+17
+Straight Stitch Sewing
+Raise the presser foot and position the fabric next to a
+stitching guide line on the needle plate.
+Lower the presser foot and smooth the threads toward
+the back. Depress the foot control.
+Gently guide the fabric along the guide line letting the
+fabric feed naturally.
+SECTION III
+BASIC SEWING
+For fastening the ends of seams, press the reverse
+stitch button and sew several reverse stitches.
+Raise the presser foot and remove the fabric, drawing
+the threads to the back.
+The threads are cut the proper length for starting the
+next seam.
+
+--- Page 22 ---
+18
+Changing the Sewing Directions
+Stop the machine and bring the needle down into the
+fabric by turning the handwheel.
+Raise the presser foot.
+Pivot the fabric around the needle to change sewing
+direction as desired.
+Lower the presser foot.
+Straight Stitching on Heavy Fabrics
+Lower the needle info the fabric at the point where
+you wish to start sewing.
+Press the small black button on the zigzag foot with
+your left hand to “lock” the presser foot to the fabric.
+Lower the presser foot with your right hand, keeping
+pressure on the black button with your left hand.
+Release the black button and start sewing.
+
+--- Page 23 ---
+19
+Zigzag Stitch
+Simple zigzag stitch is widely used for overcasting,
+applique, sewing on buttons, etc.
+Overcasting
+This type of stitch is used on the seam allowance to
+prevent fabrics from fraying at raw edges.
+It can be used to finish a hem edge.
+Place the edge of the fabric next to the black prong of
+foot C.
+SECTION IV
+UTILITY STITCHING
+
+--- Page 24 ---
+20
+Overedge Stitch
+Place the edge of the fabric next to the black prong of
+foot.
+The wires on this foot prevent light weight fabric from
+rolling and creating a ridge.
+The black prong guides your sewing so the needle
+falls off the fabric wrapping the threads around the
+edge to stop raveling.
+Tricot Stitch
+Place the fabric under the presser foot so that the
+edge will be slightly inside the right hand side of the
+presser foot.
+Guide the work so the right hand stitches fall at the
+edge of the fabric.
+
+--- Page 25 ---
+21
+Triple Strength Stitch
+This strong, durable stitch is recommended where
+both elasticity and strength are needed to insure
+comfort and durability.
+Use it to reinforce areas such as crotch and armhole
+seams.
+Also use when constructing items such as backpacks
+for extra strength.
+The stitch is sewn with two stitches forward and one
+stitch backward forming a seam that does not rip
+easily.
+Garments should be basted for fitting before seaming.
+Outline Stretch Stitch
+Pattern 14 is a narrow stretch stitch designed to elimi-
+nate puckering on knit fabrics and bias seams, while
+permitting the seam to be pressed completely flat.
+For a 1.5 cm (5/8˝) seams, use the 2 cm (6/8˝) mark-
+ing on the needle plate.
+When sewing light weight fabrics, set the pressure
+dial at “1” or “2”.
+
+--- Page 26 ---
+22
+Sewing Buttons
+Tape the button over the placement mark.
+A pin can be placed on top of the foot to from a shank.
+Before lowering the foot, test the needle swing making
+sure the needle drops in each hole.
+Adjust the stitch width if necessary.
+Lower the foot.
+Align the both holes of button with the needle swing,
+lower the foot and depress the foot control.
+To strengthen the shank, cut the threads leaving a 20
+cm (8˝) tail.
+Bring the needle thread down through the hole in the
+button and wind it around the shank.
+Draw the thread to the wrong side of fabric and knot.
+*When button sewing is finished, return the drop feed
+  lever.
+
+--- Page 27 ---
+23
+t
+Automatic Buttonhole
+*	 The size of buttonhole is automatically set by
+	 placing the button in the automatic buttonhole foot
+	 (R).
+*	 The button holder of the foot takes a button size up
+	 to 2.5 cm (1˝) in diameter.
+*	 Make a test buttonhole on a sample duplicating the
+	 fabric, interfacing and seams of the actual garment.
+*	 Place the button on the fabric sample and mark the
+	 top and bottom to determine the position of
+	 buttonhole.
+*	 Use the interfacing on the stretch fabrics.
+Turn the handwheel toward you to raise the needle
+to its highest position.
+Raise the presser foot lifter.
+Set the pattern indicator at “BH” by turning the
+pattern selector dial.
+Attach the automatic buttonhole foot (R).
+Pull the button holder to the back, and place the
+button in it.
+Push back the button holder toward you as far as
+it will go.
+q
+w
+e
+q w e
+r
+r
+t Pull the buttonhole lever downward as far as it will
+go.
+
+--- Page 28 ---
+24
+y
+u
+i
+o
+!0
+!1
+!2
+!3
+y
+o
+ui
+!0
+!2
+!1
+Insert the fabric under the foot.
+Turn the handwheel one complete turn by your
+hand.
+Remove the fabric to the left to draw both threads
+to the left.
+Insert the garment under the foot, and lower the
+needle at the starting point.
+Then lower the automatic buttonhole foot.
+Sew slowly and stop the machine at the starting
+point when a buttonhole is completed.
+*The machine sews front bartack and left row first,
+  then the back bartack and right row.
+Cut the both needle and bobbin threads leaving
+about 10 cm (4˝) thread ends.
+Draw the needle thread to wrong side of fabric by
+pulling the bobbin thread.
+Then, knot the threads.
+Cut the both needle and bobbin threads leaving
+about 10 cm (4˝) thread ends.
+Draw the needle thread to wrong side of fabric by
+pulling the bobbin thread.
+Then, knot the threads.
+To repeat buttonhole sewing.
+After a buttonhole is sewn, move the indicator to
+pattern “1” [  ] by turning the pattern selector dial
+in the direction of arrow 1, then return the indicator
+back to “BH” by turning the dial in the direction of
+arrow 2 to reset for sewing the next buttonhole.
+When buttonhole sewing is finished, push the but-
+tonhole lever upward as far as it will go.
+!3
+
+--- Page 29 ---
+25
+Manual Buttonhole
+If the diameter of the button is more than 2.5 cm (1˝),
+a buttonhole must be made manually as follows:
+Turn the handwheel toward you to raise the needle
+to its highest position. Raise the presser foot lifter.
+Set the pattern indicator at “BH” by turning the pat-
+tern selector dial.
+Attach the buttonhole foot (B).
+Pull the buttonhole lever downward as far as it will
+go.
+Lower the needle into the garment where the but-
+tonhole is to start, and lower the foot.
+Sew the front bartack and left row, then stop the
+machine after sewing the desired total length of
+buttonhole.
+Pull the buttonhole lever toward you.
+Sew the back bartack and right row, then stop the
+machine at the starting point.
+To cut the opening and to reset for sewing the next
+buttonhole, refer to the instructions on page 31.
+q
+w
+e
+r
+t
+y
+u
+i
+t
+q w e
+r
+yu
+i
+
+--- Page 30 ---
+26
+Corded Buttonhole
+*Set the stitch width in accordance with the thickness
+  of the cord used.
+*To cut the opening and to reset for sewing the next
+  buttonhole, refer to the instructions on page 31.
+With the buttonhole foot raised, hook the filler cord
+on the cord spur at the back of the buttonhole foot.
+Bring the ends toward you under the buttonhole
+foot until they clear the front end.
+Hook the filler cord info the forks on the front of
+the R foot to hold them tight.
+Lower the needle into the garment where the
+buttonhole will start and lower the foot.
+Depress the foot control gently and sew the but-
+tonhole.
+Each side of the buttonhole and the bartacks will
+be sewn over the cord.
+Remove the fabric from the machine and cut the
+sewing threads.
+Pull the left end of the filler cord to tighten it.
+Thread the end through a darning needle, draw to
+the bottom side of the fabric and cut.
+q
+w
+e
+r
+t
+y
+u
+i
+t
+q w e r
+y
+ui
+
+--- Page 31 ---
+27
+Zipper Application
+Fabric Preparation:
+Place right sides of fabric together and sew to the end
+of the zipper opening.
+Reverse stitch to knot the stitches.
+Sew the zipper opening with a basting stitch.
+To sew the left side of the zipper, attach the zipper
+foot to the pin on the right hand side.
+To sew the right side of the zipper, attach the zip-
+per foot to the pin on the left hand side.
+(A)
+(B)
+(A)
+(B)
+
+--- Page 32 ---
+28
+To Sew:
+Fold back the left seam allowance.
+Turn under the right seam allowance to from a 0.2 to
+0.3 cm (1/8˝) fold.
+Place the zipper teeth next to the fold and pin in place.
+Attach the zipper foot with the pin on the right hand
+side.
+Lower the zipper foot.
+Sew through fold and zipper tape.
+Stop just before the zipper foot reaches the slider on
+the zipper tape.
+Turn the handwheel by hand and lower the needle
+info the fabric.
+Raise the zipper foot and open the zipper.
+Lower the foot and stitch the remainder of the seam.
+Close the zipper and spread the fabric flat with the
+right side facing up.
+
+--- Page 33 ---
+29
+Move the zipper foot to the left pin.
+Guide the edge of the foot along the zipper teeth and
+stitch through garment and zipper tape.
+Stop about 5 cm (2˝) from the top of the zipper.
+With the needle down in the fabric, raise the foot,
+remove the basting stitches and open the zipper.
+Then lower the foot and stitch the remainder of the
+seam making sure the fold is even.
+
+--- Page 34 ---
+30
+Rolled Hem
+Make a double 0.25 cm (1/8˝) fold approximately 8 cm
+(3˝) in length.
+Lower the needle into the fabric at the point where
+sewing is to begin, then lower the hemmer foot.
+Sew 3 or 4 stitches while pulling the needle and
+bobbin threads.
+Lower the needle into the fabric and lift the hemmer
+foot. Insert the folded portion of the fabric into the curl
+of the hemmer foot.
+Lower the hemmer foot, then sew by lifting up the
+edge of the fabric to keep it feeding smoothly and
+evenly.
+Trim about 0.6 cm(1/4˝) from corners as illustrated, to
+reduce bulk.
+
+--- Page 35 ---
+31
+Blind Stitch Hemming
+On lightweight fabrics the raw edge can be turned
+under and pressed.
+On heavy weight fabrics that ravel, the raw edge
+should be overcast first.
+Fold up the hem the desired amount and pin in place.
+Then fold the hem under the fabric as illustrated.
+Position the fabric on the machine so that the needle
+just pierces the folded part of the fabric when the
+needle comes over to the extreme left side.
+Lower the presser foot.
+Turn the guide screw and move the sliding guide next
+to the folded edge. Sew guiding the folded edge along
+the sliding guide.
+
+--- Page 36 ---
+32
+Decorative Satin Stitch Patterns
+Sew a row of stitches and adjust the thread tension so
+the needle thread should appear on the reverse side
+of the fabric.
+Test the stitch on the actual fabric for the best results.
+Stretch Stitch Patterns
+Stitch length of the automatic patterns (No.14 to 18)
+are preset, so you do not need to select the stitch
+length for these patterns.
+SECTION V
+DECORATIVE STITCHING
+
+--- Page 37 ---
+33
+(A)
+(B)
+Adjusting Stretch Stitch Balance
+If patterns are uneven when sewing with a particular
+fabric, adjust them with the feed balance dial.
+After sewing with an altered dial setting, you must
+reset the dial to [
+ ].
+Smocking
+With the stitch length control at “4”, sew straight lines
+1 cm(3/8˝) apart across the area to be smocked. Knot
+the threads along the ege.
+Pull the bobbin threads and distribute gathers evenly.
+Sew pattern stitches between the straight seams.
+Pull out the gathering stitches.
+When patterns are compressed, correct by turning
+the dial in the direction of “ + ”.
+When patterns are drawn out, correct by turning
+the dial in the direction of “ – ”.
+(A)
+(B)
+
+--- Page 38 ---
+34
+Quilting
+The quilting guide will help to keep the stitching lines
+straight.
+Insert the quilter in the opening, and slide it at the
+desired width.
+Sew guiding the quilter over the previous row of
+stitching.
+
+--- Page 39 ---
+35
+Pin Tucking
+Fold the fabric with wrong sides together on the fold
+line.
+Position the fabric so that the needle pierces 0.1 to 0.2
+cm (1/16˝) inside of folded part and lower the presser
+foot.
+Turn the guide screw and move the sliding guide next
+to the folded edge.
+Sew guiding the folded edge along the sliding guide.
+Press the pin tucks to one side.
+
+--- Page 40 ---
+36
+Shell Tuck
+Place the folded edge along the slot of foot.
+The needle should fall off the edge of the fabric on the
+right forming a tuck.
+Fagoting
+Fold under 1.5cm (1/12˝) on each fabric edge and
+press.
+Pin the two edges to paper 0.3cm (1/8˝) apart.
+Sew slowly guiding the fabric so the needle catches
+the folded edge on each side.
+Peel off the paper from the wrong side of the fabric.
+
+--- Page 41 ---
+37
+Applique
+Baste (or fuse with iron-on fabric joiner) applique
+pieces on the fabric.
+Stitch around the applique making sure the needle
+falls along the outer edge of the applique.
+When sewing corners, lower the needle down into the
+fabric.
+Raise the presser foot and pivot the fabric to the right
+or left.
+*When applique sewing is finished, return the
+  pressure dial to 3.
+Patch Work
+Sew seam and press seam allowance open.
+Sew pattern stitch on the right side of garment center-
+ing stitches over the seam line.
+
+--- Page 42 ---
+38
+Cleaning the Hook Race
+Unplug the machine and remove the presser foot and
+needle.Remove the screw on the left hand side of the
+needle plate with the screwdriver. Remove the needle
+plate.
+Take out the bobbin and bobbin holder.
+Lift up the bobbin holder and remove it.
+Clean the bobbin holder with a lint brush.
+Clean the feed dogs, hook race and bobbin holder
+with the lint brush and a soft dry cloth.
+Inserting the Bobbin Holder
+Line up the triangle marks and position the bobbin
+holder so the notch fits next to the stopper in the hook
+race.
+Insert the bobbin.
+Attach the needle plate, presser foot and needle.
+SECTION VI
+CARE AND MAINTENANCE
+
+--- Page 43 ---
+39
+Sewing Light
+The sewing light is located behind the face plate.
+• To remove.........Push and twist to the left.
+• To replace.........Push and twist to the right.
+NOTE:
+When replacing the bulb, unplug the machine.
+
+--- Page 44 ---
+40
+Trouble Shooting
+Condition
+The machine does not
+run smoothly and is
+noisy.
+The needle thread
+breaks.
+The bobbin thread
+breaks.
+The needle breaks.
+Skipped stitches.
+Cause
+1. Threads have been caught in hook mechanism.
+2. The feed dog is packed with lint.
+1. The needle thread is not threaded properly.
+2. The needle thread tension is too tight.
+3. The needle is bent or blunt.
+4. The needle is incorrectly inserted.
+5. The fabric is not being drawn to the rear when
+    sewing is finished.
+6. The thread is either too heavy or too fine for the
+    needle.
+1. The bobbin thread is not threaded properly in
+    the bobbin holder.
+2. Lint has collected in the bobbin holder.
+3. The bobbin is damaged and does not turn
+    smoothly.
+1. The needle is incorrectly inserted.
+2. The needle is bent or blunt.
+3. The needle clamp screw is loose.
+4. The tension of the needle thread is too tight.
+5. The fabric is not drawn to the rear when sewing
+    is finished.
+6. The needle is too fine for the fabric being sewn.
+7. The pattern selector dial has been turned while
+    the needle was in the material.
+1. The needle is incorrectly inserted.
+2. The needle is bent or blunt.
+3. The needle and/or threads are not suitable for
+    the work being sewn.
+4. A BLUE TIPPED needle is not being used for
+    sewing stretch, very fine fabrics and synthetics.
+5. The needle thread is not threaded properly.
+6. The presser foot pressure is not strong enough.
+Reference
+See Page 38
+See Page 38
+See Page 12
+See Page 15
+See Page 8
+See Page 8
+See Page 17
+See Page 8
+See Page 11
+See Page 38
+Exchange bobbin.
+
+See Page 8
+See Page 8
+See Page 8
+See Page 15
+See Page 17
+See Page 8
+See Page 16
+See Page 8
+See Page 8
+See Page 8
+See Page 8
+See Page 12
+See Page 5
+
+--- Page 45 ---
+41
+Condition
+Seam Puckering.
+Stitches form loops
+below the work.
+The cloth is not feeding
+smoothly.
+The machine does not
+work.
+The buttonhole stitches
+are not balanced.
+Cause
+1. The needle thread tension is too tight.
+2. The needle thread is not threaded correctly.
+3. The needle is too heavy for the cloth being
+    sewn.
+4. The stitches are too coarse for the fabric being
+    sewn.
+5. The presser foot pressure is not correctly
+    adjusted.
+*When sewing extremely light weight materials,
+  place a sheet of paper underneath the fabric.
+1. The needle thread tension is too loose.
+2. The needle is either too heavy or too fine for the
+    thread.
+1. The feed dog is packed with lint.
+2. The presser foot pressure is too weak.
+3. The stitches are too fine.
+4. The feed dog is not raised after “Drop feed” has
+    been used.
+1. The machine is not plugged in.
+2. A thread is caught in the hook race.
+3. Bobbin winder spindle is in the winding position.
+1. The stitch length is not suitable for the fabric
+    being sewn.
+2. The work is being pulled or held back.
+3. Interfacing is not used with stretch fine fabrics.
+Reference
+See Page 15
+See Page 12
+See Page 8
+Make the stitches
+denser.
+See Page 5
+See Page 15
+See Page 8
+See Page 38
+See Page 5
+Make the stitches
+coarser.
+See Page 5
+See Page 4
+See Page 38
+See Page 10
+See Page 23, 25 and
+26
+Do not force the
+fabric for guiding.
+See Page 23
+
+--- Page 48 ---
+753-800-379 q (EN)

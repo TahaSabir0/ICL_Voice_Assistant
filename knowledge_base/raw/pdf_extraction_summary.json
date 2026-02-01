@@ -1,0 +1,238 @@
+{
+  "total_pdfs": 32,
+  "successful": 32,
+  "failed": 0,
+  "by_category": {
+    "laser_cutting": 8,
+    "3d_printing": 10,
+    "vinyl_cutting": 5,
+    "sewing_embroidery": 6,
+    "virtual_reality": 3
+  },
+  "extractions": [
+    {
+      "file": "130w-Laser-Settings.pdf",
+      "category": "laser_cutting",
+      "pages": 1,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "130w-laser-user-manual.pdf",
+      "category": "laser_cutting",
+      "pages": 46,
+      "chars": 95547,
+      "error": null
+    },
+    {
+      "file": "3D-Printing-Hardware-Guide-1.pdf",
+      "category": "3d_printing",
+      "pages": 1,
+      "chars": 2389,
+      "error": null
+    },
+    {
+      "file": "3D-Printing-Software-Guide.pdf",
+      "category": "3d_printing",
+      "pages": 1,
+      "chars": 2472,
+      "error": null
+    },
+    {
+      "file": "60w-Laser-Settings.pdf",
+      "category": "laser_cutting",
+      "pages": 1,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "A1DogecheeL.pdf",
+      "category": "vinyl_cutting",
+      "pages": 12,
+      "chars": 21100,
+      "error": null
+    },
+    {
+      "file": "crm4_creality_user-manual.pdf",
+      "category": "3d_printing",
+      "pages": 30,
+      "chars": 18545,
+      "error": null
+    },
+    {
+      "file": "Embroidery-Hardware-Guide.pdf",
+      "category": "sewing_embroidery",
+      "pages": 1,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "Embroidery-Software-Guide.pdf",
+      "category": "sewing_embroidery",
+      "pages": 1,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "Ender-3-v3-ke-user-guide.pdf",
+      "category": "3d_printing",
+      "pages": 27,
+      "chars": 18747,
+      "error": null
+    },
+    {
+      "file": "go.pdf",
+      "category": "virtual_reality",
+      "pages": 26,
+      "chars": 36601,
+      "error": null
+    },
+    {
+      "file": "Janome-792pg-Serger-Manual.pdf",
+      "category": "sewing_embroidery",
+      "pages": 42,
+      "chars": 46996,
+      "error": null
+    },
+    {
+      "file": "Janome-HD-3000-User-Manual.pdf",
+      "category": "sewing_embroidery",
+      "pages": 48,
+      "chars": 37179,
+      "error": null
+    },
+    {
+      "file": "Janome-MC-9850-User-Manual-1.pdf",
+      "category": "sewing_embroidery",
+      "pages": 138,
+      "chars": 143002,
+      "error": null
+    },
+    {
+      "file": "Janome-mc550e-User-Manual.pdf",
+      "category": "sewing_embroidery",
+      "pages": 76,
+      "chars": 81007,
+      "error": null
+    },
+    {
+      "file": "Laser-Cutter-Hardware-Guide.pdf",
+      "category": "laser_cutting",
+      "pages": 1,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "Laser-cutter-materials.pdf",
+      "category": "laser_cutting",
+      "pages": 1,
+      "chars": 1650,
+      "error": null
+    },
+    {
+      "file": "Laser-Cutter-Software-Guide.pdf",
+      "category": "laser_cutting",
+      "pages": 1,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "Laser-Cutting-Materials-Guide.pdf",
+      "category": "laser_cutting",
+      "pages": 1,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "LD-002R.pdf",
+      "category": "3d_printing",
+      "pages": 24,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "MF1624-55.pdf",
+      "category": "laser_cutting",
+      "pages": 46,
+      "chars": 91233,
+      "error": null
+    },
+    {
+      "file": "quest.pdf",
+      "category": "virtual_reality",
+      "pages": 5,
+      "chars": 7761,
+      "error": null
+    },
+    {
+      "file": "Resin-MSDS-2.pdf",
+      "category": "3d_printing",
+      "pages": 82,
+      "chars": 162979,
+      "error": null
+    },
+    {
+      "file": "saturn_4_ultra.pdf",
+      "category": "3d_printing",
+      "pages": 16,
+      "chars": 11559,
+      "error": null
+    },
+    {
+      "file": "SDS-PLA.ABS_.PETG_-1.pdf",
+      "category": "3d_printing",
+      "pages": 24,
+      "chars": 45338,
+      "error": null
+    },
+    {
+      "file": "SDS-PLA.ABS_.PETG_.pdf",
+      "category": "3d_printing",
+      "pages": 24,
+      "chars": 45338,
+      "error": null
+    },
+    {
+      "file": "SOP-3D-Printer.pdf",
+      "category": "3d_printing",
+      "pages": 1,
+      "chars": 1295,
+      "error": null
+    },
+    {
+      "file": "SOP-Vinyl.pdf",
+      "category": "vinyl_cutting",
+      "pages": 1,
+      "chars": 1032,
+      "error": null
+    },
+    {
+      "file": "Titan_Documentation_6_27_2016.pdf",
+      "category": "vinyl_cutting",
+      "pages": 13,
+      "chars": 24147,
+      "error": null
+    },
+    {
+      "file": "Vinyl-Cutting-Hardware-Guide.pdf",
+      "category": "vinyl_cutting",
+      "pages": 1,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "Vinyl-Cutting-Software-Guide.pdf",
+      "category": "vinyl_cutting",
+      "pages": 1,
+      "chars": 0,
+      "error": null
+    },
+    {
+      "file": "Vive_User_Guide.pdf",
+      "category": "virtual_reality",
+      "pages": 76,
+      "chars": 68199,
+      "error": null
+    }
+  ]
+}

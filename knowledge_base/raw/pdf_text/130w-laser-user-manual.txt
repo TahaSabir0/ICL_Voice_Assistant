@@ -1,0 +1,1481 @@
+# 130w-laser-user-manual
+
+Source: 130w-laser-user-manual.pdf
+Category: laser_cutting
+Pages: 46
+========================================
+
+--- Page 1 ---
+USB1410a
+Cabinet Laser Engraver
+User Manual
+Read Carefully Before Use
+Keep for Future Reference
+V20230607
+
+--- Page 2 ---
+Thank you for choosing our laser equipment.
+Your CO2 laser engraving machine is intended for personal and professional use. When used in accordance with
+these instructions, it comprises a Class 1 laser system but some components remain EXTREMELY dangerous.
+Never disable the preinstalled safety devices and always use your laser safely and responsibly.
+Read this manual carefully before operation. It covers the details of correct installation, adjustment, maintenance,
+and—most importantly—safe operation of your new laser. It is intended to be used in conjunction with your
+engraving software manual, as the software typically does not only provide image design but also serves as an
+alternative interface for the laser settings and machine controls. You and any other users of this device should
+thoroughly understand BOTH manuals before attempting to operate the laser.
+Keep both manuals for future reference and provide them to ANYONE who will install, operate, maintain, or repair
+this machine. Both manuals should be included if this device is given or sold to a third party.
+If you have any questions after reading these manuals, please contact us and our support department will address
+your concerns as soon as possible.
+PREFACE
+
+--- Page 3 ---
+CONTENTS
+1. Introduction............................................................................................................................................................1
+     1.1 General Information........................................................................................................................................1
+     1.2 Symbol Guide..................................................................................................................................................2
+     1.3 Designated Use................................................................................................................................................2
+     1.4 Technical Specifications..................................................................................................................................3
+     1.5 Components.....................................................................................................................................................4
+2. Safety Information................................................................................................................................................10
+     2.1 Disclaimer......................................................................................................................................................10
+     2.2 General Safety...............................................................................................................................................10
+     2.3 Laser Safety...................................................................................................................................................11
+     2.4 Electrical Safety.............................................................................................................................................12
+     2.5 Material Safety..............................................................................................................................................12
+3. Installation............................................................................................................................................................14
+     3.1 Overview.......................................................................................................................................................14
+     3.2 Location Selection.........................................................................................................................................14
+     3.3 Unpacking......................................................................................................................................................14
+     3.4 Electrical Grounding.....................................................................................................................................15
+     3.5 Water Cooling System...................................................................................................................................16
+     3.6 Exhaust System.............................................................................................................................................17
+     3.7 Main Power Connection................................................................................................................................17
+     3.8 Control Computer Setup................................................................................................................................17
+     3.9 Initial Testing.................................................................................................................................................18
+     3.10 Security........................................................................................................................................................19
+4. Operation..............................................................................................................................................................20
+     4.1 Overview.......................................................................................................................................................20
+     4.2 General Instructions.......................................................................................................................................20
+     4.3 Instructions for Specific Materials.................................................................................................................21
+     4.4 Control Console.............................................................................................................................................24
+    4.4.1 Overview..............................................................................................................................................24
+    4.4.2 Menu Button.........................................................................................................................................25
+    4.4.3 Setting the Laser Speed........................................................................................................................25
+    4.4.4 Setting the Laser Power........................................................................................................................25
+    4.4.5 File Commands.....................................................................................................................................26
+
+--- Page 4 ---
+    4.4.6 Flash Drive Commands........................................................................................................................27
+    4.4.7 Adjusting Engraving Layers.................................................................................................................27
+    4.4.8 Function Menu......................................................................................................................................28
+    4.4.9 Adjusting the Z Axis.............................................................................................................................28
+    4.4.10 Setting an Interface Password............................................................................................................28
+    4.4.11 Manual Movement of the Laser Head................................................................................................29
+    4.4.12 Manual Firing of the Laser.................................................................................................................29
+    4.4.13 Setting Origin Points..........................................................................................................................30
+    4.4.14 Saving Current Parameters and Virtual Keyboard Use......................................................................31
+    4.4.15 Loading Saved Parameters.................................................................................................................31
+    4.4.16 Autofocus............................................................................................................................................31
+    4.4.17 Setting the Interface Language...........................................................................................................31
+    4.4.18 Setting the Machine's IP Address.......................................................................................................32
+    4.4.19 Diagnostic Tools.................................................................................................................................32
+    4.4.20 Reflecting Images across an Axis.......................................................................................................32
+    4.4.21 Resetting Axes....................................................................................................................................33
+    4.4.22 Alarm Displays...................................................................................................................................33
+5. Maintenance.........................................................................................................................................................34
+     5.1 Overview.......................................................................................................................................................34
+     5.2 Water Cooling System ..................................................................................................................................34
+     5.3 Cleaning.........................................................................................................................................................34
+    5.3.1 Water System........................................................................................................................................34
+    5.3.2 Main Bay & Engraver..........................................................................................................................35
+    5.3.3 Focus Lens............................................................................................................................................35
+    5.3.4 Mirrors..................................................................................................................................................37
+     5.4 Laser Path Alignment....................................................................................................................................37
+    5.4.1 Laser Tube............................................................................................................................................38
+    5.4.2 First Mirror...........................................................................................................................................39
+    5.4.3 Second Mirror.......................................................................................................................................40
+    5.4.4 Third Mirror..........................................................................................................................................40
+    5.5 Lubrication.....................................................................................................................................................40
+    5.6 Parts Replacement..........................................................................................................................................41
+    5.7 Disposal..........................................................................................................................................................41
+6. Contact Information..............................................................................................................................................41
+
+--- Page 5 ---
+1
+This manual is the designated user guide for the installation, setup, safe operation, and maintenance of your cabinet
+laser engraver. It is divided into six chapters covering general information, safety instructions, installation steps,
+operation instructions, maintenance procedures, and contact information.
+ALL personnel involved in the installation, setup, operation, maintenance, and repair of this machine should read
+and understand this manual, particularly its safety instructions. Some components are extremely high voltage and/or
+produce powerful laser radiation. Substandard performance and longevity, property damage, and personal injury may
+result from not knowing and following these instructions.
+Your laser engraver works by emitting a powerful laser beam from a glass tube filled with excited carbon dioxide
+(CO₂), reflecting that beam off three mirrors and through a focus lens, and using this focused light to etch designs into
+certain substrates. The first mirror is fixed near the end of the laser tube, the second mirror travels along the machine's
+Y axis, and the third mirror is attached to the laser head that travels along the X axis. Because some dust from the
+engraving process settles on the mirrors, they require frequent cleaning. Because they move during operation, they
+also require periodic readjustment using their attached positioning screws to maintain the proper laser path. A water
+cooling system—typically a pump or chiller—must be used with this engraver to dissipate the heat produced by the
+laser tube. Similarly, an exhaust system—typically either an external vent or a dedicated air purifier—must be used
+to remove the dust and gases produced by the engraving process.
+With low intensity use, the provided laser tube has an average lifespan around 12000 hours before requiring
+replacement. However, constantly running your laser above 70% of its maximum rated power can significantly
+shorten its service life. It is recommended to use settings from 10–70% of the maximum rated power to enjoy optimal
+performance and longevity.
+Note that this is a high-voltage device and, as a safety precaution, it is recommended to only touch its components
+with one hand at a time during use.
+Note that the active laser is invisible to the human eye. This device should never be used while any cover is open to
+avoid potentially permanent injury.
+Note also that the water cooling system and exhaust system are both absolutely essential to the safe use of this device.
+Never operate the engraver without both of these systems operating properly. Water should always be kept clean and
+around room temperature, and the exhaust system should always comply with all applicable laws and regulations for
+workplace and environmental air quality.
+1.1 General Information
+1. Introduction
+
+--- Page 6 ---
+2
+The following symbols are used on this machine’s labeling or in this manual:
+
+These items present a risk of serious property damage or personal injury.
+
+These items address similarly serious concerns with regard to the laser beam.
+
+These items address similarly serious concerns with regard to electrical components.
+
+Protective eyewear should be worn by anyone around this machine during operation.
+
+This product is sold in conformity with applicable EU regulations.
+
+This product contains electrical components that should not be disposed of with regular garbage.
+This machine is intended for use engraving signs and other consumer products on applicable substrates. This laser
+can process a wide variety of materials including wood and cork, paper and cardboard, most plastics, glass, cloth
+and leather, and stone. It can also be used with some specially coated metals. Use of this system for nondesignated
+purposes or materials is not permitted.
+The system must be operated, maintained, and repaired by personnel familiar with the field of use and the dangers
+of the machine and the material being engraved including its reflectivity, conductivity, potential for creating harmful
+or combustible fumes, etc.
+Laser beams are dangerous. The manufacturer and/or seller bear(s) no responsibility and assume(s) no liability for
+any improper use of this device or for any damage or injury arising from such use. The operator is obliged to use
+this cabinet laser engraver only in accordance with its designated use, the other instructions in its manuals, and all
+applicable local and national laws and regulations.
+1.2 Symbol Guide
+1.3 Designated Use
+
+--- Page 7 ---
+3
+1.4 Technical Specifications
+Model
+USB1410a
+Laser Tube
+Diameter
+2.76 in.
+70 mm
+Length
+69.96 in.
+1650 mm
+Focus Lens
+Diameter
+0.79 in.
+20 mm
+Thickness
+0.08 in.
+2 mm
+Focal Length
+2.5 in.
+63.5 mm
+Mirror
+Diameter
+0.98 in.
+25 mm
+Thickness
+0.12 in.
+3 mm
+Input Power
+110–120 V~ 60 Hz
+Power Consumption
+1500 W
+Rated Power
+130 W
+Expected Service Life
+at <40% / 40–70% / >70% Power
+12000/10000/8000 hr.
+Laser Wavelength
+10640 nm
+Processing Area
+55.1×35.4 in.
+1400×900 mm
+Front/Back Pass-Through Size
+59.1×2 in.
+1500×50 mm
+Side Pass-Through Size
+38.2×0.8 in.
+970×20 mm
+Workbed Blades
+24
+Max. Processing Speed
+23.6 ips
+600 mm/s
+Max. Acceleration
+X-Axis
+315 ips²
+8000 mm/s²
+Y-Axis
+118 ips²
+3000 mm/s²
+Min. Engraving Depth
+0.0004 in.
+0.01 mm
+Max. Engraving Depth
+0.4 in.
+10 mm
+Min. Letter Size
+0.04×0.04 in.
+1×1 mm
+Required Operating
+Environment
+Max. Humidity
+70%
+Temp. Range
+40–95°F
+5–35°C
+Provided Operating Software
+RDWorks
+Supported Operating Software
+CorelLaser, LightBurn
+Supported Image Formats
+.ai, .bmp, .dxf, .gif, .hpgl, .jpeg, .pdf, .plt, .png, .rd, .svg, .tiff, .tga
+Graphic Operating Modes
+Raster, Vector, Combined
+Certification
+CE, FDA
+Net Weight
+679 lb.
+308 kg
+
+--- Page 8 ---
+4
+1.5 Components
+
+--- Page 9 ---
+5
+Main Parts
+A.	 Cover—The cover provides access to the main bay for placing and retrieving materials, as well as fixing the laser
+path alignment and other maintenance. Power to the laser is automatically cut when the cover is opened.
+B.	 Viewing Window—The polycarbonate window is shielded to protect you and others from the laser and its
+reflection, allowing monitoring of the engraving process. However, you should never stare continuously at the
+laser during operation, even through the window.
+C.	 Y-Axis Rail—The Y-axis rail supports the movement of the X-axis rail up and down the workbed.
+D.	 X-Axis Rail—The X-axis rail holds the 2nd mirror and supports the movement of the laser head left and right
+across the workbed.
+E.	 Laser Head—The laser head holds the 3rd mirror, the focus lens, the red dot guidance, and the air assist outlet.
+F.	 Workbed—The workbed can be adjusted in height to fit thinner and thicker materials, as well as adjusted between
+the aluminum and honeycomb platforms. This is also where the accessories pack is located when the engraver
+first arrives.
+G.	 Control Panel—The control panel offers hands-on control of the engraving process, including manual movement
+of the laser head and firing of the laser.
+H.	 Emergency Stop—This button immediately cuts all power to the laser tube in the event of an emergency.
+I.	 Pass-Through Doors—These doors open to allow larger pieces of material to be fed through the workbed.
+Additional care must be taken to avoid seeing or suffering exposure to the laser beam and its reflection.
+J.	 Front Access Door—This door provides access to the waste hopper for easy cleanup after each project.
+K.	 Caster Wheels—The front wheels include locks to hold the engraver in place.
+L.	 Connection Inputs—This panel includes the machine's ports for its USB, computer, and Ethernet connections.
+M.	Right Access Door—This door provides access to the mainboard, motor drivers, and power supplies.
+N.	 Warnings—This notice supplements the Safety Information chapter of this manual. Read it carefully before
+using the machine.
+O.	 Power Sockets—These sockets connect to your main power supply, ground the machine, and provide additional
+sockets for your water pump and air assist if needed. It is recommended, however, to use a separate plug on a
+different fuse for these devices.
+
+This area also includes the intake that provides the pressurized air for the machine’s air assist. Periodically check
+its filter to keep it clear of any obstruction.
+P.	 Upper Rear Access Door—This door opens to the laser bay, holding the laser tube and its connections.
+Q.	 Exhaust Fans—These fans pull out gases and airborne debris from the worktable, sending it through your vent
+to a window or air purifier.
+R.	 Water Ports—These ports connect to your water chiller to keep your laser tube cool and stable.
+
+--- Page 10 ---
+6
+Laser Path
+A. 	Laser Tube—This CO₂-filled glass tube is mounted on brackets and immobile. Its connection to the laser power
+supply is extremely high voltage and extremely dangerous.
+B. 	1st Mirror—This adjustable-angle mirror is fixed in place to transfer the engraving laser from the tube to the
+2nd mirror.
+C. 	2nd Mirror—This adjustable-angle mirror moves with the X-axis rail to allow the laser beam to travel along
+the Y axis.
+D. 	3rd Mirror—This adjustable-angle mirror moves with the laser head to allow the laser beam to travel along the
+X axis.
+E. 	Focus Lens—This lens directs and focuses the laser to the material.
+F. 	 Workbed—The bare workbed can be adjusted in height or fitted with aluminum or honeycomb tables for
+different projects.
+Laser Head
+A. 	3rd Mirror—This adjustable-angle mirror transfers the
+laser from the 2nd mirror to the focus lens.
+B. 	X-Axis Rail—This rail moves along the Y axis, with its
+movement controlled by limit switches.
+C. 	Red Dot Pointer—This device helps you see the exact
+position of the invisible engraving laser.
+D. 	Focus Lens—This 18 mm lens directs and focuses the laser
+beam to its point of contact with the engraving material.
+E. 	Air Assist—This device blows pressurised air to kill sparks
+and blow away gas and debris as you engrave.
+F. 	 Laser—The engraving laser itself is invisible but highly
+dangerous. Avoid any direct exposure to your skin or eyes.
+G. 	Workbed—Use the provided acrylic tool to get the perfect
+focus for any thickness of material.
+
+--- Page 11 ---
+7
+Connection Inputs
+A. 	USB Port—This port allows you to load and save designs and parameters
+directly onto the engraver.
+B. 	USB Line Port—This port connects to your control computer and its
+engraving software using any of its USB ports.
+C. 	Ethernet Port—This port connects to your control computer and its
+software either directly or via the internet.
+Right Access Door
+A.	 Mainboard—This circuit board controls the engraving process,
+responding to commands from your engraving software or the machine's
+control panel.
+B.	 Y-Axis Driver—This device moves the X rail along the Y rail.
+C.	 X-Axis Driver—This device moves the laser head along the X rail.
+D.	 Control Power Supply—This device powers the machine's control panel.
+E.	 Z-Axis Driver—This device moves the workbed up and down.
+F.	 Laser Power Supply—This device transforms standard electricity into
+the extremely high voltage charge necessary for the laser tube.
+Laser Power Supply
+A.	 High-Voltage Wire—This line is connected to the laser tube’s anode or
+positive end, providing high-voltage current to power the laser.
+B.	 Mounting Holes—These standard slots allow simple installation and
+removal.
+C.	 Digital Display—This display provides the real-time current to the laser
+tube in milliamps and notification of any problems with the laser or water
+systems.
+D.	 Water Indicator Light—When connected, this light shows the water
+cooling system is operating.
+E.	 Laser Signal Indicator Light—This light shows the laser tube is
+operating.
+F.	 Laser Indicator Light—This light shows when current is being sent to
+the laser tube.
+G.	 Main Power Terminal—This terminal block holds the power supply's
+connection to the engraver's grounding (FG) and to the main power
+supply (AC).
+H.	 Test Button—This button is used to attempt to test fire the laser when
+troubleshooting problems. If the laser fires successfully, the problem will
+usually be with the control panel or its connections.
+I.	 Connection Terminal—This terminal block holds the connections to the
+high (H) and low level output (L), the water protection switch (P), another
+ground (G), and two laser signal controls (IN & 5V).
+J.	 Ethernet Port—This port allows you to connect the laser power supply
+to an external ammeter.
+
+--- Page 12 ---
+8
+Control Console
+Returns the machine to the saved default
+parameters (See §4.4.14)
+Stops the current job
+Enters a command or confirms your
+selection
+Sets the starting point for the laser head
+(See §4.4.13)
+Opens the Main menu (See §4.4.2)
+Traces the outline of the current design
+for sizing
+Opens the Function menu (See §4.4.8)
+Fires the laser manually (See §4.4.12)
+Controls X-axis movement or moves left
+and right in parameters
+Controls Y-axis movement or moves up
+and down in parameters
+Starts/pauses the current job
+Stops work or returns to a previous menu
+
+--- Page 13 ---
+9
+A.	 Design Display: shows the whole file’s track and the running track.
+B.	 Parameters: displays the running file’s file number, speed, max power, etc.
+C.	 Coordinates: displays the current coordinates of the laser head.
+D.	 Layers: displays the layer parameters of current or previewed files. Parameters from left to right are layer number,
+color, speed, and maximum power.
+E.	 Laser Status: displays the current status of the machine: Idle, Running, Paused, or Finished. The processing
+time is shown on the right side.
+F.	 Progress Bar: displays the progress of the current file.
+G.	 Job Number: shows the count of completed runs of the current file.
+H.	 Design Dimensions: displays the dimension of the current file.
+I.	 Internet Status: displays the status of the machine's internet connection.
+When the system is idle or the work is finished, all the buttons can be used. Users can process the file, set the
+parameters, preview their file, etc. When the work is running or paused, some buttons will not work (e.g., Origin and
+Frame).
+Console Screen
+
+--- Page 14 ---
+10
+2.1 Disclaimer
+Your engraver may differ somewhat from those shown in this manual due to options, updates, etc. Please contact us
+if your engraving machine came with an outdated manual or if you have any other questions.
+2.2 General Safety Instructions
+•
+Your device should come with instruction labels in the following locations:
+
+If any of these labels is missing, illegible, or becomes damaged, it must be replaced.
+•
+Use this laser engraving device only in accordance with all applicable local and national laws and regulations.
+•
+Use this device only in accordance with this instruction manual and the manual for the engraving software
+included with it. Only allow this device to be installed, operated, maintained, repaired, etc. by others who have
+also read and understood both manuals. Ensure that this manual and the software manual are both included with
+this device if it is ever given or sold to a third party.
+•
+DO NOT operate continuously for more than 5½ hours. Stop for at least 30 minutes between uses.
+• 	 DO NOT leave this device unattended during operation. Observe the device throughout
+operation and, if anything seems to be operating strangely, immediately cut off ALL power to
+the machine and contact either our customer service or your dedicated repair service. Similarly,
+ensure the device is FULLY turned off (including by means of the emergency stop switch) after
+each use.
+•
+DO NOT allow minors, untrained personnel, or personnel suffering from physical or mental impairment that
+would affect their ability to follow this manual and the software manual to install, operate, maintain, or repair
+this device.
+• 	 Any untrained personnel who might be near the device while it is in operation MUST be informed that it is
+dangerous and fully instructed on how to avoid injury during its use.
+• 	 Always keep a fire extinguisher, water hose, or other flame retardant system nearby in case of accidents. Ensure
+that the local fire department's phone number is clearly displayed nearby. In the case of a fire, cut electrical
+power before dousing the flame. Familiarize yourself with the correct range for your extinguisher before use.
+Take care not to use the extinguisher too close to the flame, as its high pressure can produce blowback.
+2. Safety Information
+
+--- Page 15 ---
+11
+2.3 Laser Safety Instructions
+When used as instructed, this machine comprises a Class 1 laser system safe for users and bystanders. However the
+invisible engraving laser, the laser tube, and its electrical connections remain EXTREMELY dangerous. Used or
+modified without care, they can cause serious property damage and personal injury including but not limited to the
+following:
+As such,
+• 	 DO NOT modify or disable this device's provided safety features. Do not modify or disassemble the laser and
+do not use the laser if it has been modified or disassembled by anyone except trained and skilled professionals.
+Dangerous radiation exposure and other injury may result from the use of adjusted, modified, or otherwise
+incompatible equipment.
+•
+NEVER leave any part of the cabinet open during operation except (when needed) the pass-through doors. Never
+interfere with the laser beam, do not place any part of your body in any part of the laser path during operation,
+and never attempt to view the laser directly. When using the pass-through doors or otherwise risking exposure
+to the laser beam, take measures to protect yourself from potentially reflected laser beams including the use of
+personal protective equipment such as protective eyewear specially designed to filter the specific wavelength of
+your engraver's laser with an optical density (OD) of 5+.
+•
+DO NOT stare or allow others to stare continuously at the laser beam during operation even when the cover is
+closed and/or wearing protective eyewear.
+•
+ONLY use this engraver if its automatic shutoffs are working properly. When you first get this engraver and if
+you subsequently notice any problems, test them (see below) before undertaking any other work. Do not continue
+use if the shutoffs do not occur. Turn off the device and contact customer service or your repair service. Never
+disable these shutoffs.
+•
+DO NOT ever under ANY circumstances use this laser engraver if the water cooling system is not working
+properly. Always activate the water cooling system and visually confirm that water is flowing through the entire
+system before turning on the laser tube. If using the provided water pump, ensure that it is placed in a tank full
+of cool or tepid distilled water. Do not use ice water or water that has become hotter than 100°F (38°C). For best
+results, keep it between 60–70°F (15–21°C). Replace heated water or add sealed bottles of frozen water to cool it,
+while never allowing the system to run without water or allowing the water to become colder than 50°F (10°C).
+Immediately stop use if the water cooling system malfunctions.
+•
+DO NOT use generic coolant or antifreeze in your cooling water, as they may leave corrosive residues and solidify
+inside your hoses and piping, causing malfunctions and even explosions. Use custom laser-safe formulations or
+use and store your engraver in a climate-controlled area.
+•
+DO NOT leave potentially combustible, flammable, explosive, or corrosive materials nearby where they could be
+exposed to the direct or reflected laser beam.
+•
+DO NOT use or leave sensitive EMI equipment nearby. Ensure the area around the laser is free of strong
+electromagnetic interference during any use.
+•
+ONLY use this machine for working the materials described in the Material Safety section of this manual. The
+laser settings and engraving process must be properly adjusted for specific materials.
+•
+Ensure the area is kept free of other airborne pollutants, as these might pose a similar risk of reflection, combustion,
+etc.
+• 	 The laser will easily burn nearby combustible materials
+• 	 Some working materials may produce radiation or harmful gases during processing
+• 	 Direct exposure to the laser will cause bodily harm including serious burns and irreparable eye
+damage
+
+--- Page 16 ---
+12
+2.4 Electrical Safety Instructions
+• 	 ONLY use this device with a compatible and stable power supply with less than 5% fluctuation in its voltage.
+• 	 DO NOT connect other devices to the same fuse, as the laser system will require its full amperage. Do not use
+with standard extension cords or power strips. Use only surge protectors rated over 2000J.
+• 	 ONLY turn on the power to this device when it is well grounded, either via a firm connection
+to a 3-prong outlet or via a dedicated grounding cable firmly connected to the proper slot on
+the cabinet. Do not use with an ungrounded 3 to 2 prong adapter. The device's grounding
+should be checked regularly for any damage to the line or loose connections.
+•
+The area around this laser engraving device should be kept dry, well ventilated, and
+environmentally controlled to keep the ambient temperature between 40–95°F (5–35°C). For
+best results, keep the temperature at 75°F (25°C) or below. The ambient humidity should not
+exceed 70%.
+• 	 Do not handle the water pump or the water in which it is submerged while the pump is attached to its power
+supply. Place it in water before connecting it to power and disconnect it from power before removing it.
+• 	 Adjustment, maintenance, and repair of the electrical components of this device must be done ONLY by
+trained and skilled professionals to avoid fires and other malfunctions, including potential radiation exposure
+from damage to the laser components. Because specialized techniques are required for testing the electrical
+components of this marking system, it is recommended such testing only be done by the manufacturer, seller, or
+repair service.
+•
+Unless otherwise specified, ONLY undertake adjustment, maintenance, and repair of the device when it is
+turned off, disconnected from its power supply, and fully cooled.
+2.5 Material Safety Instructions
+• 	 Users of this laser engraving machine are responsible for confirming that materials to be processed can
+withstand the heat of the laser and will not produce any emissions or byproducts either harmful to people nearby
+or in violation  of local or national laws or regulations. In particular, do not use this device to process polyvinyl
+chloride (PVC), teflon, or other halogen containing materials under any circumstances.
+• 	 Users of this laser engraver are responsible for ensuring that every person present during operation has sufficient
+PPE to avoid the injury from the emissions and byproducts of the materials being processed. In addition to the
+protective laser eyewear described above, this may require goggles, masks or respirators, gloves, and other
+protective outer clothing.
+•
+DO NOT ever under any circumstances use this laser engraver if the exhaust system is not working properly.
+Always ensure that the exhaust fans can remove the dust and gas produced by the engraving process in
+accordance with all applicable local and national laws and regulations. Immediately stop use if the exhaust fans
+or vent pipes malfunction. Periodically check the air assist intake filter to ensure it stays free of any dust or
+debris.
+• 	 Users must exercise special caution when working with conductive materials as buildup of their dust and ambient
+particles may damage electrical components, cause short circuits, or produce other effects including reflected
+laser radiation.
+
+--- Page 17 ---
+13
+This machine can be safely used with the following materials:
+Plastics
+• 	 Acrylonitrile Butadiene Styrene (ABS)
+• 	 Nylon (Polyamide, PA, etc.)
+• 	 Polyethylene (PE)
+• 	 High-Density Polyethylene (HDPE, PEHD, etc.)
+• 	 Biaxially-Oriented Polyethylene Terephthalate (BoPET, Mylar, Polyester, etc.)
+• 	 Polyethylene Terephthalate Glycol (PETG, PET-G, etc.)
+• 	 Polyimide (PI, Kapton, etc.)
+• 	 Polymethyl Methacrylate (PMMA, Acrylic, Plexiglass, Lucite, etc.)
+• 	 Polyoxymethylene (POM, Acetal, Delrin, etc.)
+• 	 Polypropylene (PP, etc.)
+• 	 Styrene
+Other
+• 	 Cardboard
+• 	 Ceramics, including Dishes, Tile, etc.
+• 	 Glass
+• 	 Leather
+• 	 Paper & Paperboard
+• 	 Rubber
+• 	 Stone, including Marble, Granite, etc.
+• 	 Textiles, including Cotton, Suede, Felt, Hemp, etc.
+• 	 Wood, including Cork, MDF, Plywood, Balsa, Birch, Cherry, Oak, Poplar, etc.
+See §4.3 for the recommended parameters for the most commonly engraved materials.
+This machine CANNOT be used with the following materials or with any materials which include them:
+• 	 Artificial Leather containing Hexavalent Chromium (Cr[VI]), due to its toxic fumes
+• 	 Astatine, due to its toxic fumes
+• 	 Beryllium Oxide, due to its toxic fumes
+• 	 Bromine, due to its toxic fumes
+• 	 Chlorine, including Polyvinyl Butyral (PVB) and Polyvinyl Chloride (PVC, Vinyl, Cintra, etc.), due to its toxic
+fumes
+• 	 Fluorine, including Polytetrafluoroethylenes (Teflon, PTFE, etc.), due to its toxic fumes
+• 	 Iodine, due to its toxic fumes
+• 	 Metals, due to their conductivity and reflectivity
+• 	 Phenolic Resins, including various forms of Epoxy, due to their toxic fumes
+• 	 Polycarbonate (PC, Lexan, etc.), due to its toxic fumes
+For all other materials, if you are unsure about its safety or laserability with this device, seek out its material safety
+data sheet (MSDS). Pay especial attention to information about safety, toxicity, corrosiveness, reflectivity, and
+reaction(s) to high heat. Alternatively, contact our support department for further guidance.
+
+--- Page 18 ---
+14
+3.1 Installation Overview
+A complete working system consists of the laser engraving cabinet, its vents, all applicable connection cables, and
+the laser and access keys. The cabinet can use designs provided by the enclosed engraving software by direct or
+internet connection with your computer; it can also engrave designs loaded directly from a flash drive. Users can
+configure other additional accessories (such as an industrial water chiller, fume extractor, or rotary axis) to suit their
+needs.
+Please note the specific requirements of your system's installation. Every customer must understand these notes
+before installation to execute a proper setup and achieve safe laser performance. If you have any installation
+questions or problems, contact our technicians and customer support team.
+Any auxiliary equipment must be adjusted to the base machine. Queries may be directed to the dealer or
+manufacturer of such equipment.
+3.2 Location Selection
+Prior to assembling your fiber laser marker, select an appropriate location for its use.
+Be sure that it meets all of the requirements discussed in the Safety Information above. The location should be
+stable, level, dry, and climate controlled to ensure an ambient temperature of 40–95°F (5–35°C) and an ambient
+humidity under 70%. In particular, the temperature and humidity together should not be close to the dew point.
+It is also advisable to use a windowless room or to use blinds and/or curtains to avoid exposure to the potential
+additional heat of direct sunlight. The location should be free of dust and other airborne pollutants and well
+ventilated enough to process any fumes produced by the engraving process in accordance with all applicable
+laws and regulations. Depending on the materials to be processed, this may require construction of a dedicated
+ventilation system. It should be away from children; combustible, flammable, explosive, or corrosive materials; and
+sensitive EMI devices. The power cord should be plugged into a compatible and stable power source via a grounded
+3-prong outlet. No other item should be drawing current from the same fuse. There should be firefighting equipment
+nearby and the local fire department's phone number should be clearly displayed.
+It is highly recommended to have an extra work table nearby in order to avoid placing objects on or directly
+adjacent to the machine, which could become a fire or laser hazard.
+3.3 Unpacking Your Engraver
+Your engraving machine arrives in a wooden crate with its accessories (including this manual) packaged inside the
+laser bay. You should have placed the crate in a spacious flat area for unpacking, ideally where you plan to operate the
+machine permanently. If you have not already done so, finish removing the crate from around your engraver. Once
+unpacked, the machine can be rolled into place.
+Step 1. 	Fix it in place by pressing down on the brake pads on the 2 front wheels.
+Step 2.	Retrieve the access keys from the main bay in the front of the machine. Use them to unlock the laser bay in
+the rear and take out the accessories pack. Check that you have received all of the following: a power cord, a
+ground wire, USB and Ethernet cables, a USB flash drive with engraving software included, an exhaust pipe
+with a hose clamp, a set of hex wrenches, a tube of silicone sealant, an acrylic focusing tool, a key, and this
+manual.
+3. Installation
+Use only the hardware, wiring, and power sources that came with or are compatible with this device.
+Installing equipment that your device is not designed to work with can lead to poor performance,
+shortened service time, increased maintenance costs, property damage, and personal injury.
+
+--- Page 19 ---
+15
+Step 3.	CAREFULLY remove the rest of the foam packaging material from around the laser tube, the viewing
+window, and the rest of the machine. The laser tube is a highly fragile object and should be handled delicately
+and as little as possible.
+Step 4. Inside the main bay, remove the nylon cable ties from the X axis and the honeycomb table.
+Step 5. You may keep the packaging in case of future return but, if you dispose of it or any accessories, be sure to do
+so in compliance with applicable waste disposal regulations.
+3.4 Electrical Grounding
+This device employs a powerful laser. As discussed in the Safety Information above, it is extremely high voltage and
+potentially dangerous, so users must securely ground it to avoid the buildup of static electricity. Using a standard
+3-prong outlet will provide sufficient grounding. If you do not have access to a 3-prong outlet, you MUST use the
+grounding cable and ensure its proper connection. The far end of the cable should be securely connected to a single
+metal rod driven at least 8 feet (2.5 m) deep or to two separate metal rods driven at least 4 feet (1.2 m) deep into soil
+located at least 5 feet (1.5 m) from the machine.
+Poor grounding WILL cause equipment failure and create a serious electrical shock hazard. The
+manufacturer and/or seller bear(s) no responsibility and assume(s) no liability for any damage, accidents, or
+injuries caused by bad grounding connections.
+
+--- Page 20 ---
+16
+3.5 Water Cooling Installation
+The provided water chiller is essential to your engraver's performance and longevity. When this laser works
+without a properly maintained cooling system, its glass tube WILL explode from excess heat.
+NEVER touch or adjust your engraver's water supply while the pump is connected to power.
+To install your pump, fill a dedicated tank with at least 2 gallons (7.5 L) of distilled water. Using deionized or tap
+water will gradually degrade the quality of your engraver and may even cause dangerous mineral buildup in the
+cooling system. NEVER use generic antifreeze for the same reason. Use custom laser-safe formulations or store your
+engraver in a climate-controlled area.
+Connect the two hoses that came with your engraver to the water inlet (marked "Water IN") and water outlet (marked
+"Water OUT") on the back of your engraver. Attach the other end of the inlet tube directly to your chiller and ensure
+that all connections are watertight and allow no leaks during use.
+Connect the water pump to its power supply. For best results, use a power outlet on a separate fuse from the engraver
+itself. If no such outlet is available, the pump can also be plugged into a dedicated socket located on the side of the
+engraving cabinet. Once the pump is plugged in, water should begin to run through your machine and back into your
+tank. ALWAYS obtain visual confirmation that the water is flowing through the laser tube before starting your laser.
+NEVER allow the water in the tank to become too hot to cool the laser. Install a thermal alarm or periodically check
+the water's temperature during prolonged use. If the water begins to reach 100°F (38°C), replace it with cooler water.
+Either replace it in stages or turn off the laser during this process: never allow the laser to operate without a constant
+flow of cooling water. It is also possible to add sealed bottles of frozen water to your tank to keep the water cool but
+never allow the water to become ice cold itself, as this could shatter the heated glass CO₂ tube as well.
+As an alternative to manually adjusting the water in your tank, you may also use an industrial water chiller to supply
+temperature-controlled water to your machine. Follow its separate manual and again, for best results, plug it into a
+separate fuse from the engraver itself. Remember to connect the chiller's outlet port with the engraver's inlet port and
+to connect the chiller's inlet with the engraver's outlet.
+
+--- Page 21 ---
+17
+3.6 Exhaust System
+Install the provided exhaust pipes directly onto the fans. The pipes can be expanded to a full length of about 5 feet (1.5 m).
+The other end should be connected to a dedicated purifier or (if the fumes are not hazardous and meet local and
+national air safety standards) placed out a window. NEVER operate the laser if the vents are not purifying or
+removing the fumes produced by the target material. Research materials before use and never operate the laser on
+any (such as PVC, teflon, and other halogen-containing substances) that can produce corrosive, hazardous, or even
+deadly fumes.
+3.7 Main Power Connection
+Confirm that the labeling beside the connection socket on the machine matches your power supply. Connect one end
+of the main cable to the connection socket and the other end to a grounded outlet. Under NO circumstances should
+you switch on the device if the voltages do not correspond.
+Fluctuation along the line should be less than 5%. If this is exceeded, the fuses will blow. They are located in the
+connection socket and are accessible from the exterior. Similarly, do not connect this device to standard extension
+cords or power strips. Connect it directly to a grounded outlet or use a surge protector rated over 2000J.
+3.8 Control Computer
+See the software manual for details on the requirements for the control computer. The control computer can be
+connected using the provided USB cable (via the port marked "USB Cable to PC"), using the provided Ethernet
+cable (via the port marked "Ethernet Cable"), or using the internet if the engraver has been connected to it using the
+Ethernet cable. If the control computer is directly connected to the engraver, it should not be placed more than 15 feet
+(4.5 m) away in order to avoid possible interference to the signal on its line. Familiarize yourself with the software's
+image design features and laser control settings before using it to operate the laser.
+
+--- Page 22 ---
+18
+3.9 Initial Testing
+Emergency Shutoff
+Because of the risk of fire and other hazards during engraving, this engraver includes a large and easy-to-reach
+emergency stop button near the control panel. Press it down to stop the laser tube instantly.
+When your engraver arrives, its e-stop is already pressed and must be pulled up to allow the laser to function. You
+should test that it works properly before conducting ANY other work with your machine. Start the water cooling
+system, place a piece of laserable scrap material on the workbed, close the cover, and press PULSE to fire the
+laser. Hit the emergency stop button and observe whether the laser stops instantly. If the laser continues to fire, the
+emergency stop is not working and must be replaced before the engraver can be used. Turn off the machine and
+contact customer service.
+Cover Shutoff (Interlock)
+Because of the risk of blindness, burns, and other injury from direct exposure to the invisible engraving beam, this
+device also shuts off the laser automatically when the protective cover is raised during operation.
+After ensuring that the emergency stop button works, you should also test that the cover shutoff works properly
+before conducting any other work on your machine. Start the water cooling system, place a piece of laserable scrap
+material on the workbed, close the cover, and press PULSE to fire the laser. Release the button. Taking care not to
+expose yourself to seeing or being hit by any possible reflected laser light, open the cover as little as possible and
+attempt to fire the laser again. If the laser fires, the automatic shutoff is not working and must be repaired before the
+engraver can be used. Turn off the machine and contact customer service.
+
+--- Page 23 ---
+19
+Water Shutoff
+Because of the danger posed by an uncooled laser tube, this engraver also shuts off the laser automatically when the
+water cooling system malfunctions.
+After ensuring that the emergency stop button and cover protection both work, you should also test that the water
+shutoff works properly before conducting any other work on your machine. Start the water cooling system, place
+a piece of laserable scrap material on the workbed, close the cover, and press PULSE to fire the laser. Release the
+button. Cut off the flow of water by crimping or tying the two hoses. (Take care not to damage the hoses themselves
+in this procedure.) Attempt to fire the laser again. If the laser fires, the automatic shutoff is not working and must be
+repaired before the engraver can be used. Turn off the machine and contact customer service. If the laser does not
+fire, the automatic shutoff is working fine; simply release the two hoses to begin circulating water again and continue
+setting up your engraver.
+Laser Path Calibration
+Although our factory calibrates your entire system during assembly, it is possible for the laser tube, the focus lens,
+and/or one or more of the mirrors to be jostled out of alignment during shipment. As such, it is recommended that
+you perform an optical alignment test as part of setting up your machine. See the Maintenance section below for
+step-by-step guidance.
+Air Assist
+Your air assist should arrive preinstalled and correctly wired. Simply check that it is correctly configured and
+connected as shown. If any tubing or wiring needs to be reconnected, shut off all power to the machine (including
+by pressing the emergency stop) before adjusting anything. Check that its air intake filter is in place, clean, and not
+obstructed by any nearby objects.
+3.10 Security
+For your own safety and that of passersby, this engraver can be locked shut using the provided key. It is recommended
+that you use it to lock the machine between sessions, preventing any unauthorized operation of the machine.
+
+--- Page 24 ---
+20
+4.1 Operation Overview
+Operate this laser marking machine only in accordance with all the instructions provided in this manual.
+Failure to follow the proper guidelines detailed here can result in property damage and personal injury.
+This section will address only some of the options and features provided by the operation software. Before
+beginning to use the machine, make sure that you have read this entire manual (particularly the Safety Information
+above), the separate software manual, and any and all warnings provided on the machine itself.
+4.2 General Operation Instructions
+Step 1.	  Create your design that you'd like to engrave. You can do this directly in your engraving software or use
+any other graphics program, saving or converting the file to a format compatible with the engraver. See the
+full list of acceptable file types in the Technical Specifications section above.
+Step 2.	  Check that your water chiller is full of clean and cool but not cold distilled water. Replace the water if it is
+not clean or cool. Turn it on and check that it is in proper working order. Visually confirm that the water is
+flowing through the whole system either by opening the top rear door to look at the laser tube itself or by
+observing that water is entering the machine and returning to the tank through the outlet tube. If the laser
+tube is examined directly, remember to close its access door before continuing. The water system should
+be allowed to run, filling the pathway and completely clearing any air and bubbles, before ANY use of
+the laser tubes. Add more distilled water to the chiller’s tank if necessary after filling the engraver's water
+tubing.
+Step 3.	  Turn on your fume extractor or ventilation system, if any. (The engraver's own exhaust fans will turn on
+with the machine.)
+Step 4.	  Pull up the emergency stop button and turn on the engraver's control panel using its switch on the side
+of the cabinet. Load your chosen design directly from a USB flash disk or through your computer's
+connection with the engraver.
+Step 5.	  Open the engraver's cover, check that the air assist is working properly, and adjust the workbed if necessary.
+The honeycomb bed is recommended for most applications. The bed can be raised or lowered using the
+control panel or the manual adjustment knob to accommodate different thicknesses of various materials..
+Alternatively, the honeycomb bed can be removed to expose the aluminum knife bed and provide a little
+more space for thicker projects. For heavier substrates, be careful to distribute the weight as evenly as
+possible across the reinforced aluminum supports.
+Step 6.	  Place a sample piece of your material on the workbed. The standard location is in the top left corner of the
+workbed. This can be changed by moving either your design or the location of the engraver's origin using
+either the control panel or your engraving software.
+
+  To work on larger pieces of material, you may open the front or rear pass-through door or both together.
+DO NOT insert anything onto the workbed through the pass-through doors other than the material
+while the laser is active. Pay special attention to the fumes and dust that may be released through
+these doors. Be sure that your ventilation system is strong enough to pull in all of byproducts or
+wear the necessary PPE to ensure the health of users and passersby.
+Step 7.	  Focus the laser by placing the acrylic focus tool on top of the material and carefully raising the workbed.
+The laser head should barely touch the top of the acrylic tool without applying any pressure, ensuring the
+engraving distance is correct. (Again, never attempt to focus the laser either way without some material on
+the workbed.) Close the cover.
+Step 8.	  Customize your design's contrast and engraving depth by adjusting the parameters in your engraving
+software or directly through the control panel. If your engraving instructions detail the power setting in
+milliamperes, use the following conversion chart to find the appropriate power setting:
+4. Operation
+
+--- Page 25 ---
+21
+
+The threshold for the lowest setting is 10%. The laser will not fire at any setting lower than this. It is NOT
+recommended to use the laser tube at full capacity, especially for extended periods. The recommended
+maximum power setting is 70%, as prolonged use above that amount will shorten your laser's service life.
+To increase engraving depth, increase the amount of energy per unit area by increasing the laser's power
+or the number of loops or by slowing down the speed parameter. Engraving too deep, however, reduces
+image quality, especially for coated materials.
+
+ When working with new materials, remember that you should always start on the low end of likely
+settings. If the effect is not yet strong enough, you can always rerun the design loop several times or rerun
+it with more powerful settings until you create the effect that you want.
+
+ Resolution should usually be set to 500 dots per inch. Reducing your image resolution can be helpful in
+some cases, reducing flaming and increasing the energy of the pulse in a way that improves the quality of
+the resultant image in some materials such as some plastics.
+Step 9.
+Turn on the laser tube by inserting and turning your laser key and by using its separate switch on the side
+of the cabinet. To reduce the risk of electric shock, once the laser tube is on, try to touch the engraver with
+only one hand at a time.
+Step 10.	 Press START/PAUSE to engrave your design. Again, do not stare continuously at the laser even through
+the protective polycarbonate window. Watch for possible issues like sparks or fires, however, and be
+prepared to quickly extinguish a fire if necessary.
+Step 11.	 Once the laser has stopped, examine the quality of your first run and adjust the laser parameters on the
+control panel or in your software as necessary to create the desired effect.
+Step 12.	 When you have finished engraving, close your engraving software and then turn off your machine in the
+following order: laser power supply, control panel, any ventilation device, the water cooling system, and
+the emergency power button. Remove your laser key from the control panel.
+
+During repetitive engraving and cutting, periodically check your pump’s tank to maintain a water
+temperature below 100°F (38°C). If this temperature is reached, stop work and allow your engraver to
+cool before further use.
+Step 13.	 Fully clean the workbed and empty the waste bin.
+Step 14.	 For best results, lock and disconnect your laser engraver from its power supply between uses. Unplug it
+or turn off its intermediary surge protector.
+4.3 Instructions for Specific Materials
+The following instructions are suggestions to help speed safe work with a range of materials. The user should
+research the specific safety and engraving requirements of their specific material to avoid the risk of fire, hazardous
+dust, corrosive and poisonous fumes, and other potential problems. Once the product is known to be safe or
+appropriate protective equipment has been set up, it can be helpful to engrave a test matrix of small boxes produced
+at various speed and power settings to discover the ideal settings for your design. Alternatively, start with low power
+and fast speed settings and rerun your design as many times as needed, using progressively greater laser intensity.
+Power (%)
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Current (mA)
+4
+7–8
+12–14
+18–19
+22–23
+24–26
+28
+30–31
+32–33
+33
+Average Engraving Settings
+Description
+Glass
+Leather
+Clear
+Acrylic
+Stone & Tile
+Wood
+Real
+Artifical
+130W
+Power
+16%
+16%
+15%
+15%
+18%
+18%
+Speed
+275 mm/s
+450 mm/s
+475 mm/s
+375 mm/s
+185 mm/s
+225 mm/s
+
+--- Page 26 ---
+22
+Ceramics
+When engraving on ceramics, generally use moderate to high power. Using more loops rather than higher power
+and lower speed can help avoid cracking the material during work. Be mindful of the health risk posed by dust
+generated from ceramic engraving, especially for repetitive industrial applications. Depending on the material
+and the amount of work, a fan or even full ventilation system may be required to address the problem. Similarly,
+operators and others in the work area may need to use breathing PPE such as masks and respirators.
+Glass
+When engraving glass, generally use high power and low speed. As with ceramics, it can be helpful to run more
+loops at lower settings to avoid cracks. Care must be taken when engraving fiberglass and carbon fiber to avoid
+combinations of settings that produce a laser intensity great enough to damage the structural integrity of its
+component fibers, producing blurry marking. PPE should be worn to avoid exposure of the eyes, nose, mouth, and
+skin to the dust produced by working with either material, especially for repetitive industrial applications. Clothing
+worn while working with fiberglass should be washed separately afterwards.
+Leather
+When engraving leather products, generally use low to moderate power at high speed. Be especially attentive to the
+possibility of fire, as well as the dust produced in repetitive applications.
+Metal
+CO₂ laser engravers should not be used for marking, engraving, or cutting metal. They are best suited for working
+coatings applied to a metal base, and care must be taken not to attempt work on the underlying metal itself. A
+variety of coatings specialized for CO₂ engraving are available, and the user should follow the instructions provided
+as the parameters vary from product to product and metal to metal. Generally, work on aluminum coatings should
+be done more quickly at lower power and work on steel coatings can be done more slowly at higher power.
+Paper and Cardboard
+When engraving various paper products, generally use low to moderate power and fast speed. Test samples from
+each batch, as only small parameter differences can separate effects that are too light from those that burn through
+the substrate. As with leather, be especially attentive of the possibility of fire, as well as the dust produced in
+repetitive applications.
+Plastics
+Plastics for engraving are available in many different colors and thicknesses and with many different coatings and
+surfaces. The majority of available plastics can be well engraved and cut with the laser. Plastics with a microporous
+surface seem to give the best result, because less surface material needs to be removed. When engraving plastics,
+generally use low power and high speed settings. Marking and engraving with too much power or at too low a
+speed can concentrate too much energy at the point of contact, causing the plastic to melt. Among other problems,
+this may produce poor engraving quality, noxious fumes, and even fires. High resolution engraving can cause the
+same problem, so medium to low resolution designs should be preferred for most plastics.
+Average Cutting Settings for Artificial Leather
+Description
+Thickness of Leather
+¹/₁₆ in.
+⅛ in.
+¼ in.
+½ in.
+130W
+Power
+17%
+24%
+28%
+37%
+Speed
+40 mm/s
+25 mm/s
+9 mm/s
+6 mm/s
+
+--- Page 27 ---
+23
+Rubber
+The various compositions and densities of rubber cause slightly varying engraving depth. Testing various settings on
+sample pieces of your specific rubber is highly recommended for best results. When engraving rubber, generally use
+a consistent high power setting and create your effects by varying the laser's speed. Microporous rubber materials
+require a significantly higher speed than standard rubber. Engraving any kind of rubber produces a considerable
+amount of dust and gas. Depending on the amount of work, breathing PPE and/or a full ventilation system may be
+required to address the problem.
+Stone
+When engraving various kinds of stone, generally use moderate power and moderate to fast speed. As with ceramics
+and glass, be mindful of the dust created (especially for repetitive industrial applications) and take similar measures
+to ensure the safety of users and others in the work area.
+Textiles
+When engraving textiles like cloth and fleece, generally use low power and fast speed. As with leather, be especially
+attentive to the possibility of fire and dust.
+Wood
+As with rubber, there is a huge variety of woods and testing your specific material is essential to get the best results.
+In general, wood with consistent grain and coloring engraves more evenly. Knotted wood produces uneven effects,
+while resinous wood produces greater edge contrast. Some soft woods like balsa, cork, and pine engrave well (albeit
+with low contrast) at low or moderate power settings and high speed. Others like fir suffer from uneven fibers that
+usually produce a poor effect no matter what you do. Hard woods like cherry and oak engrave well at high power
+settings and low speed. Manufactured wood products can vary from brand to brand, mostly based on its glue
+composition and abundance. MDF works well but creates dark edges when cut.
+In addition to the risk of fire with any wood product, extra care must be taken with the fumes from the glue used
+in plywood and other manufactured woods. Some are too dangerous to work with at all, while others require
+careful ventilation and the use of breathing PPE for repetitive industrial applications. Wood toxicity should also
+be examined, as the dust from some natural woods including oleander and yew can also cause nausea and cardiac
+problems in high enough amounts.
+Average Cutting Settings for Baltic Birch
+Description
+Thickness of Baltic Birch Plywood
+¹/₁₆ in.
+⅛ in.
+¼ in.
+½ in.
+¾ in.
+1 in.
+1⅛ in.
+1¼ in.
+130W
+Power
+18%
+25%
+27%
+32%
+37%
+42%
+47%
+55%
+Speed
+35 mm/s
+16 mm/s
+8 mm/s
+7 mm/s
+6 mm/s
+5 mm/s
+3 mm/s
+2 mm/s
+Average Cutting Settings for Acrylic
+Description
+Thickness of Acrylic
+¹/₁₆ in.
+⅛ in.
+¼ in.
+½ in.
+¾ in.
+1 in.
+1⅛ in.
+130W
+Power
+17%
+25%
+30%
+37%
+42%
+55%
+58%
+Speed
+30 mm/s
+15 mm/s
+7 mm/s
+6 mm/s
+5 mm/s
+2 mm/s
+1 mm/s
+
+--- Page 28 ---
+24
+4.4 Control Console Instructions
+4.4.1 Overview
+You can control your engraver directly from the built-in control panel, through a direct connection with your
+computer, or over the internet. For details on operating your engraving software, see its separate manual. The built-
+in control panel can operate the laser manually or engrave designs loaded onto flash drives and external hard drives
+connected to the USB port on the right side of the cabinet.
+For manual operation, the arrow keys can be used to move the laser head along the X and Y-axis guide rails and the
+PULSE button can be used to fire the laser. The laser head can be set to tab over a set distance each time the arrow
+buttons are pressed by hitting FN and adjusting the parameters under “Manual Set+”. The laser can be set to fire
+for a fixed period by pressing FN and adjusting the parameters under “Laser Set+”. All of the buttons and menus
+should be labelled in English. If they are not, press FN and go to the top button in the right column to change the
+console's language settings.
+To load a design from a FAT16 or FAT32 formatted flash disk or external hard drive, press MENU, select “File”,
+then “Udisk+” and then “Copy to Memory”. Select the design in the File menu and then select “Run”. Various
+parameters can be adjusted using the console's menus and submenus, including setting multiple origin points to
+engrave the design on your material four times in a single session.
+When running a design from the control console, this will be the main display. The design should appear in the top
+left corner and its name and the current speed and power settings on the top right. The position of the laser head
+relative to the workbed appears as the X (horizontal) and Y (vertical) coordinates. The Z coordinate shows the
+elevation of the workbed itself. The U coordinate can be configured to control rotary axes or an automatic feed if
+either is installed. Below them are the layers with notes about their separate speeds in mm/s and their maximum
+power as a % of your machine's rated power. The batch count on the lower left keeps track of the number of times
+the current design has been engraved in a single session. Like the button says, press START/PAUSE to start
+engraving your loaded pattern and to pause engraving when needed.
+If there is ever an emergency situation such as a fire, do not use the control panel to pause or stop the
+engraving. Hit the emergency stop button immediately.
+
+--- Page 29 ---
+25
+4.4.2 Menu Button
+Press MENU on the main interface to enter the Menu interface:
+Push the ▲ and ▼ keys to select items, and then press ENTER to
+enter the corresponding submenu.
+4.4.3 Setting the Laser Speed
+Select "Speed" on the Menu interface, and the following dialogue box will appear:
+The cursor will appear when pushing the ◄ and ► keys. Move
+the cursor to the numeral area and push the ▲ and ▼ keys to
+change the value. Press ENTER to save the change. Press ESC
+to invalidate the change and return to the Menu interface.
+4.4.4 Setting the Laser Power
+Select "Max Power" or "Min Power" on the Menu interface, and the following dialogue boxes will appear:
+Push the ◄ and ► and ▲ and ▼ keys to change the parameters. See the "Speed" setting for reference.
+
+--- Page 30 ---
+26
+4.4.5 File Commands
+Select "File" on the Menu interface, and the following dialogue box will appear:
+When entering the above interface, the system automatically reads the memory files. The file name and the work
+times will be listed, and the selected file will be previewed in the upper right corner. When there are several files,
+use the ▲ and ▼ keys to select one file, and its preview will be shown in the upper right corner of the interface.
+Press ENTER to preview the selected file on the main interface. Press ESC to close the preview.
+Push the ◄ and ► keys, and the light blue cursor can be moved left and right to switch between the file column in
+the left and the item column in the middle. If the file is being previewed, the preview will be closed when switching
+to the item column. When the light blue cursor is on the item column, push the ▲ and ▼ keys to select the item
+and press ENTER to activate the item.
+Press ESC to return to the main interface.
+The item column includes:
+•
+Read Mem File reads the memory file list
+•
+U-Disk reads the file list of an inserted USB flash drive·
+•
+Other Displays other memory files operations
+•
+Run runs the selected file equivalent to pressing Start/Pause.
+•
+Track tracks the selected file
+•
+Work Time forecasts the total running time of the selected file, accurate to 1 ms
+•
+Clear Count clears the count of the selected file
+•
+Delete deletes the selected file from the memory
+•
+Copy to U-Disk copies the selected file to an inserted USB flash drive
+Select "Other" and press ENTER, and the following dialogue box will pop up:
+•
+Current Work Time forecasts the running time of the current file
+•
+Clear All Count clears the count of every file in the memory
+•
+Delete All Files deletes all files from memory
+•
+Format Speedily deleted all files from memory and returns to default settings.
+•
+Format Drastically formats memory, after which all files will be deleted
+•
+Total displays the total count of all the files
+
+--- Page 31 ---
+27
+4.4.6 Flash Drive Commands
+Select "U-disk" on the File interface and press ENTER, and the following dialogue box will appear:
+The system supports file formats such as FAT16 and FAT32, but files can only be identified when placed under the
+root directory. File names with more than 8 characters will be automatically cut short. File names containing things
+other than English characters and numbers cannot be shown when copied to the mainboard. Files copied from the
+mainboard to the flash drive will be placed in its root directory.
+4.4.7 Adjusting Engraving Layers
+When the system is idle or the work is finished, press ENTER to enter the layer parameter section. Push the ▲ and
+▼ keys to select the intended layer. Press ENTER to check the selected layer's parameters as shown below:
+The light blue cursor will be on "Layer" by default. Push the ◄ and ► keys to select the intended layer. Press FN
+to move the light blue block to the intended parameter. Press ENTER to save the parameter changes. Otherwise,
+changes will not be saved. The operation method is the same as that of the max/min power setting.
+The operation method is the same as that of files in
+memory. Press ESC to return to the File interface.
+•
+Read U-disk reads the file list of an inserted USB flash
+drive
+•
+Copy to memory copies the target file to memory.
+•
+Delete deletes the selected file from the USB flash
+drive
+
+--- Page 32 ---
+28
+4.4.8 Function Menu
+Press FN on the main interface to enter the following menu:
+Push the ▲ and ▼ keys to move the light blue cursor to the intended entry, and press ENTER to enter the
+corresponding submenu.
+4.4.9 Adjusting the Z Axis
+When the light blue cursor is on "Z move", push the ◄ and ► keys to control the movement of the Z-axis.
+4.4.10 Setting an Interface Password
+When the light blue cursor is on this item, press ENTER, and the following dialogue box will pop up:
+Push the ▲ and ▼ keys to select items. When the light blue cursor is on the intended item, press ENTER to enter
+the corresponding interface. See §4.4.14 for details on the keyboard interface.
+
+--- Page 33 ---
+29
+4.4.11 Manual Movement of the Laser Head
+When the light blue cursor is on "Manual Set+", press ENTER, and the following dialogue box will pop up:
+When the light blue cursor is on "Mode", push the ◄ and ► keys to choose between the two modes "Continue" and
+"Manual". Push FN to move the cursor. When the cursor is on the "Manual" item, push the ▲ and ▼ and ◄ and ►
+keys to change the parameters. When the "Continue" mode is selected, the "Manual" item will not be valid. In this
+case, press down the direction keys to move the corresponding axes, and release the keys to stop the moving. When it
+is in "Manual" mode, push the direction key and the corresponding axes will move a fixed length as set by the users
+with each push (unless the scope is overstepped).
+4.4.12 Manual Firing of the Laser
+When the light blue cursor is on "Laser Set+", press ENTER, and the following dialogue box will pop up:
+The operation method is the same as that of the manual set. When "Continue" mode is selected, press down PULSE
+to fire the enabled lasers, and release PULSE to finish firing. When "Manual" mode is selected, push PULSE, and
+the laser will fire for a fixed period of time as set by the users with each push.
+
+--- Page 34 ---
+30
+4.4.13 Setting Origin Points
+When the light blue cursor is on "Origin Set+", press ENTER, and the following dialogue box will pop up:
+Press FN to move the light blue cursor to an item and press ENTER to enable or disable the item. When enabled,
+the small box will be red and, when disabled, the small box will be gray. When the light blue cursor is on the "Set
+origin" item or the "Next origin" item, push the ◄ and ► keys to change the value. When changing the parameters
+of "Set origin", remember to press ENTER to validate the change. Parameters will be saved automatically when the
+interface is closed.
+Multiple Origins Enable: "Yes" or "No" can be selected. If you select "No", the system will use single-origin logic.
+If you press Origin and set the origin, only this origin will be used. If you select "Yes", the system will use multiple-
+origin logic and Origin is disabled. In this case, the parameter of each origin must be set in the menu.
+Set Origin 1/2/3/4: After multiple-origin logic is enabled, put the cursor on "Set as Origin 1/2/3/4". Press ENTER
+on the keyboard and the system will take the coordinates as the corresponding origin.
+Next Origin: Users can choose from 0–4, which represent the origin to be used for the next figure. Origin 0 refers to
+the origin set by Origin under single-origin logic. 1–4 represent the origins under multiple-origin logic.
+The next origin can be chosen from origin 1–4 so as to control the starting point of the next job provided that the
+origin is enabled. However, it cannot be changed to origin 0. The next origin will always be Origin 0 under single-
+origin logic.
+Origin Enable 1/2/3/4: After multiple-origin logic is enabled, the four origins can also be individually disabled and
+enabled.
+Once multiple-origin logic is selected, if the number of the next origin is 1 and four origins are enabled, when the
+memory file function is started (via the keyboard or PC) or the processing file is uploaded into the PC and this file
+selects "Take the Original Origin as the Origin", the work will use different origins each time it starts. The rotation
+order of origins is 1➝2➝3➝4➝1➝2…If the processing file is uploaded to the PC and this file selects "Take the
+Current Origin as the Origin", the system will always use the current origin.
+
+--- Page 35 ---
+31
+4.4.14 Saving Current Parameters and Virtual Keyboard Use
+When the light blue cursor is on the "Set Fact Para" item, press ENTER, and the following dialogue box will pop up:
+The password consists of six characters. Push the ▲ and ▼ and ◄ and ► keys to select each character, and press
+ENTER to confirm each selection. If the password is wrong, "password error" will pop up and you need to reenter
+the password. If the password is correct, the system will set all current parameters as factory parameters, and
+"factory parameters have been successfully set" will appear on the screen.
+Before a machine leaves the factory, this function is used to store the preset parameters, which later can be restored
+by users at any time.
+4.4.15 Loading Saved Parameters
+When "Def Fact Para" is selected, the system will replace all current parameters with the default factory parameters.
+The operation method is the same as setting the factory parameters.
+4.4.16 Autofocus
+When the light blue cursor stops on "Auto Focus", press ENTER to automatically focus the laser lens.
+4.4.17 Setting the Interface Language
+When the light blue cursor is on this item, press ENTER, and the following dialogue box will pop up:
+The operation method is the same as described above.
+Press ENTER when one language is selected, and then return to the main interface.
+
+--- Page 36 ---
+32
+4.4.18 Setting the Machine's IP Address
+When the light blue cursor is on this item, press ENTER, and the following dialogue box will pop up:
+Press FN to move the light blue cursor to the intended item, and push the ▲ and ▼ and ◄ and ► keys to change the
+parameters. Press ENTER to save the changes or ESC to discard changes and return to the previous menu.
+4.4.19 Diagnostic Tools
+When the light blue cursor is on this item, press ENTER, and the following dialogue box will pop up:
+This interface contains input/output information of the system’s hardware. Press the "Read Para" button to access
+hardware information. When the hardware signal is triggered, the small box to the left of the corresponding item will
+be displayed in green. Otherwise, it will be gray. Press ESC to return to the previous menu.
+4.4.20 Reflecting Images across an Axis
+When the light blue cursor is on this item, press ENTER, and the following dialogue box will pop up:
+This interface shows the position of the origin. Different origin positions can generate different reflections of the
+graph over the X/Y axis. The operation method is the same as described above.
+
+--- Page 37 ---
+33
+4.4.21 Resetting Axes
+When the green block is on this item, press ENTER, and the following dialogue box will pop up:
+Push the ▲ and ▼ keys to move the light blue block to the intended item. Press ENTER to start the resetting of
+the selected axis. The message "resetting is underway" will show on the screen. Upon resetting, the message will
+automatically disappear and the system will return to the main interface.
+4.4.22 Alarm Displays
+During the operation of the system or the running of the machine, some alarm information may pop up if there is a
+water protection error etc. For example, the water protection alarm may pop up as shown below:
+Correct the problem displayed and then select either "Enter" or "Esc" to exit.
+
+--- Page 38 ---
+34
+5.1 Maintenance Overview
+The use of procedures other than those specified herein may result in hazardous laser radiation exposure.
+Before any cleaning or maintenance work, always switch off the device and disconnect it from its power supply.
+Always keep the system clean, as flammable debris in the working and exhaust areas constitutes a fire hazard.
+ONLY allow trained and skilled professionals to modify or disassemble this device.
+•
+Clean and cool water must be provided to the system at all times.
+•
+The working table must be cleaned and the waste bin emptied on a daily basis.
+•
+The 3rd mirror and the focus lens must be checked every day and cleaned if required.
+•
+The other mirrors, exhaust system, and air intake filter must be checked every week and cleaned if required.
+•
+The beam alignment should be checked weekly.
+•
+The wiring should be checked every week for loose connections, especially the wiring for the laser tube power supply.
+•
+The guide rails should be cleaned and lubricated at least twice a month.
+•
+The air assist must be checked every month and cleaned if required.
+•
+The whole laser machine including the other components such as the water cooling system must be checked every
+month and cleaned where required.
+For video instructions on general maintenance, see our YouTube channel’s guide “OMTech Training—Cleaning
+Your CO2 Laser Engraver.”
+5.2 Water Cooling System
+NEVER touch or adjust your engraver's water supply while the pump is still connected to power.
+The laser tube requires cool and clean distilled water to avoid overheating. Tepid water at room temperature or a little
+below is ideal. The laser tube requires at least 2 gallons (7.5 L) of cool and clean distilled water or other laser-safe
+coolant to avoid overheating. If the temperature of the water ever approaches 100°F (38°C), discontinue work until
+it has cooled or find a way to reduce its temperature without interrupting the supply of water to the laser tube. The
+water should never be allowed to become too cold either, which could also cause the glass laser tube to shatter during
+use. During winter or if ice is used to cool hot water, ensure the temperature never falls below 50°F (10°C). More
+water should be added every few days to ensure evaporation does not cause the pump to become exposed during use.
+5.3 Cleaning
+5.3.1 Cleaning the Water System
+NEVER touch or adjust your engraver's water supply while the pump is still connected to power.
+The water tank should be shielded from ambient dust created during work. If the water ever becomes visibly dirty,
+discontinue work. The debris in the water will reduce its cooling efficiency, can heat up itself, and can damage the
+cooling pipes. Change the water, place the water outlet tube into a separate bucket, and run the cooling system until
+all contaminated water has been flushed from the engraver. Clean the water tank itself before refilling it with clean
+and cool distilled water, replacing the outlet tube, and continuing operation.
+5. Maintenance
+
+--- Page 39 ---
+35
+If the water remains visibly clean at all times, it is still recommended that you clean the water tank about once a
+month as a precaution, changing the water as you do so.
+If you use an industrial water chiller instead of the provided pump, follow its separate instructions for maintenance
+but similarly ensure that the water used remains cool, clean, and pure.
+5.3.2 Cleaning the Main Bay and Engraver
+Check at least once a day whether dust has accumulated in the main engraving bay. If so, it must be removed. The
+exact cleaning interval and requirements strongly depend on the material being processed and the operating time of
+the device. A clean machine guarantees optimal performance and reduces service costs, as well as reducing the risk
+of fire or injury.
+Clean the viewing window with mild cleansers and a lens or cotton cloth. DO NOT use paper towels as they can
+scratch the acrylic and reduce the cover's ability to protect you from laser radiation. Clean the interior of the main
+bay thoroughly, removing any debris particles or deposits. Paper towels and window cleaner are recommended.
+When necessary, clean the cover of the laser tube after it has been allowed to cool completely. Allow any fluid used
+in any cleaning to dry completely before further use of the engraver.
+5.3.3 Cleaning the Focus Lens
+The lens has a durable coating and won't be damaged by correct and careful cleaning. You should check the lens
+and the 3rd mirror daily and clean them if there is any debris or haze on their surface. Your laser will be less
+efficient and heat buildup on the oil or dust itself can damage the lens.
+1.	 Move the engraving table to a distance approximately 4″ (10 cm) under the lens holder.
+2. 	 Move the laser head into the center of the workbed and put a cloth under the lens holder so that the lens will not
+
+be damaged if it accidentally falls from its holder.
+3. 	 Unscrew the lens holder, rotating to the left.
+
+--- Page 40 ---
+36
+4. 	 Remove the pressurized air hose and laser guide connections.
+5. 	 Once positioned over your clean lens-cleaning tissue, remove the lens from the lens holder by carefully turning
+the lens holder and letting the lens and its O-ring drop onto the cleaning cloth.
+6. 	 Examine the O-ring and, if necessary, clean it with a cotton bud and a lens-cleaning tissue or cloth.
+7. 	 Remove coarse dust as well as possible by blowing air onto the lens surface.
+8. 	 Check the surface and, if necessary, clean the lens with the lens cleaning liquid and lens tissue or cloth.
+9. 	 Hold the lens assembly by its edge with a lens-cleaning tissue and use a drop of lens-cleaning liquid. While
+holding the lens at an angle, flush both surfaces to wash away grime.
+10. 	Put the lens on a clean lens-cleaning tissue and put some lens-cleaning liquid on one side of the lens. Leave
+the liquid to take effect for approximately one minute and then gently wipe it away with lens-cleaning tissues
+soaked with lens-cleaning liquid. Dry this side of the lens with dry lens-cleaning tissues/cloth.
+11. 	Repeat the same cleaning process on the other side of the lens.
+NEVER use a cleaning tissue twice. Dust accumulated in the cleaning tissue could scratch the lens surface.
+12. 	Examine the lens. If it is still dirty, repeat the cleaning process above until the lens is clean. Do not touch the
+surface of the lens after cleaning.
+13. 	Carefully insert the lens into the lens holder, ensuring that its rounded convex side is facing upwards. Put the
+O-ring on top of the lens.
+14. 	Carefully reassemble the lens and laser head attachments in reverse order.
+
+--- Page 41 ---
+37
+5.3.4 Cleaning the Mirrors
+The mirrors should be similarly cleaned if there is any debris or haze on their surface to improve performance and
+avoid permanent damage. The 1st mirror is located in the back left of the machine beyond the far end of the Y axis.
+The end of the laser tube closest to this mirror is itself a semitransparent mirror that should be checked at the same
+time. The 2nd mirror is located on the Y axis at the left end of the X axis. The 3rd mirror is located on top of the
+laser head on the X axis. The most detritus accumulates on the 3rd mirror and it should be checked daily along with
+the focus lens. The laser tube and the 1st and 2nd mirrors can be checked daily if desired but are usually fine if they
+are only checked once a week.
+The semitransparent mirror at the end of the laser tube should only be cleaned when the engraver is fully
+disconnected from power and the tube is fully cooled. Clean all four mirrors with lens-cleaning tissue or with cotton
+wetted with lens-cleaning liquid or isopropyl alcohol. The 3 positioning mirrors can be cleaned in place or removed
+for cleaning by turning them counterclockwise. Take care not to touch the surface of any mirror directly. Clean with
+gentle circular motions and avoid pressing hard enough to grind any debris or cause scratching. If any mirrors are
+removed for cleaning, reinstall them by turning them into place clockwise while again being careful to avoid any
+scratching.
+5.4 Laser Path Alignment
+Having a proper beam alignment is important for the overall efficiency of the machine and quality of its work. This
+machine went through a complete beam alignment before shipping. When the engraver first arrives and about once
+a week during normal operation, however, it is recommended that users confirm that alignment is still at acceptable
+levels and that the mirrors and focus lens have not shifted due to the movement of the machine.
+You will need to place a piece of tape at each stage of the laser path, marking it to confirm that that stage remains
+correctly aligned. When it is not, you will use the laser tube's brackets or the screws on the back of the misaligned
+mirror to correct the problem. Once the provided tape runs out, we recommend masking tape as it is easy to manage
+and use.
+Performing a beam alignment can expose the operator to small amounts of radiation if performed carelessly.
+Follow these procedures correctly and always take caution when performing a beam alignment.
+Perform a beam alignment at low power levels: 15% or less. Any higher percentage will cause the laser to
+ignite the testing tape instead of marking it. Be sure that you set the Max. Power (not Min.) to 15%.
+
+--- Page 42 ---
+38
+5.4.1 Red Dot Locator Alignment
+To test the alignment of the laser tube with the 1st mirror, cut out a piece of tape and place it on the mirror's frame.
+DO NOT place the tape directly onto the mirror. Turn on the machine and set the power level to 15% or lower.
+Press PULSE to manually fire the laser. You should be able to see a small mark on the tape. If it is not noticeable,
+press PULSE again.
+Pressing PULSE activates the laser. Always make sure the path is clear between the laser and its target.
+Never allow foreign objects between the laser and its target. Take care not to leave any part of your body in
+the laser path while pressing the PULSE button.
+The laser mark should be near the center of the hole. If the laser is not centered on the 1st mirror, cut the power
+to your laser and carefully adjust the laser tube in its brackets. This may require loosening the screws on its stand
+and adjusting its brace wheel. Be careful not to overloosen the screws and not to overtighten them. Only adjust one
+stand at a time.
+
+--- Page 43 ---
+39
+5.4.2 1st Mirror Alignment
+After ensuring the laser is well aligned between the laser tube and 1st mirror, check the alignment between the 1st
+and 2nd mirrors. First, use the direction arrows on the control panel to send the 2nd mirror to the back of the bed
+along the Y axis.
+Once set, place a piece of tape on the 2nd mirror's frame. DO NOT place the tape directly onto the mirror. Repeat
+the steps from §5.4.1. If the laser is not centered on the 2nd mirror, you will need to adjust the 1st mirror's set bolts
+accordingly.
+To adjust the mirror, loosen the nut on the screw and then slightly turn the screw either clockwise or counterclockwise.
+Each screw adjusts a different position or angle. Keep track of which screw you are adjusting and the direction of
+adjustment. Do not turn the screw more than ¼ turn at a time and, especially at first, test the position of the laser after
+each adjustment so that you learn the effect of each change. Test until the beam is well aligned and then retighten the
+nuts on the screws once all adjustments are completed.
+Next, use the direction arrows on the control panel to send the 2nd mirror to the front of the bed along the Y axis.
+Once set, place another piece of tape on the 2nd mirror's frame. DO NOT place the tape directly onto the mirror.
+Repeat the steps from §5.4.1 and, if necessary, adjust the set bolts on the 1st mirror. Test again until the beam is
+well aligned and retighten the nuts on the set screws.
+
+--- Page 44 ---
+40
+5.4.3 2nd Mirror Alignment
+After ensuring the laser is well aligned between the 1st and 2nd mirrors, check the alignment between the 2nd and
+3rd mirrors. Repeat the steps and adjustments above, taking care to use the tape on the mirror's frame and not its
+surface.
+5.4.4 3rd Mirror Alignment
+After ensuring the laser is well aligned between the 2nd and 3rd mirrors, check the alignment between the 3rd
+mirror and the workbed. First, unplug the air assist hose from the laser head. Then, place a piece of tape across the
+bottom of the laser head and press it onto the nozzle with some force. This will leave a ring mark that can help you
+check the  accuracy. Repeat the steps from §5.4.1. If the laser is not centered through the laser head, adjust the 3rd
+mirror's set screws accordingly as in §5.4.2. Test again until the beam is well aligned and retighten the nuts on the
+set screws.
+When the laser is well centered along the entire path from the tube to the workbed, your laser mirrors are all
+correctly calibrated and (assuming they are clean) performing at optimum efficiency.
+5.5 Lubrication Instructions
+For best results, clean and lubricate the engraver’s guide rails every two weeks. Turn off the laser engraver. Gently
+move the laser head out of the way. Wipe away all dust and debris along the X and Y axis rails with a dry cotton
+cloth until they are shiny and clean. Do the same to the Z axis screws. Lubricate both the rails and screws with
+white lithium grease. Gently move the laser head and X axis to distribute the lubricant evenly along both rails and
+raise and lower the bed to distribute the lubricant evenly along the screws.
+
+--- Page 45 ---
+41
+Thank you for choosing our laser equipment for your home or shop! For a .pdf copy
+of the latest version of this manual, use the appropriate app on your smartphone or
+other device to scan the QR code to the right.
+Come join the OMTech community at our official laser group on Facebook or
+visit the company forums at omtechlaser.com! Check our YouTube channel for
+helpful hints and instructional videos. If you encounter any problem regarding
+your engraver, do not hesitate to contact customer service with your order number
+at help@cs-supportpro.com or techsupport@omtechlaser.com. Our teams will
+respond within 24 hours to make things right. You can also reach us Monday to
+Friday at (949) 539-0458 between 8 am and 4:30 pm PST.
+Thank you and we hope you will choose us again for all your laser needs!
+5.6 Parts Replacement
+The engraver should not be modified or disassembled by anyone except trained and skilled professionals, but
+some consumable parts may require replacement after prolonged use. Be sure only to use identical or compatible
+replacement parts with this engraver. Contact your vendor or our technicians if you have any questions about
+fitment. Using incompatible components is highly dangerous and waives all the manufacturer's liability for any
+damage or injury caused.
+ALWAYS completely disconnect the engraver from its power supply before replacing any parts.
+Take special care when replacing the laser tube or its power supply, as both have extremely high voltage
+connections. If you replace the power supply with an identical model, you will be able to use the same screw
+terminal blocks as a unit. If you change to a different laser power supply, refer to the following diagram:
+FG: Ground Wire for the Mains and Case
+AC₁: Neutral Wire to the Main Power
+AC₂: Live Input from the Main Power
+H: Connection for Active-High Devices
+L: Connection for Active-Low Devices (like this machine)
+P: Line to the Trigger, Water, & Other Systems (like the door switch)
+G: Ground Wire for the Control System, PWM Level Shifters,
+Potentiometers, &c.
+IN: Input Power for PWM Level Shifters or Potentiometers
+5V: 5V Connection for Digital Signals
+5.7 Disposal
+Electrical products should not be disposed of with household products. In the EU and UK, according
+to the European Directive 2012/19/EU for the disposal of electrical and electronic equipment and its
+implementation in national laws, used electrical products must be collected separately and disposed of
+at the collection points provided for this purpose. Locations in Australia, Canada, and the United States
+may have similar regulations. Contact your local authorities or dealer for disposal and recycling advice.
+Contact Us
+
+--- Page 46 ---
+U S B - 1 4 0 9 - U S
+Rev. 7 Jun. 2023

@@ -1,0 +1,790 @@
+# go
+
+Source: go.pdf
+Category: virtual_reality
+Pages: 26
+========================================
+
+--- Page 1 ---
+oculus Go safety & warranty manual
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 2 ---
+2
+Product Description
+Oculus Go is a standalone VR headset that comes with an
+orientation-tracked controller. It supports 3 degrees of freedom
+(3DOF) head tracking, has best-in-class optics, a wide field of
+view, and fantastic ergonomics. Oculus Go has a high-resolution
+fast-switch LCD screen, which has a dramatic effect on visual
+clarity. The headset is lightweight, and the fabric used for the
+facial interface is soft and breathable. Built-in speakers provide
+an integrated audio system that transports you straight into VR
+without needing headphones.
+For a full Product Description, Requirements and Warranty,
+please visit www.oculus.com.
+What’s in the Box?
+Headset
+Controller
+Lanyard
+Glasses Spacer
+Charger w/Cable
+AA Battery
+Lens Cloth
+Oculus Go VR Headset
+Model No:	 MH-A32 (32GB),
+
+MH-A64 (64GB)
+Oculus Go Controller
+Model No:	 MI-A
+Oculus Go Adapter
+Model No:	 PSAA10A-050QL6
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 3 ---
+3
+Requires 10W (5V 2A) AC adapter, not included, to charge the
+device. For use only with IEC/EN 60950-1 Rated Input: 100-240
+Vac/0.35 A, Output: 5 Vdc, 2 A max, double insulated, with LPS
+output, or equivalent.
+NOTE: Please visit www.oculus.com/setup for Set-Up Instructions.
+Please visit https://support.oculus.com for Best Practices and
+Troubleshooting.
+Product Care and Maintenance
+Please only use dry optical lens micro-fiber cloths for cleaning
+of the headset lenses. Do not clean lenses with any liquid or
+chemical cleansers. Do not clean the facial interface fabric with
+alcohol or any other abrasive cleaning solution.
+For cleaning of the straps, facial interface, and controller, only use
+non-abrasive anti-bacterial wipes and wipe gently.
+•	Do not leave the headset in direct sunlight. Exposure to direct
+sunlight can damage the optics and display.
+•	Do not shine a laser or external light source through the lenses
+as it may damage the display.
+•	Ensure the battery tray cover is in good working condition and
+locks in place.
+•	As with any electronic device, avoid exposure to water or fluids.
+•	Store components in their storage case when not in use to
+minimize unintentional damage or environmental exposure.
+•	Operating Temperature: 0-40°C / 32-104°F, min. humidity 5%,
+max humidity 95% RH (non-condensing).
+•	Non-Operating (Storage): -30-65°C / -22-149°F, 85%RH.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 4 ---
+4
+Product Electrical Specifications
+Component
+Rating
+Wireless
+Frequency
+Peak Output
+Power
+Headset &
+Adapter
+5V, 2A
+2.400-2.4835 GHz
+BT: 9.9mW
+WiFi: 429.5mW
+5.150-5.850 GHz
+148.3mW
+Controller
+1.5V, 190mA
+2.400-2.4835 GHz
+0.873mW
+Battery
+(Controller)
+1.5V
+(1–AA Alkaline)
+Not
+Applicable
+Not
+Applicable
+Installing the Lanyard
+It is important to install the lanyard on the controller before using
+Oculus Go. Use the lanyard to secure the controller on your wrist.
+1
+2
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 5 ---
+5
+Wearing Glasses
+Glasses? Visit www.oculus.com/glasses for more info.
+3
+4
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 6 ---
+6
+Health & Safety
+*These health & safety warnings are periodically updated for
+accuracy and completeness. Check www.oculus.com/warnings
+for the latest version.
+HEALTH & SAFET Y WARNINGS:
+To reduce the risk of personal injury,
+discomfort or property damage, please
+ensure that all users of the headset read
+the warnings below carefully before using
+the Oculus Go headset and controller.
+Before Using the Headset
+•	Read and follow all setup and operating instructions provided
+with the headset.
+•	Review the hardware and software recommendations for use of
+the headset. Risk of discomfort may increase if recommended
+hardware and software are not used.
+•	Your headset and software are not designed for use with any
+unauthorized device, accessory, software and/or content. Use
+of an unauthorized device, accessory, software and/or content
+or hacking the device, software or content may result in injury
+to you or others, may cause performance issues or damage to
+your system and related services.
+•	To reduce the risk of discomfort, properly adjust side and
+top straps, and ensure comfortable placement of the facial
+interface and that you see a single, clear image; this will aid
+in proper weight balance and distribution of the headset.
+Re-check the settings before resuming use after a break, to
+avoid any unintended changes to any adjustments.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 7 ---
+7
+•	Virtual reality is an immersive experience that can be intense.
+Frightening, violent or anxiety provoking content can cause your
+body to react as if it were real. Carefully choose your content
+if you have a history of discomfort or physical symptoms when
+experiencing these situations. Oculus provides comfort ratings
+for some content, and you should review the comfort rating for
+your content before use. (For more details on comfort ratings and
+how they can assist in providing a comfortable experience, go to
+https://support.oculus.com/help/oculus/918058048293446/).
+If you are new to virtual reality, start with content rated
+Comfortable, before trying Moderate, Intense or Unrated
+content.
+•	A comfortable virtual reality experience requires an unimpaired
+sense of motion and balance. Do not use the headset when
+you are: Tired; need sleep; under the influence of alcohol or
+drugs; hung-over; have digestive problems; under emotional
+stress or anxiety; or when suffering from cold, flu, headaches,
+migraines, or earaches, as this can increase your susceptibility
+to adverse symptoms.
+•	Consult with your physician before using the headset if you
+are pregnant, elderly, have pre-existing binocular vision
+abnormalities or psychiatric disorders, or suffer from a heart
+condition or other serious medical condition.
+Seizures
+Some people (about 1 in 4000) may have severe dizziness,
+seizures, eye or muscle twitching or blackouts triggered by light
+flashes or patterns, and this may occur while they are watching
+TV, playing video games or experiencing virtual reality, even
+if they have never had a seizure or blackout before or have no
+history of seizures or epilepsy. Such seizures are more common
+in children and young people. Anyone who experiences any of
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 8 ---
+8
+these symptoms should discontinue use of the headset and see
+a doctor. If you previously have had a seizure, loss of awareness,
+or other symptom linked to an epileptic condition you should see
+a doctor before using the headset.
+Children
+This product is not a toy and should not be used by children under
+the age of 13, as the headset is not sized for children and improper
+sizing can lead to discomfort or adverse health effects, and
+younger children are in a critical period in visual development.
+Adults should make sure children (age 13 and older) use the
+headset in accordance with these health and safety warnings
+including making sure the headset is used as described in the
+Before Using the Headset section and the Safe Environment
+section. Adults should monitor children (age 13 and older) who
+are using or have used the headset for any of the symptoms
+described in these health and safety warnings (including those
+described under the Discomfort and Repetitive Stress Injury
+sections), and should limit the time children spend using the
+headset and ensure they take breaks during use. Prolonged use
+should be avoided, as this could negatively impact hand-eye
+coordination, balance, and multi-tasking ability. Adults should
+monitor children closely during and after use of the headset for
+any decrease in these abilities.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 9 ---
+9
+General Precautions
+To reduce the risk of injury or discomfort you should always follow
+these instructions and observe these precautions while using the
+headset:
+•	Use Only In A Safe Environment:
+The headset produces an immersive
+virtual reality experience that distracts
+you from and completely blocks your
+view of your actual surroundings.
+
+f Always be aware of your surroundings before beginning use
+and while using the headset. Use caution to avoid injury.
+
+f You are responsible for creating and maintaining a safe
+environment for use at all times.
+
+f Serious injuries can occur from tripping or running into or
+striking walls, furniture, other objects or people, so clear an
+area for safe use before using the headset.
+
+f Use of the headset and Oculus controllers may cause loss
+of balance.
+
+f Remember that the objects you see in the virtual environment
+do not exist in the real world, so don’t sit or stand on them
+or use them for support.
+
+f Remain seated unless your game or content experience
+requires standing. If you are using the headset while seated,
+make sure you are seated on a secure surface and stable
+platform.
+
+f Take special care to ensure that you are not near other people,
+objects, stairs or steps, ramps, sidewalk(s), balconies, open
+doorways, windows, furniture, open flames (like candles
+or fireplaces), ceiling fans or light fixtures, televisions or
+DO
+DON'T
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 10 ---
+10
+monitors, or other items that you may impact or strike when
+using—or immediately after using—the headset.
+
+f Use of the headset with glasses may increase the risk of facial
+injury if you fall or hit your face.
+
+f While using the headset with controllers, you may extend
+your arms fully out to the side or over your head, so make
+sure those areas are clear.
+
+f Remove any tripping hazards from the area before using
+the headset.
+
+f Remember that while using the headset you may be unaware
+that people and pets may enter your immediate area.
+
+f Your view of your surroundings is completely blocked while
+you are using the headset, so do not hold or handle things
+that are dangerous, may injure you or may be damaged.
+
+f The headset is designed for use indoors. If used outdoors,
+pay particular attention to your surroundings and make
+sure you are using the headset in a safe environment away
+from traffic, pedestrians or other hazards in an outdoor
+environment. If used outdoors, remain seated unless your
+game or content experience requires standing.
+
+f Never wear the headset in situations that require attention,
+such as walking, bicycling, or driving.
+•	Ease into the use of the headset to allow your body to adjust;
+use for only a few minutes at a time at first, and only increase
+the amount of time using the headset gradually as you grow
+accustomed to virtual reality. Looking around and using
+the input device when first entering virtual reality can help
+you adjust to any small differences between your real-world
+movements and the resulting virtual reality experience.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 11 ---
+11
+•	Do not use the headset while in a moving vehicle such as a
+car, bus, or train, as variation in speed (velocity) or sudden
+movements may increase your susceptibility to adverse
+symptoms.
+•	Take at least a 10 to 15 minute break every 30 minutes, even
+if you don’t think you need it. Each person is different, so take
+more frequent and longer breaks if you feel discomfort. You
+should decide what works best for you.
+•	It is normal for your headset to feel warm to the touch while in
+use or while charging. Prolonged skin contact with a headset
+that is hot to the touch may produce skin discomfort or redness,
+or low temperature burns. If your headset feels hot to the touch
+or is uncomfortably warm, stop using or charging it, and allow
+it to cool down.
+•
+To prevent possible hearing damage, do not listen at high
+volume levels for long periods.
+System Alerts
+For your protection, the headset will provide you with the
+following alerts:
+•	An audible and visual alert when the headset is overheating.
+If that alert appears/sounds, to reduce the risk of personal
+injury, immediately remove your headset and let it cool down
+before continuing use.
+•	A visual alert in the event of high volume levels. If that
+alert appears, lower the sound volume to reduce the risk of
+hearing loss.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 12 ---
+12
+Discomfort
+•	Immediately discontinue using the headset if any of the
+following symptoms are experienced: seizures; loss of
+awareness; eye strain; eye or muscle twitching; involuntary
+movements; altered, blurred, or double vision or other
+visual abnormalities; dizziness; disorientation; impaired
+balance; impaired hand-eye coordination; excessive sweating;
+increased salivation; nausea; lightheadedness; discomfort
+or pain in the head or eyes; drowsiness; fatigue; or any
+symptoms similar to motion sickness.
+•	Just as with the symptoms people can experience after they
+disembark a cruise ship, symptoms of virtual reality exposure
+can persist and become more apparent hours after use. These
+post-use symptoms can include the symptoms above, as well
+as excessive drowsiness and decreased ability to multi-task.
+These symptoms may put you at an increased risk of injury
+when engaging in normal activities in the real world.
+•	Do not drive, operate
+machinery, or engage
+in other visually or
+physically demanding
+activities that have potentially serious consequences
+(i.e., activities in which experiencing any symptoms could lead
+to death, personal injury, or damage to property), or other
+activities that require unimpaired balance and hand-eye
+coordination (such as playing sports or riding a bicycle, etc.)
+until you have fully recovered from any symptoms.
+•	Do not use the headset until all symptoms have completely
+subsided for several hours.
+•	Be mindful of the type of content that you were using prior to
+the onset of any symptoms because you may be more prone
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 13 ---
+13
+to symptoms based upon the content being used. Review the
+comfort rating for the content you were using, and consider
+using content with a more appropriate comfort rating.
+•	See a doctor if you have serious and/or persistent symptoms.
+Headset Battery and Charging
+Your headset contains a rechargeable Lithium-Ion battery and a
+power adapter (charger) and charging cable. Improper use of the
+battery or power adapter may result in a fire, explosion, battery
+leakage or other hazard. Follow these instructions to reduce the
+risk of injury to you or others, or damage to your product.
+•	The battery in your headset is not user replaceable or
+serviceable. Do not attempt to open your headset to access
+the battery, open, repair or replace the battery. Please contact
+Oculus Support, if you need battery or power management
+support for your device.
+•	Do not use or wear your headset while connected to the power
+adapter or charging.
+•	Only charge your headset with the included power adapter and
+cable, or an approved power adapter and cable if not included.
+Do not use other cables or power adapters. If you are unsure
+about whether a cable or power adapter is compatible with
+your headset, contact Oculus Support.
+•	Periodically inspect connection cords, connector tips and the
+power adapter for damage or signs of wear. Do not use your
+power adapter if prong(s), enclosure, connector port, connector
+cable or any part is damaged, cracked, or exposed.
+•	Do not use external battery packs or power sources other than
+the included power adapter or authorized accessories to charge
+the battery or power the headset.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 14 ---
+14
+•	Do not attempt to charge or use the headset it if does not turn
+on after attempted charging, if it gets abnormally warm when
+it is used or charged, or if the battery compartment is swollen,
+leaking liquid or smoking.
+•	Do not disassemble, crush, bend or deform, puncture, shred or
+put a high degree of pressure on the headset. This can cause
+leakage or an internal short-circuit in the battery, resulting in
+overheating.
+•	Avoid dropping your headset. Dropping it, especially on a
+hard surface, can potentially cause damage to the headset
+and battery. If you suspect damage to your headset or battery,
+contact Oculus Support.
+•	Do not let your headset get wet or come in contact with liquids.
+Even though the headset may dry and appear to operate
+normally, the battery contacts or circuitry could slowly
+corrode and pose a safety hazard. If the headset gets wet,
+contact Oculus Support, even if the headset appears to be
+working normally.
+•	Do not place your headset in areas that may get very hot, such
+as on or near a cooking surface, cooking appliance, iron or
+radiator or in direct sunlight. Excessive heating can damage
+the headset or the battery and could cause the headset or the
+battery to explode. Do not dry a wet or damp headset with
+an appliance or heat source such as a microwave oven, hair
+dryer, iron or radiator. Avoid leaving your headset in a car in
+high temperatures.
+•	In the event of a battery leak, do not allow the liquid to come
+in contact with the skin or eyes. If contact has been made,
+wash the affected area with large amounts of water and seek
+medical advice.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 15 ---
+15
+•	Always ensure that the headset has adequate ventilation
+and air flow while in use or charging. Covering the headset
+with materials that significantly affect air flow may affect its
+performance and poses a possible risk of fire or explosion.
+•	Your headset and power adapter (if provided) comply with
+applicable limits for industry surface temperature standards. To
+prevent potential low-temperature burns from prolonged direct
+contact, avoid direct skin contact with your power adapter for
+long periods of time when charging, or when plugged into a
+power source. Ensure the power adapter is in a well-ventilated
+area, when in use. Use the approved charging cable to optimize
+proximity of your device to the adapter; do not place adapter
+under a pillow, blanket or part of your body. Users with special
+medical or physical conditions that impair the ability to detect
+heat against your skin should take special care when using the
+device or charging with the power adapter. Follow any thermal
+warnings and advisory that may appear on your device’s screen.
+•	Dispose of your headset and battery properly. Do not dispose
+of the headset or battery in a fire or incinerator, as the battery
+may explode when overheated. Dispose of separately from
+household waste. Refer to www.oculus.com/support for proper
+maintenance, replacement, and disposal of your headset.
+Repetitive Stress Injury
+Using the device may make your muscles, joints, neck, hand(s),
+or skin hurt. If any part of your body becomes tired or sore while
+using the headset or its components, or if you feel symptoms
+such as tingling, numbness, burning or stiffness, stop and rest
+for several hours before using it again. If you continue to have
+any of the above symptoms or other discomfort during or after
+use, stop use and see a doctor.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 16 ---
+16
+Accessories
+•	Your headset and software are not designed for use with any
+unauthorized accessory. Use of an unauthorized accessory may
+result in injury to you or others, may cause performance issues
+or damage to your system and related services.
+•	Refer to accessory instructions for proper installation, warnings,
+and use of included and authorized accessories.
+•	Only use recommended batteries and charging systems for
+authorized accessories.
+•	Install and use wrist straps or lanyard with accessories when
+available to secure to your wrist when in use.
+•	Use lanyards with all tracked accessories so they do not become
+loose projectiles.
+Interference with
+Medical Devices
+The headset and controller(s) may contain magnets or
+components that emit radio waves, which could affect the
+operation of nearby electronics, including cardiac pacemakers,
+hearing aids and defibrillators. If you have a pacemaker or other
+implanted medical device, do not use the headset and controller
+without first consulting your doctor or the manufacturer of your
+medical device. Maintain a safe distance between the headset
+and controller and your medical devices. Stop using the headset
+and/or controller(s) if you observe a persistent interference with
+your medical device.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 17 ---
+17
+Controller Batteries
+Your controllers contain AA batteries.
+•	CHOKING HAZARD. The remote is not a toy. It contains a
+battery, which is a small part. Keep away from children under 3.
+•	DO NOT INGEST BATTERY. CHEMICAL BURN HAZARD
+•	If a battery is swallowed, it can cause severe internal burns
+and potential perforation of esophagus in just 2 hours and
+can lead to death.
+•	If you think batteries might have been swallowed or placed
+inside any part of the body, seek medical attention, and have
+your doctor call the battery ingestion hotline at (800) 498-8666
+or (202) 625-3333.
+•	Keep new and used batteries away from children. If the battery
+compartment does not close securely, stop using the product
+and keep it away from children.
+•	Keep in original package until ready to use. Properly dispose
+of used batteries promptly.
+•	Battery in the controller is user-replaceable: CAUTION –
+RISK OF EXPLOSION IF BATTERY IS REPLACED BY AN
+INCORRECT TYPE. DISPOSE OF USED BATTERIES
+ACCORDING TO THE INSTRUCTIONS.
+•	Do not disassemble, pierce, or attempt to modify batteries.
+•	Risk of fire. Batteries can explode or leak if installed backwards,
+disassembled, charged, crushed, mixed with used or other
+battery types, or exposed to fire or high temperature.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 18 ---
+18
+•	Do not allow conductive materials to touch the battery
+terminals on the controllers. Keep batteries dry and avoid
+liquid intrusion. Discontinue use and contact Oculus Support
+if there is liquid intrusion or accidental spill onto the device or
+battery compartment.
+•	Discontinue use if you observe any abnormal increase in
+temperature on the device and/or around the battery
+compartment(s).
+•	Wa r n i n g  r e q u i r e d  b y  t h e  S t a t e  o f  C a l i f o r n i a :
+Perchlorate Material - special handling may apply, see
+www.dtsc.ca.gov/hazardouswaste/perchlorate.
+•	Refer to www.oculus.com/support for proper maintenance,
+replacement, and disposal of batteries.
+Electrical Shock
+To reduce risk of electric shock:
+•	Do not modify or open any of the components provided.
+•	Do not charge this device if any part of the provided or
+approved AC Adapter cable is torn, any wires are exposed, or
+battery compartment damaged.
+•	Do not insert any metal, conductive, or any foreign objects into
+the charging port.
+•	Do not expose the device to water or fluid.
+•	ONLY use provided AC Adapter with your device or other
+authorized adapter if one was not provided with your device.
+CA Prop 65
+This product may contain chemicals known to the State of
+California to cause cancer and birth defects or other
+reproductive harm.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 19 ---
+19
+Damaged or Broken Device
+•	Do not use your device if any part is broken or damaged.
+•	Do not attempt to repair any part of your device yourself.
+Repairs should only be made by an Oculus authorized servicer.
+Contagious Conditions
+To avoid transferring contagious conditions (like pink eye), do
+not share the headset with persons with contagious conditions,
+infections or diseases, particularly of the eyes, skin or scalp. The
+headset and controller(s) should be cleaned between each use
+with skin-friendly non-alcohol, non-abrasive antibacterial wipes
+and with a dry microfiber cloth for the lenses. Do not use liquid or
+chemical cleansers on the lenses. Replace the facial interface on
+the headset if it becomes worn or cannot be cleaned.
+Skin Irritation
+The headset is worn next to your skin and scalp. Stop using the
+headset if you notice swelling, itchiness, skin irritation or other
+skin reactions. Similarly with the hand-controller, please stop
+use if you observe any skin irritation or reaction. If symptoms
+persist, contact a doctor.
+Device Temperature
+It is important to check the temperature of your
+device as front surfaces may get hot. To reduce the
+risk of injury, take caution and do not touch hot
+surfaces for prolonged periods.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 20 ---
+20
+Use Environment
+To avoid damage to your headset or controllers, do not expose
+them to moisture, high humidity, high concentrations of dust or
+airborne materials, temperatures outside their operating range
+or direct sunlight. Keep cables away from children and pets.
+Not a Medical Device
+The headset and accessories are not medical devices, and are
+not intended to diagnose, treat, cure, or prevent any disease.
+Keep Away from Pets
+•	To avoid damage, keep your headset, charger, cables and
+accessories away from pets.
+Regulatory Information
+This product has been tested and complies with applicable worldwide
+regulations, including: IEC 60950-1:2005 (2nd Ed.) + A1:2009 + A2:2013;
+CAN/CSA-C22.2 No. 60950-1:2007 + A1:2011-12+ A2:2014-10; UL 60950-
+1:2007 + R:2011-12 + R:2014-10; EN 60950-1:2006 + A11:2009 + A1:2010
++ A12:2011 + A2:2013; Supplemented by EN 62471:2006; FCC Part 15;
+ETSI EN 300 328 V1.9.1 (2015-02); ETSI EN301 489-17V2.2.1 (2012-09);
+Radio Equipment Directive 2014/53/ EU; EMC Directive 2014/30/EU;
+EN55022:2010; EN55024:2010; RoHS Directive 2011/65/EU (RoHS 2);
+REACH Regulation 1907/2006; POP Regulation 850/2004; WEEE Directive
+2012/19/EU; CA Proposition 65.
+Oculus hereby declares that this product is in compliance with the essential
+requirements and the other relevant provisions of Directive 2014/53/EU.
+For the full declaration of conformity, see www.oculus.com/compliance.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 21 ---
+21
+Limited Consumer Warranty
+Who Is This Warranty From? This limited consumer warranty (the
+“Warranty”) is issued by Oculus VR, LLC (“Oculus”, “we”, or “us”).
+NOTE: If you are receiving this product as a warranty replacement,
+then it will continue to be covered by the warranty provided with
+your original product for the remainder of that Warranty Period,
+or for ninety (90) days from receipt of this replacement, whichever is
+greater. For more information about your original warranty, please see
+https://www.oculus.com/legal/limited-warranty/.
+Who Is This Warranty To? Oculus issues this Warranty to you, as a consumer
+who has purchased a new, covered product from Oculus or an authorized
+retailer (“you”). This Warranty cannot be assigned or transferred to any
+subsequent purchaser or user and is not available to products that were
+purchased used or from any source other than Oculus or an authorized retailer.
+What Does This Warranty Do? This Warranty gives you specific legal
+rights, and you may also have other rights, which vary from state to state
+and country to country. This Warranty does not affect any rights you have
+under the laws in your jurisdiction concerning the sale of consumer goods
+(including, without limitation, national laws implementing EC Directive
+44/99/EC).
+What Does This Warranty Cover? This Warranty covers defects and
+malfunctions in the new Oculus product(s) it accompanies (the “Product”).
+We warrant that the Product will, under normal and intended use,
+function substantially in accordance with our technical specifications or
+accompanying product documentation (the “Warranted Functionality”)
+during the Warranty Period. If and to the extent the Product needs Oculus
+software or services to achieve the Warranted Functionality, we will make
+and keep software and services available during the Warranty Period. We
+may update, modify or limit such software and services in our sole discretion
+so long as we continue to maintain (or exceed) the Warranted Functionality.
+Product registration is not required as a condition to coverage under this
+Warranty, but some Oculus products require periodic connection to an
+online Oculus account to ensure full functionality.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 22 ---
+22
+How Long Does Coverage Last? This limited Warranty continues for one
+(1) year from the date of purchase or delivery of the Product, whichever is
+later (the “Warranty Period”). However, if you purchase the Product from
+within the EU, the Warranty Period shall be two (2) years.
+What Will Oculus Do If There’s a Problem With The Product? If your
+Product is defective or malfunctioning, we will either repair or replace
+that Product, or update software or services, so that the Product
+performs substantially according to the Warranted Functionality. The
+approach taken to resolve any issues will be at our sole choice. If we
+determine that a product should be replaced, the replacement may be a
+new or remanufactured Product. If we determine, in our sole discretion,
+that none of the listed means are reasonable to correct for a defect or
+malfunction, then we may refund to you the price you paid to purchase
+the Product.
+How Can You Get Service? First, tell us about the issue. If you have a
+problem with your Product, please visit us at www.oculus.com/support to
+get helpful service and contact information, and to submit a claim form to
+obtain warranty service.
+If it is necessary for you to send your Product in for service, we will provide
+you with a pre-addressed shipping label, and you will have to send the
+Product in with your proof of purchase using that shipping label.
+You may be required to pay the cost of shipping the Product to us, and by
+sending the Product, you agree to transfer ownership of that Product to
+Oculus. When we receive the product, we will determine if there is a defect
+or malfunction covered by this Warranty. If we find a defect or malfunction
+covered by this Warranty, we will repair or replace the Product to provide
+the Warranted Functionality, and we will send the repaired Product or a
+replacement Product, if any, to you at our cost. We may not return the
+original Product to you. We cannot guarantee that we will be able to repair
+the Product without risk to or loss of programs or data, and any replacement
+Product will not contain any of your data that was stored on the original
+Product. Any repaired or replaced Product will continue to be covered by
+this Warranty for the remainder of the original Warranty Period or ninety
+(90) days following your receipt of the replacement or repaired Product,
+whichever is greater.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 23 ---
+23
+If you send us a Product without a valid proof of purchase, then we will
+return the Product to you at your cost, subject to prepayment, or, if such
+costs are not prepaid, we will keep the Product for thirty (30) days for your
+pick-up before it is disposed of.
+What Does This Warranty Not Cover?  This Warranty is limited and not
+applicable to: (i) normal wear and tear; (ii) damage caused by misuse,
+accident (e.g., accidental physical impact, exposure to liquid, food or other
+contaminants, etc.), neglect, abuse, alteration, improper or unauthorized
+repair or modification, tampering, or use with unsuitable equipment,
+devices, software, services or other unauthorized third-party item(s); (iii)
+use not in accordance with the Product documentation; (iv) commercial
+use; (v) use in connection with a trade, business or profession; (vi) used or
+resold products; (vii) Products purchased from sources other than Oculus
+or an Oculus authorized retailer (including non-authorized online auctions),
+(viii) non-Oculus Products, (ix) use of the Product in violation of any laws,
+regulations or ordinances in effect where the Product is used; or (x) features
+or performance parameters pertaining to any software or services beyond
+the Warranted Functionality of the Product.
+This Warranty does not include any specific guarantees that the product will
+be error-free, or regarding uptime or continued availability, data security
+features of software or online accounts, or that any software, firmware or
+online sites will function uninterrupted or error-free. This limited warranty
+is void if a Product is returned with removed, damaged or tampered labels
+or any alterations (including the unauthorized removal of any component
+or external cover).
+This Warranty does not cover data loss; it is your responsibility to back up
+your data, electronically or physically, on a regular basis if you wish to retain
+your data. Any damages or costs related to data recovery, removal, and
+installation are not recoverable under this Warranty.
+In this Warranty, Oculus does not extend any implied or statutory warranties,
+conditions or representations regarding the Product or any connected
+software or online services.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 24 ---
+24
+OCULUS DOES NOT, UNDER THIS LIMITED WARRANTY, ASSUME ANY
+LIABILITY FOR ANY SPECIAL, INDIRECT, INCIDENTAL, PUNITIVE OR
+CONSEQUENTIAL DAMAGES OF ANY KIND WHATSOEVER, INCLUDING
+BUT NOT LIMITED TO LOSS OF PROFITS OR REVENUES, LOSS OF DATA,
+LOSS OF USE OF THE PRODUCT OR ANY ASSOCIATED EQUIPMENT,
+COST OF ANY REPLACEMENT GOODS OR SUBSTITUTE EQUIPMENT,
+OR LOSS OF USE DURING THE PERIOD THAT THE PRODUCT IS BEING
+REPLACED OR REPAIRED. FURTHER, IN NO EVENT SHALL OCULUS BE
+LIABLE TO YOU FOR ANY SPECIAL, INDIRECT, INCIDENTAL, PUNITIVE
+OR CONSEQUENTIAL DAMAGES OF ANY KIND WHATSOEVER, EVEN
+IF OCULUS HAS BEEN ADVISED AS TO THE POSSIBILITY OF SUCH
+DAMAGES, FOR ANY CLAIM ARISING FROM OR RELATED TO THIS
+WARRANTY STATEMENT, REGARDLESS OF THE FORM OF ACTION,
+WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT
+PRODUCT LIABILITY OR ANY OTHER CAUSE OF ACTION OR LEGAL OR
+EQUITABLE THEORY.
+IN NO EVENT SHALL OCULUS’S LIABILITY FOR ANY CLAIM ARISING
+OUT OF OR RELATED TO THIS WARRANTY STATEMENT EXCEED THE
+PRICE PAID BY YOU FOR PURCHASE OF THE PRODUCT, REGARDLESS
+OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT (INCLUDING
+NEGLIGENCE), STRICT PRODUCT LIABILITY OR ANY OTHER CAUSE OF
+ACTION OR LEGAL OR EQUITABLE THEORY.
+Some states and countries do not allow the exclusion or limitation of
+incidental or consequential damages, so limitations or exclusions in this
+Warranty may not apply to you.
+What Laws Govern This Warranty? The laws of the State of California, USA,
+govern this Warranty.
+Questions? If you have questions, or to begin the service process, please
+visit Oculus at https://www.oculus.com/support.
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 25 ---
+25
+FCC Information
+This device complies with part 15 of the FCC rules. Operation is subject
+to the following two conditions:
+(1)	 This device may not cause harmful interference, and (2) this device must
+accept any interference received, including interference that may cause
+undesired operation.
+Note: This equipment has been tested and found to comply with the limits
+for a Class B digital device, pursuant to part 15 of the FCC Rules. These limits
+are designed to provide reasonable protection against harmful interference
+in a residential installation. This equipment generates, uses and can radiate
+radio frequency energy and, if not installed and used in accordance with
+the instructions, may cause harmful interference to radio communications.
+However, there is no guarantee that interference will not occur in a particular
+installation. If this equipment does cause harmful interference to radio or
+television reception, which can be determined by turning the equipment off
+and on, the user is encouraged to try to correct the interference by one or
+more of the following measures:
+•	 Reorient or relocate the receiving antenna.
+•	 Increase the separation between the equipment and receiver.
+•	 Connect the equipment into an outlet on a circuit different from that to
+which the receiver is connected.
+•	 Consult the dealer or an experienced radio/TV technician for help.
+Note: Changes or modifications not expressly approved by the party
+responsible for compliance could void the user’s authority to operate the
+equipment.
+SAR Value: 0.29 mW/g
+Developed in the United States.
+Designed by Oculus VR, LLC
+1 Hacker Way, Menlo Park, CA, USA
+Assembled in China
+Downloaded from www.Manualslib.com manuals search engine
+
+--- Page 26 ---
+www.oculus.com
+OPN: 310-30134-02
+Downloaded from www.Manualslib.com manuals search engine
