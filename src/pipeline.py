@@ -41,8 +41,8 @@ class PipelineConfig:
     llm_max_tokens: int = 256  # Keep responses short for voice
     
     # TTS settings
-    tts_backend: TTSBackend = TTSBackend.PYTTSX3
-    tts_rate: int = 160  # Slightly faster speech
+    tts_backend: TTSBackend = TTSBackend.SAPI  # SAPI is more reliable for multiple calls
+    tts_rate: int = 0  # SAPI rate: -10 to 10, 0 is normal
     
     # Audio settings
     silence_threshold: float = 0.01

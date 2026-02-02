@@ -13,9 +13,9 @@ def test_tts_config_defaults():
     from src.tts import TTSConfig, TTSBackend
     
     config = TTSConfig()
-    assert config.backend == TTSBackend.PYTTSX3
-    assert config.rate == 150
-    assert config.volume == 1.0
+    assert config.backend == TTSBackend.SAPI
+    assert config.rate == 0  # SAPI rate: -10 to 10, 0 is normal
+    assert config.volume == 100  # SAPI volume: 0 to 100
 
 
 def test_tts_engine_initialization():
@@ -33,7 +33,7 @@ def test_tts_available_backends():
     backends = TextToSpeech.list_available_backends()
     assert isinstance(backends, list)
     assert len(backends) > 0
-    assert "pyttsx3" in backends
+    assert "sapi" in backends
 
 
 def test_tts_voice_loading():
@@ -46,7 +46,7 @@ def test_tts_voice_loading():
     assert success
     assert tts.is_loaded
     assert tts.sample_rate > 0
-    assert tts.backend == TTSBackend.PYTTSX3
+    assert tts.backend == TTSBackend.SAPI
     
     # Cleanup
     tts.unload_voice()

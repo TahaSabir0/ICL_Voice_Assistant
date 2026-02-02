@@ -3,8 +3,8 @@ Text-to-Speech module for ICL Voice Assistant.
 
 Provides a wrapper for local text-to-speech synthesis.
 Supports multiple backends:
-1. Piper TTS (neural, high quality) - requires espeak-ng
-2. pyttsx3/SAPI (Windows built-in) - works out of the box
+1. SAPI (Windows built-in) - uses win32com directly, most reliable
+2. Piper TTS (neural, high quality) - requires espeak-ng
 
 For production, Piper TTS is recommended but requires:
 - espeak-ng to be installed: https://github.com/espeak-ng/espeak-ng/releases
@@ -16,6 +16,7 @@ import tempfile
 import wave
 import os
 import time
+import subprocess
 from dataclasses import dataclass
 from typing import Optional, List
 from pathlib import Path
@@ -24,7 +25,8 @@ from enum import Enum
 
 class TTSBackend(Enum):
     """Available TTS backends."""
-    PYTTSX3 = "pyttsx3"  # Windows SAPI (works out of the box)
+    SAPI = "sapi"  # Windows SAPI via win32com (most reliable)
+    PYTTSX3 = "pyttsx3"  # pyttsx3 wrapper (can have issues)
     PIPER = "piper"  # Piper TTS (requires espeak-ng)
 
 
@@ -32,12 +34,12 @@ class TTSBackend(Enum):
 class TTSConfig:
     """Configuration for the TTS engine."""
     # Backend selection
-    backend: TTSBackend = TTSBackend.PYTTSX3
+    backend: TTSBackend = TTSBackend.SAPI
     
     # Voice settings
     voice: Optional[str] = None  # Voice name/ID (None = default)
-    rate: int = 150  # Words per minute (pyttsx3)
-    volume: float = 1.0  # Volume 0.0 to 1.0
+    rate: int = 0  # SAPI rate: -10 to 10, 0 is normal
+    volume: int = 100  # Volume 0 to 100
     
     # Piper-specific
     piper_voice: str = "en_US-lessac-medium"
@@ -108,13 +110,55 @@ class TextToSpeech:
         """
         voice_name = voice_name or self.config.voice
         
-        if self.config.backend == TTSBackend.PYTTSX3:
+        if self.config.backend == TTSBackend.SAPI:
+            return self._load_sapi(voice_name)
+        elif self.config.backend == TTSBackend.PYTTSX3:
             return self._load_pyttsx3(voice_name)
         else:
             return self._load_piper(voice_name)
     
+    def _load_sapi(self, voice_name: Optional[str]) -> bool:
+        """Load Windows SAPI engine via win32com."""
+        try:
+            import win32com.client
+            
+            print("Loading Windows SAPI TTS engine...")
+            start = time.time()
+            
+            self._engine = win32com.client.Dispatch("SAPI.SpVoice")
+            
+            # Set rate and volume
+            self._engine.Rate = self.config.rate
+            self._engine.Volume = self.config.volume
+            
+            # Set voice if specified
+            if voice_name:
+                voices = self._engine.GetVoices()
+                for i in range(voices.Count):
+                    voice = voices.Item(i)
+                    if voice_name.lower() in voice.GetDescription().lower():
+                        self._engine.Voice = voice
+                        break
+            
+            # Get voice info
+            current_voice = self._engine.Voice.GetDescription()
+            
+            elapsed = time.time() - start
+            print(f"SAPI loaded in {elapsed:.2f}s")
+            print(f"Voice: {current_voice}")
+            
+            self._sample_rate = 22050  # Default for SAPI WAV output
+            self._is_loaded = True
+            self._backend = TTSBackend.SAPI
+            return True
+            
+        except Exception as e:
+            print(f"Failed to load SAPI: {e}")
+            print("Falling back to pyttsx3...")
+            return self._load_pyttsx3(voice_name)
+    
     def _load_pyttsx3(self, voice_name: Optional[str]) -> bool:
-        """Load pyttsx3 (Windows SAPI) engine."""
+        """Load pyttsx3 (Windows SAPI wrapper) engine."""
         try:
             import pyttsx3
             
@@ -123,9 +167,9 @@ class TextToSpeech:
             
             self._engine = pyttsx3.init()
             
-            # Set properties
-            self._engine.setProperty('rate', self.config.rate)
-            self._engine.setProperty('volume', self.config.volume)
+            # Set properties - pyttsx3 uses different rate scale (words per minute)
+            self._engine.setProperty('rate', 150 + (self.config.rate * 15))
+            self._engine.setProperty('volume', self.config.volume / 100.0)
             
             # Set voice if specified
             if voice_name:
@@ -137,13 +181,12 @@ class TextToSpeech:
             
             # Get available voices
             voices = self._engine.getProperty('voices')
-            current_voice = self._engine.getProperty('voice')
             
             elapsed = time.time() - start
             print(f"pyttsx3 loaded in {elapsed:.2f}s")
             print(f"Available voices: {len(voices)}")
             
-            self._sample_rate = 22050  # Default for WAV output
+            self._sample_rate = 22050
             self._is_loaded = True
             self._backend = TTSBackend.PYTTSX3
             return True
@@ -195,12 +238,12 @@ class TextToSpeech:
             
         except ImportError as e:
             print(f"Piper not available: {e}")
-            print("Falling back to pyttsx3...")
-            return self._load_pyttsx3(voice_name)
+            print("Falling back to SAPI...")
+            return self._load_sapi(voice_name)
         except Exception as e:
             print(f"Failed to load Piper (may need espeak-ng): {e}")
-            print("Falling back to pyttsx3...")
-            return self._load_pyttsx3(voice_name)
+            print("Falling back to SAPI...")
+            return self._load_sapi(voice_name)
     
     def synthesize(self, text: str) -> TTSResult:
         """
@@ -217,7 +260,9 @@ class TextToSpeech:
         
         start = time.time()
         
-        if self._backend == TTSBackend.PYTTSX3:
+        if self._backend == TTSBackend.SAPI:
+            audio = self._synthesize_sapi(text)
+        elif self._backend == TTSBackend.PYTTSX3:
             audio = self._synthesize_pyttsx3(text)
         else:
             audio = self._synthesize_piper(text)
@@ -233,16 +278,75 @@ class TextToSpeech:
             text=text
         )
     
-    def _synthesize_pyttsx3(self, text: str) -> np.ndarray:
-        """Synthesize using pyttsx3 (saves to temp file, then loads)."""
+    def _synthesize_sapi(self, text: str) -> np.ndarray:
+        """Synthesize using Windows SAPI directly via win32com."""
+        import win32com.client
+        
         # Create temp file for output
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
             output_path = f.name
         
         try:
+            # Create a new SpVoice for each synthesis to avoid state issues
+            voice = win32com.client.Dispatch("SAPI.SpVoice")
+            voice.Rate = self.config.rate
+            voice.Volume = self.config.volume
+            
+            # If we have an engine with a specific voice set, copy it
+            if self._engine and hasattr(self._engine, 'Voice'):
+                voice.Voice = self._engine.Voice
+            
+            # Create file stream for output
+            stream = win32com.client.Dispatch("SAPI.SpFileStream")
+            stream.Open(output_path, 3)  # 3 = SSFMCreateForWrite
+            
+            voice.AudioOutputStream = stream
+            voice.Speak(text)
+            
+            stream.Close()
+            
+            # Read the WAV file
+            with wave.open(output_path, 'rb') as wav_file:
+                self._sample_rate = wav_file.getframerate()
+                n_channels = wav_file.getnchannels()
+                frames = wav_file.readframes(wav_file.getnframes())
+                audio = np.frombuffer(frames, dtype=np.int16)
+                
+                # Convert stereo to mono if needed
+                if n_channels == 2:
+                    audio = audio.reshape(-1, 2).mean(axis=1).astype(np.int16)
+            
+            # Convert to float32
+            audio = audio.astype(np.float32) / 32768.0
+            
+            return audio
+            
+        finally:
+            # Cleanup temp file
+            if os.path.exists(output_path):
+                try:
+                    os.unlink(output_path)
+                except Exception:
+                    pass
+    
+    def _synthesize_pyttsx3(self, text: str) -> np.ndarray:
+        """Synthesize using pyttsx3 (saves to temp file, then loads)."""
+        import pyttsx3
+        
+        # Create temp file for output
+        with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
+            output_path = f.name
+        
+        try:
+            # Create a fresh engine for each call to avoid pyttsx3 getting stuck
+            engine = pyttsx3.init()
+            engine.setProperty('rate', 150 + (self.config.rate * 15))
+            engine.setProperty('volume', self.config.volume / 100.0)
+            
             # Synthesize to file
-            self._engine.save_to_file(text, output_path)
-            self._engine.runAndWait()
+            engine.save_to_file(text, output_path)
+            engine.runAndWait()
+            engine.stop()
             
             # Read back as numpy array
             with wave.open(output_path, 'rb') as wav_file:
@@ -261,7 +365,7 @@ class TextToSpeech:
             return audio
             
         finally:
-            # Cleanup
+            # Cleanup temp file
             if os.path.exists(output_path):
                 os.unlink(output_path)
     
@@ -310,15 +414,16 @@ class TextToSpeech:
     
     def unload_voice(self):
         """Unload the voice to free memory."""
-        if self._engine:
-            if self._backend == TTSBackend.PYTTSX3:
-                self._engine.stop()
-            self._engine = None
+        self._engine = None
         self._is_loaded = False
     
     def list_voices(self) -> List[dict]:
         """List available voices for the current backend."""
-        if self._backend == TTSBackend.PYTTSX3 and self._engine:
+        if self._backend == TTSBackend.SAPI and self._engine:
+            voices = self._engine.GetVoices()
+            return [{'id': str(i), 'name': voices.Item(i).GetDescription()} 
+                    for i in range(voices.Count)]
+        elif self._backend == TTSBackend.PYTTSX3 and self._engine:
             voices = self._engine.getProperty('voices')
             return [{'id': v.id, 'name': v.name} for v in voices]
         return []
@@ -330,20 +435,25 @@ class TextToSpeech:
 
 
 def create_tts_engine(
-    backend: str = "pyttsx3",
+    backend: str = "sapi",
     load_immediately: bool = True
 ) -> TextToSpeech:
     """
     Factory function to create and optionally load a TTS engine.
     
     Args:
-        backend: Backend to use ("pyttsx3" or "piper").
+        backend: Backend to use ("sapi", "pyttsx3", or "piper").
         load_immediately: Whether to load the voice immediately.
         
     Returns:
         Configured TextToSpeech instance.
     """
-    backend_enum = TTSBackend.PYTTSX3 if backend == "pyttsx3" else TTSBackend.PIPER
+    backend_map = {
+        "sapi": TTSBackend.SAPI,
+        "pyttsx3": TTSBackend.PYTTSX3,
+        "piper": TTSBackend.PIPER,
+    }
+    backend_enum = backend_map.get(backend, TTSBackend.SAPI)
     config = TTSConfig(backend=backend_enum)
     tts = TextToSpeech(config)
     
