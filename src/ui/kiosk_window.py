@@ -35,6 +35,7 @@ class KioskWindow(QMainWindow):
     # Signals for external handling
     ptt_pressed = Signal()
     ptt_released = Signal()
+    text_submitted = Signal(str)  # For typed messages
     
     def __init__(self, fullscreen: bool = True):
         super().__init__()
@@ -79,7 +80,13 @@ class KioskWindow(QMainWindow):
         content_layout = QHBoxLayout()
         content_layout.setSpacing(40)
         
-        # Left: Conversation panel (takes most space)
+        # Left: Conversation panel with text input
+        left_panel = QWidget()
+        left_layout = QVBoxLayout(left_panel)
+        left_layout.setContentsMargins(0, 0, 0, 0)
+        left_layout.setSpacing(10)
+        
+        # Conversation view
         self._conversation = ConversationView()
         self._conversation.setStyleSheet(f"""
             ConversationView {{
@@ -88,7 +95,61 @@ class KioskWindow(QMainWindow):
                 border: 1px solid {COLORS['border']};
             }}
         """)
-        content_layout.addWidget(self._conversation, 3)
+        left_layout.addWidget(self._conversation, 1)
+        
+        # Text input area
+        from PySide6.QtWidgets import QLineEdit, QPushButton
+        input_container = QWidget()
+        input_layout = QHBoxLayout(input_container)
+        input_layout.setContentsMargins(0, 0, 0, 0)
+        input_layout.setSpacing(10)
+        
+        self._text_input = QLineEdit()
+        self._text_input.setPlaceholderText("Or type your question here...")
+        self._text_input.setStyleSheet(f"""
+            QLineEdit {{
+                background-color: {COLORS['surface']};
+                border: 2px solid {COLORS['border']};
+                border-radius: 8px;
+                padding: 12px 16px;
+                color: {COLORS['text_primary']};
+                font-size: 16px;
+            }}
+            QLineEdit:focus {{
+                border-color: {COLORS['accent_primary']};
+            }}
+        """)
+        self._text_input.returnPressed.connect(self._on_text_submitted)
+        input_layout.addWidget(self._text_input, 1)
+        
+        self._send_button = QPushButton("Send")
+        self._send_button.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {COLORS['accent_primary']};
+                color: white;
+                border: none;
+                border-radius: 8px;
+                padding: 12px 24px;
+                font-size: 16px;
+                font-weight: 600;
+            }}
+            QPushButton:hover {{
+                background-color: {COLORS['accent_secondary']};
+            }}
+            QPushButton:pressed {{
+                background-color: #3B8AE8;
+            }}
+            QPushButton:disabled {{
+                background-color: {COLORS['surface_elevated']};
+                color: {COLORS['text_muted']};
+            }}
+        """)
+        self._send_button.clicked.connect(self._on_text_submitted)
+        input_layout.addWidget(self._send_button)
+        
+        left_layout.addWidget(input_container)
+        
+        content_layout.addWidget(left_panel, 3)
         
         # Right: Button and state panel
         button_panel = self._create_button_panel()
@@ -226,12 +287,20 @@ class KioskWindow(QMainWindow):
         """Handle push-to-talk button released."""
         self.ptt_released.emit()
     
+    def _on_text_submitted(self):
+        """Handle text input submission."""
+        text = self._text_input.text().strip()
+        if text:
+            self.text_submitted.emit(text)
+            self._text_input.clear()
+    
     def keyPressEvent(self, event):
         """Handle keyboard events."""
-        # Spacebar as alternative push-to-talk
+        # Spacebar as alternative push-to-talk (only if text input doesn't have focus)
         if event.key() == Qt.Key.Key_Space and not event.isAutoRepeat():
-            self._ptt_button.pressed.emit()
-            self._on_ptt_pressed()
+            if not self._text_input.hasFocus():
+                self._ptt_button.pressed.emit()
+                self._on_ptt_pressed()
         
         # Escape to exit fullscreen (for development)
         elif event.key() == Qt.Key.Key_Escape:
@@ -243,8 +312,9 @@ class KioskWindow(QMainWindow):
     def keyReleaseEvent(self, event):
         """Handle key release."""
         if event.key() == Qt.Key.Key_Space and not event.isAutoRepeat():
-            self._ptt_button.released.emit()
-            self._on_ptt_released()
+            if not self._text_input.hasFocus():
+                self._ptt_button.released.emit()
+                self._on_ptt_released()
         
         super().keyReleaseEvent(event)
     

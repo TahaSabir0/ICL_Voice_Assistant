@@ -98,53 +98,61 @@ class KioskApplication:
         Returns:
             Exit code
         """
-        # Create and show splash screen
-        splash = self._create_splash()
-        splash.show()
-        self.app.processEvents()
-        
         # Configure pipeline
         config = PipelineConfig(
             use_rag=self.use_rag,
             llm_model=self.llm_model
         )
         
-        # Start pipeline thread
-        splash.showMessage("Starting voice pipeline...", Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignCenter, QColor(255, 255, 255))
-        self.app.processEvents()
+        self._splash = None  # No splash screen
         
         self.pipeline_thread = PipelineThread(config)
+        
+        # IMPORTANT: Connect signals BEFORE starting thread to avoid race condition
+        # Use Qt.QueuedConnection for cross-thread signals
         self._connect_pipeline_signals()
-        self.pipeline_thread.start()
         
-        # Create main window (hidden until pipeline ready)
-        self.window = KioskWindow(fullscreen=self.fullscreen)
-        self._connect_window_signals()
-        
-        # Show loading status
-        self.window.set_status("Initializing...")
-        self.window.set_state("idle")
-        
-        # Connect initialization complete
+        # Connect initialization complete - use QueuedConnection for thread safety
         self.pipeline_thread.worker.initialized.connect(
-            lambda: self._on_pipeline_ready(splash)
+            self._on_pipeline_ready,
+            Qt.ConnectionType.QueuedConnection
         )
         
         # Connect init progress to splash
         self.pipeline_thread.worker.init_progress.connect(
-            lambda msg: splash.showMessage(
-                msg, 
-                Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignCenter, 
-                QColor(255, 255, 255)
-            )
+            self._update_splash_message,
+            Qt.ConnectionType.QueuedConnection
         )
         
         # Handle init failure
         self.pipeline_thread.worker.error_occurred.connect(
-            lambda err: self._on_init_error(splash, err)
+            self._on_init_error,
+            Qt.ConnectionType.QueuedConnection
         )
         
+        # NOW start the thread (after all signals connected)
+        self.pipeline_thread.start()
+        
+        # Create and show main window immediately (shows loading status)
+        self.window = KioskWindow(fullscreen=self.fullscreen)
+        self._connect_window_signals()
+        
+        # Show window with loading status
+        self.window.set_status("Initializing voice pipeline...")
+        self.window.set_state("thinking")  # Show loading animation
+        self.window.show()
+        
         return self.app.exec()
+    
+    @Slot(str)
+    def _update_splash_message(self, msg: str):
+        """Update the splash screen message."""
+        if hasattr(self, '_splash') and self._splash:
+            self._splash.showMessage(
+                msg, 
+                Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignCenter, 
+                QColor(255, 255, 255)
+            )
     
     def _create_splash(self) -> QSplashScreen:
         """Create a splash screen for loading."""
@@ -176,40 +184,83 @@ class KioskApplication:
         """Connect pipeline worker signals to handlers."""
         worker = self.pipeline_thread.worker
         
-        worker.state_changed.connect(self._on_state_changed)
-        worker.transcription_ready.connect(self._on_transcription)
-        worker.response_ready.connect(self._on_response)
-        worker.error_occurred.connect(self._on_error)
-        worker.metrics_available.connect(self._on_metrics)
-        worker.turn_complete.connect(self._on_turn_complete)
+        # All connections use QueuedConnection for thread safety
+        # This ensures slots run in the main UI thread
+        worker.state_changed.connect(
+            self._on_state_changed, 
+            Qt.ConnectionType.QueuedConnection
+        )
+        worker.transcription_ready.connect(
+            self._on_transcription,
+            Qt.ConnectionType.QueuedConnection
+        )
+        worker.response_ready.connect(
+            self._on_response,
+            Qt.ConnectionType.QueuedConnection
+        )
+        worker.error_occurred.connect(
+            self._on_error,
+            Qt.ConnectionType.QueuedConnection
+        )
+        worker.metrics_available.connect(
+            self._on_metrics,
+            Qt.ConnectionType.QueuedConnection
+        )
+        worker.turn_complete.connect(
+            self._on_turn_complete,
+            Qt.ConnectionType.QueuedConnection
+        )
     
     def _connect_window_signals(self):
         """Connect window signals to pipeline."""
         self.window.ptt_pressed.connect(self._on_ptt_pressed)
         self.window.ptt_released.connect(self._on_ptt_released)
+        # Connect text submission directly to worker (thread-safe signal)
+        self.window.text_submitted.connect(
+            self.pipeline_thread.worker.process_text_input,
+            Qt.ConnectionType.QueuedConnection
+        )
     
     @Slot()
-    def _on_pipeline_ready(self, splash: QSplashScreen):
+    def _on_pipeline_ready(self):
         """Handle pipeline initialization complete."""
-        logger.info("Pipeline initialized successfully")
+        print(">>> _on_pipeline_ready called")
+        logger.info("Pipeline ready")
         
-        splash.close()
-        self.window.show()
-        self.window.set_status("Ready - Press the button to speak")
-        self.window.set_state("idle")
-        
-        # Start monitoring
-        self.memory_monitor.set_baseline()
-        if self.watchdog:
-            self.watchdog.start()
-        
-        # Record activity for health monitor
-        self.health_monitor.record_activity()
+        try:
+            # Close splash if still open
+            if hasattr(self, '_splash') and self._splash:
+                self._splash.close()
+                self._splash = None
+            
+            # Update window status (window is already visible)
+            if self.window:
+                self.window.set_status("Ready - Press the button to speak")
+                self.window.set_state("idle")
+                print(">>> Window updated to ready state")
+            
+            # Start monitoring
+            self.memory_monitor.set_baseline()
+            if self.watchdog:
+                self.watchdog.start()
+            
+            # Record activity for health monitor
+            self.health_monitor.record_activity()
+            print(">>> _on_pipeline_ready complete")
+            
+        except Exception as e:
+            print(f">>> EXCEPTION in _on_pipeline_ready: {e}")
+            import traceback
+            traceback.print_exc()
     
     @Slot(str)
-    def _on_init_error(self, splash: QSplashScreen, error: str):
+    def _on_init_error(self, error: str):
         """Handle pipeline initialization failure."""
-        splash.close()
+        logger.error(f"Pipeline initialization failed: {error}")
+        
+        if hasattr(self, '_splash') and self._splash:
+            self._splash.close()
+            self._splash = None
         
         QMessageBox.critical(
             None,
@@ -237,18 +288,26 @@ class KioskApplication:
                 "error": "An error occurred"
             }
             self.window.set_status(status_map.get(state, state))
+        
+        # Ping watchdog on state changes
+        if self.watchdog:
+            self.watchdog.ping()
     
     @Slot(str)
     def _on_transcription(self, text: str):
         """Handle transcription ready."""
+        print(f">>> _on_transcription received: '{text}'")
         if self.window:
             self.window.add_user_message(text)
+            print(">>> User message added to conversation")
     
     @Slot(str)
     def _on_response(self, text: str):
         """Handle response ready."""
+        print(f">>> _on_response received: '{text[:50]}...'")
         if self.window:
             self.window.add_assistant_message(text)
+            print(">>> Assistant message added to conversation")
     
     @Slot(str)
     def _on_error(self, error: str):
@@ -299,24 +358,38 @@ class KioskApplication:
     @Slot()
     def _on_ptt_pressed(self):
         """Handle push-to-talk button pressed."""
+        print(">>> PTT pressed")
         if self._is_recording:
             return
         
         self._is_recording = True
         
-        # Start recording via worker (thread-safe)
-        QTimer.singleShot(0, self.pipeline_thread.worker.start_recording)
+        # Invoke worker method in worker's thread
+        from PySide6.QtCore import QMetaObject, Qt
+        QMetaObject.invokeMethod(
+            self.pipeline_thread.worker,
+            "start_recording",
+            Qt.ConnectionType.QueuedConnection
+        )
     
     @Slot()
     def _on_ptt_released(self):
         """Handle push-to-talk button released."""
+        print(">>> PTT released")
         if not self._is_recording:
             return
         
         self._is_recording = False
         
-        # Stop recording via worker (thread-safe)
-        QTimer.singleShot(0, self.pipeline_thread.worker.stop_recording)
+        # Invoke worker method in worker's thread
+        from PySide6.QtCore import QMetaObject, Qt
+        QMetaObject.invokeMethod(
+            self.pipeline_thread.worker,
+            "stop_recording",
+            Qt.ConnectionType.QueuedConnection
+        )
+    
+    # Text submission is now handled via direct signal connection in _connect_window_signals
     
     def _on_watchdog_timeout(self):
         """Handle watchdog timeout (system hang detected)."""

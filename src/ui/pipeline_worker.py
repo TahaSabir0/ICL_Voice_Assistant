@@ -113,6 +113,9 @@ class PipelineWorker(QObject):
             self._pipeline._audio_capture.stop()
             audio = self._pipeline._audio_capture.get_audio()
             
+            # Immediately change state so button updates
+            self.state_changed.emit("transcribing")
+            
             if audio is None or len(audio) < 1000:
                 self.state_changed.emit("idle")
                 return
@@ -132,6 +135,8 @@ class PipelineWorker(QObject):
         metrics = PipelineMetrics()
         
         try:
+            print(">>> Starting audio processing")
+            
             # 1. Transcribe
             self.state_changed.emit("transcribing")
             stt_start = time.time()
@@ -139,25 +144,50 @@ class PipelineWorker(QObject):
             metrics.stt_time = time.time() - stt_start
             
             user_text = transcription.text.strip()
+            print(f">>> Transcribed: '{user_text}'")
+            
             if not user_text:
+                print(">>> Empty transcription, returning to idle")
                 self.state_changed.emit("idle")
                 return
             
             self.transcription_ready.emit(user_text)
+            print(">>> Transcription signal emitted")
             
             # 2. RAG Retrieval (if enabled)
             context = ""
             if self._pipeline._retriever:
+                print(">>> Starting RAG retrieval")
                 self.state_changed.emit("retrieving")
                 retrieval_start = time.time()
-                context = self._pipeline._retriever.get_context(
-                    user_text,
-                    n_results=self.config.rag_n_results
-                )
-                metrics.retrieval_time = time.time() - retrieval_start
-                metrics.context_found = bool(context)
+                try:
+                    # RAG may have threading issues, so wrap carefully
+                    import sys
+                    sys.stdout.flush()
+                    
+                    context = self._pipeline._retriever.get_context(
+                        user_text,
+                        n_results=self.config.rag_n_results
+                    )
+                    metrics.retrieval_time = time.time() - retrieval_start
+                    metrics.context_found = bool(context)
+                    print(f">>> RAG retrieval complete, context found: {bool(context)}")
+                except KeyboardInterrupt:
+                    raise  # Don't catch Ctrl+C
+                except SystemExit:
+                    raise  # Don't catch exits
+                except BaseException as e:
+                    # Catch everything including crashes
+                    print(f">>> RAG retrieval error (catching BaseException): {type(e).__name__}: {e}")
+                    import traceback
+                    traceback.print_exc()
+                    # Continue without context
+                    metrics.retrieval_time = time.time() - retrieval_start
+                    metrics.context_found = False
+                    context = ""
             
             # 3. Generate response
+            print(">>> Starting LLM generation")
             self.state_changed.emit("thinking")
             llm_start = time.time()
             
@@ -170,13 +200,17 @@ class PipelineWorker(QObject):
             metrics.llm_time = time.time() - llm_start
             
             assistant_text = response.text.strip()
+            print(f">>> LLM response: '{assistant_text[:50]}...'")
             self.response_ready.emit(assistant_text)
+            print(">>> Response signal emitted")
             
             # 4. Synthesize and play speech
+            print(">>> Starting TTS")
             self.state_changed.emit("speaking")
             tts_start = time.time()
             tts_result = self._pipeline._tts.synthesize(assistant_text)
             metrics.tts_time = time.time() - tts_start
+            print(">>> TTS complete, starting playback")
             
             # Play audio
             playback_start = time.time()
@@ -186,6 +220,7 @@ class PipelineWorker(QObject):
                 blocking=True
             )
             metrics.playback_duration = time.time() - playback_start
+            print(">>> Playback complete")
             
             # Report metrics
             self.metrics_available.emit(metrics.to_dict())
@@ -193,25 +228,87 @@ class PipelineWorker(QObject):
             # Done
             self.state_changed.emit("idle")
             self.turn_complete.emit()
+            print(">>> Turn complete")
             
         except Exception as e:
+            print(f">>> EXCEPTION in _process_audio: {e}")
+            import traceback
+            traceback.print_exc()
             self.error_occurred.emit(f"Processing error: {str(e)}")
             self.state_changed.emit("error")
+            # Ensure we return to idle even on error
+            import time as time_mod
+            time_mod.sleep(3)
+            self.state_changed.emit("idle")
     
-    @Slot()
+    @Slot(str)
     def process_text_input(self, text: str):
         """Process a text input (skip recording/STT)."""
         if not self._pipeline or not self._pipeline.is_initialized:
             self.error_occurred.emit("Pipeline not initialized")
             return
         
+        from src.pipeline import PipelineMetrics
+        from src.llm.prompts import NO_CONTEXT_PROMPT
+        
+        metrics = PipelineMetrics()
+        
         try:
-            turn = self._pipeline.process_text(text)
-            if turn:
-                self.metrics_available.emit(turn.metrics.to_dict())
-                self.turn_complete.emit()
+            print(f">>> Processing text input: '{text}'")
+            
+            # Skip STT - already have text
+            # Emit transcription to show user message in UI
+            self.transcription_ready.emit(text)
+            
+            # Generate response (no RAG for now since it's disabled)
+            print(">>> Starting LLM generation for text input")
+            self.state_changed.emit("thinking")
+            llm_start = time.time()
+            
+            response = self._pipeline._llm.generate(text, system_prompt=None)
+            metrics.llm_time = time.time() - llm_start
+            
+            assistant_text = response.text.strip()
+            print(f">>> LLM response: '{assistant_text[:50]}...'")
+            self.response_ready.emit(assistant_text)
+            print(">>> Response signal emitted")
+            
+            # Synthesize and play speech
+            print(">>> Starting TTS")
+            self.state_changed.emit("speaking")
+            tts_start = time.time()
+            tts_result = self._pipeline._tts.synthesize(assistant_text)
+            metrics.tts_time = time.time() - tts_start
+            print(">>> TTS complete, starting playback")
+            
+            # Play audio
+            playback_start = time.time()
+            self._pipeline._audio_playback.play(
+                tts_result.audio,
+                sample_rate=tts_result.sample_rate,
+                blocking=True
+            )
+            metrics.playback_duration = time.time() - playback_start
+            print(">>> Playback complete")
+            
+            # Report metrics
+            self.metrics_available.emit(metrics.to_dict())
+            
+            # Done
+            self.state_changed.emit("idle")
+            self.turn_complete.emit()
+            print(">>> Turn complete")
+            
         except Exception as e:
+            print(f">>> EXCEPTION in process_text_input: {e}")
+            import traceback
+            traceback.print_exc()
             self.error_occurred.emit(f"Error processing text: {str(e)}")
+            self.state_changed.emit("error")
+            # Return to idle after error
+            import time as time_mod
+            time_mod.sleep(3)
+            self.state_changed.emit("idle")
     
     @Slot()
     def shutdown(self):

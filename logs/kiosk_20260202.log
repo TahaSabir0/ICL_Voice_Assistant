@@ -1,2 +1,250 @@
 2026-02-02 17:28:53,736 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
 2026-02-02 17:28:59,565 [INFO] src.ui.kiosk_app: Pipeline initialized successfully
+2026-02-02 17:30:19,237 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 17:30:25,908 [INFO] src.ui.kiosk_app: Pipeline initialized successfully
+2026-02-02 17:33:34,272 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 17:33:40,134 [INFO] src.ui.kiosk_app: Pipeline initialized successfully
+2026-02-02 17:38:23,982 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 17:38:30,289 [INFO] src.ui.kiosk_app: Pipeline ready - showing main window
+2026-02-02 17:39:49,013 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 17:39:54,458 [INFO] src.ui.kiosk_app: Pipeline ready - showing main window
+2026-02-02 17:42:13,710 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 17:42:19,285 [INFO] src.ui.kiosk_app: Pipeline ready - showing main window
+2026-02-02 17:45:35,941 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 17:45:40,410 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 17:45:40,412 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 17:45:40,413 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 17:48:09,857 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 17:48:14,498 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 17:48:14,500 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 17:48:14,500 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 17:48:22,819 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 17:48:23,016 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 17:48:23,447 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 17:48:29,104 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 17:48:29,105 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 17:48:29,512 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 17:48:31,036 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 17:48:31,038 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 17:48:31,428 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 17:48:35,826 [INFO] faster_whisper: Processing audio with duration 00:02.304
+2026-02-02 17:48:35,830 [INFO] faster_whisper: VAD filter removed 00:00.568 of audio
+2026-02-02 17:48:36,218 [INFO] faster_whisper: Detected language 'en' with probability 0.86
+2026-02-02 17:48:38,701 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-02-02 17:48:38,701 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-02 17:48:39,085 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-02 17:55:08,831 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 17:55:14,480 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 17:55:14,481 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 17:55:14,481 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 17:55:25,318 [INFO] faster_whisper: Processing audio with duration 00:03.776
+2026-02-02 17:55:25,453 [INFO] faster_whisper: VAD filter removed 00:01.272 of audio
+2026-02-02 17:55:25,865 [INFO] faster_whisper: Detected language 'en' with probability 0.88
+2026-02-02 17:55:28,161 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-02-02 17:55:28,161 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-02 17:55:28,528 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-02 17:57:19,110 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 17:57:24,479 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 17:57:24,482 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 17:57:24,482 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 17:57:31,093 [INFO] faster_whisper: Processing audio with duration 00:02.496
+2026-02-02 17:57:31,243 [INFO] faster_whisper: VAD filter removed 00:01.016 of audio
+2026-02-02 17:57:31,651 [INFO] faster_whisper: Detected language 'en' with probability 0.89
+2026-02-02 17:57:33,891 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-02-02 17:57:33,891 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-02 21:02:00,976 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:02:15,181 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:02:28,715 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:02:28,719 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:02:28,720 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:02:28,722 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:02:28,724 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:02:28,725 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:03:28,674 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:03:33,012 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:03:33,013 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:03:33,013 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:03:45,339 [INFO] faster_whisper: Processing audio with duration 00:03.392
+2026-02-02 21:03:45,570 [INFO] faster_whisper: VAD filter removed 00:00.552 of audio
+2026-02-02 21:03:46,001 [INFO] faster_whisper: Detected language 'en' with probability 0.70
+2026-02-02 21:03:51,646 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-02-02 21:03:51,646 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-02 21:04:26,964 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:04:28,793 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:04:28,794 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:04:28,794 [ERROR] src.ui.kiosk_app: Health status: {'healthy': True, 'seconds_since_activity': 120.0739643573761, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:04:28,803 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:04:28,806 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:04:28,807 [ERROR] src.ui.kiosk_app: Health status: {'healthy': True, 'seconds_since_activity': 120.08170461654663, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:04:31,361 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:04:31,362 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:04:31,363 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:04:36,112 [INFO] faster_whisper: Processing audio with duration 00:02.368
+2026-02-02 21:04:36,232 [INFO] faster_whisper: VAD filter removed 00:00.760 of audio
+2026-02-02 21:04:36,619 [INFO] faster_whisper: Detected language 'en' with probability 0.81
+2026-02-02 21:04:38,557 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-02-02 21:04:38,557 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-02 21:04:38,840 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-02 21:05:09,267 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:05:13,216 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:05:13,218 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:05:13,218 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:05:17,167 [INFO] faster_whisper: Processing audio with duration 00:02.624
+2026-02-02 21:05:17,282 [INFO] faster_whisper: VAD filter removed 00:00.760 of audio
+2026-02-02 21:05:17,665 [INFO] faster_whisper: Detected language 'en' with probability 0.86
+2026-02-02 21:05:19,763 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-02-02 21:05:19,763 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-02 21:05:19,871 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-02 21:06:28,906 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:06:28,907 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:06:28,907 [ERROR] src.ui.kiosk_app: Health status: {'healthy': True, 'seconds_since_activity': 240.18731665611267, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:06:28,908 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:06:28,912 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:06:28,912 [ERROR] src.ui.kiosk_app: Health status: {'healthy': True, 'seconds_since_activity': 240.18718314170837, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:08:09,768 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:08:14,645 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:08:14,646 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:08:14,646 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:08:19,357 [INFO] faster_whisper: Processing audio with duration 00:02.368
+2026-02-02 21:08:19,477 [INFO] faster_whisper: VAD filter removed 00:00.664 of audio
+2026-02-02 21:08:19,843 [INFO] faster_whisper: Detected language 'en' with probability 0.88
+2026-02-02 21:08:22,004 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-02-02 21:08:22,004 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-02 21:08:22,354 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-02 21:08:28,996 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:08:28,996 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:08:28,996 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:08:28,996 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:08:28,998 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 360.2766823768616, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:08:28,998 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 360.2717275619507, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:10:29,063 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:10:29,063 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:10:29,064 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:10:29,064 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:10:29,065 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 480.3450207710266, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:10:29,066 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 480.34005188941956, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:12:29,140 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:12:29,140 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:12:29,140 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 600.4203114509583, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:12:29,143 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:12:29,145 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:12:29,146 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 600.4201753139496, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:13:17,360 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:13:24,426 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-02-02 21:13:24,426 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-02 21:13:24,487 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-02 21:13:25,560 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:13:25,562 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:13:25,562 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:13:29,336 [INFO] faster_whisper: Processing audio with duration 00:02.240
+2026-02-02 21:13:29,454 [INFO] faster_whisper: VAD filter removed 00:00.696 of audio
+2026-02-02 21:13:29,889 [INFO] faster_whisper: Detected language 'en' with probability 0.94
+2026-02-02 21:14:29,244 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:14:29,244 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:14:29,244 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:14:29,244 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 720.5241918563843, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:14:29,244 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:14:29,245 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 720.5195634365082, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:16:29,310 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:16:29,310 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:16:29,312 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 840.5900535583496, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:16:29,314 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:16:29,315 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:16:29,317 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 840.5907917022705, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:18:29,388 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:18:29,388 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:18:29,390 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 960.669725894928, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:18:29,401 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:18:29,402 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:18:29,402 [ERROR] src.ui.kiosk_app: Health status: {'healthy': False, 'seconds_since_activity': 960.6768791675568, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 21:19:43,161 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:19:47,921 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:19:47,922 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:19:47,923 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:20:03,655 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:20:07,050 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:20:07,051 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:20:07,051 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:20:11,246 [INFO] faster_whisper: Processing audio with duration 00:02.304
+2026-02-02 21:20:11,366 [INFO] faster_whisper: VAD filter removed 00:00.632 of audio
+2026-02-02 21:20:11,770 [INFO] faster_whisper: Detected language 'en' with probability 0.88
+2026-02-02 21:22:36,144 [ERROR] src.ui.error_handling: Watchdog timeout! No activity for 120.1s
+2026-02-02 21:22:36,146 [ERROR] src.ui.kiosk_app: Watchdog timeout! System appears to be hung.
+2026-02-02 21:22:36,146 [ERROR] src.ui.kiosk_app: Health status: {'healthy': True, 'seconds_since_activity': 120.12085342407227, 'error_count': 0, 'total_operations': 2, 'error_rate': 0.0}
+2026-02-02 21:23:02,150 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:23:06,485 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:23:06,486 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:23:06,487 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:23:20,013 [INFO] faster_whisper: Processing audio with duration 00:01.792
+2026-02-02 21:23:20,065 [INFO] faster_whisper: VAD filter removed 00:00.696 of audio
+2026-02-02 21:23:20,481 [INFO] faster_whisper: Detected language 'en' with probability 0.73
+2026-02-02 21:25:13,211 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:25:16,477 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:25:16,479 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:25:16,479 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:25:18,145 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 21:25:18,184 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 21:25:18,548 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 21:25:20,565 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 21:25:20,566 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 21:25:20,921 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 21:25:21,376 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 21:25:21,376 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 21:25:21,736 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 21:25:26,014 [INFO] faster_whisper: Processing audio with duration 00:02.048
+2026-02-02 21:25:26,017 [INFO] faster_whisper: VAD filter removed 00:00.472 of audio
+2026-02-02 21:25:26,368 [INFO] faster_whisper: Detected language 'en' with probability 0.81
+2026-02-02 21:58:00,754 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 21:58:23,290 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 21:58:23,291 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 21:58:23,292 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 21:58:43,038 [INFO] faster_whisper: Processing audio with duration 00:02.176
+2026-02-02 21:58:43,192 [INFO] faster_whisper: VAD filter removed 00:00.664 of audio
+2026-02-02 21:58:43,610 [INFO] faster_whisper: Detected language 'en' with probability 0.88
+2026-02-02 22:00:01,203 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 22:00:05,835 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 22:00:05,838 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 22:00:05,839 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 22:00:35,392 [INFO] src.ui.kiosk_app: Shutting down kiosk application...
+2026-02-02 22:00:35,852 [INFO] src.ui.kiosk_app: Final health status: {'healthy': True, 'seconds_since_activity': 30.012782335281372, 'error_count': 0, 'total_operations': 1, 'error_rate': 0.0}
+2026-02-02 22:00:35,948 [INFO] src.ui.kiosk_app: Shutdown complete
+2026-02-02 22:05:48,222 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 22:05:51,847 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 22:05:51,849 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 22:05:51,849 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 22:06:54,193 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 22:06:58,618 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 22:06:58,620 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 22:06:58,620 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 22:07:02,941 [INFO] faster_whisper: Processing audio with duration 00:01.792
+2026-02-02 22:07:03,057 [INFO] faster_whisper: VAD filter removed 00:00.568 of audio
+2026-02-02 22:07:03,485 [INFO] faster_whisper: Detected language 'en' with probability 0.88
+2026-02-02 22:13:21,030 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 22:13:24,614 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 22:13:24,615 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 22:13:24,616 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 22:14:37,153 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 22:14:37,192 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 22:14:37,565 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 22:14:42,413 [INFO] faster_whisper: Processing audio with duration 00:01.664
+2026-02-02 22:14:42,416 [INFO] faster_whisper: VAD filter removed 00:00.568 of audio
+2026-02-02 22:14:42,766 [INFO] faster_whisper: Detected language 'en' with probability 0.85
+2026-02-02 22:24:47,174 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\tahas\x\new\ICL_Voice_Assistant\logs\kiosk_20260202.log
+2026-02-02 22:24:54,021 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-02-02 22:24:54,022 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-02 22:24:54,358 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-02 22:24:55,385 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-02-02 22:24:55,388 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-02-02 22:24:55,389 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-02-02 22:24:57,776 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 22:24:57,821 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 22:24:58,236 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 22:25:00,353 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 22:25:00,353 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 22:25:00,714 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 22:25:04,626 [INFO] faster_whisper: Processing audio with duration 00:00.064
+2026-02-02 22:25:04,627 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
+2026-02-02 22:25:04,981 [INFO] faster_whisper: Detected language 'en' with probability 0.58
+2026-02-02 22:25:08,287 [INFO] faster_whisper: Processing audio with duration 00:02.048
+2026-02-02 22:25:08,290 [INFO] faster_whisper: VAD filter removed 00:00.568 of audio
+2026-02-02 22:25:08,646 [INFO] faster_whisper: Detected language 'en' with probability 0.81

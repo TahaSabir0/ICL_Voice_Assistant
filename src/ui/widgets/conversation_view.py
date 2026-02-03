@@ -249,6 +249,12 @@ class ConversationView(QWidget):
         insert_index = self._messages_layout.count() - 1  # Before stretch
         self._messages_layout.insertWidget(insert_index, bubble)
         
+        # Force visibility and update
+        print(f">>> ConversationView: Added {role} message at index {insert_index}, text_len={len(text)}")
+        bubble.show()
+        bubble.updateGeometry()
+        self.updateGeometry()
+        
         # Scroll to bottom
         QTimer.singleShot(50, self._scroll_to_bottom)
     

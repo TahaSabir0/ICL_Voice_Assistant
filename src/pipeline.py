@@ -242,6 +242,11 @@ class VoicePipeline:
                         relevance_threshold=self.config.rag_relevance_threshold
                     )
                     report(f"  RAG loaded: {self._retriever.store.count()} documents")
+                    
+                    # Preload embedding model to avoid loading on first query
+                    report("  Preloading embedding model...")
+                    _ = self._retriever.store.embedding_service.model
+                    report("  Embedding model ready")
                 except Exception as e:
                     report(f"  RAG not available: {e} (continuing without RAG)")
                     self._retriever = None
