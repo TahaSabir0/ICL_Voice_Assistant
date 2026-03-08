@@ -54,22 +54,36 @@ Write-Host ""
 Write-Header "Step 1: Verifying Python installation..."
 
 $pythonPath = $null
-
-# Build candidate list - py launcher first, then common install paths
 $candidates = New-Object System.Collections.Generic.List[string]
 
+# 1. py launcher (most reliable on Windows, works even when run as admin)
 $pyCmd = Get-Command py -ErrorAction SilentlyContinue
 if ($pyCmd) { $candidates.Add($pyCmd.Source) }
 
-$candidates.Add("$env:LOCALAPPDATA\Programs\Python\Python313\python.exe")
-$candidates.Add("$env:LOCALAPPDATA\Programs\Python\Python312\python.exe")
-$candidates.Add("$env:LOCALAPPDATA\Programs\Python\Python311\python.exe")
-$candidates.Add("$env:LOCALAPPDATA\Programs\Python\Python310\python.exe")
-$candidates.Add("C:\Python313\python.exe")
-$candidates.Add("C:\Python312\python.exe")
-$candidates.Add("C:\Python311\python.exe")
+# 2. Scan all user profiles for Python installs
+#    NOTE: $env:LOCALAPPDATA changes when running as Admin, so we use
+#    $env:USERPROFILE and also scan C:\Users\* to find real user installs
+$userRoots = @($env:USERPROFILE)
+Get-ChildItem "C:\Users" -Directory -ErrorAction SilentlyContinue | ForEach-Object {
+    $userRoots += $_.FullName
+}
 
-# Add any python in PATH that isn't the WindowsApps stub
+foreach ($userRoot in $userRoots) {
+    $pythonBase = "$userRoot\AppData\Local\Programs\Python"
+    if (Test-Path $pythonBase) {
+        Get-ChildItem $pythonBase -Directory -ErrorAction SilentlyContinue | ForEach-Object {
+            $candidates.Add("$($_.FullName)\python.exe")
+        }
+    }
+}
+
+# 3. System-wide installs
+foreach ($ver in @("313","312","311","310","39")) {
+    $candidates.Add("C:\Python$ver\python.exe")
+    $candidates.Add("C:\Program Files\Python$ver\python.exe")
+}
+
+# 4. Any python in PATH that isn't the WindowsApps stub
 $allPython = Get-Command python -All -ErrorAction SilentlyContinue
 if ($allPython) {
     foreach ($cmd in $allPython) {
