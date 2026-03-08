@@ -64,12 +64,42 @@ Write-Host ""
 # ============================================================================
 Write-Header "Step 1: Verifying Python installation..."
 
+# Resolve the real Python executable - checks py launcher, common install paths,
+# and filters out the Microsoft Store stub that intercepts 'python' on some systems
 $pythonPath = $null
-try {
-    $pythonPath = (Get-Command python -ErrorAction Stop).Source
+
+$candidates = @(
+    (Get-Command py -ErrorAction SilentlyContinue)?.Source,
+    "$env:LOCALAPPDATA\Programs\Python\Python313\python.exe",
+    "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe",
+    "$env:LOCALAPPDATA\Programs\Python\Python311\python.exe",
+    "$env:LOCALAPPDATA\Programs\Python\Python310\python.exe",
+    "C:\Python313\python.exe",
+    "C:\Python312\python.exe",
+    "C:\Python311\python.exe"
+)
+
+# Also check all 'python' entries in PATH, skipping the WindowsApps stub
+foreach ($cmd in (Get-Command python -All -ErrorAction SilentlyContinue)) {
+    if ($cmd.Source -notmatch "WindowsApps") {
+        $candidates += $cmd.Source
+    }
+}
+
+foreach ($candidate in $candidates) {
+    if ($candidate -and (Test-Path $candidate)) {
+        $testVersion = & $candidate --version 2>&1
+        if ($testVersion -match "Python \d+\.\d+") {
+            $pythonPath = $candidate
+            break
+        }
+    }
+}
+
+if ($pythonPath) {
     $pythonVersion = & $pythonPath --version 2>&1
-    Write-Success "✓ Python found: $pythonVersion"
-} catch {
+    Write-Success "✓ Python found: $pythonVersion ($pythonPath)"
+} else {
     Write-Warning "✗ Python not found. Installing Python 3.11..."
 
     $installerPath = Join-Path $TempDir "python-3.11.9-amd64.exe"
@@ -268,7 +298,7 @@ Write-Header "Step 6: Installing Python dependencies..."
 try {
     Push-Location $ProjectRoot
     Write-Host "  Running: pip install -e ."
-    & python -m pip install -e . --quiet
+    & $pythonPath -m pip install -e . --quiet
 
     if ($LASTEXITCODE -eq 0) {
         Write-Success "✓ Dependencies installed successfully"
@@ -315,7 +345,7 @@ if (-not $NoLaunch) {
         }
 
         Push-Location $ProjectRoot
-        & python @launchArgs
+        & $pythonPath @launchArgs
         Pop-Location
     } catch {
         Write-Error2 "✗ Failed to launch application: $_"
@@ -325,9 +355,9 @@ if (-not $NoLaunch) {
     Write-Success "Setup complete! To launch the application:"
     Write-Host ""
     Write-Host "  Windowed mode (for testing):"
-    Write-Host "    python scripts/launch_kiosk.py --windowed"
+    Write-Host "    & '$pythonPath' scripts/launch_kiosk.py --windowed"
     Write-Host ""
     Write-Host "  Fullscreen kiosk mode:"
-    Write-Host "    python scripts/launch_kiosk.py"
+    Write-Host "    & '$pythonPath' scripts/launch_kiosk.py"
     Write-Host ""
 }
