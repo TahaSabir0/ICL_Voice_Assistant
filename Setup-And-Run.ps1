@@ -160,6 +160,17 @@ if (-not $SkipOllama) {
 
             if ($ollamaExe) {
                 Write-Success "[OK] Ollama installed: $ollamaExe"
+
+                # Kill the desktop app that auto-launches after install
+                # (it shows a setup wizard we don't need — the script handles everything)
+                Start-Sleep -Seconds 3
+                Get-Process -ErrorAction SilentlyContinue | Where-Object {
+                    $_.ProcessName -match "^ollama" -and $_.ProcessName -ne "ollama"
+                } | Stop-Process -Force -ErrorAction SilentlyContinue
+                # Also kill the main ollama process the installer may have started
+                Get-Process -Name "ollama" -ErrorAction SilentlyContinue |
+                    Stop-Process -Force -ErrorAction SilentlyContinue
+                Write-Host "     Closed Ollama desktop app (script will start the server itself)"
             } else {
                 Write-Err "[!!] Ollama not detected after 3 minutes."
                 Write-Host "     Try installing manually from: https://ollama.ai"
@@ -172,29 +183,43 @@ if (-not $SkipOllama) {
     }
 
     # ========================================================================
-    # Step 3: Wait for Ollama service
+    # Step 3: Start Ollama server (headless, no UI)
     # ========================================================================
     Write-Host ""
-    Write-Header "Step 3: Waiting for Ollama service..."
-    Write-Host "     Polling http://localhost:11434 (up to 60s)..."
+    Write-Header "Step 3: Starting Ollama server..."
 
-    $ollamaRunning = $false
-    for ($i = 0; $i -lt 60; $i++) {
-        try {
-            $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -ErrorAction Stop
-            if ($r.StatusCode -eq 200) { $ollamaRunning = $true; break }
-        } catch { }
-        Start-Sleep -Seconds 1
-        if ($i % 15 -eq 14) { Write-Host "     Still waiting..." }
-    }
+    # Quick check — is it already running?
+    $alreadyRunning = $false
+    try {
+        $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -ErrorAction Stop
+        if ($r.StatusCode -eq 200) { $alreadyRunning = $true }
+    } catch { }
 
-    if ($ollamaRunning) {
-        Write-Success "[OK] Ollama is running"
+    if ($alreadyRunning) {
+        Write-Success "[OK] Ollama server is already running"
     } else {
-        Write-Err "[!!] Ollama not responding after 60s."
-        Write-Host "     Try restarting your PC and running again."
-        Write-Host "     Or run with -SkipOllama if Ollama is already running."
-        exit 1
+        # Start ollama serve in the background (headless, no desktop app)
+        Write-Host "     Starting 'ollama serve' in the background..."
+        Start-Process -FilePath $ollamaExe -ArgumentList "serve" -WindowStyle Hidden
+        Write-Host "     Waiting for server to respond (up to 30s)..."
+
+        $ollamaRunning = $false
+        for ($i = 0; $i -lt 30; $i++) {
+            try {
+                $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -ErrorAction Stop
+                if ($r.StatusCode -eq 200) { $ollamaRunning = $true; break }
+            } catch { }
+            Start-Sleep -Seconds 1
+            if ($i % 10 -eq 9) { Write-Host "     Still waiting..." }
+        }
+
+        if ($ollamaRunning) {
+            Write-Success "[OK] Ollama server is running"
+        } else {
+            Write-Err "[!!] Ollama server not responding after 30s."
+            Write-Host "     Try restarting your PC and running again."
+            exit 1
+        }
     }
 
     # ========================================================================
