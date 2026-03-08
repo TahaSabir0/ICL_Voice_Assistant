@@ -72,7 +72,6 @@ class KioskApplication:
         # Components
         self.window: KioskWindow = None
         self.pipeline_thread: PipelineThread = None
-        self._is_recording = False
         
         # Monitoring
         self.health_monitor = HealthMonitor(unhealthy_threshold=300.0)
@@ -212,10 +211,17 @@ class KioskApplication:
         )
     
     def _connect_window_signals(self):
-        """Connect window signals to pipeline."""
-        self.window.ptt_pressed.connect(self._on_ptt_pressed)
-        self.window.ptt_released.connect(self._on_ptt_released)
-        # Connect text submission directly to worker (thread-safe signal)
+        """Connect window signals to pipeline using thread-safe Signal/Slot."""
+        # PTT signals → worker slots via QueuedConnection (thread-safe)
+        self.window.ptt_pressed.connect(
+            self.pipeline_thread.worker.start_recording,
+            Qt.ConnectionType.QueuedConnection
+        )
+        self.window.ptt_released.connect(
+            self.pipeline_thread.worker.stop_recording,
+            Qt.ConnectionType.QueuedConnection
+        )
+        # Text submission → worker slot via QueuedConnection (thread-safe)
         self.window.text_submitted.connect(
             self.pipeline_thread.worker.process_text_input,
             Qt.ConnectionType.QueuedConnection
@@ -355,41 +361,8 @@ class KioskApplication:
         if mem_status.get("warning"):
             logger.warning(f"High memory usage: {mem_status['current_mb']:.1f} MB")
     
-    @Slot()
-    def _on_ptt_pressed(self):
-        """Handle push-to-talk button pressed."""
-        print(">>> PTT pressed")
-        if self._is_recording:
-            return
-        
-        self._is_recording = True
-        
-        # Invoke worker method in worker's thread
-        from PySide6.QtCore import QMetaObject, Qt
-        QMetaObject.invokeMethod(
-            self.pipeline_thread.worker,
-            "start_recording",
-            Qt.ConnectionType.QueuedConnection
-        )
-    
-    @Slot()
-    def _on_ptt_released(self):
-        """Handle push-to-talk button released."""
-        print(">>> PTT released")
-        if not self._is_recording:
-            return
-        
-        self._is_recording = False
-        
-        # Invoke worker method in worker's thread
-        from PySide6.QtCore import QMetaObject, Qt
-        QMetaObject.invokeMethod(
-            self.pipeline_thread.worker,
-            "stop_recording",
-            Qt.ConnectionType.QueuedConnection
-        )
-    
-    # Text submission is now handled via direct signal connection in _connect_window_signals
+    # PTT and text submission are all handled via direct Signal/Slot
+    # connections in _connect_window_signals — no invokeMethod needed.
     
     def _on_watchdog_timeout(self):
         """Handle watchdog timeout (system hang detected)."""
@@ -410,7 +383,6 @@ class KioskApplication:
     def _reset_to_idle(self):
         """Reset the application to idle state."""
         logger.info("Resetting to idle state")
-        self._is_recording = False
         if self.window:
             self.window.set_state("idle")
             self.window.set_status("Ready - Press the button to speak")
