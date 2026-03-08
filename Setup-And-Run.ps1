@@ -148,7 +148,7 @@ if (-not $SkipOllama) {
         if ($ollamaWorks) {
             Write-Success "[OK] Ollama found: $ollamaExe ($verOutput)"
         } else {
-            Write-Warn "[!!] Ollama exe found but not working — reinstalling..."
+            Write-Warn "[!!] Ollama exe found but not working - reinstalling..."
             # Clean up broken installation
             $ollamaDir = Split-Path $ollamaExe -Parent
             Remove-Item -Path $ollamaDir -Recurse -Force -ErrorAction SilentlyContinue
@@ -182,7 +182,7 @@ if (-not $SkipOllama) {
                 Write-Success "[OK] Ollama installed: $ollamaExe"
 
                 # Kill the desktop app that auto-launches after install
-                # (it shows a setup wizard we don't need — the script handles everything)
+                # (the script handles model setup itself, no need for the wizard)
                 Start-Sleep -Seconds 3
                 Get-Process -ErrorAction SilentlyContinue | Where-Object {
                     $_.ProcessName -match "^ollama"
@@ -205,7 +205,7 @@ if (-not $SkipOllama) {
     Write-Host ""
     Write-Header "Step 3: Starting Ollama server..."
 
-    # Quick check — is it already running?
+    # Quick check: is it already running?
     $alreadyRunning = $false
     try {
         $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -ErrorAction Stop
