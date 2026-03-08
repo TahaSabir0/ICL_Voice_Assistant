@@ -207,10 +207,9 @@ if (-not $SkipOllama) {
     if ($ollamaRunning) {
         Write-Success "[OK] Ollama server is already running"
     } else {
-        # Start ollama serve in the background
+        # Start ollama serve in a new window
         Write-Host "     Starting 'ollama serve'..."
-        $logDir = Join-Path $ProjectRoot "logs"
-        Start-Process -FilePath $ollamaExe -ArgumentList "serve" -NoNewWindow -RedirectStandardError (Join-Path $logDir "ollama_stderr.log") -RedirectStandardOutput (Join-Path $logDir "ollama_stdout.log")
+        Start-Process -FilePath $ollamaExe -ArgumentList "serve" -PassThru | Out-Null
         Write-Host "     Waiting for server to respond (up to 30s)..."
 
         for ($i = 0; $i -lt 30; $i++) {
