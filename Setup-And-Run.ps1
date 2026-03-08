@@ -33,7 +33,6 @@ if (-not (Test-Administrator)) {
 # Configuration
 $ModelName    = "llama3.1:8b-instruct-q4_K_M"
 $OllamaUrl    = "https://ollama.ai/download/OllamaSetup.exe"
-$PythonUrl    = "https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe"
 $ScriptRoot   = Split-Path -Parent $MyInvocation.MyCommand.Path
 $ProjectRoot  = $ScriptRoot
 $VectorStoreDir = Join-Path $ProjectRoot "data\vector_store"
@@ -108,31 +107,12 @@ if ($pythonPath) {
     Write-Success "[OK] Python found: $pythonVersion"
     Write-Success "     Path: $pythonPath"
 } else {
-    Write-Warn "[!!] Python not found. Installing Python 3.11..."
-    $installerPath = Join-Path $TempDir "python-3.11.9-amd64.exe"
-    try {
-        Write-Host "     Downloading Python installer..."
-        $ProgressPreference = 'SilentlyContinue'
-        Invoke-WebRequest -Uri $PythonUrl -OutFile $installerPath -TimeoutSec 300
-        Write-Host "     Running installer..."
-        & $installerPath /quiet InstallAllUsers=1 PrependPath=1 Include_pip=1
-        Start-Sleep -Seconds 10
-
-        # Refresh PATH
-        $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" +
-                    [System.Environment]::GetEnvironmentVariable("Path","User")
-
-        $pythonPath = (Get-Command python -ErrorAction SilentlyContinue).Source
-        if ($pythonPath) {
-            Write-Success "[OK] Python installed: $(& $pythonPath --version 2>&1)"
-        } else {
-            Write-Err "[!!] Python installed but not found in PATH. Restart PowerShell and retry."
-            exit 1
-        }
-    } catch {
-        Write-Err "[!!] Failed to install Python: $_"
-        exit 1
-    }
+    Write-Err "[!!] Python not found."
+    Write-Host ""
+    Write-Host "     Please install Python 3.11+ from https://www.python.org/downloads/"
+    Write-Host "     Make sure to check 'Add Python to PATH' during installation."
+    Write-Host "     Then re-run this script."
+    exit 1
 }
 
 # ============================================================================
