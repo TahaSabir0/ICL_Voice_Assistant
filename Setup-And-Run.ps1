@@ -133,11 +133,10 @@ if (-not $SkipOllama) {
             Write-Host "     Downloading Ollama installer (~200MB)..."
             $ProgressPreference = 'SilentlyContinue'
             Invoke-WebRequest -Uri $OllamaUrl -OutFile $installerPath -TimeoutSec 300
-            Write-Host "     Running installer..."
-            & $installerPath
-            Start-Sleep -Seconds 10
+            Write-Host "     Running installer - please click through the setup window..."
+            Start-Process -FilePath $installerPath -Wait
 
-            # Refresh PATH
+            # Refresh PATH after installer completes
             $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" +
                         [System.Environment]::GetEnvironmentVariable("Path","User")
 
