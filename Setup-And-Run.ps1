@@ -31,124 +31,142 @@ if (-not (Test-Administrator)) {
 }
 
 # Configuration
-$ModelName    = "llama3.1:8b-instruct-q4_K_M"
-$OllamaUrl    = "https://ollama.ai/download/OllamaSetup.exe"
-$ScriptRoot   = Split-Path -Parent $MyInvocation.MyCommand.Path
-$ProjectRoot  = $ScriptRoot
+$ModelName      = "llama3.1:8b-instruct-q4_K_M"
+$OllamaUrl      = "https://ollama.ai/download/OllamaSetup.exe"
+$ScriptRoot     = Split-Path -Parent $MyInvocation.MyCommand.Path
+$ProjectRoot    = $ScriptRoot
 $VectorStoreDir = Join-Path $ProjectRoot "data\vector_store"
-$TempDir      = $env:TEMP
+$TempDir        = $env:TEMP
 
 function Write-Header  { param($msg) Write-Host $msg -ForegroundColor Cyan }
 function Write-Success { param($msg) Write-Host $msg -ForegroundColor Green }
 function Write-Warn    { param($msg) Write-Host $msg -ForegroundColor Yellow }
 function Write-Err     { param($msg) Write-Host $msg -ForegroundColor Red }
 
+# ============================================================================
+# HELPER: Scan all user profiles for a given relative path
+# Solves the Admin elevation problem where $env:LOCALAPPDATA points to the
+# wrong folder (C:\Windows\System32\...) instead of the real user's AppData.
+# ============================================================================
+function Find-InUserProfiles {
+    param([string]$RelativePath)
+    $found = $null
+    $roots = @($env:USERPROFILE)
+    Get-ChildItem "C:\Users" -Directory -ErrorAction SilentlyContinue | ForEach-Object {
+        $roots += $_.FullName
+    }
+    foreach ($root in $roots) {
+        $candidate = Join-Path $root $RelativePath
+        if (Test-Path $candidate) { $found = $candidate; break }
+    }
+    return $found
+}
+
 Write-Host ""
 Write-Header "=== ICL Voice Assistant - Complete Bootstrap Setup ==="
 Write-Host ""
 
 # ============================================================================
-# Step 1: Find Python (skipping the Microsoft Store stub)
+# Step 1: Find Python
 # ============================================================================
 Write-Header "Step 1: Verifying Python installation..."
 
 $pythonPath = $null
 $candidates = New-Object System.Collections.Generic.List[string]
 
-# 1. py launcher (most reliable on Windows, works even when run as admin)
+# py launcher (works even as admin)
 $pyCmd = Get-Command py -ErrorAction SilentlyContinue
 if ($pyCmd) { $candidates.Add($pyCmd.Source) }
 
-# 2. Scan all user profiles for Python installs
-#    NOTE: $env:LOCALAPPDATA changes when running as Admin, so we use
-#    $env:USERPROFILE and also scan C:\Users\* to find real user installs
-$userRoots = @($env:USERPROFILE)
-Get-ChildItem "C:\Users" -Directory -ErrorAction SilentlyContinue | ForEach-Object {
-    $userRoots += $_.FullName
-}
-
-foreach ($userRoot in $userRoots) {
-    $pythonBase = "$userRoot\AppData\Local\Programs\Python"
-    if (Test-Path $pythonBase) {
-        Get-ChildItem $pythonBase -Directory -ErrorAction SilentlyContinue | ForEach-Object {
+# Scan all user profiles for any Python version
+$roots = @($env:USERPROFILE)
+Get-ChildItem "C:\Users" -Directory -ErrorAction SilentlyContinue | ForEach-Object { $roots += $_.FullName }
+foreach ($root in $roots) {
+    $base = "$root\AppData\Local\Programs\Python"
+    if (Test-Path $base) {
+        Get-ChildItem $base -Directory -ErrorAction SilentlyContinue | ForEach-Object {
             $candidates.Add("$($_.FullName)\python.exe")
         }
     }
 }
 
-# 3. System-wide installs
+# System-wide installs
 foreach ($ver in @("313","312","311","310","39")) {
     $candidates.Add("C:\Python$ver\python.exe")
     $candidates.Add("C:\Program Files\Python$ver\python.exe")
 }
 
-# 4. Any python in PATH that isn't the WindowsApps stub
-$allPython = Get-Command python -All -ErrorAction SilentlyContinue
-if ($allPython) {
-    foreach ($cmd in $allPython) {
-        if ($cmd.Source -notmatch "WindowsApps") {
-            $candidates.Add($cmd.Source)
-        }
-    }
+# PATH entries that aren't the WindowsApps stub
+Get-Command python -All -ErrorAction SilentlyContinue | ForEach-Object {
+    if ($_.Source -notmatch "WindowsApps") { $candidates.Add($_.Source) }
 }
 
 foreach ($candidate in $candidates) {
     if ($candidate -and (Test-Path $candidate)) {
         $ver = & $candidate --version 2>&1
-        if ($ver -match "Python \d+\.\d+") {
-            $pythonPath = $candidate
-            break
-        }
+        if ($ver -match "Python \d+\.\d+") { $pythonPath = $candidate; break }
     }
 }
 
 if ($pythonPath) {
-    $pythonVersion = & $pythonPath --version 2>&1
-    Write-Success "[OK] Python found: $pythonVersion"
+    Write-Success "[OK] Python found: $(& $pythonPath --version 2>&1)"
     Write-Success "     Path: $pythonPath"
 } else {
     Write-Err "[!!] Python not found."
-    Write-Host ""
-    Write-Host "     Please install Python 3.11+ from https://www.python.org/downloads/"
-    Write-Host "     Make sure to check 'Add Python to PATH' during installation."
-    Write-Host "     Then re-run this script."
+    Write-Host "     Install Python 3.11+ from https://www.python.org/downloads/"
+    Write-Host "     Check 'Add Python to PATH' during installation, then re-run."
     exit 1
 }
 
 # ============================================================================
-# Step 2: Check/Install Ollama
+# Step 2: Find/Install Ollama
 # ============================================================================
 if (-not $SkipOllama) {
     Write-Host ""
     Write-Header "Step 2: Checking Ollama installation..."
 
-    $ollamaCmd = Get-Command ollama -ErrorAction SilentlyContinue
+    # Reusable function to find ollama.exe in PATH or user profiles
+    function Find-Ollama {
+        # Check PATH first
+        $cmd = Get-Command ollama -ErrorAction SilentlyContinue
+        if ($cmd) { return $cmd.Source }
+        # Check all user profile install locations
+        $result = Find-InUserProfiles "AppData\Local\Programs\Ollama\ollama.exe"
+        return $result
+    }
 
-    if ($ollamaCmd) {
-        Write-Success "[OK] Ollama found: $($ollamaCmd.Source)"
+    $ollamaExe = Find-Ollama
+
+    if ($ollamaExe) {
+        Write-Success "[OK] Ollama found: $ollamaExe"
     } else {
-        Write-Warn "[!!] Ollama not found. Installing..."
+        Write-Warn "[!!] Ollama not found. Downloading installer..."
         $installerPath = Join-Path $TempDir "OllamaSetup.exe"
         try {
-            Write-Host "     Downloading Ollama installer (~200MB)..."
             $ProgressPreference = 'SilentlyContinue'
             Invoke-WebRequest -Uri $OllamaUrl -OutFile $installerPath -TimeoutSec 300
             Write-Host "     Running installer - please click through the setup window..."
-            Start-Process -FilePath $installerPath -Wait
+            Start-Process -FilePath $installerPath
 
-            # Refresh PATH after installer completes
-            $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" +
-                        [System.Environment]::GetEnvironmentVariable("Path","User")
+            Write-Host "     Waiting for Ollama to finish installing (up to 3 minutes)..."
+            for ($i = 0; $i -lt 180; $i++) {
+                Start-Sleep -Seconds 1
+                $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" +
+                            [System.Environment]::GetEnvironmentVariable("Path","User")
+                $ollamaExe = Find-Ollama
+                if ($ollamaExe) { break }
+                if ($i % 15 -eq 14) { Write-Host "     Still waiting..." }
+            }
 
-            $ollamaCmd = Get-Command ollama -ErrorAction SilentlyContinue
-            if ($ollamaCmd) {
-                Write-Success "[OK] Ollama installed!"
+            if ($ollamaExe) {
+                Write-Success "[OK] Ollama installed: $ollamaExe"
             } else {
-                Write-Err "[!!] Ollama install may have failed. Try: https://ollama.ai"
+                Write-Err "[!!] Ollama not detected after 3 minutes."
+                Write-Host "     Try installing manually from: https://ollama.ai"
                 exit 1
             }
         } catch {
-            Write-Err "[!!] Failed to install Ollama: $_"
+            Write-Err "[!!] Failed to download Ollama: $_"
             exit 1
         }
     }
@@ -158,17 +176,16 @@ if (-not $SkipOllama) {
     # ========================================================================
     Write-Host ""
     Write-Header "Step 3: Waiting for Ollama service..."
-
-    $ollamaRunning = $false
     Write-Host "     Polling http://localhost:11434 (up to 60s)..."
 
+    $ollamaRunning = $false
     for ($i = 0; $i -lt 60; $i++) {
         try {
             $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -ErrorAction Stop
             if ($r.StatusCode -eq 200) { $ollamaRunning = $true; break }
         } catch { }
         Start-Sleep -Seconds 1
-        if ($i % 10 -eq 9) { Write-Host "     Still waiting..." }
+        if ($i % 15 -eq 14) { Write-Host "     Still waiting..." }
     }
 
     if ($ollamaRunning) {
@@ -176,7 +193,7 @@ if (-not $SkipOllama) {
     } else {
         Write-Err "[!!] Ollama not responding after 60s."
         Write-Host "     Try restarting your PC and running again."
-        Write-Host "     Or run with -SkipOllama if it is already running."
+        Write-Host "     Or run with -SkipOllama if Ollama is already running."
         exit 1
     }
 
@@ -188,7 +205,7 @@ if (-not $SkipOllama) {
 
     $modelExists = $false
     try {
-        $modelsOutput = & ollama list 2>&1
+        $modelsOutput = & $ollamaExe list 2>&1
         if ($modelsOutput -match [regex]::Escape($ModelName)) { $modelExists = $true }
     } catch { }
 
@@ -196,7 +213,7 @@ if (-not $SkipOllama) {
         Write-Success "[OK] Model already available: $ModelName"
     } else {
         Write-Warn "     Pulling $ModelName (~5GB, may take 10-30 mins)..."
-        & ollama pull $ModelName
+        & $ollamaExe pull $ModelName
         if ($LASTEXITCODE -eq 0) {
             Write-Success "[OK] Model ready!"
         } else {
@@ -206,6 +223,7 @@ if (-not $SkipOllama) {
     }
 } else {
     Write-Success "[--] Skipping Ollama setup"
+    $ollamaExe = Find-Ollama
 }
 
 # ============================================================================
