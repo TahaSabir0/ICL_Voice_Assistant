@@ -1,53 +1,28 @@
-# ICL Voice Assistant - Complete Bootstrap & Setup Script
+# ICL Voice Assistant - Setup & Run Script
+# Installs prerequisites (Python, Ollama, model) then delegates to Start-Kiosk.ps1
 # Compatible with Windows PowerShell 5.1+
-# Checks/installs Python, Ollama, pulls the LLM model, and launches the app.
 
 param(
-    [switch]$Windowed,      # Run in windowed mode (not fullscreen)
-    [switch]$SkipOllama,    # Skip Ollama setup (already running)
-    [switch]$UpdateModel,   # Force pull model even if exists
-    [switch]$NoLaunch       # Setup only, don't launch app
+    [switch]$Windowed,      # Pass -Windowed to Start-Kiosk.ps1
+    [switch]$SkipOllama,    # Skip Ollama setup
+    [switch]$UpdateModel,   # Force re-pull model
+    [switch]$NoLaunch       # Setup only, don't launch
 )
 
 # ============================================================================
-# ADMIN CHECK (REQUIRED FOR INSTALLATION)
+# Helpers
 # ============================================================================
+function Write-Header  { param($msg) Write-Host $msg -ForegroundColor Cyan }
+function Write-Success { param($msg) Write-Host $msg -ForegroundColor Green }
+function Write-Warn    { param($msg) Write-Host $msg -ForegroundColor Yellow }
+function Write-Err     { param($msg) Write-Host $msg -ForegroundColor Red }
+
 function Test-Administrator {
     $currentUser = [Security.Principal.WindowsIdentity]::GetCurrent()
     $principal = New-Object Security.Principal.WindowsPrincipal($currentUser)
     return $principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
 }
 
-if (-not (Test-Administrator)) {
-    Write-Host ""
-    Write-Host "ERROR: This script requires Administrator privileges." -ForegroundColor Red
-    Write-Host ""
-    Write-Host "To run as Administrator:"
-    Write-Host "  1. Right-click PowerShell"
-    Write-Host "  2. Select 'Run as Administrator'"
-    Write-Host "  3. Run: .\Setup-And-Run.ps1"
-    Write-Host ""
-    exit 1
-}
-
-# Configuration
-$ModelName      = "llama3.1:8b-instruct-q4_K_M"
-$OllamaUrl      = "https://ollama.ai/download/OllamaSetup.exe"
-$ScriptRoot     = Split-Path -Parent $MyInvocation.MyCommand.Path
-$ProjectRoot    = $ScriptRoot
-$VectorStoreDir = Join-Path $ProjectRoot "data\vector_store"
-$TempDir        = $env:TEMP
-
-function Write-Header  { param($msg) Write-Host $msg -ForegroundColor Cyan }
-function Write-Success { param($msg) Write-Host $msg -ForegroundColor Green }
-function Write-Warn    { param($msg) Write-Host $msg -ForegroundColor Yellow }
-function Write-Err     { param($msg) Write-Host $msg -ForegroundColor Red }
-
-# ============================================================================
-# HELPER: Scan all user profiles for a given relative path
-# Solves the Admin elevation problem where $env:LOCALAPPDATA points to the
-# wrong folder (C:\Windows\System32\...) instead of the real user's AppData.
-# ============================================================================
 function Find-InUserProfiles {
     param([string]$RelativePath)
     $found = $null
@@ -62,23 +37,54 @@ function Find-InUserProfiles {
     return $found
 }
 
+function Find-Ollama {
+    $cmd = Get-Command ollama -ErrorAction SilentlyContinue
+    if ($cmd) { return $cmd.Source }
+    return Find-InUserProfiles "AppData\Local\Programs\Ollama\ollama.exe"
+}
+
+function Test-OllamaPort {
+    try {
+        $tcp = New-Object System.Net.Sockets.TcpClient
+        $tcp.Connect("127.0.0.1", 11434)
+        $connected = $tcp.Connected
+        $tcp.Close()
+        return $connected
+    } catch { return $false }
+}
+
+# ============================================================================
+# Admin check
+# ============================================================================
+if (-not (Test-Administrator)) {
+    Write-Err "ERROR: This script requires Administrator privileges."
+    Write-Host "  Right-click PowerShell -> Run as Administrator -> .\Setup-And-Run.ps1"
+    exit 1
+}
+
+# Configuration
+$ScriptRoot     = Split-Path -Parent $MyInvocation.MyCommand.Path
+$ProjectRoot    = $ScriptRoot
+$ModelName      = "llama3.1:8b-instruct-q4_K_M"
+$OllamaUrl      = "https://ollama.ai/download/OllamaSetup.exe"
+$VenvDir        = Join-Path $ProjectRoot ".venv"
+$VenvPython     = Join-Path $VenvDir "Scripts\python.exe"
+
 Write-Host ""
-Write-Header "=== ICL Voice Assistant - Complete Bootstrap Setup ==="
+Write-Header "=== ICL Voice Assistant - Setup ==="
 Write-Host ""
 
 # ============================================================================
 # Step 1: Find Python
 # ============================================================================
-Write-Header "Step 1: Verifying Python installation..."
+Write-Header "Step 1: Finding Python..."
 
 $pythonPath = $null
 $candidates = New-Object System.Collections.Generic.List[string]
 
-# py launcher (works even as admin)
 $pyCmd = Get-Command py -ErrorAction SilentlyContinue
 if ($pyCmd) { $candidates.Add($pyCmd.Source) }
 
-# Scan all user profiles for any Python version
 $roots = @($env:USERPROFILE)
 Get-ChildItem "C:\Users" -Directory -ErrorAction SilentlyContinue | ForEach-Object { $roots += $_.FullName }
 foreach ($root in $roots) {
@@ -90,13 +96,11 @@ foreach ($root in $roots) {
     }
 }
 
-# System-wide installs
 foreach ($ver in @("313","312","311","310","39")) {
     $candidates.Add("C:\Python$ver\python.exe")
     $candidates.Add("C:\Program Files\Python$ver\python.exe")
 }
 
-# PATH entries that aren't the WindowsApps stub
 Get-Command python -All -ErrorAction SilentlyContinue | ForEach-Object {
     if ($_.Source -notmatch "WindowsApps") { $candidates.Add($_.Source) }
 }
@@ -114,7 +118,6 @@ if ($pythonPath) {
 } else {
     Write-Err "[!!] Python not found."
     Write-Host "     Install Python 3.11+ from https://www.python.org/downloads/"
-    Write-Host "     Check 'Add Python to PATH' during installation, then re-run."
     exit 1
 }
 
@@ -123,21 +126,11 @@ if ($pythonPath) {
 # ============================================================================
 if (-not $SkipOllama) {
     Write-Host ""
-    Write-Header "Step 2: Checking Ollama installation..."
-
-    # Reusable function to find ollama.exe in PATH or user profiles
-    function Find-Ollama {
-        # Check PATH first
-        $cmd = Get-Command ollama -ErrorAction SilentlyContinue
-        if ($cmd) { return $cmd.Source }
-        # Check all user profile install locations
-        $result = Find-InUserProfiles "AppData\Local\Programs\Ollama\ollama.exe"
-        return $result
-    }
+    Write-Header "Step 2: Checking Ollama..."
 
     $ollamaExe = Find-Ollama
 
-    # Verify it actually works (not just that the file exists)
+    # Verify it works
     if ($ollamaExe) {
         $ollamaWorks = $false
         try {
@@ -148,8 +141,7 @@ if (-not $SkipOllama) {
         if ($ollamaWorks) {
             Write-Success "[OK] Ollama found: $ollamaExe ($verOutput)"
         } else {
-            Write-Warn "[!!] Ollama exe found but not working - reinstalling..."
-            # Clean up broken installation
+            Write-Warn "[!!] Ollama exe broken - reinstalling..."
             $ollamaDir = Split-Path $ollamaExe -Parent
             Remove-Item -Path $ollamaDir -Recurse -Force -ErrorAction SilentlyContinue
             $ollamaExe = $null
@@ -157,32 +149,25 @@ if (-not $SkipOllama) {
     }
 
     if (-not $ollamaExe) {
-        Write-Warn "[!!] Ollama not found. Downloading installer..."
-        $installerPath = Join-Path $TempDir "OllamaSetup.exe"
+        Write-Warn "[!!] Ollama not found. Downloading..."
+        $installerPath = Join-Path $env:TEMP "OllamaSetup.exe"
         try {
             $ProgressPreference = 'SilentlyContinue'
             Invoke-WebRequest -Uri $OllamaUrl -OutFile $installerPath -TimeoutSec 300
-            Write-Host "     Running installer - please click through the setup window..."
+            Write-Host "     Running installer - click through the setup window..."
 
-            # Launch installer and track the process so we can wait for it
             $installerProc = Start-Process -FilePath $installerPath -PassThru
-
-            # Wait for the INSTALLER to finish (up to 5 minutes)
             Write-Host "     Waiting for installer to complete (up to 5 minutes)..."
             $installerProc | Wait-Process -Timeout 300 -ErrorAction SilentlyContinue
 
-            # Refresh PATH after install
             $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" +
                         [System.Environment]::GetEnvironmentVariable("Path","User")
-
-            # Now find the installed exe
             $ollamaExe = Find-Ollama
 
             if ($ollamaExe) {
                 Write-Success "[OK] Ollama installed: $ollamaExe"
             } else {
-                Write-Err "[!!] Ollama not detected after installation."
-                Write-Host "     Try installing manually from: https://ollama.ai"
+                Write-Err "[!!] Ollama not detected. Install manually: https://ollama.ai"
                 exit 1
             }
         } catch {
@@ -192,31 +177,21 @@ if (-not $SkipOllama) {
     }
 
     # ========================================================================
-    # Step 3: Ensure Ollama server is running
+    # Step 3: Start Ollama server
     # ========================================================================
     Write-Host ""
-    Write-Header "Step 3: Waiting for Ollama server..."
+    Write-Header "Step 3: Starting Ollama server..."
 
-    # Check if server is already running
-    $ollamaRunning = $false
-    try {
-        $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
-        if ($r.StatusCode -eq 200) { $ollamaRunning = $true }
-    } catch { }
-
-    if ($ollamaRunning) {
-        Write-Success "[OK] Ollama server is already running"
+    if (Test-OllamaPort) {
+        Write-Success "[OK] Ollama server already running (port 11434)"
     } else {
-        # Start ollama serve in a new window
-        Write-Host "     Starting 'ollama serve'..."
-        Start-Process -FilePath $ollamaExe -ArgumentList "serve" -PassThru | Out-Null
-        Write-Host "     Waiting for server to respond (up to 30s)..."
+        Write-Host "     Launching 'ollama serve'..."
+        Start-Process -FilePath $ollamaExe -ArgumentList "serve"
+        Write-Host "     Waiting for server (up to 30s)..."
 
+        $ollamaRunning = $false
         for ($i = 0; $i -lt 30; $i++) {
-            try {
-                $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
-                if ($r.StatusCode -eq 200) { $ollamaRunning = $true; break }
-            } catch { }
+            if (Test-OllamaPort) { $ollamaRunning = $true; break }
             Start-Sleep -Seconds 1
             if ($i % 10 -eq 9) { Write-Host "     Still waiting..." }
         }
@@ -225,16 +200,15 @@ if (-not $SkipOllama) {
             Write-Success "[OK] Ollama server is running"
         } else {
             Write-Err "[!!] Ollama server not responding after 30s."
-            Write-Host "     Check logs/ollama_stderr.log for details."
             exit 1
         }
     }
 
     # ========================================================================
-    # Step 4: Pull the model
+    # Step 4: Pull model
     # ========================================================================
     Write-Host ""
-    Write-Header "Step 4: Setting up LLM model..."
+    Write-Header "Step 4: Checking LLM model..."
 
     $modelExists = $false
     try {
@@ -243,7 +217,7 @@ if (-not $SkipOllama) {
     } catch { }
 
     if ($modelExists -and -not $UpdateModel) {
-        Write-Success "[OK] Model already available: $ModelName"
+        Write-Success "[OK] Model ready: $ModelName"
     } else {
         Write-Warn "     Pulling $ModelName (~5GB, may take 10-30 mins)..."
         & $ollamaExe pull $ModelName
@@ -256,14 +230,41 @@ if (-not $SkipOllama) {
     }
 } else {
     Write-Success "[--] Skipping Ollama setup"
-    $ollamaExe = Find-Ollama
 }
 
 # ============================================================================
-# Step 5: Verify project structure
+# Step 5: Create virtual environment & install dependencies
 # ============================================================================
 Write-Host ""
-Write-Header "Step 5: Verifying project structure..."
+Write-Header "Step 5: Setting up Python environment..."
+
+if (Test-Path $VenvPython) {
+    Write-Success "[OK] Virtual environment exists: $VenvDir"
+} else {
+    Write-Host "     Creating virtual environment..."
+    & $pythonPath -m venv $VenvDir
+    if ($LASTEXITCODE -ne 0) {
+        Write-Err "[!!] Failed to create virtual environment."
+        exit 1
+    }
+    Write-Success "[OK] Virtual environment created"
+}
+
+Write-Host "     Installing dependencies (this may take a few minutes)..."
+Push-Location $ProjectRoot
+& $VenvPython -m pip install -e . --quiet 2>&1 | Out-Null
+if ($LASTEXITCODE -eq 0) {
+    Write-Success "[OK] Dependencies installed"
+} else {
+    Write-Warn "[!!] pip returned non-zero (may still be OK)"
+}
+Pop-Location
+
+# ============================================================================
+# Step 6: Verify project structure
+# ============================================================================
+Write-Host ""
+Write-Header "Step 6: Verifying project structure..."
 
 foreach ($dir in @("data\vector_store", "logs")) {
     $fullPath = Join-Path $ProjectRoot $dir
@@ -274,51 +275,26 @@ foreach ($dir in @("data\vector_store", "logs")) {
 Write-Success "[OK] Project structure verified"
 
 # ============================================================================
-# Step 6: Install Python dependencies
+# Done - hand off to Start-Kiosk.ps1
 # ============================================================================
 Write-Host ""
-Write-Header "Step 6: Installing Python dependencies..."
-
-Push-Location $ProjectRoot
-& $pythonPath -m pip install -e . --quiet
-if ($LASTEXITCODE -eq 0) {
-    Write-Success "[OK] Dependencies installed"
-} else {
-    Write-Warn "[!!] pip returned a non-zero exit code (may still be OK)"
-}
-Pop-Location
-
-# ============================================================================
-# Step 7: ChromaDB vector store
-# ============================================================================
-Write-Host ""
-Write-Header "Step 7: Checking ChromaDB vector store..."
-
-if (Test-Path (Join-Path $VectorStoreDir "chroma.db")) {
-    Write-Success "[OK] Vector store already exists"
-} else {
-    New-Item -ItemType Directory -Path $VectorStoreDir -Force | Out-Null
-    Write-Success "[OK] Vector store directory created (populates on first run)"
-}
-
-# ============================================================================
-# Done
-# ============================================================================
-Write-Host ""
-Write-Header "=== Setup Complete - All Prerequisites Ready! ==="
+Write-Header "=== Setup Complete ==="
 Write-Host ""
 
 if (-not $NoLaunch) {
-    Write-Success "Launching ICL Voice Assistant..."
-    Write-Host ""
-    $launchArgs = @("scripts\launch_kiosk.py")
-    if ($Windowed) { $launchArgs += "--windowed" }
-
-    Push-Location $ProjectRoot
-    & $pythonPath @launchArgs
-    Pop-Location
+    $startKiosk = Join-Path $ProjectRoot "Start-Kiosk.ps1"
+    if (Test-Path $startKiosk) {
+        Write-Success "Handing off to Start-Kiosk.ps1..."
+        Write-Host ""
+        $kioskArgs = @()
+        if ($Windowed) { $kioskArgs += "-Windowed" }
+        & $startKiosk @kioskArgs
+    } else {
+        Write-Err "Start-Kiosk.ps1 not found. Launch manually:"
+        Write-Host "  & '$VenvPython' scripts\launch_kiosk.py --windowed"
+    }
 } else {
-    Write-Host "To launch manually:"
-    Write-Host "  & '$pythonPath' scripts\launch_kiosk.py --windowed"
+    Write-Success "Setup complete. To launch:"
+    Write-Host "  .\Start-Kiosk.ps1 -Windowed"
     Write-Host ""
 }
