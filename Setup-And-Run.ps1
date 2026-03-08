@@ -137,9 +137,26 @@ if (-not $SkipOllama) {
 
     $ollamaExe = Find-Ollama
 
+    # Verify it actually works (not just that the file exists)
     if ($ollamaExe) {
-        Write-Success "[OK] Ollama found: $ollamaExe"
-    } else {
+        $ollamaWorks = $false
+        try {
+            $verOutput = & $ollamaExe --version 2>&1
+            if ($verOutput -match "ollama") { $ollamaWorks = $true }
+        } catch { }
+
+        if ($ollamaWorks) {
+            Write-Success "[OK] Ollama found: $ollamaExe ($verOutput)"
+        } else {
+            Write-Warn "[!!] Ollama exe found but not working — reinstalling..."
+            # Clean up broken installation
+            $ollamaDir = Split-Path $ollamaExe -Parent
+            Remove-Item -Path $ollamaDir -Recurse -Force -ErrorAction SilentlyContinue
+            $ollamaExe = $null
+        }
+    }
+
+    if (-not $ollamaExe) {
         Write-Warn "[!!] Ollama not found. Downloading installer..."
         $installerPath = Join-Path $TempDir "OllamaSetup.exe"
         try {
