@@ -180,14 +180,6 @@ if (-not $SkipOllama) {
 
             if ($ollamaExe) {
                 Write-Success "[OK] Ollama installed: $ollamaExe"
-
-                # Kill the desktop app that auto-launches after install
-                # (the script handles model setup itself, no need for the wizard)
-                Start-Sleep -Seconds 3
-                Get-Process -ErrorAction SilentlyContinue | Where-Object {
-                    $_.ProcessName -match "^ollama"
-                } | Stop-Process -Force -ErrorAction SilentlyContinue
-                Write-Host "     Closed Ollama desktop app (script will start the server itself)"
             } else {
                 Write-Err "[!!] Ollama not detected after installation."
                 Write-Host "     Try installing manually from: https://ollama.ai"
@@ -200,49 +192,39 @@ if (-not $SkipOllama) {
     }
 
     # ========================================================================
-    # Step 3: Start Ollama server (headless, no UI)
+    # Step 3: Ensure Ollama server is running
     # ========================================================================
     Write-Host ""
-    Write-Header "Step 3: Starting Ollama server..."
+    Write-Header "Step 3: Waiting for Ollama server..."
 
-    # Quick check: is it already running and healthy?
-    $alreadyRunning = $false
-    try {
-        $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 3 -UseBasicParsing -ErrorAction Stop
-        if ($r.StatusCode -eq 200) { $alreadyRunning = $true }
-    } catch { }
+    # Ollama auto-starts via Windows Startup after install.
+    # Just wait for it to become healthy. If no process exists, start one.
+    $ollamaRunning = $false
+    for ($i = 0; $i -lt 30; $i++) {
+        try {
+            $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
+            if ($r.StatusCode -eq 200) { $ollamaRunning = $true; break }
+        } catch { }
 
-    if ($alreadyRunning) {
-        Write-Success "[OK] Ollama server is already running"
+        # If no ollama process exists at all, start one manually
+        if ($i -eq 5) {
+            $procs = Get-Process -Name "ollama" -ErrorAction SilentlyContinue
+            if (-not $procs) {
+                Write-Host "     No Ollama process found, starting server manually..."
+                Start-Process -FilePath $ollamaExe -ArgumentList "serve" -WindowStyle Hidden
+            }
+        }
+
+        Start-Sleep -Seconds 1
+        if ($i % 10 -eq 9) { Write-Host "     Still waiting..." }
+    }
+
+    if ($ollamaRunning) {
+        Write-Success "[OK] Ollama server is running"
     } else {
-        # Kill any zombie/broken ollama processes hogging the port
-        Write-Host "     Killing any existing Ollama processes..."
-        taskkill /F /IM "ollama.exe" 2>$null
-        taskkill /F /IM "ollama app.exe" 2>$null
-        Start-Sleep -Seconds 2
-
-        # Start ollama serve fresh
-        Write-Host "     Starting 'ollama serve' in the background..."
-        Start-Process -FilePath $ollamaExe -ArgumentList "serve" -WindowStyle Hidden
-        Write-Host "     Waiting for server to respond (up to 30s)..."
-
-        $ollamaRunning = $false
-        for ($i = 0; $i -lt 30; $i++) {
-            try {
-                $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
-                if ($r.StatusCode -eq 200) { $ollamaRunning = $true; break }
-            } catch { }
-            Start-Sleep -Seconds 1
-            if ($i % 10 -eq 9) { Write-Host "     Still waiting..." }
-        }
-
-        if ($ollamaRunning) {
-            Write-Success "[OK] Ollama server is running"
-        } else {
-            Write-Err "[!!] Ollama server not responding after 30s."
-            Write-Host "     Try restarting your PC and running again."
-            exit 1
-        }
+        Write-Err "[!!] Ollama server not responding after 30s."
+        Write-Host "     Try restarting your PC and running again."
+        exit 1
     }
 
     # ========================================================================
