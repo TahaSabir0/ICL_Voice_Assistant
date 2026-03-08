@@ -286,8 +286,8 @@ if (-not $NoLaunch) {
     if (Test-Path $startKiosk) {
         Write-Success "Handing off to Start-Kiosk.ps1..."
         Write-Host ""
-        $kioskArgs = @()
-        if ($Windowed) { $kioskArgs += "-Windowed" }
+        $kioskArgs = @{}
+        if ($Windowed) { $kioskArgs["Windowed"] = $true }
         & $startKiosk @kioskArgs
     } else {
         Write-Err "Start-Kiosk.ps1 not found. Launch manually:"
