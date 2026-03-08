@@ -205,17 +205,23 @@ if (-not $SkipOllama) {
     Write-Host ""
     Write-Header "Step 3: Starting Ollama server..."
 
-    # Quick check: is it already running?
+    # Quick check: is it already running and healthy?
     $alreadyRunning = $false
     try {
-        $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
+        $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 3 -UseBasicParsing -ErrorAction Stop
         if ($r.StatusCode -eq 200) { $alreadyRunning = $true }
     } catch { }
 
     if ($alreadyRunning) {
         Write-Success "[OK] Ollama server is already running"
     } else {
-        # Start ollama serve in the background (headless, no desktop app)
+        # Kill any zombie/broken ollama processes hogging the port
+        Write-Host "     Killing any existing Ollama processes..."
+        taskkill /F /IM "ollama.exe" 2>$null
+        taskkill /F /IM "ollama app.exe" 2>$null
+        Start-Sleep -Seconds 2
+
+        # Start ollama serve fresh
         Write-Host "     Starting 'ollama serve' in the background..."
         Start-Process -FilePath $ollamaExe -ArgumentList "serve" -WindowStyle Hidden
         Write-Host "     Waiting for server to respond (up to 30s)..."
