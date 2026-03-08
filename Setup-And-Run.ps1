@@ -208,7 +208,7 @@ if (-not $SkipOllama) {
     # Quick check: is it already running?
     $alreadyRunning = $false
     try {
-        $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -ErrorAction Stop
+        $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
         if ($r.StatusCode -eq 200) { $alreadyRunning = $true }
     } catch { }
 
@@ -223,7 +223,7 @@ if (-not $SkipOllama) {
         $ollamaRunning = $false
         for ($i = 0; $i -lt 30; $i++) {
             try {
-                $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -ErrorAction Stop
+                $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
                 if ($r.StatusCode -eq 200) { $ollamaRunning = $true; break }
             } catch { }
             Start-Sleep -Seconds 1
