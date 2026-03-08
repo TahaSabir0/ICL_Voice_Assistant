@@ -197,34 +197,38 @@ if (-not $SkipOllama) {
     Write-Host ""
     Write-Header "Step 3: Waiting for Ollama server..."
 
-    # Ollama auto-starts via Windows Startup after install.
-    # Just wait for it to become healthy. If no process exists, start one.
+    # Check if server is already running
     $ollamaRunning = $false
-    for ($i = 0; $i -lt 30; $i++) {
-        try {
-            $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
-            if ($r.StatusCode -eq 200) { $ollamaRunning = $true; break }
-        } catch { }
-
-        # If no ollama process exists at all, start one manually
-        if ($i -eq 5) {
-            $procs = Get-Process -Name "ollama" -ErrorAction SilentlyContinue
-            if (-not $procs) {
-                Write-Host "     No Ollama process found, starting server manually..."
-                Start-Process -FilePath $ollamaExe -ArgumentList "serve" -WindowStyle Hidden
-            }
-        }
-
-        Start-Sleep -Seconds 1
-        if ($i % 10 -eq 9) { Write-Host "     Still waiting..." }
-    }
+    try {
+        $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
+        if ($r.StatusCode -eq 200) { $ollamaRunning = $true }
+    } catch { }
 
     if ($ollamaRunning) {
-        Write-Success "[OK] Ollama server is running"
+        Write-Success "[OK] Ollama server is already running"
     } else {
-        Write-Err "[!!] Ollama server not responding after 30s."
-        Write-Host "     Try restarting your PC and running again."
-        exit 1
+        # Start ollama serve in the background
+        Write-Host "     Starting 'ollama serve'..."
+        $logDir = Join-Path $ProjectRoot "logs"
+        Start-Process -FilePath $ollamaExe -ArgumentList "serve" -NoNewWindow -RedirectStandardError (Join-Path $logDir "ollama_stderr.log") -RedirectStandardOutput (Join-Path $logDir "ollama_stdout.log")
+        Write-Host "     Waiting for server to respond (up to 30s)..."
+
+        for ($i = 0; $i -lt 30; $i++) {
+            try {
+                $r = Invoke-WebRequest -Uri "http://localhost:11434/api/tags" -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop
+                if ($r.StatusCode -eq 200) { $ollamaRunning = $true; break }
+            } catch { }
+            Start-Sleep -Seconds 1
+            if ($i % 10 -eq 9) { Write-Host "     Still waiting..." }
+        }
+
+        if ($ollamaRunning) {
+            Write-Success "[OK] Ollama server is running"
+        } else {
+            Write-Err "[!!] Ollama server not responding after 30s."
+            Write-Host "     Check logs/ollama_stderr.log for details."
+            exit 1
+        }
     }
 
     # ========================================================================
