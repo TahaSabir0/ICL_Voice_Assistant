@@ -146,17 +146,20 @@ if (-not $SkipOllama) {
             $ProgressPreference = 'SilentlyContinue'
             Invoke-WebRequest -Uri $OllamaUrl -OutFile $installerPath -TimeoutSec 300
             Write-Host "     Running installer - please click through the setup window..."
-            Start-Process -FilePath $installerPath
 
-            Write-Host "     Waiting for Ollama to finish installing (up to 3 minutes)..."
-            for ($i = 0; $i -lt 180; $i++) {
-                Start-Sleep -Seconds 1
-                $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" +
-                            [System.Environment]::GetEnvironmentVariable("Path","User")
-                $ollamaExe = Find-Ollama
-                if ($ollamaExe) { break }
-                if ($i % 15 -eq 14) { Write-Host "     Still waiting..." }
-            }
+            # Launch installer and track the process so we can wait for it
+            $installerProc = Start-Process -FilePath $installerPath -PassThru
+
+            # Wait for the INSTALLER to finish (up to 5 minutes)
+            Write-Host "     Waiting for installer to complete (up to 5 minutes)..."
+            $installerProc | Wait-Process -Timeout 300 -ErrorAction SilentlyContinue
+
+            # Refresh PATH after install
+            $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" +
+                        [System.Environment]::GetEnvironmentVariable("Path","User")
+
+            # Now find the installed exe
+            $ollamaExe = Find-Ollama
 
             if ($ollamaExe) {
                 Write-Success "[OK] Ollama installed: $ollamaExe"
@@ -165,14 +168,11 @@ if (-not $SkipOllama) {
                 # (it shows a setup wizard we don't need — the script handles everything)
                 Start-Sleep -Seconds 3
                 Get-Process -ErrorAction SilentlyContinue | Where-Object {
-                    $_.ProcessName -match "^ollama" -and $_.ProcessName -ne "ollama"
+                    $_.ProcessName -match "^ollama"
                 } | Stop-Process -Force -ErrorAction SilentlyContinue
-                # Also kill the main ollama process the installer may have started
-                Get-Process -Name "ollama" -ErrorAction SilentlyContinue |
-                    Stop-Process -Force -ErrorAction SilentlyContinue
                 Write-Host "     Closed Ollama desktop app (script will start the server itself)"
             } else {
-                Write-Err "[!!] Ollama not detected after 3 minutes."
+                Write-Err "[!!] Ollama not detected after installation."
                 Write-Host "     Try installing manually from: https://ollama.ai"
                 exit 1
             }
