@@ -42,7 +42,6 @@ class KioskApplication(QObject):
         llm_model: str = "llama3.1:8b-instruct-q4_K_M",
         enable_watchdog: bool = True
     ):
-        super().__init__()
         """
         Initialize the kiosk application.
         
@@ -61,10 +60,12 @@ class KioskApplication(QObject):
         log_file = setup_logging(project_root / "logs")
         logger.info(f"Kiosk application starting. Log file: {log_file}")
         
-        # Create application
+        # Create application before initializing QObject
         self.app = QApplication.instance()
         if self.app is None:
             self.app = QApplication(sys.argv)
+            
+        super().__init__()
         
         # Set application-wide font
         font = QFont("Inter", 10)
