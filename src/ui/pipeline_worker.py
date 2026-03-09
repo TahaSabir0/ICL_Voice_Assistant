@@ -236,9 +236,7 @@ class PipelineWorker(QObject):
             traceback.print_exc()
             self.error_occurred.emit(f"Processing error: {str(e)}")
             self.state_changed.emit("error")
-            # Ensure we return to idle even on error
-            import time as time_mod
-            time_mod.sleep(3)
+            QThread.msleep(3000)
             self.state_changed.emit("idle")
     
     @Slot(str)
@@ -249,23 +247,46 @@ class PipelineWorker(QObject):
             return
         
         from src.pipeline import PipelineMetrics
-        from src.llm.prompts import NO_CONTEXT_PROMPT
-        
+
         metrics = PipelineMetrics()
         
         try:
             print(f">>> Processing text input: '{text}'")
-            
+
             # Skip STT - already have text
-            # Emit transcription to show user message in UI
             self.transcription_ready.emit(text)
-            
-            # Generate response (no RAG for now since it's disabled)
+
+            # RAG retrieval (same as voice path)
+            context = ""
+            if self._pipeline._retriever:
+                print(">>> Starting RAG retrieval for text input")
+                self.state_changed.emit("retrieving")
+                retrieval_start = time.time()
+                try:
+                    context = self._pipeline._retriever.get_context(
+                        text,
+                        n_results=self.config.rag_n_results
+                    )
+                    metrics.retrieval_time = time.time() - retrieval_start
+                    metrics.context_found = bool(context)
+                    print(f">>> RAG retrieval complete, context found: {bool(context)}")
+                except Exception as e:
+                    print(f">>> RAG retrieval error: {e}")
+                    metrics.retrieval_time = time.time() - retrieval_start
+                    context = ""
+
+            # Generate response
             print(">>> Starting LLM generation for text input")
             self.state_changed.emit("thinking")
             llm_start = time.time()
-            
-            response = self._pipeline._llm.generate(text, system_prompt=None)
+
+            from src.llm.prompts import RAG_SYSTEM_PROMPT, NO_CONTEXT_PROMPT
+            if context:
+                system_prompt = RAG_SYSTEM_PROMPT.format(context=context)
+            else:
+                system_prompt = NO_CONTEXT_PROMPT if self._pipeline._retriever else None
+
+            response = self._pipeline._llm.generate(text, system_prompt=system_prompt)
             metrics.llm_time = time.time() - llm_start
             
             assistant_text = response.text.strip()
@@ -305,9 +326,7 @@ class PipelineWorker(QObject):
             traceback.print_exc()
             self.error_occurred.emit(f"Error processing text: {str(e)}")
             self.state_changed.emit("error")
-            # Return to idle after error
-            import time as time_mod
-            time_mod.sleep(3)
+            QThread.msleep(3000)
             self.state_changed.emit("idle")
     
     @Slot()

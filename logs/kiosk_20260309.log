@@ -1,1 +1,7 @@
 2026-03-09 09:47:47,663 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\regan\Documents\ICL_Voice_Assistant\logs\kiosk_20260309.log
+2026-03-09 09:49:31,711 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-03-09 09:49:31,712 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-09 09:49:32,421 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-09 09:49:33,282 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-03-09 09:49:33,287 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-03-09 09:49:33,289 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout

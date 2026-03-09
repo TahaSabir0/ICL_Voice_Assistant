@@ -365,19 +365,25 @@ class KioskApplication:
     # connections in _connect_window_signals — no invokeMethod needed.
     
     def _on_watchdog_timeout(self):
-        """Handle watchdog timeout (system hang detected)."""
+        """Handle watchdog timeout (system hang detected).
+
+        NOTE: This is called from a Python threading.Thread (the watchdog),
+        NOT from the Qt main thread. Any Qt calls must be posted back to the
+        main thread via QTimer.singleShot with the main thread's app instance.
+        """
         logger.error("Watchdog timeout! System appears to be hung.")
-        
-        # Log health status
         health = self.health_monitor.get_status()
         logger.error(f"Health status: {health}")
-        
-        # Attempt recovery by resetting state
+
+        # Post the UI update back to the main thread safely
+        QTimer.singleShot(0, self._watchdog_recover_on_main_thread)
+
+    @Slot()
+    def _watchdog_recover_on_main_thread(self):
+        """Recovery actions — runs on the Qt main thread."""
         if self.window:
             self.window.set_state("error")
             self.window.set_status("System recovering...")
-            
-            # Force reset to idle
             QTimer.singleShot(2000, self._reset_to_idle)
     
     def _reset_to_idle(self):

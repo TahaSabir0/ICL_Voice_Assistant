@@ -1,7 +1,7 @@
-# Session Notes: Setup Script Fixes & Ollama Integration
+# Session Notes: Setup Script Fixes, Ollama Integration & Kiosk App Stability
 
 **Date:** March 8-9, 2026
-**Tool:** Gemini (Antigravity)
+**Tool:** Gemini (Antigravity) / Claude Code (Sonnet 4.6)
 
 ---
 
@@ -84,36 +84,50 @@ Setup-And-Run.ps1 (run once, as admin)
 
 ---
 
+### 4. Kiosk App Stability Fixes (March 9, 2026)
+
+Diagnosed and fixed three bugs causing the app to freeze/crash after one prompt. Root cause was identified from `logs/kiosk_stderr.log` which showed Qt thread violation errors immediately after pipeline initialization.
+
+#### Evidence from logs:
+```
+QObject::killTimer: Timers cannot be stopped from another thread
+QObject::killTimer: Timers cannot be stopped from another thread
+QObject::setParent: Cannot set parent, new parent is in a different thread
+```
+These errors appeared at startup right after the watchdog was started, confirming a thread-safety violation.
+
+---
+
+**Bug 1: Watchdog callback calling Qt from a Python thread**
+- **File:** `src/ui/kiosk_app.py` — `_on_watchdog_timeout()`
+- **Problem:** The `Watchdog` class runs in a `threading.Thread` (Python thread, not Qt thread). Its timeout callback `_on_watchdog_timeout` was directly calling `self.window.set_state()`, `self.window.set_status()`, and `QTimer.singleShot()` from that Python thread. This is a Qt threading violation — Qt UI objects can only be safely accessed from the main thread. This caused the `killTimer`/`setParent` errors and unpredictable crashes.
+- **Fix:** `_on_watchdog_timeout` now only logs and posts work back to the main thread using `QTimer.singleShot(0, self._watchdog_recover_on_main_thread)`. The new `_watchdog_recover_on_main_thread` slot runs on the main thread and does all the UI updates safely.
+
+**Bug 2: `time.sleep()` blocking the worker thread event loop**
+- **File:** `src/ui/pipeline_worker.py` — error handlers in `_process_audio()` and `process_text_input()`
+- **Problem:** On error, both methods called `time.sleep(3)` before emitting `state_changed("idle")`. `time.sleep()` is a hard block — it suspends the entire worker thread including its Qt event loop. During those 3 seconds, any signals queued for the worker (e.g. a second PTT press) could not be delivered, causing the app to appear frozen.
+- **Fix:** Replaced both `time.sleep(3)` calls with `QThread.msleep(3000)`. `QThread.msleep()` yields control back to the thread's event loop during the wait, allowing queued signals to be processed.
+
+**Bug 3: `process_text_input` skipping RAG entirely**
+- **File:** `src/ui/pipeline_worker.py` — `process_text_input()`
+- **Problem:** The text input handler bypassed the RAG retrieval step entirely and called `self._pipeline._llm.generate(text, system_prompt=None)`. This meant typed questions never used the knowledge base, always getting generic LLM answers with no ICL context.
+- **Fix:** Added the full RAG retrieval block (same as `_process_audio`) before the LLM call. Now text input follows the same path as voice: retrieve context → build system prompt → generate response.
+
+---
+
 ## Known Issues / TODO
 
-### App Startup Time (~2-3 minutes)
-The kiosk app takes a long time to initialize because it loads multiple AI models sequentially:
-1. **Sentence-transformers** (`all-MiniLM-L6-v2`) — embedding model for RAG (~90MB)
+### App Startup Time (~2 minutes)
+The kiosk app takes ~2 minutes to initialize because it loads multiple AI models sequentially:
+1. **Sentence-transformers** (`all-MiniLM-L6-v2`) — embedding model for RAG
 2. **Faster-whisper** — speech-to-text model
 3. **Piper TTS** — text-to-speech model
 4. **ChromaDB** — vector store initialization
 
 **Possible improvements:**
 - Lazy-load models (only load when first needed)
-- Show loading progress in UI instead of just "Thinking.."
-- Pre-download models during setup script instead of first launch
-- Use smaller/faster models where possible
-- Cache model loading (keep models in memory between restarts)
-
-### App Crash After "Ready to Assist"
-- User reported the app crashed right after showing "Ready to assist" (happened once, March 8)
-- Need to check `logs/kiosk_stderr.log` and `logs/kiosk_YYYYMMDD.log` after next crash
-- Could be related to the `process_text_input` function which was noted as potentially skipping RAG
-- Could be related to `time.sleep` in the worker thread blocking the event loop
-
-### `process_text_input` Potentially Incomplete
-- The text input handler may skip RAG pipeline
-- Need to verify it calls the same pipeline as voice input
-
-### `time.sleep` in Worker Thread
-- Pipeline worker uses `time.sleep()` which blocks the worker thread
-- Should use `QTimer` or `QThread.msleep()` instead
-- Not addressed in this session
+- Show per-model loading progress in UI instead of just "Thinking..."
+- Pre-download models during setup script instead of on first launch
 
 ### Ollama Auto-Start
 - User disabled Ollama auto-start in Windows Settings
@@ -129,7 +143,8 @@ The kiosk app takes a long time to initialize because it loads multiple AI model
 |------|--------|
 | `Setup-And-Run.ps1` | Complete rewrite — setup + delegate to Start-Kiosk.ps1 |
 | `Cleanup-And-Stop.ps1` | Fixed PS 5.1 process detection + Ollama service stop |
-| `src/ui/kiosk_app.py` | Signal/Slot fix for UI freeze (previous session) |
+| `src/ui/kiosk_app.py` | Signal/Slot fix for invokeMethod freeze; watchdog thread-safety fix |
+| `src/ui/pipeline_worker.py` | `time.sleep` -> `QThread.msleep`; `process_text_input` now uses RAG |
 
 ## Key Design Decisions
 
