@@ -15,9 +15,13 @@ import os
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, PROJECT_ROOT)
 
-from src.ui.kiosk_app import main
-
 if __name__ == "__main__":
     import multiprocessing
     multiprocessing.freeze_support()  # Required for multiprocessing on Windows
+    
+    # Fix sentence-transformers / tokenizer parallelism issues in spawned processes
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
+    
+    # Import GUI only in the main process, NOT in spawned subprocesses
+    from src.ui.kiosk_app import main
     sys.exit(main())
