@@ -9,12 +9,13 @@ from typing import Optional
 import time
 
 from src.pipeline import VoicePipeline, PipelineConfig, PipelineState, ConversationTurn
+from src.rag.subprocess_retriever import SubprocessRetriever
 
 
 class PipelineWorker(QObject):
     """
     Worker that runs the voice pipeline in a background thread.
-    
+
     Signals:
         state_changed(str): Emitted when pipeline state changes
         transcription_ready(str): Emitted when user speech is transcribed
@@ -23,7 +24,7 @@ class PipelineWorker(QObject):
         initialized: Emitted when pipeline is ready
         metrics_available(dict): Emitted with timing metrics after each turn
     """
-    
+
     # Signals to communicate with UI
     state_changed = Signal(str)
     transcription_ready = Signal(str)
@@ -33,38 +34,73 @@ class PipelineWorker(QObject):
     init_progress = Signal(str)
     metrics_available = Signal(dict)
     turn_complete = Signal()
-    
+
     def __init__(self, config: Optional[PipelineConfig] = None):
         super().__init__()
-        
+
         self.config = config or PipelineConfig()
         self._pipeline: Optional[VoicePipeline] = None
+        self._subprocess_retriever: Optional[SubprocessRetriever] = None
         self._is_recording = False
         self._should_stop = False
-    
+
     @Slot()
     def initialize(self):
         """Initialize the pipeline (runs in worker thread)."""
         try:
-            self._pipeline = VoicePipeline(self.config)
-            
+            # Disable in-process RAG — it will be handled by SubprocessRetriever
+            config_copy = PipelineConfig(
+                stt_model=self.config.stt_model,
+                stt_device=self.config.stt_device,
+                llm_model=self.config.llm_model,
+                llm_temperature=self.config.llm_temperature,
+                llm_max_tokens=self.config.llm_max_tokens,
+                tts_backend=self.config.tts_backend,
+                tts_rate=self.config.tts_rate,
+                silence_threshold=self.config.silence_threshold,
+                silence_duration=self.config.silence_duration,
+                max_recording_duration=self.config.max_recording_duration,
+                use_rag=False,  # Disable in-process RAG to avoid segfault
+                rag_n_results=self.config.rag_n_results,
+                rag_relevance_threshold=self.config.rag_relevance_threshold,
+            )
+
+            self._pipeline = VoicePipeline(config_copy)
+
             # Set up callbacks
             self._pipeline.set_callbacks(
                 on_state_change=self._on_state_change,
                 on_transcription=self._on_transcription,
                 on_response=self._on_response
             )
-            
+
             # Initialize with progress reporting
             success = self._pipeline.initialize(
                 progress_callback=lambda msg: self.init_progress.emit(msg)
             )
-            
-            if success:
-                self.initialized.emit()
-            else:
+
+            if not success:
                 self.error_occurred.emit("Failed to initialize pipeline")
-                
+                return
+
+            # Initialize RAG in a subprocess (isolated from Qt)
+            if self.config.use_rag:
+                try:
+                    self._subprocess_retriever = SubprocessRetriever(
+                        relevance_threshold=self.config.rag_relevance_threshold
+                    )
+                    rag_ok = self._subprocess_retriever.start(
+                        progress_callback=lambda msg: self.init_progress.emit(msg)
+                    )
+                    if not rag_ok:
+                        self.init_progress.emit("  RAG unavailable (continuing without)")
+                        self._subprocess_retriever = None
+                except Exception as e:
+                    self.init_progress.emit(f"  RAG subprocess failed: {e}")
+                    self._subprocess_retriever = None
+
+            self.initialized.emit()
+
         except Exception as e:
             self.error_occurred.emit(f"Initialization error: {str(e)}")
     
@@ -154,38 +190,23 @@ class PipelineWorker(QObject):
             self.transcription_ready.emit(user_text)
             print(">>> Transcription signal emitted")
             
-            # 2. RAG Retrieval (if enabled)
+            # 2. RAG Retrieval via subprocess (isolated from Qt)
             context = ""
-            if self._pipeline._retriever:
-                print(">>> Starting RAG retrieval")
+            if self._subprocess_retriever and self._subprocess_retriever.is_ready:
+                print(">>> Starting RAG retrieval (subprocess)")
                 self.state_changed.emit("retrieving")
-                retrieval_start = time.time()
-                try:
-                    # RAG may have threading issues, so wrap carefully
-                    import sys
-                    sys.stdout.flush()
-                    
-                    context = self._pipeline._retriever.get_context(
-                        user_text,
-                        n_results=self.config.rag_n_results
-                    )
-                    metrics.retrieval_time = time.time() - retrieval_start
-                    metrics.context_found = bool(context)
-                    print(f">>> RAG retrieval complete, context found: {bool(context)}")
-                except KeyboardInterrupt:
-                    raise  # Don't catch Ctrl+C
-                except SystemExit:
-                    raise  # Don't catch exits
-                except BaseException as e:
-                    # Catch everything including crashes
-                    print(f">>> RAG retrieval error (catching BaseException): {type(e).__name__}: {e}")
-                    import traceback
-                    traceback.print_exc()
-                    # Continue without context
-                    metrics.retrieval_time = time.time() - retrieval_start
-                    metrics.context_found = False
-                    context = ""
-            
+                rag_start = time.time()
+                context = self._subprocess_retriever.get_context(
+                    user_text, n_results=self.config.rag_n_results
+                )
+                metrics.retrieval_time = time.time() - rag_start
+                if context:
+                    print(f">>> RAG found {len(context)} chars of context")
+                else:
+                    print(">>> No relevant context found")
+            else:
+                print(">>> RAG not available")
+
             # 3. Generate response
             print(">>> Starting LLM generation")
             self.state_changed.emit("thinking")
@@ -194,7 +215,7 @@ class PipelineWorker(QObject):
             if context:
                 system_prompt = RAG_SYSTEM_PROMPT.format(context=context)
             else:
-                system_prompt = NO_CONTEXT_PROMPT if self._pipeline._retriever else None
+                system_prompt = NO_CONTEXT_PROMPT if self._subprocess_retriever else None
             
             response = self._pipeline._llm.generate(user_text, system_prompt=system_prompt)
             metrics.llm_time = time.time() - llm_start
@@ -256,24 +277,22 @@ class PipelineWorker(QObject):
             # Skip STT - already have text
             self.transcription_ready.emit(text)
 
-            # RAG retrieval (same as voice path)
+            # RAG Retrieval via subprocess (isolated from Qt)
             context = ""
-            if self._pipeline._retriever:
-                print(">>> Starting RAG retrieval for text input")
+            if self._subprocess_retriever and self._subprocess_retriever.is_ready:
+                print(">>> Starting RAG retrieval for text input (subprocess)")
                 self.state_changed.emit("retrieving")
-                retrieval_start = time.time()
-                try:
-                    context = self._pipeline._retriever.get_context(
-                        text,
-                        n_results=self.config.rag_n_results
-                    )
-                    metrics.retrieval_time = time.time() - retrieval_start
-                    metrics.context_found = bool(context)
-                    print(f">>> RAG retrieval complete, context found: {bool(context)}")
-                except Exception as e:
-                    print(f">>> RAG retrieval error: {e}")
-                    metrics.retrieval_time = time.time() - retrieval_start
-                    context = ""
+                rag_start = time.time()
+                context = self._subprocess_retriever.get_context(
+                    text, n_results=self.config.rag_n_results
+                )
+                metrics.retrieval_time = time.time() - rag_start
+                if context:
+                    print(f">>> RAG found {len(context)} chars of context")
+                else:
+                    print(">>> No relevant context found")
+            else:
+                print(">>> RAG not available")
 
             # Generate response
             print(">>> Starting LLM generation for text input")
@@ -283,8 +302,10 @@ class PipelineWorker(QObject):
             from src.llm.prompts import RAG_SYSTEM_PROMPT, NO_CONTEXT_PROMPT
             if context:
                 system_prompt = RAG_SYSTEM_PROMPT.format(context=context)
+            elif self._subprocess_retriever:
+                system_prompt = NO_CONTEXT_PROMPT
             else:
-                system_prompt = NO_CONTEXT_PROMPT if self._pipeline._retriever else None
+                system_prompt = None
 
             response = self._pipeline._llm.generate(text, system_prompt=system_prompt)
             metrics.llm_time = time.time() - llm_start
@@ -331,8 +352,11 @@ class PipelineWorker(QObject):
     
     @Slot()
     def shutdown(self):
-        """Shutdown the pipeline."""
+        """Shutdown the pipeline and subprocess retriever."""
         self._should_stop = True
+        if self._subprocess_retriever:
+            self._subprocess_retriever.stop()
+            self._subprocess_retriever = None
         if self._pipeline:
             self._pipeline.shutdown()
 

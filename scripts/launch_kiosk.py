@@ -18,4 +18,6 @@ sys.path.insert(0, PROJECT_ROOT)
 from src.ui.kiosk_app import main
 
 if __name__ == "__main__":
+    import multiprocessing
+    multiprocessing.freeze_support()  # Required for multiprocessing on Windows
     sys.exit(main())

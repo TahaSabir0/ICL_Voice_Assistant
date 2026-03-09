@@ -108,14 +108,26 @@ These errors appeared at startup right after the watchdog was started, confirmin
 - **Problem:** On error, both methods called `time.sleep(3)` before emitting `state_changed("idle")`. `time.sleep()` is a hard block — it suspends the entire worker thread including its Qt event loop. During those 3 seconds, any signals queued for the worker (e.g. a second PTT press) could not be delivered, causing the app to appear frozen.
 - **Fix:** Replaced both `time.sleep(3)` calls with `QThread.msleep(3000)`. `QThread.msleep()` yields control back to the thread's event loop during the wait, allowing queued signals to be processed.
 
-**Bug 3: `process_text_input` skipping RAG entirely**
-- **File:** `src/ui/pipeline_worker.py` — `process_text_input()`
-- **Problem:** The text input handler bypassed the RAG retrieval step entirely and called `self._pipeline._llm.generate(text, system_prompt=None)`. This meant typed questions never used the knowledge base, always getting generic LLM answers with no ICL context.
-- **Fix:** Added the full RAG retrieval block (same as `_process_audio`) before the LLM call. Now text input follows the same path as voice: retrieve context → build system prompt → generate response.
+**Bug 3: RAG causes native segfault from QThread — DISABLED in UI**
+- **File:** `src/ui/pipeline_worker.py` — both `_process_audio()` and `process_text_input()`
+- **Problem:** ChromaDB / sentence-transformers causes a **native segfault** (C-level crash) when called from a QThread worker. The process is killed instantly with no Python traceback, no exit code, and no exception to catch (even `except BaseException` is useless against a segfault). This was confirmed by:
+  - `autostart_20260309.log` showing the kiosk exiting with a blank exit code ~20 seconds after becoming ready (right when the user submits a prompt)
+  - No error logging between "Pipeline ready" and the crash
+  - `context.md` documenting that RAG works perfectly in the CLI (`src/main.py`) but crashes in the UI
+- **Initial fix attempt:** Added RAG to `process_text_input` (same as voice path). This made the crash worse — text input now also crashed immediately.
+- **Final fix:** Disabled RAG in both `_process_audio()` and `process_text_input()` in the UI. Added detailed comments explaining why. The app now works without knowledge base context.
+- **Root cause (unresolved):** Likely a thread-safety issue in ChromaDB's SQLite backend or sentence-transformers' model inference when called from a Qt worker thread. The retriever is initialized on the QThread and called from the same QThread, but internal threading in these libraries may conflict with Qt's event loop.
+- **Possible future fixes:**
+  - Run RAG retrieval in a **subprocess** (multiprocessing) to isolate it from the Qt process
+  - Initialize the retriever on the **main thread** and use signals to request/receive context
+  - Use a **thread-safe wrapper** around ChromaDB (e.g., queue-based access from a dedicated Python thread, not a QThread)
 
 ---
 
 ## Known Issues / TODO
+
+### RAG Crash in UI (Critical)
+RAG is currently **disabled** in the kiosk UI to prevent native segfaults. The app works but without knowledge base context — all answers come from the base LLM. See Bug 3 above for details and possible fixes. RAG continues to work in the CLI (`src/main.py`).
 
 ### App Startup Time (~2 minutes)
 The kiosk app takes ~2 minutes to initialize because it loads multiple AI models sequentially:
@@ -178,3 +190,153 @@ Start-Process "C:\Users\regan\AppData\Local\Programs\Ollama\ollama.exe" "serve"
 ## How to Uninstall Ollama
 1. Settings → Apps → Installed Apps → Ollama → Uninstall
 2. Delete models: `Remove-Item -Recurse "$env:USERPROFILE\.ollama"`
+
+---
+
+# RAG Subprocess Fix (March 9, 2026, continuation)
+
+## Problem: Native Segfault in UI RAG
+
+The kiosk app crashed immediately after processing any prompt (voice or text) when RAG was enabled. Root cause analysis identified:
+
+**ONNX Runtime** (used by sentence-transformers for embeddings):
+- Spawns internal thread pools for CPU/GPU acceleration
+- These threads are incompatible with Qt's event loop when ONNX runs in a QThread worker
+
+**ChromaDB** (vector database):
+- Uses SQLite backend which is not thread-safe
+- When called from QThread, conflicts with Qt's event loop mutex
+
+**Result**: C-level segfault with no Python traceback, no exception to catch, instant process death.
+
+**Attempted fix (earlier)**: Disabling RAG entirely — worked but removed knowledge base context from responses.
+
+---
+
+## Solution: Subprocess-Based RAG Retriever
+
+Run RAG (ChromaDB + sentence-transformers) in a **completely separate Python process**, communicating via `multiprocessing.Pipe`. This isolates ONNX Runtime and SQLite from Qt entirely.
+
+### Architecture
+
+```
+Qt Main Thread (kiosk_app.py)
+  └── QThread Worker (pipeline_worker.py)
+       └── SubprocessRetriever (parent side)
+            └ multiprocessing.Pipe
+                 └── Child Process (separate Python interpreter)
+                      └── Retriever (ChromaDB + embeddings)
+                           ├── VectorStore (ChromaDB)
+                           └── EmbeddingService (ONNX Runtime)
+```
+
+The child process:
+- Has its own memory space, interpreter, and GIL
+- Loads embedding models in complete isolation
+- Never touches Qt, QThread, or any Qt objects
+- Communicates only via serialized request/response objects
+
+---
+
+## Implementation Details
+
+### New File: `src/rag/subprocess_retriever.py`
+
+**`SubprocessRetriever` class:**
+- Spawns a child process on `start()` with the target function `_worker_process`
+- Parent and child exchange `_Request` / `_Response` dataclasses via Pipe
+- Supports `get_context(query)` method — safe to call from any thread (including QThread)
+- Graceful shutdown: sends `shutdown` request, joins with 5s timeout, kills if needed
+- Timeout handling: 120s for model initialization, 30s for queries
+
+**Message Protocol:**
+```python
+_Request(type: str, query: str, n_results: int, max_context_length: int)
+_Response(success: bool, data: str, doc_count: int)
+```
+
+**Worker Process Function `_worker_process(conn, store_path, relevance_threshold)`:**
+- Imports `Retriever` inside the function (not at module level) to keep imports minimal
+- Initializes ChromaDB + embeddings in child process only
+- Runs an event loop waiting for requests on the Pipe
+- Sends responses back immediately
+- Exits on `shutdown` request or pipe EOF
+
+### Modified: `src/ui/pipeline_worker.py`
+
+**Changes to `PipelineWorker.__init__`:**
+- Added `self._subprocess_retriever: Optional[SubprocessRetriever] = None`
+
+**Changes to `initialize()`:**
+- Creates a copy of PipelineConfig with `use_rag=False` (disable in-process RAG)
+- Passes this to `VoicePipeline()` — prevents segfault-causing RAG initialization
+- After pipeline init, creates and starts `SubprocessRetriever`
+- Errors during RAG subprocess startup are logged but don't crash the app
+
+**Changes to `_process_audio()` (voice input):**
+- Removed: "RAG disabled" workaround comment
+- Added: Check if `self._subprocess_retriever.is_ready`
+- If ready: calls `get_context()` from the subprocess, times the call, tracks metrics
+- RAG context is now properly used for LLM system prompt
+
+**Changes to `process_text_input()` (text input):**
+- Same as `_process_audio()` — RAG now works for text prompts too
+- Uses appropriate system prompt based on whether context was found
+
+**Changes to `shutdown()`:**
+- Calls `self._subprocess_retriever.stop()` to clean up the child process
+
+### Modified: `scripts/launch_kiosk.py`
+
+- Added `import multiprocessing` and `multiprocessing.freeze_support()` in the `if __name__ == "__main__"` block
+- `freeze_support()` is required for multiprocessing on Windows (good practice for frozen executables)
+
+---
+
+## Why This Works
+
+1. **Process Isolation**: ONNX Runtime thread pools and SQLite don't interfere with Qt because they run in a separate process
+2. **No GIL Contention**: Child process has its own GIL, parent's Qt loop never blocks on model inference
+3. **Safe Communication**: Only serializable dataclasses pass over the Pipe — no shared memory, no thread-unsafe object sharing
+4. **Error Resilience**: If child process crashes, parent still runs (parent can gracefully continue without RAG)
+5. **Cross-Thread Safety**: `SubprocessRetriever.get_context()` is a pure function call with no state mutations — safe from any thread
+
+---
+
+## Known Limitations & Future Improvements
+
+1. **Startup Time**: Embedding model still loads (just in subprocess now). Could pre-load on setup.
+2. **Model Updates**: If knowledge base is updated, child process won't see it until restart.
+3. **Error Messages**: If RAG subprocess fails silently, user won't know (currently just logs).
+4. **Timeouts**: If query takes >30s, parent gets empty context. Could increase timeout or implement cancellation.
+
+---
+
+## Testing
+
+**To verify RAG works:**
+```powershell
+# Run kiosk in windowed mode
+.\.venv\Scripts\python.exe scripts/launch_kiosk.py --windowed
+
+# Try a text input related to knowledge base (e.g., "What is 3D printing?")
+# Expected: Response should include context from the knowledge base
+# Check logs/kiosk_stdout.log for:
+#   "Starting RAG retrieval (subprocess)"
+#   "RAG found X chars of context"
+```
+
+**To disable RAG for testing:**
+```powershell
+.\.venv\Scripts\python.exe scripts/launch_kiosk.py --windowed --no-rag
+```
+
+---
+
+## Files Changed
+
+| File | Change |
+|------|--------|
+| `src/rag/subprocess_retriever.py` | NEW — Subprocess-based RAG retriever |
+| `src/ui/pipeline_worker.py` | Integrate SubprocessRetriever; enable RAG from both voice & text inputs |
+| `scripts/launch_kiosk.py` | Add multiprocessing.freeze_support() |
