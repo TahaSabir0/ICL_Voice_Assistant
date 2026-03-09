@@ -35,7 +35,7 @@ function Start-Kiosk {
     param([string[]]$Arguments)
     
     $process = Start-Process -FilePath $VenvPython `
-        -ArgumentList (@($LaunchScript) + $Arguments) `
+        -ArgumentList (@("-u", $LaunchScript) + $Arguments) `
         -NoNewWindow `
         -PassThru `
         -RedirectStandardOutput (Join-Path $LogDir "kiosk_stdout.log") `

@@ -1,0 +1,28 @@
+Initializing audio capture...
+Initializing audio playback...
+Loading STT model (base)...
+Loading Whisper model 'base' on cpu...
+Model loaded in 1.58s
+Connecting to LLM (llama3.1:8b-instruct-q4_K_M)...
+Loading TTS engine...
+Loading Windows SAPI TTS engine...
+SAPI loaded in 0.16s
+Voice: Microsoft David Desktop - English (United States)
+Pipeline initialized successfully!
+Loading embedding model: all-MiniLM-L6-v2
+>>> _on_pipeline_ready called
+>>> Window updated to ready state
+>>> _on_pipeline_ready complete
+>>> Processing text input: 'help use the 3d printers in the lab'
+>>> Starting RAG retrieval for text input (subprocess)
+>>> RAG found 3974 chars of context
+>>> Starting LLM generation for text input
+>>> LLM response: 'To get started with using the 3D printers in the l...'
+>>> Response signal emitted
+>>> Starting TTS
+>>> TTS complete, starting playback
+>>> Playback complete
+>>> Turn complete
+>>> _on_transcription received: 'help use the 3d printers in the lab'
+>>> ConversationView: Added user message at index 2, text_len=35
+Embedding model loaded. Dimension: 384

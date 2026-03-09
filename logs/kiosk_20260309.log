@@ -19,3 +19,11 @@
 2026-03-09 10:46:23,573 [INFO] src.ui.kiosk_app: Pipeline ready
 2026-03-09 10:46:23,577 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
 2026-03-09 10:46:23,579 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-03-09 11:07:42,604 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\regan\Documents\ICL_Voice_Assistant\logs\kiosk_20260309.log
+2026-03-09 11:08:35,354 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-03-09 11:08:35,358 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-03-09 11:08:35,359 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-03-09 11:16:07,666 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\regan\Documents\ICL_Voice_Assistant\logs\kiosk_20260309.log
+2026-03-09 11:16:42,236 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-03-09 11:16:42,280 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-03-09 11:16:42,282 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout

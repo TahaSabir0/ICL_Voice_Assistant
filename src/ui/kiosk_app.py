@@ -8,7 +8,7 @@ import sys
 import logging
 from pathlib import Path
 from PySide6.QtWidgets import QApplication, QMessageBox, QSplashScreen
-from PySide6.QtCore import Qt, QTimer, Slot
+from PySide6.QtCore import Qt, QTimer, Slot, QObject
 from PySide6.QtGui import QFont, QPixmap, QPainter, QColor
 
 from src.ui.kiosk_window import KioskWindow
@@ -23,7 +23,7 @@ from src.pipeline import PipelineConfig
 logger = logging.getLogger(__name__)
 
 
-class KioskApplication:
+class KioskApplication(QObject):
     """
     Main kiosk application that integrates UI with the voice pipeline.
     
@@ -42,6 +42,7 @@ class KioskApplication:
         llm_model: str = "llama3.1:8b-instruct-q4_K_M",
         enable_watchdog: bool = True
     ):
+        super().__init__()
         """
         Initialize the kiosk application.
         
@@ -376,7 +377,7 @@ class KioskApplication:
         logger.error(f"Health status: {health}")
 
         # Post the UI update back to the main thread safely
-        QTimer.singleShot(0, self._watchdog_recover_on_main_thread)
+        QTimer.singleShot(0, self.app, self._watchdog_recover_on_main_thread)
 
     @Slot()
     def _watchdog_recover_on_main_thread(self):

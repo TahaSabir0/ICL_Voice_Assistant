@@ -1,38 +1,38 @@
+2026-03-09 11:16:07,666 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\regan\Documents\ICL_Voice_Assistant\logs\kiosk_20260309.log
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 2545.43it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-03-09 11:16:42,236 [INFO] src.ui.kiosk_app: Pipeline ready
+QObject::killTimer: Timers cannot be stopped from another thread
+QObject::killTimer: Timers cannot be stopped from another thread
+2026-03-09 11:16:42,280 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-03-09 11:16:42,282 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+QObject::setParent: Cannot set parent, new parent is in a different thread
+Process rag-subprocess:
 Traceback (most recent call last):
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\scripts\launch_kiosk.py", line 18, in <module>
-    from src.ui.kiosk_app import main
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\__init__.py", line 14, in <module>
-    from .pipeline import (
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\pipeline.py", line 16, in <module>
-    from src.llm import LLMClient, LLMConfig
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\llm\__init__.py", line 10, in <module>
-    from .ollama import (
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\llm\ollama.py", line 11, in <module>
-    import ollama
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\ollama\__init__.py", line 1, in <module>
-    from ollama._client import AsyncClient, Client
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\ollama\_client.py", line 42, in <module>
-    import httpx
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\httpx\__init__.py", line 15, in <module>
-    from ._main import main
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\httpx\_main.py", line 11, in <module>
-    import rich.console
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\rich\console.py", line 44, in <module>
-    from ._log_render import FormatTimeCallable, LogRender
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\rich\_log_render.py", line 5, in <module>
-    from .text import Text, TextType
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\rich\text.py", line 21, in <module>
-    from ._wrap import divide_line
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\rich\_wrap.py", line 7, in <module>
-    from .cells import cell_len, chop_cells
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\rich\cells.py", line 7, in <module>
-    from rich._unicode_data import load as load_cell_table
-  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\rich\_unicode_data\__init__.py", line 15, in <module>
-    from rich._unicode_data._versions import VERSIONS
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1118, in get_code
-  File "<frozen importlib._bootstrap_external>", line 1217, in get_data
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\rag\subprocess_retriever.py", line 75, in _worker_process
+    if not conn.poll(timeout=1.0):
+           ~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\connection.py", line 257, in poll
+    return self._poll(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\connection.py", line 346, in _poll
+    return bool(wait([self], timeout))
+                ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\connection.py", line 1096, in wait
+    ready_handles = _exhaustive_wait(waithandle_to_obj.keys(), timeout)
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\connection.py", line 1028, in _exhaustive_wait
+    res = _winapi.WaitForMultipleObjects(short_L, False, timeout)
 KeyboardInterrupt
