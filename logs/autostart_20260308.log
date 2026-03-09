@@ -1,0 +1,9 @@
+[2026-03-08 18:21:51] [INFO] === ICL Voice Assistant Auto-Start Script ===
+[2026-03-08 18:21:51] [INFO] Python: C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Scripts\python.exe
+[2026-03-08 18:21:51] [INFO] Script: C:\Users\regan\Documents\ICL_Voice_Assistant\scripts\launch_kiosk.py
+[2026-03-08 18:21:51] [INFO] Max Restarts: 10
+[2026-03-08 18:21:51] [INFO] Starting kiosk (attempt: 1/10)...
+[2026-03-08 18:25:49] [INFO] Kiosk exited with code: 
+[2026-03-08 18:25:49] [WARN] Crash detected. Restarting in 5 seconds...
+[2026-03-08 18:25:55] [INFO] Starting kiosk (attempt: 2/10)...
+[2026-03-08 18:26:02] [INFO] === Auto-start script ended ===

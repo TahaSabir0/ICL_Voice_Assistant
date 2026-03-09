@@ -1,0 +1,165 @@
+# Session Notes: Setup Script Fixes & Ollama Integration
+
+**Date:** March 8-9, 2026
+**Tool:** Gemini (Antigravity)
+
+---
+
+## Summary
+
+Extensive debugging and refactoring of `Setup-And-Run.ps1` to properly install Ollama, start its server, and hand off to the existing `Start-Kiosk.ps1` launcher. Multiple bugs were discovered and fixed relating to Windows PowerShell 5.1 quirks, Ollama's auto-start behavior, and process management.
+
+---
+
+## What Was Done
+
+### 1. UI Freeze Fix (from previous session, confirmed working)
+- **Problem:** `QMetaObject.invokeMethod` in `src/ui/kiosk_app.py` silently dropped cross-thread commands
+- **Fix:** Replaced with proper `Signal`/`Slot` connections using `Qt.QueuedConnection`
+- **Files:** `src/ui/kiosk_app.py` (method `_connect_window_signals`)
+- **Status:** ✅ Confirmed working
+
+### 2. Setup Script (`Setup-And-Run.ps1`) — Complete Rewrite
+
+#### Bugs Found & Fixed (in order of discovery):
+
+**Bug 1: Installer blocking forever**
+- **Problem:** Original script called `& $installerPath` which blocked the PowerShell session because the Ollama GUI installer doesn't exit cleanly
+- **Fix:** Use `Start-Process -PassThru` + `Wait-Process -Timeout 300` to track the installer process and wait for it with a timeout
+
+**Bug 2: `Invoke-WebRequest` hanging silently**
+- **Problem:** Windows PowerShell 5.1 uses Internet Explorer's engine to parse HTTP responses by default. This causes a hidden "Do you want to continue?" security prompt that hangs the script
+- **Fix (partial):** Added `-UseBasicParsing` flag
+- **Fix (final):** Replaced ALL `Invoke-WebRequest` calls with raw TCP socket checks (`System.Net.Sockets.TcpClient`) because even with `-UseBasicParsing`, HTTP requests to localhost were hanging on this system (possibly proxy-related)
+
+**Bug 3: Broken Ollama install detected as working**
+- **Problem:** Script only checked if `ollama.exe` file existed on disk. A partial/broken install left the file but it couldn't actually run
+- **Fix:** After finding the exe, verify it works by running `ollama --version` and checking the output matches "ollama"
+
+**Bug 4: `-WindowStyle Hidden` silently failing**
+- **Problem:** `Start-Process -FilePath ollama.exe -ArgumentList "serve" -WindowStyle Hidden` did not actually start the process. No error, just nothing happened
+- **Fix:** Use plain `Start-Process -FilePath ollama.exe -ArgumentList "serve"` (opens a visible window). The server runs in that window.
+
+**Bug 5: Ollama auto-start respawning killed processes**
+- **Problem:** Ollama installer registers itself in Windows Startup folder. Every time we killed the process, Windows relaunched it, creating port conflicts when our `ollama serve` tried to bind port 11434
+- **Fix:** Stop fighting it. Check if port 11434 is already open (someone is serving). If yes, use it. If no, start our own. The desktop app IS the server.
+
+**Bug 6: Em-dash characters causing parse errors**
+- **Problem:** Unicode em-dash (`—`) characters in comments caused Windows PowerShell 5.1 to fail parsing the script
+- **Fix:** Rewrote entire file with ASCII-only characters
+
+**Bug 7: Script was duplicating `Start-Kiosk.ps1` logic**
+- **Problem:** Setup script had its own app launch code at the end, ignoring the existing `Start-Kiosk.ps1` which already handles auto-restart, crash detection, and logging
+- **Fix:** Setup script now calls `Start-Kiosk.ps1` at the end instead of launching the app directly
+
+**Bug 8: Script installing deps into system Python instead of venv**
+- **Problem:** `Start-Kiosk.ps1` expects `.venv/Scripts/python.exe` but the setup script was installing into the system Python
+- **Fix:** Setup script now creates `.venv` and installs deps into it
+
+**Bug 9: Splatting error when calling Start-Kiosk.ps1**
+- **Problem:** `& $startKiosk @kioskArgs` with an array `@("-Windowed")` passed it as a positional argument to `MaxRestarts` parameter
+- **Fix:** Changed to hashtable splatting: `$kioskArgs = @{}; $kioskArgs["Windowed"] = $true`
+
+#### Final Script Architecture:
+
+```
+Setup-And-Run.ps1 (run once, as admin)
+├── Step 1: Find Python (py launcher, user profiles, system paths)
+├── Step 2: Find/Install Ollama (download + GUI installer)
+├── Step 3: Start Ollama server (TCP port check, not HTTP)
+├── Step 4: Pull LLM model (ollama pull)
+├── Step 5: Create .venv + pip install -e .
+├── Step 6: Verify project dirs
+└── Hand off to Start-Kiosk.ps1
+         ├── Launches scripts/launch_kiosk.py using .venv Python
+         ├── Auto-restart on crash
+         ├── Logging to logs/
+         └── Crash counter with reset
+```
+
+### 3. Cleanup Script (`Cleanup-And-Stop.ps1`) — Fixed (previous session)
+- **Problem 1:** `Get-Process.CommandLine` not available in PS 5.1. Fixed with `Get-CimInstance Win32_Process`
+- **Problem 2:** Didn't stop Ollama tray app or Windows service. Fixed by targeting all `ollama*` processes and `OllamaService`
+- **Status:** Fixed but user expressed concern about using it. Recommended manual cleanup instead (close window + right-click tray icon)
+
+---
+
+## Known Issues / TODO
+
+### App Startup Time (~2-3 minutes)
+The kiosk app takes a long time to initialize because it loads multiple AI models sequentially:
+1. **Sentence-transformers** (`all-MiniLM-L6-v2`) — embedding model for RAG (~90MB)
+2. **Faster-whisper** — speech-to-text model
+3. **Piper TTS** — text-to-speech model
+4. **ChromaDB** — vector store initialization
+
+**Possible improvements:**
+- Lazy-load models (only load when first needed)
+- Show loading progress in UI instead of just "Thinking.."
+- Pre-download models during setup script instead of first launch
+- Use smaller/faster models where possible
+- Cache model loading (keep models in memory between restarts)
+
+### App Crash After "Ready to Assist"
+- User reported the app crashed right after showing "Ready to assist" (happened once, March 8)
+- Need to check `logs/kiosk_stderr.log` and `logs/kiosk_YYYYMMDD.log` after next crash
+- Could be related to the `process_text_input` function which was noted as potentially skipping RAG
+- Could be related to `time.sleep` in the worker thread blocking the event loop
+
+### `process_text_input` Potentially Incomplete
+- The text input handler may skip RAG pipeline
+- Need to verify it calls the same pipeline as voice input
+
+### `time.sleep` in Worker Thread
+- Pipeline worker uses `time.sleep()` which blocks the worker thread
+- Should use `QTimer` or `QThread.msleep()` instead
+- Not addressed in this session
+
+### Ollama Auto-Start
+- User disabled Ollama auto-start in Windows Settings
+- Fresh install re-enables it (installer adds Startup shortcut)
+- After running setup, user may want to disable again: Settings → Apps → Startup → Ollama → Off
+- Could add script to disable it programmatically: `Remove-Item "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\Ollama.lnk"`
+
+---
+
+## File Changes Made
+
+| File | Change |
+|------|--------|
+| `Setup-And-Run.ps1` | Complete rewrite — setup + delegate to Start-Kiosk.ps1 |
+| `Cleanup-And-Stop.ps1` | Fixed PS 5.1 process detection + Ollama service stop |
+| `src/ui/kiosk_app.py` | Signal/Slot fix for UI freeze (previous session) |
+
+## Key Design Decisions
+
+1. **TCP check instead of HTTP** — `Invoke-WebRequest` is unreliable on Windows PowerShell 5.1 for localhost connections. Raw TCP socket connect via `System.Net.Sockets.TcpClient` is instant and reliable.
+
+2. **Don't fight Ollama's desktop app** — The installer auto-launches a desktop app that serves on port 11434. Instead of killing it and starting our own `ollama serve`, just detect if port 11434 is open and use whatever is serving.
+
+3. **Delegate to Start-Kiosk.ps1** — Don't duplicate launch logic. The existing script handles auto-restart, crash detection, logging. Setup script just sets up prerequisites and hands off.
+
+4. **Virtual environment** — Setup script creates `.venv` which is what `Start-Kiosk.ps1` expects. Previous version installed into system Python.
+
+---
+
+## How to Run
+
+```powershell
+# First time (installs everything):
+# Run in admin PowerShell
+.\Setup-And-Run.ps1 -Windowed
+
+# Subsequent runs (everything installed):
+# Start Ollama if not running
+Start-Process "C:\Users\regan\AppData\Local\Programs\Ollama\ollama.exe" "serve"
+# Then launch kiosk
+.\Start-Kiosk.ps1 -Windowed
+
+# Or just re-run setup (it skips installed items):
+.\Setup-And-Run.ps1 -Windowed
+```
+
+## How to Uninstall Ollama
+1. Settings → Apps → Installed Apps → Ollama → Uninstall
+2. Delete models: `Remove-Item -Recurse "$env:USERPROFILE\.ollama"`
