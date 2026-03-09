@@ -28,3 +28,9 @@
 [2026-03-09 11:16:03] [INFO] Max Restarts: 10
 [2026-03-09 11:16:03] [INFO] Starting kiosk (attempt: 1/10)...
 [2026-03-09 11:18:24] [INFO] === Auto-start script ended ===
+[2026-03-09 11:27:22] [INFO] === ICL Voice Assistant Auto-Start Script ===
+[2026-03-09 11:27:22] [INFO] Python: C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Scripts\python.exe
+[2026-03-09 11:27:22] [INFO] Script: C:\Users\regan\Documents\ICL_Voice_Assistant\scripts\launch_kiosk.py
+[2026-03-09 11:27:22] [INFO] Max Restarts: 10
+[2026-03-09 11:27:22] [INFO] Starting kiosk (attempt: 1/10)...
+[2026-03-09 11:31:02] [INFO] === Auto-start script ended ===
