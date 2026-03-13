@@ -45,7 +45,7 @@ class STTConfig:
     compute_type: str = "float16"  # float16, int8, int8_float16
     language: Optional[str] = None  # None for auto-detect, "en" for English
     beam_size: int = 5
-    vad_filter: bool = True  # Voice Activity Detection filter
+    vad_filter: bool = False  # Disabled: ONNX Runtime heap corruption on Windows (0xc0000374)
     vad_parameters: Optional[dict] = None
 
 

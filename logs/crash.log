@@ -1,0 +1,48 @@
+Windows fatal exception: code 0xc0000374
+
+Thread 0x00007854 (most recent call first):
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1328 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\onnxruntime\capi\_pybind_state.py", line 32 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\onnxruntime\__init__.py", line 26 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\faster_whisper\vad.py", line 298 in __init__
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\faster_whisper\vad.py", line 292 in get_vad_model
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\faster_whisper\vad.py", line 84 in get_speech_timestamps
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\faster_whisper\transcribe.py", line 890 in transcribe
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\stt\whisper.py", line 177 in transcribe
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\ui\pipeline_worker.py", line 179 in _process_audio
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\ui\pipeline_worker.py", line 160 in stop_recording
+
+Thread 0x000089a8 (most recent call first):
+  <no Python frame>
+
+Thread 0x00000b24 (most recent call first):
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\ui\error_handling.py", line 335 in _run
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994 in run
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043 in _bootstrap_inner
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1014 in _bootstrap
+
+Thread 0x00008688 (most recent call first):
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\.venv\Lib\site-packages\tqdm\_monitor.py", line 60 in run
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043 in _bootstrap_inner
+  File "C:\Users\regan\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1014 in _bootstrap
+
+Thread 0x00008af4 (most recent call first):
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\ui\kiosk_app.py", line 146 in run
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\src\ui\kiosk_app.py", line 464 in main
+  File "C:\Users\regan\Documents\ICL_Voice_Assistant\scripts\launch_kiosk.py", line 31 in <module>

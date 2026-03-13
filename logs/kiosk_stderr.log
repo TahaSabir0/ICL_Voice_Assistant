@@ -1,6 +1,6 @@
-2026-03-09 11:27:25,866 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\regan\Documents\ICL_Voice_Assistant\logs\kiosk_20260309.log
+2026-03-12 01:24:37,202 [INFO] src.ui.kiosk_app: Kiosk application starting. Log file: C:\Users\regan\Documents\ICL_Voice_Assistant\logs\kiosk_20260312.log
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 5522.98it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 16130.73it/s]
 [1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
 Key                     | Status     |  | 
 ------------------------+------------+--+-
@@ -8,22 +8,9 @@ embeddings.position_ids | UNEXPECTED |  |
 
 [3mNotes:
 - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
-2026-03-09 11:27:52,496 [INFO] src.ui.kiosk_app: Pipeline ready
-2026-03-09 11:27:52,499 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
-2026-03-09 11:27:52,500 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
-2026-03-09 11:30:00,967 [INFO] faster_whisper: Processing audio with duration 00:00.064
-2026-03-09 11:30:01,356 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
-2026-03-09 11:30:02,166 [INFO] faster_whisper: Detected language 'en' with probability 0.56
-2026-03-09 11:30:07,275 [INFO] faster_whisper: Processing audio with duration 00:00.064
-2026-03-09 11:30:07,277 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
-2026-03-09 11:30:07,941 [INFO] faster_whisper: Detected language 'en' with probability 0.56
-2026-03-09 11:30:14,451 [INFO] faster_whisper: Processing audio with duration 00:00.064
-2026-03-09 11:30:14,453 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
-2026-03-09 11:30:15,082 [INFO] faster_whisper: Detected language 'en' with probability 0.56
-2026-03-09 11:30:17,271 [INFO] faster_whisper: Processing audio with duration 00:00.064
-2026-03-09 11:30:17,273 [INFO] faster_whisper: VAD filter removed 00:00.064 of audio
-2026-03-09 11:30:17,914 [INFO] faster_whisper: Detected language 'en' with probability 0.56
-2026-03-09 11:30:22,332 [INFO] faster_whisper: Processing audio with duration 00:03.968
-2026-03-09 11:30:22,347 [INFO] faster_whisper: VAD filter removed 00:00.440 of audio
-2026-03-09 11:30:22,978 [INFO] faster_whisper: Detected language 'en' with probability 0.87
+2026-03-12 01:24:46,508 [INFO] src.ui.kiosk_app: Pipeline ready
+2026-03-12 01:24:46,510 [INFO] src.ui.error_handling: Memory baseline set: 0.0 MB
+2026-03-12 01:24:46,510 [INFO] src.ui.error_handling: Watchdog started with 120.0s timeout
+2026-03-12 01:24:58,883 [INFO] faster_whisper: Processing audio with duration 00:09.664
+2026-03-12 01:24:59,240 [INFO] faster_whisper: Detected language 'en' with probability 0.62
 QThread: Destroyed while thread '' is still running

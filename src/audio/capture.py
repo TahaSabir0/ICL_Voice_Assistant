@@ -31,8 +31,8 @@ class AudioConfig:
     blocksize: int = 1024  # Samples per block
     
     # Silence detection
-    silence_threshold: float = 0.01  # RMS threshold for silence
-    silence_duration: float = 1.5  # Seconds of silence to stop recording
+    silence_threshold: float = 0.005  # RMS threshold for silence
+    silence_duration: float = 3.0  # Seconds of silence to stop recording
     max_duration: float = 30.0  # Maximum recording duration in seconds
     min_duration: float = 0.5  # Minimum recording duration
 
@@ -107,50 +107,28 @@ class AudioCapture:
         return float(np.sqrt(np.mean(audio ** 2)))
     
     def _recording_loop(self):
-        """Main recording loop with silence detection."""
-        silence_samples = 0
-        samples_for_silence = int(
-            self.config.silence_duration * self.config.sample_rate / self.config.blocksize
-        )
+        """Main recording loop — runs until stop() is called or max duration reached."""
         total_samples = 0
         max_samples = int(
             self.config.max_duration * self.config.sample_rate / self.config.blocksize
         )
-        min_samples = int(
-            self.config.min_duration * self.config.sample_rate / self.config.blocksize
-        )
-        
-        has_speech = False
-        
+
         while not self._stop_event.is_set():
             try:
                 # Get audio chunk from queue (with timeout)
                 audio_chunk = self._audio_queue.get(timeout=0.1)
                 self._audio_buffer.append(audio_chunk)
                 total_samples += 1
-                
+
                 # Calculate audio level
                 rms = self._calculate_rms(audio_chunk)
                 if self._on_audio_level:
                     self._on_audio_level(rms)
-                
-                # Check for silence
-                if rms < self.config.silence_threshold:
-                    silence_samples += 1
-                else:
-                    silence_samples = 0
-                    has_speech = True
-                
-                # Stop conditions
+
+                # Only stop at max duration (safety limit)
                 if total_samples >= max_samples:
-                    # Max duration reached
                     break
-                
-                if has_speech and total_samples >= min_samples:
-                    if silence_samples >= samples_for_silence:
-                        # Detected silence after speech
-                        break
-                
+
             except queue.Empty:
                 continue
         

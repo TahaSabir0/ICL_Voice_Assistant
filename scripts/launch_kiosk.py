@@ -18,7 +18,11 @@ sys.path.insert(0, PROJECT_ROOT)
 if __name__ == "__main__":
     import multiprocessing
     multiprocessing.freeze_support()  # Required for multiprocessing on Windows
-    
+
+    # Enable faulthandler to get traceback on segfaults/hard crashes
+    import faulthandler
+    faulthandler.enable(file=open(os.path.join(PROJECT_ROOT, "logs", "crash.log"), "a"))
+
     # Fix sentence-transformers / tokenizer parallelism issues in spawned processes
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     

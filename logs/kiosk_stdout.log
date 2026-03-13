@@ -2,76 +2,30 @@ Initializing audio capture...
 Initializing audio playback...
 Loading STT model (base)...
 Loading Whisper model 'base' on cpu...
-Model loaded in 1.23s
+Model loaded in 0.51s
 Connecting to LLM (llama3.1:8b-instruct-q4_K_M)...
 Loading TTS engine...
 Loading Windows SAPI TTS engine...
-SAPI loaded in 0.07s
+SAPI loaded in 0.03s
 Voice: Microsoft David Desktop - English (United States)
 Pipeline initialized successfully!
 Loading embedding model: all-MiniLM-L6-v2
 >>> _on_pipeline_ready called
 >>> Window updated to ready state
 >>> _on_pipeline_ready complete
->>> Processing text input: 'help me use the 3d printers'
->>> Starting RAG retrieval for text input (subprocess)
->>> _on_transcription received: 'help me use the 3d printers'
->>> ConversationView: Added user message at index 2, text_len=27
->>> User message added to conversation
->>> RAG found 4007 chars of context
->>> Starting LLM generation for text input
->>> LLM response: 'I'd be happy to help you get started with the 3D p...'
->>> Response signal emitted>>> _on_response received: 'I'd be happy to help you get started with the 3D p...'
-
->>> Starting TTS
->>> ConversationView: Added assistant message at index 3, text_len=582
->>> Assistant message added to conversation
->>> TTS complete, starting playback
->>> Playback complete
->>> Turn complete
->>> Processing text input: 'oh thats cool assist me in the usage of finding a 3d object file'
->>> Starting RAG retrieval for text input (subprocess)>>> _on_transcription received: 'oh thats cool assist me in the usage of finding a 3d object file'
-
->>> ConversationView: Added user message at index 4, text_len=64
->>> User message added to conversation
->>> RAG found 2826 chars of context
->>> Starting LLM generation for text input
->>> LLM response: 'To find a 3D object file, you can start by searchi...'
->>> Response signal emitted>>> _on_response received: 'To find a 3D object file, you can start by searchi...'
-
->>> Starting TTS
->>> ConversationView: Added assistant message at index 5, text_len=352
->>> Assistant message added to conversation
->>> TTS complete, starting playback
->>> Playback complete
->>> Turn complete
 >>> Starting audio processing
->>> Transcribed: ''
->>> Empty transcription, returning to idle
->>> Starting audio processing
->>> Transcribed: ''
->>> Empty transcription, returning to idle
->>> Starting audio processing
->>> Transcribed: ''
->>> Empty transcription, returning to idle
->>> Starting audio processing
->>> Transcribed: ''
->>> Empty transcription, returning to idle
->>> Starting audio processing
->>> Transcribed: 'Ok now help me use the Ultra Maker Corridor 3'
->>> Transcription signal emitted>>> _on_transcription received: 'Ok now help me use the Ultra Maker Corridor 3'
+>>> Transcribed: 'Hey, how are you doing today? I'm trying to use the vinyl cutters in the ICO.'
+>>> Transcription signal emitted>>> _on_transcription received: 'Hey, how are you doing today? I'm trying to use the vinyl cutters in the ICO.'
 
 >>> Starting RAG retrieval (subprocess)
->>> ConversationView: Added user message at index 6, text_len=45
+>>> ConversationView: Added user message at index 2, text_len=77
 >>> User message added to conversation
->>> RAG found 3278 chars of context
+>>> RAG found 3411 chars of context
 >>> Starting LLM generation
->>> LLM response: 'I'm not familiar with the Ultra Maker Corridor 3. ...'
->>> Response signal emitted>>> _on_response received: 'I'm not familiar with the Ultra Maker Corridor 3. ...'
+>>> LLM response: 'I'm doing great, thanks for asking! I'd be happy t...'
+>>> Response signal emitted>>> _on_response received: 'I'm doing great, thanks for asking! I'd be happy t...'
 
 >>> Starting TTS
->>> ConversationView: Added assistant message at index 7, text_len=376
+>>> ConversationView: Added assistant message at index 3, text_len=314
 >>> Assistant message added to conversation
 >>> TTS complete, starting playback
->>> Playback complete
->>> Turn complete
